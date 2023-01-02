@@ -2,12 +2,53 @@
 <html lang="hu">
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Szókereső</title>
 </head>
 <body>
 <h1>Szókereső</h1>
-<main>
-
+<main class="hidden">
+    <div class="stat">
+        <span class="found-words-stat">
+            <span></span>
+            <span>/</span>
+            <span></span>
+        </span>
+        <span class="time">02:00</span>
+        <span class="percentage">0%</span>
+    </div>
+    <h4>Megtalálható szavak</h4>
+    <div class="words-stat">
+        <div class="header">
+            <span>Szóhossz:</span>
+            <div class="lengths"></div>
+        </div>
+        <div class="row">
+            <span>Darabszám:</span>
+            <div class="items"></div>
+        </div>
+    </div>
+    <div class="word-list hidden">
+        <h4>Megtalált szavak:</h4>
+        <p class="found-words"></p>
+    </div>
+    <div class="board">
+        <div><span id="0"></span></div>
+        <div><span id="1"></span></div>
+        <div><span id="2"></span></div>
+        <div><span id="3"></span></div>
+        <div><span id="4"></span></div>
+        <div><span id="5"></span></div>
+        <div><span id="6"></span></div>
+        <div><span id="7"></span></div>
+        <div><span id="8"></span></div>
+    </div>
+    <div class="word-list hidden">
+        <h4>Ismeretlen szavak:</h4>
+        <p class="unknown-words"></p>
+    </div>
 </main>
 </body>
 </html>
