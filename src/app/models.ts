@@ -2,6 +2,7 @@ export interface Cell {
     value: string;
     neighbours: Array<number>;
 }
+
 export interface Words {
     'A': WordsByLetter,
     'Á': WordsByLetter,

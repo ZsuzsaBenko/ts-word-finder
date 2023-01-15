@@ -1,6 +1,7 @@
 class GameStats {
 
     private readonly FOUND_WORDS_STAT = document.querySelector('.found-words-stat') as HTMLElement;
+    private readonly PERCENTAGE = document.querySelector('.percentage') as HTMLElement;
     private readonly LENGTHS = document.querySelector('.lengths') as HTMLElement;
     private readonly ITEMS = document.querySelector('.items') as HTMLElement;
     private readonly hiddenWordsStat: Map<number, number> = new Map<number, number>();
@@ -24,6 +25,7 @@ class GameStats {
     private setFoundWordsStat(hiddenWords: Array<string>, foundWords: Array<string>): void {
         this.FOUND_WORDS_STAT.children[0].textContent = `${foundWords.length}`;
         this.FOUND_WORDS_STAT.children[2].textContent = `${hiddenWords.length}`;
+        this.PERCENTAGE.textContent = `${Math.round(foundWords.length / hiddenWords.length * 100)}%`;
     }
 
     private showInitialStats(): void {

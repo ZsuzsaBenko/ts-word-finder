@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Szókereső</h1>
-<main class="hidden">
+<main>
     <div class="stat">
         <span class="found-words-stat">
             <span></span>
@@ -19,8 +19,9 @@
         <span class="timer">02:00</span>
         <span class="percentage">0%</span>
     </div>
-    <h4>Megtalálható szavak</h4>
+
     <div class="words-stat">
+        <h4>Megtalálható szavak</h4>
         <div class="header">
             <span>Szóhossz:</span>
             <div class="lengths"></div>
@@ -30,9 +31,11 @@
             <div class="items"></div>
         </div>
     </div>
-    <div class="word-list hidden">
-        <h4>Megtalált szavak:</h4>
-        <p class="found-words"></p>
+    <div class="word-list-container">
+        <h4>Megtalált szavak</h4>
+        <div class="word-list hidden">
+            <p class="found-words"></p>
+        </div>
     </div>
     <div class="board">
         <div><span id="0"></span></div>
@@ -45,9 +48,24 @@
         <div><span id="7"></span></div>
         <div><span id="8"></span></div>
     </div>
-    <div class="word-list hidden">
-        <h4>Ismeretlen szavak:</h4>
-        <p class="unknown-words"></p>
+    <div class="game-over-overlay hidden"></div>
+    <div class="game-over hidden">
+        <p class="win hidden">Gratulálunk! Az összes szót megtaláltad!</p>
+        <div class="lost hidden">
+            <div class="hidden">
+                <h4>Megtalált szavak:</h4>
+                <p class="found-words"></p>
+            </div>
+            <div class="hidden">
+                <h4>Nem talált szavak:</h4>
+                <p class="not-found-words"></p>
+            </div>
+            <div class="hidden">
+                <h4>Ismeretlen szavak:</h4>
+                <p class="unknown-words"></p>
+            </div>
+        </div>
+        <button>Új játék</button>
     </div>
 </main>
 </body>

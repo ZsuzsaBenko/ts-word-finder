@@ -1,31 +1,63 @@
+$large-screen-width: 360px;
+$small-screen-width: 320px;
+$border-color: #333;
+$white: white;
+$selected-color: palegreen;
+$found-color: #5bba5b;
+$already-found-color: khaki;
+$unknown-color: darkorange;
+$not-found-color: indianred;
+
+@mixin mobile {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
 .html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+*.hidden {
+    display: none;
+}
+
 h1 {
     text-align: center;
-    margin: 50px auto;
+    margin: 30px auto;
+    font-size: 30px;
 }
 
 .stat {
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
-    width: 360px;
+    width: $large-screen-width;
     padding: 12px;
+
+    @include mobile {
+        width: $small-screen-width;
+    }
 }
 
 h4 {
     text-align: center;
-    margin-bottom: 0;
+    margin: 0 auto 10px;
 }
 
 .words-stat {
-    margin: 4px auto 0;
-    width: 360px;
+    margin: 10px auto;
+    width: $large-screen-width;
     padding: 12px;
+    border: 2px solid $found-color;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    @include mobile {
+        width: $small-screen-width;
+    }
 
     .header, .row {
         display: flex;
@@ -54,48 +86,130 @@ h4 {
     }
 }
 
+.word-list-container {
+    width: $large-screen-width;
+    height: 120px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid $found-color;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    @include mobile {
+        width: $small-screen-width;
+    }
+}
+
 .board {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 360px;
+    width: $large-screen-width;
     margin: 30px auto;
-    border: 1px solid darkblue;
+    border: 1px solid $border-color;
+
+    @include mobile {
+        width: $small-screen-width;
+    }
 
     & > div {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 118px;
-        height: 118px;
+        width: calc($large-screen-width / 3 - 2px);
+        height: calc($large-screen-width / 3 - 2px);
         text-align: center;
         font-size: 36px;
-        border: 1px solid darkblue;
+        border: 1px solid $border-color;
+
+        @include mobile {
+            width: calc($small-screen-width / 3 - 2px);
+            height: calc($small-screen-width / 3 - 2px);
+            font-size: 32px;
+        }
 
         span {
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
         }
 
         &.selected {
-            background-color: lightgreen;
+            background-color: $selected-color;
         }
+
+        &.found {
+            background-color: $found-color;
+        }
+
         &.already-found {
-            background-color: yellow;
+            background-color: $already-found-color;
+        }
+
+        &.unknown {
+            background-color: $unknown-color;
         }
     }
 }
 
-.word-list {
-    width: 360px;
-    margin: 0 auto;
+.game-over-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    z-index: 10;
+}
 
-    &.hidden {
-        display: none;
+.game-over {
+    position: fixed;
+    top: 0;
+    left: calc(50% - 180px);
+    z-index: 100;
+    width: $large-screen-width;
+    margin: 100px 0;
+    padding: 20px;
+    background-color: $white;
+    border-radius: 6px;
+
+    @include mobile {
+        width: $small-screen-width;
     }
 
-    &:last-of-type {
-        margin-bottom: 50px;
+    .win {
+        text-align: center;
+    }
+
+    .lost {
+        & > div {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .found-words {
+            color: $found-color;
+        }
+
+        .not-found-words {
+            color: $not-found-color;
+        }
+
+        .unknown-words {
+            color: $unknown-color;
+        }
+    }
+
+    button {
+        display: block;
+        margin: 30px auto;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        background-color: $found-color;
+        cursor: pointer;
+        text-align: center;
+        color: $white;
     }
 }
