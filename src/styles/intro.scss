@@ -1,0 +1,89 @@
+@import "mixins";
+
+main.intro {
+    @apply text-center;
+
+    h1 {
+        @apply mt-10 mb-6 md:m-12 text-center text-4xl lg:text-5xl font-medium text-orchid-600 dark:text-orange-400;
+    }
+
+    p.small {
+        @apply hidden lg:block text-sm font-light m-1;
+    }
+
+    .flex-box {
+        @apply flex flex-wrap justify-center my-8;
+
+        .launch {
+            @apply m-4 w-full md:w-[500px];
+            @include rounded-shadowed-box;
+
+            p.instruction {
+                @include box-heading;
+                @apply m-1 text-xl;
+            }
+
+            form {
+                @apply pt-8 pb-6 pl-6;
+
+                label {
+                    @apply inline-block relative px-8 cursor-pointer;
+
+                    &:hover .check {
+                        @apply bg-orchid-200 dark:bg-slate-400;
+                    }
+
+                    input {
+                        @apply hidden;
+
+                        &:checked ~ .check {
+                            @apply bg-green-700 dark:bg-emerald-600;
+
+                            &:after {
+                                @apply block;
+                            }
+                        }
+                    }
+
+                    .check {
+                        @apply absolute top-0 left-0 h-6 w-6 bg-stone-300 dark:bg-slate-200 rounded-full flex items-center justify-center;
+
+                        &:after {
+                            @apply content-[''] hidden h-2 w-2 bg-stone-200 dark:bg-slate-200 rounded-full;
+                        }
+                    }
+                }
+            }
+
+            button {
+                @include button;
+            }
+        }
+
+        .stored-results {
+            @apply m-4 w-full md:w-[500px];
+            @include rounded-shadowed-box;
+
+            h3 {
+                @include box-heading;
+                @apply text-xl mb-3;
+            }
+
+            table {
+                @apply block m-0 p-5;
+
+                td {
+                    @apply py-1 px-2 text-end align-bottom;
+                }
+
+                tbody td:first-of-type {
+                    @apply text-start;
+                }
+
+                tbody td:not(:first-of-type) {
+                    @apply text-green-700 font-medium dark:text-emerald-400;
+                }
+            }
+        }
+    }
+}

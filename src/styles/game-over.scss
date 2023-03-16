@@ -1,0 +1,54 @@
+@import "mixins";
+
+main.game-over {
+    .results  {
+        @apply lg:mt-16 lg:flex lg:justify-center lg:flex-wrap;
+
+        p.win {
+            @apply text-center dark:text-emerald-400 text-2xl my-10 w-full;
+        }
+
+        .lost > div {
+            @include game-width;
+            @include rounded-shadowed-box;
+            @apply my-8 mx-auto text-center;
+
+            h4 {
+                @include box-heading;
+            }
+
+            .found-words {
+                @apply font-medium dark:font-normal text-green-700 dark:text-emerald-400;
+            }
+
+            .not-found-words {
+                @apply font-medium dark:font-normal text-red-600 dark:text-red-700;
+            }
+
+            .unknown-words {
+                @apply font-medium dark:font-normal text-orange-600 dark:text-slate-300;
+            }
+        }
+
+        .board {
+            @include game-width;
+            @apply mt-0 lg:ml-20 lg:mr-0 lg:mt-8
+            border-green-700 dark:border-emerald-400
+            text-green-700 dark:text-emerald-400
+            cursor-auto;
+
+            & > div {
+                @apply border-green-700 dark:border-emerald-400;
+            }
+
+            &.win {
+                @apply lg:mx-auto;
+            }
+        }
+    }
+
+    button {
+        @include button;
+        @apply my-2 lg:my-8;
+    }
+}

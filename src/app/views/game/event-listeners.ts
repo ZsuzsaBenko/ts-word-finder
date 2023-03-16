@@ -1,17 +1,18 @@
 import { delay, fromEvent, Observable, of, Subject, takeUntil } from 'rxjs';
 
 class EventListeners {
-    wordSelected: Observable<Array<HTMLElement>>;
-    private readonly BOARD_CELLS = document.querySelectorAll('.board div span');
+    readonly wordSelected: Observable<Array<HTMLElement>>;
     private readonly wordSelectedSub = new Subject<Array<HTMLElement>>();
     private readonly unsubscribeSub = new Subject<void>();
+    private boardCells!: NodeListOf<HTMLElement>;
     private selectedCells: Array<HTMLElement> = [];
 
     constructor() {
         this.wordSelected = this.wordSelectedSub.asObservable();
     }
 
-    listenToEvents(): void {
+    listenToEvents(boardCells: NodeListOf<HTMLElement>): void {
+        this.boardCells = boardCells;
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
             this.listenToTouchEvents();
         } else {
@@ -20,7 +21,7 @@ class EventListeners {
     }
 
     private listenToMouseEvents(): void {
-        this.BOARD_CELLS.forEach(cell => {
+        this.boardCells.forEach(cell => {
             fromEvent(cell, 'mousedown', this.onStart.bind(this))
                 .pipe(takeUntil(this.unsubscribeSub))
                 .subscribe();
@@ -35,7 +36,7 @@ class EventListeners {
     }
 
     private listenToTouchEvents(): void {
-        this.BOARD_CELLS.forEach(cell => {
+        this.boardCells.forEach(cell => {
             fromEvent(cell, 'touchstart', this.onStart.bind(this))
                 .pipe(takeUntil(this.unsubscribeSub))
                 .subscribe();
@@ -96,7 +97,7 @@ class EventListeners {
         }
         const xPos = (event as TouchEvent).touches[0].clientX;
         const yPos = (event as TouchEvent).touches[0].clientY;
-        const selectedCell = Array.from(this.BOARD_CELLS)
+        const selectedCell = Array.from(this.boardCells)
             .find(cell => {
                 const clientRect = cell.getBoundingClientRect();
                 return xPos > clientRect.left && xPos < clientRect.right && yPos > clientRect.top && yPos < clientRect.bottom;

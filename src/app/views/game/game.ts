@@ -1,41 +1,45 @@
 import { take } from 'rxjs';
-import Board from './board';
+import Board from '../../game-logic/board';
+import { Cell, GameResult, Language } from '../../models';
+import { drawBoard } from '../../util/draw-board-util';
+import { attachTemplateToDOM } from '../../util/template-util';
+import GameOver from '../game-over/game-over';
 import EventListeners from './event-listeners';
-import GameOver from './game-over';
 import GameStats from './game-stats';
-import { Cell } from './models';
 import Timer from './timer';
 
 class Game {
-    private readonly BOARD_CELLS = document.querySelectorAll('.board div span');
-    private readonly FOUND_WORDS = document.querySelector('.found-words') as HTMLElement;
+    private readonly MAIN = document.querySelector('main') as HTMLElement;
+    private readonly FOUND_WORDS = document.querySelector('.word-list .found-words') as HTMLElement;
     private readonly board = new Board();
     private readonly timer = new Timer();
     private readonly gameStats = new GameStats();
     private readonly eventListeners = new EventListeners();
-    private readonly gameOver = new GameOver();
     private readonly foundWords: Array<string> = [];
     private readonly unknownWords: Array<string> = [];
+    private boardCells: NodeListOf<HTMLElement>;
+    private gameBoard!: Map<number, Cell>;
     private hiddenWords: Array<string> = [];
+    private language!: Language;
 
-    play = (): void => {
-        const gameBoard = this.board.initBoard();
-        this.drawBoard(gameBoard);
+    play = (language: Language): void => {
+        this.language = language;
+        this.createBoard();
         this.hiddenWords = this.board.getWordsInBoard();
         this.gameStats.initStats(this.hiddenWords, this.foundWords);
         this.subscribeToDOMEvents();
         this.subscribeToTimer();
     };
 
-    private drawBoard(gameBoard: Map<number, Cell>): void {
-        this.BOARD_CELLS.forEach(span => {
-            const id: number = +span.id;
-            span.textContent = gameBoard.get(id)?.value ?? '';
-        });
+    private createBoard(): void {
+        attachTemplateToDOM('board', false, this.MAIN);
+        this.gameBoard = this.board.initBoard(this.language);
+        this.boardCells = document.querySelectorAll('.board div span');
+        drawBoard(this.gameBoard, this.boardCells);
     }
 
     private subscribeToDOMEvents(): void {
-        this.eventListeners.listenToEvents();
+        this.eventListeners.listenToEvents(this.boardCells);
         this.eventListeners.wordSelected
             .subscribe((selectedCells: Array<HTMLElement>) => this.checkWord(selectedCells));
     }
@@ -51,7 +55,8 @@ class Game {
     }
 
     private checkWord(selectedCells: Array<HTMLElement>): void {
-        const word = selectedCells.map(cell => cell.textContent).join('');
+        const word = selectedCells.map(cell => cell.textContent)
+            .join('');
         if (this.hiddenWords.includes(word) && !this.foundWords.includes(word)) {
             selectedCells.forEach(item => (item.parentNode as HTMLElement).classList.add('found'));
             this.foundWords.push(word);
@@ -79,15 +84,29 @@ class Game {
 
     private checkGameOver(): void {
         if (this.hiddenWords.length === this.foundWords.length) {
-            this.timer.stop();
+            this.timer.stop(false);
             this.eventListeners.unsubscribeEvents();
             this.handleGameOver();
         }
     }
 
     private handleGameOver(): void {
-        const notFoundWords = this.hiddenWords.filter(word => !this.foundWords.includes(word));
-        this.gameOver.showGameOverModal(this.foundWords, notFoundWords, this.unknownWords);
+        document.body.removeChild(this.MAIN);
+        attachTemplateToDOM('game-over');
+        this.showResult();
+    }
+
+    private showResult(): void {
+        const gameOver = new GameOver();
+        gameOver.showResult(this.createGameResult(), this.gameBoard, this.language);
+    }
+
+    private createGameResult(): GameResult {
+        return {
+            foundWords: this.foundWords,
+            notFoundWords: this.hiddenWords.filter(word => !this.foundWords.includes(word)),
+            unknownWords: this.unknownWords
+        };
     }
 
 }

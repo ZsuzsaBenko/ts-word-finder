@@ -8,35 +8,110 @@
     <title>Szókereső</title>
 </head>
 <body>
-<h1>Szókereső</h1>
-<main>
-    <div class="stat">
-        <span class="found-words-stat">
-            <span></span>
-            <span>/</span>
-            <span></span>
-        </span>
-        <span class="timer">02:00</span>
-        <span class="percentage">0%</span>
-    </div>
+<template id="intro">
+    <main class="intro">
+        <h1>Szókereső</h1>
+        <p class="small">Kösd össze a betűket a játéktáblán, és találj meg minél több szót 3 perc alatt!</p>
+        <p class="small">Kattints a kezdőbetűre, és tartsd lenyomva az egér bal gombját, amíg el nem érted a szó utolsó
+            betűjét!</p>
+        <div class="flex-box">
+            <div class="launch">
+                <p class="instruction">Magyar vagy angol szavakkal szeretnél játszani?</p>
+                <form>
+                    <label>magyar
+                        <input type="radio" id="lang-hu" name="language" value="HU" checked>
+                        <span class="check"></span>
+                    </label>
+                    <label>angol
+                        <input type="radio" id="lang-en" name="language" value="EN">
+                        <span class="check"></span>
+                    </label>
+                </form>
+                <button type="button" id="start-btn">Kezdés</button>
+            </div>
+            <div class="stored-results">
+                <h3>Statisztika</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <td></td>
+                        <td>Összes játék</td>
+                        <td>Átlagos százalék</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Magyar szavakkal:</td>
+                        <td id="sum-hu">0</td>
+                        <td id="average-hu">0%</td>
+                    </tr>
+                    <tr>
+                        <td>Angol szavakkal:</td>
+                        <td id="sum-en">0</td>
+                        <td id="average-en">0%</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</template>
+<template id="game">
+    <main class="game">
+        <div>
+            <div class="stat">
+            <span class="found-words-stat">
+                <span></span>
+                <span>/</span>
+                <span></span>
+            </span>
+                <span class="timer">03:00</span>
+                <span class="percentage">0%</span>
+            </div>
+            <div class="words-stat">
+                <h4>Megtalálható szavak</h4>
+                <div class="row">
+                    <span>Szóhossz:</span>
+                    <div class="lengths"></div>
+                </div>
+                <div class="row">
+                    <span>Darabszám:</span>
+                    <div class="items"></div>
+                </div>
+            </div>
+            <div class="word-list-container">
+                <h4>Megtalált szavak</h4>
+                <div class="word-list hidden">
+                    <p class="found-words"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</template>
+<template id="game-over">
+    <main class="game-over">
+        <div class="results hidden">
+            <p class="win hidden">Gratulálunk! Az összes szót megtaláltad!</p>
+            <div class="lost hidden">
+                <div class="hidden">
+                    <h4>Megtalált szavak:</h4>
+                    <p class="found-words"></p>
+                </div>
+                <div class="hidden">
+                    <h4>Nem talált szavak:</h4>
+                    <p class="not-found-words"></p>
+                </div>
+                <div class="hidden">
+                    <h4>Ismeretlen szavak:</h4>
+                    <p class="unknown-words"></p>
+                </div>
+            </div>
+        </div>
+        <button type="button">Új játék</button>
+    </main>
+</template>
 
-    <div class="words-stat">
-        <h4>Megtalálható szavak</h4>
-        <div class="header">
-            <span>Szóhossz:</span>
-            <div class="lengths"></div>
-        </div>
-        <div class="row">
-            <span>Darabszám:</span>
-            <div class="items"></div>
-        </div>
-    </div>
-    <div class="word-list-container">
-        <h4>Megtalált szavak</h4>
-        <div class="word-list hidden">
-            <p class="found-words"></p>
-        </div>
-    </div>
+<template id="board">
     <div class="board">
         <div><span id="0"></span></div>
         <div><span id="1"></span></div>
@@ -48,25 +123,7 @@
         <div><span id="7"></span></div>
         <div><span id="8"></span></div>
     </div>
-    <div class="game-over-overlay hidden"></div>
-    <div class="game-over hidden">
-        <p class="win hidden">Gratulálunk! Az összes szót megtaláltad!</p>
-        <div class="lost hidden">
-            <div class="hidden">
-                <h4>Megtalált szavak:</h4>
-                <p class="found-words"></p>
-            </div>
-            <div class="hidden">
-                <h4>Nem talált szavak:</h4>
-                <p class="not-found-words"></p>
-            </div>
-            <div class="hidden">
-                <h4>Ismeretlen szavak:</h4>
-                <p class="unknown-words"></p>
-            </div>
-        </div>
-        <button>Új játék</button>
-    </div>
-</main>
+</template>
+
 </body>
 </html>

@@ -1,0 +1,20 @@
+@mixin rounded-shadowed-box {
+    @apply rounded-md shadow-normal dark:shadow-dark p-2 md:p-4 lg:p-6;
+}
+
+@mixin button {
+    @apply block w-28 h-12
+    mx-auto my-6
+    bg-green-700 hover:bg-green-800
+    dark:bg-emerald-700 dark:hover:bg-emerald-800
+    text-white font-semibold
+    border border-transparent rounded-md;
+}
+
+@mixin game-width {
+    @apply w-[320px] sm:w-[360px] md:w-[420px] lg:w-[450px] low-res:w-[400px] box-border;
+}
+
+@mixin box-heading {
+    @apply font-medium text-orchid-600 dark:text-orange-400 text-center mb-3;
+}

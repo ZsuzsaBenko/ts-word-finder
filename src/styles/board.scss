@@ -1,0 +1,35 @@
+@import "mixins";
+
+.board {
+    @include game-width;
+    @apply flex flex-wrap my-8 mx-auto low-res:ml-20 low-res:mr-0
+    h-[320px] sm:h-[360px] md:h-[420px] lg:h-[450px] low-res:h-[400px]
+    border border-orchid-900 dark:border-slate-100
+    cursor-pointer;
+
+    & > div {
+        @apply flex justify-center items-center w-1/3
+        text-center text-3xl md:text-5xl
+        border border-orchid-900 dark:border-slate-100;
+
+        span {
+            @apply w-20 h-20 leading-[80px] md:w-28 md:h-28 md:leading-[112px];
+        }
+
+        &.selected {
+            @apply bg-green-500 dark:bg-emerald-700;
+        }
+
+        &.found {
+            @apply bg-green-600 dark:bg-emerald-800;
+        }
+
+        &.already-found {
+            @apply bg-orange-500 dark:bg-orange-700;
+        }
+
+        &.unknown {
+            @apply bg-red-600 dark:bg-red-800;
+        }
+    }
+}

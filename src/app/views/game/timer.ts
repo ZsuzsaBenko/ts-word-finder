@@ -22,14 +22,19 @@ class Timer {
                 map(num => `${this.getMinutesLeft(num)}:${this.getSecondsLeft(num)}`))
             .subscribe(timeLeft => {
                 this.TIMER_ELEMENT.textContent = timeLeft;
+                if (timeLeft.startsWith('00:')) {
+                    this.TIMER_ELEMENT.classList.add('warn');
+                }
                 if ('00:00' === timeLeft) {
                     this.stop();
                 }
             });
     }
 
-    stop(): void {
-        this.timeIsUpGameOverSub.next();
+    stop(emit = true): void {
+        if (emit) {
+            this.timeIsUpGameOverSub.next();
+        }
         this.timeIsUpGameOverSub.complete();
         this.timerSubscription?.unsubscribe();
         this.timer = undefined;

@@ -1,16 +1,20 @@
-import { Cell, Words, WordsByLetter } from './models';
-import { wordsHun } from './words-hun';
+import { Cell, Language, LANGUAGE_PROPERTIES, Words, WordsByLetter } from '../models';
+import { wordsEng } from '../words/words-eng';
+import { wordsHun } from '../words/words-hun';
 
 class Board {
-    private readonly LETTERS: Array<string> = Object.keys(wordsHun);
-    private readonly MIN_WORD_NUMBER = 10;
+    private readonly MIN_WORD_NUMBER = 12;
+    private dictionary!: Words;
+    private letters!: Array<string>;
     private board!: Map<number, Cell>;
     private wordsToFind: Array<string> = [];
 
-    initBoard(): Map<number, Cell> {
+    initBoard(language: Language): Map<number, Cell> {
+        this.dictionary = Language.EN === language ? wordsEng : wordsHun;
+        this.letters = Language.EN === language ? Object.keys(wordsEng) : Object.keys(wordsHun);
         this.createBoard();
         while (this.MIN_WORD_NUMBER > this.wordsToFind.length) {
-            this.populateBoard();
+            this.populateBoard(language);
             this.getWordsInBoard();
             if (this.MIN_WORD_NUMBER > this.wordsToFind.length) {
                 this.clearBoard();
@@ -100,18 +104,18 @@ class Board {
         this.board.set(i, cell);
     }
 
-    private populateBoard(): void {
+    private populateBoard(language: Language): void {
         const randomLongestWord = this.getRandomLongestWord();
         this.placeLongestWord(randomLongestWord);
-        this.fillInEmptyCells();
+        this.fillInEmptyCells(language);
     }
 
     private readonly getRandomLongestWord = (): string => {
         let longestWord = '';
         while (!longestWord) {
-            const randomLetter: string = this.LETTERS[Math.floor(Math.random() * this.LETTERS.length)];
+            const randomLetter: string = this.letters[Math.floor(Math.random() * this.letters.length)];
             const randomLength: string = 0.5 < Math.random() ? '7' : '6';
-            const wordsWithRandomLetterAtRandomLength = wordsHun[randomLetter as keyof Words][randomLength as keyof WordsByLetter];
+            const wordsWithRandomLetterAtRandomLength = this.dictionary[randomLetter as keyof Words][randomLength as keyof WordsByLetter];
             if (0 < wordsWithRandomLetterAtRandomLength.length) {
                 longestWord = wordsWithRandomLetterAtRandomLength[Math.floor(Math.random() * wordsWithRandomLetterAtRandomLength.length)];
             }
@@ -137,10 +141,10 @@ class Board {
         }
     }
 
-    private fillInEmptyCells(): void {
-        const allVowels = ['A', 'Á', 'E', 'É', 'I', 'Í', 'O', 'Ó', 'Ö', 'Ő', 'U', 'Ú', 'Ü', 'Ű'];
-        const frequentVowels = ['A', 'E', 'É', 'I'];
-        const frequentConsonants = ['B', 'H', 'K', 'L', 'M', 'N', 'R', 'S', 'T'];
+    private fillInEmptyCells(language: Language): void {
+        const allVowels = LANGUAGE_PROPERTIES[language].ALL_VOWELS;
+        const frequentVowels = LANGUAGE_PROPERTIES[language].FREQUENT_VOWELS;
+        const frequentConsonants = LANGUAGE_PROPERTIES[language].FREQUENT_CONSONANTS;
         this.board.forEach(cell => {
             if (!cell.value) {
                 const neighbouringLetters: Array<string> = cell.neighbours.map(neighbour => this.board.get(neighbour)?.value ?? '');
@@ -179,7 +183,7 @@ class Board {
     private readonly getRealWords = (combinations: Array<string>): Array<string> => {
         const wordLength = `${combinations[0].length}`;
         return combinations.filter(combo => {
-            const wordsByLetter: WordsByLetter = wordsHun[combo.charAt(0) as keyof Words];
+            const wordsByLetter: WordsByLetter = this.dictionary[combo.charAt(0) as keyof Words];
             if (wordsByLetter) {
                 const words: Array<string> = wordsByLetter[wordLength as keyof WordsByLetter];
                 return words.includes(combo);

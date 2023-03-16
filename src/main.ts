@@ -1,5 +1,5 @@
-import Game from './app/game';
 import './styles.scss';
+import Intro from './app/views/intro/intro';
 
-const app = new Game();
-app.play();
+const intro = new Intro();
+intro.start();

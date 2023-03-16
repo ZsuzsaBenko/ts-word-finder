@@ -16,8 +16,11 @@
         "import"
     ],
     "ignorePatterns": [
+        "postcss.config.js",
+        "tailwind.config.js",
         "webpack.config.js",
-        "src/app/words-hun.ts"
+        "src/app/words/words-hun.ts",
+        "src/app/words/words-eng.ts"
     ],
     "rules": {
         "@typescript-eslint/array-type": [
