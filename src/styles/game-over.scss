@@ -1,17 +1,19 @@
 @import "mixins";
 
 main.game-over {
-    .results  {
-        @apply lg:mt-16 lg:flex lg:justify-center lg:flex-wrap;
+    .results {
+        @apply lg:mt-16 low-res:mt-0
+        lg:flex lg:justify-center lg:flex-wrap
+        low-res:flex low-res:justify-center low-res:flex-wrap;
 
         p.win {
-            @apply text-center dark:text-emerald-400 text-2xl my-10 w-full;
+            @apply text-center text-green-700 dark:text-emerald-400 text-2xl my-10 low-res:my-6 w-full font-medium;
         }
 
         .lost > div {
             @include game-width;
             @include rounded-shadowed-box;
-            @apply my-8 mx-auto text-center;
+            @apply my-4 md:my-8 mx-auto text-center;
 
             h4 {
                 @include box-heading;
@@ -42,7 +44,7 @@ main.game-over {
             }
 
             &.win {
-                @apply lg:mx-auto;
+                @apply lg:mx-auto low-res:mx-auto low-res:mb-4;
             }
         }
     }

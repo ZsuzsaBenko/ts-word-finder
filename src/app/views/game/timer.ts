@@ -3,7 +3,7 @@ import { map, Observable, Subject, Subscription, timer } from 'rxjs';
 class Timer {
     timeIsUpGameOver: Observable<void>;
     private readonly TIMER_ELEMENT = document.querySelector('span.timer') as HTMLElement;
-    private readonly TIME_LIMIT_IN_SEC = 120;
+    private readonly TIME_LIMIT_IN_SEC = 180;
     private readonly timeIsUpGameOverSub = new Subject<void>();
     private timer?: Observable<number>;
     private timerSubscription?: Subscription;

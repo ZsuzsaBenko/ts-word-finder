@@ -1,13 +1,16 @@
-import { fromEvent, take } from 'rxjs';
+import { fromEvent, Subject, take, takeUntil } from 'rxjs';
 import { GAME_RESULTS_STORAGE_KEY, StoredResults, Language } from '../../models';
 import { attachTemplateToDOM } from '../../util/template-util';
 import Game from '../game/game';
 
 class Intro {
+    private readonly unsubscribeSub = new Subject<void>();
+
     start(): void {
         attachTemplateToDOM('intro');
         this.showResultStatistics();
         this.startGame();
+        this.handleRulesBtnClick();
     }
 
     private showResultStatistics(): void {
@@ -39,7 +42,8 @@ class Intro {
             .subscribe();
     }
 
-    private readonly handleStartBtnClick = (): void => {
+    private handleStartBtnClick(): void {
+        this.removeSubscription();
         const main = document.querySelector('main') as HTMLElement;
         const formData = new FormData(main.querySelector('form') as HTMLFormElement);
         const selectedLang = Language.EN === formData.get('language') ? Language.EN : Language.HU;
@@ -49,7 +53,27 @@ class Intro {
 
         const app = new Game();
         app.play(selectedLang);
-    };
+    }
+
+    private handleRulesBtnClick(): void {
+        const rulesBtn = document.querySelector('.rules-btn') as HTMLElement;
+        const rules = document.querySelector('div.rules') as HTMLElement;
+
+        fromEvent(rulesBtn, 'click', () => {
+            if (rules.classList.contains('hidden')) {
+                rules.classList.remove('hidden');
+            } else {
+                rules.classList.add('hidden');
+            }
+        })
+            .pipe(takeUntil(this.unsubscribeSub))
+            .subscribe();
+    }
+
+    private removeSubscription(): void {
+        this.unsubscribeSub.next();
+        this.unsubscribeSub.complete();
+    }
 }
 
 export default Intro;

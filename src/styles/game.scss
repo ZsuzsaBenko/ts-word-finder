@@ -4,7 +4,7 @@ main.game {
     @apply low-res:flex low-res:justify-center;
 
     .stat {
-        @apply flex justify-between my-5 mx-auto p-3;
+        @apply flex justify-between my-0 md:my-5 mx-auto p-3;
         @include game-width;
 
         span {
@@ -23,7 +23,7 @@ main.game {
     .words-stat {
         @include rounded-shadowed-box;
         @include game-width;
-        @apply my-4 mx-auto p-2;
+        @apply mt-0 mb-4 md:my-4 mx-auto p-2;
 
         h4 {
             @include box-heading;
@@ -40,12 +40,12 @@ main.game {
                 @apply flex justify-end w-full;
 
                 span {
-                    @apply w-8 p-1 mx-1 text-center;
+                    @apply w-8 md:p-1 mx-1 text-center;
                 }
             }
 
             .lengths span {
-                @apply text-sm border border-orchid-900 dark:border-slate-200 rounded-full;
+                @apply text-sm border border-orchid-900 dark:border-slate-200 rounded-full leading-7 md:leading-5;
             }
 
             .items span {
@@ -57,7 +57,7 @@ main.game {
     .word-list-container {
         @include rounded-shadowed-box;
         @include game-width;
-        @apply my-6 low-res:my-10 mx-auto p-2 h-[120px] text-green-700 dark:text-emerald-400;
+        @apply my-0 md:my-6 low-res:my-10 mx-auto p-2 h-[120px] text-green-700 dark:text-emerald-400 overflow-auto;
 
         h4 {
             @include box-heading;

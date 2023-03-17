@@ -2,7 +2,7 @@
 
 .board {
     @include game-width;
-    @apply flex flex-wrap my-8 mx-auto low-res:ml-20 low-res:mr-0
+    @apply flex flex-wrap my-4 md:my-8 mx-auto low-res:ml-20 low-res:mr-0
     h-[320px] sm:h-[360px] md:h-[420px] lg:h-[450px] low-res:h-[400px]
     border border-orchid-900 dark:border-slate-100
     cursor-pointer;
@@ -13,7 +13,7 @@
         border border-orchid-900 dark:border-slate-100;
 
         span {
-            @apply w-20 h-20 leading-[80px] md:w-28 md:h-28 md:leading-[112px];
+            @apply w-20 h-20 leading-[80px] md:w-24 md:h-24 md:leading-[96px];
         }
 
         &.selected {

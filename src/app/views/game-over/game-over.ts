@@ -1,4 +1,4 @@
-import { fromEvent } from 'rxjs';
+import { fromEvent, take } from 'rxjs';
 import { GAME_RESULTS_STORAGE_KEY, StoredResults, Language, GameResult, Cell } from '../../models';
 import { drawBoard } from '../../util/draw-board-util';
 import { attachTemplateToDOM } from '../../util/template-util';
@@ -54,6 +54,7 @@ class GameOver {
         fromEvent(this.NEW_GAME_BTN, 'click', () => {
             window.location.reload();
         })
+            .pipe(take(1))
             .subscribe();
     }
 

@@ -16,7 +16,7 @@
 }
 
 main {
-    @apply bg-transparent p-4;
+    @apply bg-transparent py-1 px-2 md:p-4;
 }
 
 *.hidden {

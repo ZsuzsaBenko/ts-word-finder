@@ -4,27 +4,41 @@ main.intro {
     @apply text-center;
 
     h1 {
-        @apply mt-10 mb-6 md:m-12 text-center text-4xl lg:text-5xl font-medium text-orchid-600 dark:text-orange-400;
+        @apply my-4 low-res:my-8 md:m-12
+        text-center text-4xl low-res:text-4xl lg:text-5xl font-medium
+        text-orchid-600 dark:text-orange-400;
     }
 
-    p.small {
-        @apply hidden lg:block text-sm font-light m-1;
+    p.instruction {
+        @apply font-medium;
+    }
+
+    button.rules-btn {
+        @apply font-light underline hover:text-green-700 mt-3;
+    }
+
+    div.rules {
+        @apply w-full md:w-[600px] lg:w-[800px] mx-auto;
+
+        & p {
+            @apply text-sm font-light mt-2 text-justify;
+        }
     }
 
     .flex-box {
-        @apply flex flex-wrap justify-center my-8;
+        @apply flex flex-wrap justify-center my-4 md:my-8;
 
         .launch {
-            @apply m-4 w-full md:w-[500px];
+            @apply m-2 md:m-4 w-full md:w-[500px];
             @include rounded-shadowed-box;
 
-            p.instruction {
+            p {
                 @include box-heading;
                 @apply m-1 text-xl;
             }
 
             form {
-                @apply pt-8 pb-6 pl-6;
+                @apply pt-4 md:pt-8 md:pb-6 pl-6;
 
                 label {
                     @apply inline-block relative px-8 cursor-pointer;
@@ -66,11 +80,11 @@ main.intro {
 
             h3 {
                 @include box-heading;
-                @apply text-xl mb-3;
+                @apply text-xl mb-0 md:mb-3;
             }
 
             table {
-                @apply block m-0 p-5;
+                @apply block m-0 p-1 md:p-5;
 
                 td {
                     @apply py-1 px-2 text-end align-bottom;
