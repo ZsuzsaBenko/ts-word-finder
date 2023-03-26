@@ -3,151 +3,323 @@ import { Words } from '../models';
 export const wordsHun: Words = {
     'A': {
         '3': [
-            'ADÓ', 'ADU', 'AGA', 'AGG', 'AGY', 'AHA', 'AJZ', 'AKI', 'AKÓ', 'AKT', 'ALÁ', 'ALJ', 'ALT', 'AMA', 'AMI', 'APA', 'APÓ', 'APU',
-            'ARA', 'ARC', 'AZT'
+            'ADÓ', 'ADU', 'AGA', 'AGG', 'AGY', 'AHA', 'AHÁ', 'AJZ', 'AKI', 'AKÓ', 'AKT', 'ALÁ', 'ALJ', 'ALT', 'AMA', 'AMI', 'APA', 'APÓ',
+            'APU', 'ARA', 'ARC', 'AZT'
         ],
         '4': [
-            'ABÁL', 'ABBA', 'ABBÉ', 'ACÉL', 'ADAG', 'ADAT', 'ADÁS', 'ADÓS', 'AFTA', 'AGÁR', 'AGYI', 'AHOL', 'AJAK', 'AJTÓ', 'AKAD', 'AKAR',
-            'AKÁC', 'AKÁR', 'AKIK', 'AKKU', 'AKNA', 'AKOL', 'AKÓS', 'AKSI', 'AKTA', 'AKUT', 'ALAK', 'ALAP', 'ALÁZ', 'ALÉL', 'ALFA', 'ALGA',
-            'ALIG', 'ALJA', 'ALKU', 'ALMA', 'ALOÉ', 'ALOM', 'ALÓL', 'ALSÓ', 'ALUL', 'AMAZ', 'AMIK', 'AMÍG', 'AMUR', 'ANNO', 'ANÓD', 'ANYA',
-            'ANYÓ', 'ANYU', 'APAD', 'APAI', 'APÁS', 'APÁT', 'APÓS', 'APRÓ', 'ARAB', 'ARAT', 'ARGÓ', 'ARRA', 'ASZÚ', 'ATKA', 'ATOM', 'ATYA',
-            'AULA', 'AUTÓ', 'AVAR', 'AVAS', 'AVAT', 'AVUL', 'AZAZ', 'AZON', 'AZÚR'
+            'ABÁL', 'ABBA', 'ABBÉ', 'ACÉL', 'ADAG', 'ADAT', 'ADÁS', 'ADÓS', 'AFRÓ', 'AFTA', 'AGÁR', 'AGYI', 'AHOL', 'AJAJ', 'AJAK', 'AJTÓ',
+            'AKAD', 'AKAR', 'AKÁC', 'AKÁR', 'AKIÉ', 'AKIK', 'AKKU', 'AKNA', 'AKOL', 'AKÓS', 'AKSI', 'AKTA', 'AKUT', 'ALAK', 'ALAP', 'ALÁZ',
+            'ALÉL', 'ALFA', 'ALGA', 'ALIG', 'ALJA', 'ALKU', 'ALMA', 'ALOÉ', 'ALOM', 'ALÓL', 'ALSÓ', 'ALUL', 'ALVÓ', 'AMAZ', 'AMIK', 'AMÍG',
+            'AMUR', 'ANNO', 'ANÓD', 'ANYA', 'ANYÓ', 'ANYU', 'APAD', 'APAI', 'APÁS', 'APÁT', 'APÓS', 'APRÓ', 'APUS', 'ARAB', 'ARAT', 'ARGÓ',
+            'ARRA', 'ASZÚ', 'ATKA', 'ATOM', 'ATYA', 'AULA', 'AURA', 'AUTÓ', 'AVAR', 'AVAS', 'AVAT', 'AVUL', 'AXON', 'AZAZ', 'AZON', 'AZÚR'
         ],
         '5': [
-            'ABÁLT', 'ABBAN', 'ABCÚG', 'ABLAK', 'ABRAK', 'ACHÁT', 'ADDIG', 'ADOMA', 'ADOTT', 'ADÓZÓ', 'AFFÉR', 'AFGÁN', 'AGÁVÉ', 'AGGAT',
-            'AGORA', 'AGRÁR', 'AGUTI', 'AGYAG', 'AGYAL', 'AGYAR', 'AGYON', 'AHÁNY', 'AHOGY', 'AHOVA', 'AHOVÁ', 'AJÁNL', 'AJÓKA', 'AKCIÓ',
-            'AKKÁD', 'AKKOR', 'AKNÁS', 'AKNÁZ', 'AKRIL', 'AKTÁS', 'AKTÁZ', 'AKTÍV', 'AKTUS', 'ALAKI', 'ALANT', 'ALANY', 'ALATT', 'ALÁÁS',
-            'ALÁBB', 'ALÁÍR', 'ALÁLŐ', 'ALÁÜL', 'ALBÁN', 'ALBUM', 'ALCÍM', 'ALÉLT', 'ALFAJ', 'ALHAS', 'ALIBI', 'ALJAS', 'ALKAR', 'ALKAT',
-            'ALKOT', 'ALKÓV', 'ALLŰR', 'ALMÁS', 'ALMOZ', 'ALPIN', 'ALSÓS', 'ALTAT', 'ALVAD', 'ALVÁS', 'ALVÁZ', 'AMELY', 'AMINT', 'AMIRE',
-            'AMODA', 'AMORF', 'AMOTT', 'AMŐBA', 'AMPER', 'AMÚGY', 'ANGOL', 'ANION', 'ANNÁL', 'ANNYI', 'ANTIK', 'ANYAG', 'ANYAI', 'ANYÁS',
-            'ANYÓS', 'ANYUS', 'AORTA', 'APÁCA', 'APACS', 'APÁLY', 'APÓKA', 'APRÍT', 'APRÓD', 'APRÓZ', 'APUCI', 'APUKA', 'ARANY', 'ARASZ',
-            'ARÁMI', 'ARÁNY', 'ARCÉL', 'ARÉNA', 'ARGON', 'AROMA', 'ARZÉN', 'ASSZÓ', 'ASZAL', 'ASZAT', 'ATKÁS', 'ATOLL', 'ATOMI', 'ATTÓL',
-            'ATYAI', 'AUDIT', 'AUTÓS', 'AVAGY', 'AVATÓ', 'AVÍTT', 'AZÉRT', 'AZNAP', 'AZTÁN', 'AZTÉK', 'AZZAL'
+            'ABÁLT', 'ABBAN', 'ABBÓL', 'ABCÚG', 'ABLAK', 'ABRAK', 'ACHÁT', 'ADDIG', 'ADOMA', 'ADOTT', 'ADÓÍV', 'ADÓZÓ', 'ADUTT', 'AFELÉ',
+            'AFFÉR', 'AFGÁN', 'AGÁVÉ', 'AGGAT', 'AGORA', 'AGRÁR', 'AGUTI', 'AGYAG', 'AGYAL', 'AGYAR', 'AGYON', 'AHÁNY', 'AHHOZ', 'AHOGY',
+            'AHOVA', 'AHOVÁ', 'AJÁNL', 'AJÓKA', 'AKCIÓ', 'AKKÁD', 'AKKOR', 'AKNÁS', 'AKNÁZ', 'AKRIL', 'AKTÁS', 'AKTÁZ', 'AKTÍV', 'AKTUS',
+            'ALAKI', 'ALAKÚ', 'ALANT', 'ALANY', 'ALATT', 'ALÁÁS', 'ALÁBB', 'ALÁÍR', 'ALÁLŐ', 'ALÁÜL', 'ALBÁN', 'ALBUM', 'ALCÍM', 'ALÉLT',
+            'ALFAJ', 'ALFÉL', 'ALGÁS', 'ALHAS', 'ALIBI', 'ALJAS', 'ALKAR', 'ALKAT', 'ALKOT', 'ALKÓV', 'ALLŰR', 'ALMÁS', 'ALMOZ', 'ALPIN',
+            'ALSÓS', 'ALTAT', 'ALULI', 'ALVAD', 'ALVÁS', 'ALVÁZ', 'ALVÉG', 'AMELY', 'AMINT', 'AMIRE', 'AMODA', 'AMORF', 'AMOTT', 'AMŐBA',
+            'AMPER', 'AMÚGY', 'ANCÚG', 'ANGOL', 'ANKÉT', 'ANNAK', 'ANNÁL', 'ANION', 'ANNÁL', 'ANNYI', 'ANTIK', 'ANYAG', 'ANYAI', 'ANYÁS',
+            'ANYÓS', 'ANYUS', 'AORTA', 'APÁCA', 'APACS', 'APÁLY', 'APONÉ', 'APÓKA', 'APRÍT', 'APRÓD', 'APRÓZ', 'APUCI', 'APUKA', 'ARANY',
+            'ARASZ', 'ARATÓ', 'ARÁMI', 'ARÁNY', 'ARCÉL', 'ARÉNA', 'ARGON', 'AROMA', 'ARRÓL', 'ARZÉN', 'ASSZÓ', 'ASZAL', 'ASZAT', 'ASZIK',
+            'ASSZÓ', 'ATKÁS', 'ATOLL', 'ATOMI', 'ATTÓL', 'ATYAI', 'AUDIT', 'AUDIO', 'AUDIT', 'AUGUR', 'AUTÓS', 'AVAGY', 'AVATÓ', 'AVÍTT',
+            'AVULT', 'AZÉRT', 'AZNAP', 'AZÓTA', 'AZTÁN', 'AZTÉK', 'AZZAL'
         ],
         '6': [
-            'ABROSZ', 'ACÉLOS', 'ACÉLOZ', 'ACETON', 'ADAGOL', 'ADALÉK', 'ADANDÓ', 'ADATIK', 'ADOGAT', 'ADÓDIK', 'ADÓNEM', 'ADÓZÁS',
-            'ADÓZIK', 'ADVENT', 'AFÁZIA', 'AFFÉLE', 'AGANCS', 'AGGÁLY', 'AGGKOR', 'AGGOTT', 'AGGÓFŰ', 'AGGSÁG', 'AGILIS', 'AGITÁL',
-            'AGÓNIA', 'AGYBAJ', 'AGYRÉM', 'AGYVÍZ', 'AJAKÍR', 'AJÁNLÓ', 'AKARAT', 'AKARÁS', 'AKASZT', 'AKÁCFA', 'AKÁCOS', 'AKÁRKI',
-            'AKÁRMI', 'AKCIÓS', 'AKKORA', 'AKKORI', 'ALAGÚT', 'ALAKÍT', 'ALAKOS', 'ALAKUL', 'ALANYI', 'ALAPÍT', 'ALAPOS', 'ALAPOZ',
-            'ALAPUL', 'ALATTA', 'ALÁÁLL', 'ALÁBBI', 'ALÁDOB', 'ALÁDUG', 'ALÁFÉR', 'ALÁFÚR', 'ALÁFUT', 'ALÁHÚZ', 'ALÁJUT', 'ALÁKAP',
-            'ALÁKEN', 'ALÁLÁT', 'ALÁLES', 'ALÁLÓG', 'ALÁLÖK', 'ALÁNÉZ', 'ALÁÖNT', 'ALÁRAK', 'ALÁTÉT', 'ALÁVÁG', 'ALÁZAT', 'ALBÍNÓ',
-            'ALFÖLD', 'ALIGHA', 'ALJZAT', 'ALKATI', 'ALKONY', 'ALKOTÓ', 'ALKUSZ', 'ALMAFA', 'ALPAKA', 'ALPÁRI', 'ALPESI', 'ALSZIK',
-            'ALTATÓ', 'ALTEST', 'ALVADT', 'AMATŐR', 'AMAZON', 'AMERRE', 'AMIÉRT', 'AMIKOR', 'AMIÓTA', 'AMONDÓ', 'ANALÓG', 'ANÉMIA',
-            'ANGÓRA', 'ANGYAL', 'ANIMÁL', 'ANONIM', 'ANORÁK', 'ANYAGI', 'ANYÓKA', 'ANYUCI', 'ANYUKA', 'APADÁS', 'APASÁG', 'APASZT',
-            'APÁTIA', 'APRAJA', 'APROPÓ', 'ARANKA', 'ARATÁS', 'ARCBŐR', 'ARCHÍV', 'ARCKÉP', 'ARCMÁS', 'AROMÁS', 'ARRÉBB', 'ASZALT',
-            'ASZÁLY', 'ASZOTT', 'ASZPIK', 'ASZTAL', 'ASZTMA', 'ATLASZ', 'ATLÉTA', 'ATTASÉ', 'ATYAFI', 'AUKCIÓ', 'AUTÓÚT', 'AVATAR',
-            'AVATÁS', 'AXIÓMA', 'AZÁLEA', 'AZILUM', 'AZNAPI', 'AZONOS', 'AZUTÁN'
+            'ABBELI', 'ABROSZ', 'ACÉLMŰ', 'ACÉLOS', 'ACÉLOZ', 'ACETON', 'ADAGOL', 'ADALÉK', 'ADANDÓ', 'ADATIK', 'ADDIGI', 'ADOGAT',
+            'ADÓDIK', 'ADÓNEM', 'ADÓSÁV', 'ADÓÜGY', 'ADÓZÁS', 'ADÓZIK', 'ADVENT', 'AFÁZIA', 'AFELŐL', 'AFFÉLE', 'AGANCS', 'AGGÁLY',
+            'AGGKOR', 'AGGOTT', 'AGGÓFŰ', 'AGGSÁG', 'AGGÓDÓ', 'AGILIS', 'AGITÁL', 'AGÓNIA', 'AGYBAJ', 'AGYRÉM', 'AGYVÍZ', 'AJAKÍR',
+            'AJÁNLÓ', 'AKARAT', 'AKARÁS', 'AKASZT', 'AKÁCFA', 'AKÁCOS', 'AKÁRKI', 'AKÁRMI', 'AKCIÓS', 'AKKÉNT', 'AKKÉPP', 'AKKORA',
+            'AKKORD', 'AKKORI', 'AKNÁSZ', 'AKÖRÜL', 'AKTÍVA', 'ALAGÚT', 'ALAKÍT', 'ALAKOS', 'ALAKUL', 'ALANYI', 'ALAPÁR', 'ALAPÍT',
+            'ALAPKŐ', 'ALAPMŰ', 'ALAPOS', 'ALAPOZ', 'ALAPUL', 'ALATTA', 'ALATTI', 'ALÁÁLL', 'ALÁBBI', 'ALÁDOB', 'ALÁDUG', 'ALÁFÉR',
+            'ALÁFÚR', 'ALÁFUT', 'ALÁHÚZ', 'ALÁÍRÓ', 'ALÁJUT', 'ALÁKAP', 'ALÁKEN', 'ALÁLÁT', 'ALÁLES', 'ALÁLÓG', 'ALÁMOS', 'ALÁLÖK',
+            'ALÁNÉZ', 'ALÁÖNT', 'ALÁRAK', 'ALÁTÉT', 'ALÁTOL', 'ALÁVÁG', 'ALÁVET', 'ALÁZAT', 'ALBÍNÓ', 'ALFÖLD', 'ALHASI', 'ALIGHA',
+            'ALJZAT', 'ALKATI', 'ALKONY', 'ALKOTÓ', 'ALKUSZ', 'ALMAFA', 'ALMALÉ', 'ALMENÜ', 'ALPAKA', 'ALPÁRI', 'ALPESI', 'ALPÁRI',
+            'ALPESI', 'ALREND', 'ALSZIK', 'ALTATÓ', 'ALTEST', 'ALVADT', 'AMARRA', 'AMATŐR', 'AMAZON', 'AMERRE', 'AMIATT', 'AMIÉRT',
+            'AMIKOR', 'AMIÓTA', 'AMONDÓ', 'ANALÓG', 'ANÁLIS', 'ANÉMIA', 'ANGINA', 'ANGÓRA', 'ANGYAL', 'ANIMÁL', 'ANONIM', 'ANORÁK',
+            'ANYAGI', 'ANYÓKA', 'ANYUCI', 'ANYUKA', 'APADÁS', 'APASÁG', 'APASZT', 'APÁTIA', 'APÁTNŐ', 'APRAJA', 'APROPÓ', 'APSZIS',
+            'ARANKA', 'ARATÁS', 'ARCBŐR', 'ARCHÍV', 'ARCKÉP', 'ARCMÁS', 'ARCVÍZ', 'AROMÁS', 'ARRÁBB', 'ARRÉBB', 'ARTÉZI', 'ASZALT',
+            'ASZÁLY', 'ASZOTT', 'ASZPIK', 'ASSZÍR', 'ASZTAG', 'ASZTAL', 'ASZTMA', 'ATLASZ', 'ATLÉTA', 'ATTASÉ', 'ATYAFI', 'AUKCIÓ',
+            'AUTÓÚT', 'AVATAR', 'AVATÁS', 'AVULÁS', 'AXIÓMA', 'AZÁLEA', 'AZILUM', 'AZNAPI', 'AZONOS', 'AZUTÁN'
         ],
         '7': [
-            'ABLAKOS', 'ABRAKOL', 'ADAKOZÓ', 'ADOMÁNY', 'AJÁNDÉK', 'AJÁNLÁS', 'AKADÁLY', 'AKASZTÓ', 'ALANTAS', 'ALKOHOL', 'ALKOTÁS',
-            'ANGYALI', 'ANYASÁG', 'ARANYOS', 'ARÁNYOS'
+            'ABAJGAT', 'ABCÚGOL', 'ABLAKOS', 'ABORTÁL', 'ABRAKOL', 'ABRONCS', 'ABSZURD', 'ACÉLÁRU', 'ACÉLKÉK', 'ACÉLVÁZ', 'ADAKOZÓ',
+            'ADAPTÁL', 'ADAPTER', 'ADÁSIDŐ', 'ADATLAP', 'ADATOLT', 'ADATSOR', 'ADATTÁR', 'ADEKVÁT', 'ADOGATÓ', 'ADOMÁNY', 'ADOPTÁL',
+            'ADÓALAP', 'ADÓSSÁG', 'ADÓSZÁM', 'ADÓZTAT', 'AFÁZIÁS', 'AFELETT', 'AGGASZT', 'AGGÓDÁS', 'AGGÓDIK', 'AGRÁFIA', 'AGYAGOS',
+            'AGYBELI', 'AGYIDEG', 'AGYONLŐ', 'AGYONÜT', 'AGYVELŐ', 'AHOGYAN', 'AHONNAN', 'AHONNÉT', 'AJÁNDÉK', 'AJÁNLÁS', 'AJÁNLAT',
+            'AJNÁROZ', 'AJTÓTOK', 'AJTÓZÁR', 'AKADÁLY', 'AKARNOK', 'AKASZTÓ', 'AKÁCMÉZ', 'AKÁRHOL', 'AKKORRA', 'AKNÁSÍT', 'AKNATŰZ',
+            'AKNAZÁR', 'AKÖZBEN', 'AKTIVÁL', 'AKTÍVAN', 'ALABÁRD', 'ALAGCSŐ', 'ALAGSOR', 'ALAKÍTÓ', 'ALAKMÁS', 'ALAKTAN', 'ALAKULÓ',
+            'ALAKZAT', 'ALANTAS', 'ALAPBÉR', 'ALAPDÍJ', 'ALAPELV', 'ALAPFAL', 'ALAPFOK', 'ALAPÍTÓ', 'ALAPJOG', 'ALAPLAP', 'ALAPSZÓ',
+            'ALAPZAT', 'ALÁFEST', 'ALÁHULL', 'ALÁÍRÁS', 'ALÁNYÚL', 'ALÁVALÓ', 'ALBÉRLŐ', 'ALELNÖK', 'ALFÖLDI', 'ALGEBRA', 'ALKALMI',
+            'ALKALOM', 'ALKÍMIA', 'ALKOHOL', 'ALKONYI', 'ALKOTÁS', 'ALLOKÁL', 'ALMABOR', 'ALMAHÉJ', 'ALMAMAG', 'ALRÉTEG', 'ALSÓING',
+            'ALSÓKAR', 'ANGYALI', 'ANYASÁG', 'ALPAKKA', 'ALPERES', 'ALTALAJ', 'ALTATÁS', 'ALTESTI', 'ALTÍPUS', 'ALTISZT', 'ALULMÚL',
+            'ALULRÓL', 'ALVASZT', 'ALVEZÉR', 'ALVILÁG', 'AMALGÁM', 'AMBÍCIÓ', 'AMEDDIG', 'AMENNYI', 'AMERRŐL', 'AMILYEN', 'AMMÓNIA',
+            'AMOLYAN', 'AMONNAN', 'AMPULLA', 'AMPUTÁL', 'AMULETT', 'ANANÁSZ', 'ANDALOG', 'ANDALÍT', 'ANDEZIT', 'ANÉMIÁS', 'ANGOLNA',
+            'ANGOLOS', 'ANGYALI', 'ANTIGÉN', 'ANTILOP', 'ANTIMON', 'ANTONIM', 'ANYATEJ', 'ANNYIRA', 'APÁTSÁG', 'APELLÁL', 'APOSTOL',
+            'APRÍTÁS', 'APRÓLÉK', 'ARANYÉR', 'ARANYOS', 'ARANYOZ', 'ARASZOL', 'ARÁNYOS', 'ARCIDEG', 'ARCIZOM', 'ARCSZÍN', 'ARCÜREG',
+            'ARTÉRIA', 'ARTISTA', 'ARZENÁL', 'ASPIRÁL', 'ASZALÁS', 'ASZFALT', 'ASZKÉTA', 'ASSZONY', 'ASZTALI', 'ASZTMÁS', 'ATEISTA',
+            'ATOMÓRA', 'ATOMTÉL', 'ATTITŰD', 'AUDITOR', 'AUTISTA', 'AUTONÓM', 'AUTÓZÁS', 'AUTÓZIK', 'AVATOTT', 'AVÉGBŐL', 'AVÉGETT',
+            'AVERZIÓ', 'AVOKÁDÓ', 'AZALATT', 'AZÁLTAL', 'AZBESZT', 'AZELŐTT', 'AZIRÁNT', 'AZONBAN', 'AZONMÓD', 'AZONNAL', 'AZONTÚL'
         ]
     },
     'Á': {
         '3': [
-            'ÁCS', 'ÁGY', 'ÁLD', 'ÁLL', 'ÁRT', 'ÁSZ'
+            'ÁCS', 'ÁFA', 'ÁGY', 'ÁLD', 'ÁLL', 'ÁRT', 'ÁRU', 'ÁRÚ', 'ÁSÓ', 'ÁSZ'
         ],
         '4': [
-            'ÁBRA', 'ÁDÁZ', 'ÁGAS', 'ÁGÁL', 'ÁJUL', 'ÁLOM', 'ÁMEN', 'ÁMUL', 'ÁRAD', 'ÁRAM', 'ÁRNY', 'ÁRPA', 'ÁRVA', 'ÁTAD', 'ÁTÉL', 'ÁTÉG',
-            'ÁTÉL', 'ÁTÉR', 'ÁTFŐ', 'ÁTÍR', 'ÁTLÓ', 'ÁTLŐ', 'ÁTOK', 'ÁTÜL', 'ÁTÜT', 'ÁZIK'
+            'ÁBRA', 'ÁCSI', 'ÁDÁZ', 'ÁFÁS', 'ÁGAS', 'ÁGÁL', 'ÁGYI', 'ÁGYÚ', 'ÁHÍT', 'ÁJUL', 'ÁLCA', 'ÁLLÓ', 'ÁLOM', 'ÁMDE', 'ÁMEN', 'ÁMÍT',
+            'ÁMUL', 'ÁNGY', 'ÁPOL', 'ÁRAD', 'ÁRAM', 'ÁRAZ', 'ÁRIA', 'ÁRJA', 'ÁRNY', 'ÁROK', 'ÁRPA', 'ÁRTÓ', 'ÁRUL', 'ÁRUS', 'ÁRVA', 'ÁSÁS',
+            'ÁSÍT', 'ÁTAD', 'ÁTÉG', 'ÁTÉL', 'ÁTÉR', 'ÁTFŐ', 'ÁTÍR', 'ÁTLÓ', 'ÁTLŐ', 'ÁTOK', 'ÁTÜL', 'ÁTÜT', 'ÁZÁS', 'ÁZIK'
         ],
         '5': [
-            'ÁCSOL', 'ÁGYAS', 'ÁGYAZ', 'ÁJULT', 'ÁLDÁS', 'ÁLLAM', 'ÁLLAT', 'ÁLTAT', 'ÁZOTT', 'ÁRADÓ', 'ÁRTÁS', 'ÁRTÉR', 'ÁTÁLL', 'ÁTDŐL',
-            'ÁTDUG', 'ÁTEJT', 'ÁTFED', 'ÁTFEJ', 'ÉTFÉR', 'ÁTFOG', 'ÁTFON', 'ÁTFŐZ', 'ÁTFUT', 'ÁTFÚJ', 'ÁTFÚR', 'ÁTFŰT', 'ÁTFŰZ', 'ÁTHÍV',
-            'ÁTHÚZ', 'ÁTJUT', 'ÁTKEL', 'ÁTKÉR', 'ÁTKÖT', 'ÁTLÁT', 'ÁTLÉP', 'ÁTLÓG', 'ÁTLÓS', 'ÁTLÖK', 'ÁTNÉZ', 'ÁTOLT', 'ÁTÖLT', 'ÁTÖNT',
-            'ÁTRAK', 'ÁTRÁZ', 'ÁTSÜL', 'ÁTSÜT', 'ÁTSZŐ', 'ÁTTÉR', 'ÁTÜTŐ', 'ÁTVER', 'ÁTVON', 'ÁZTAT'
+            'ÁCSOL', 'ÁGENS', 'ÁGYAS', 'ÁGYAZ', 'ÁGYÁS', 'ÁGYÉK', 'ÁGYÚS', 'ÁGYÚZ', 'ÁJULT', 'ÁLARC', 'ÁLCÁZ', 'ÁLDÁS', 'ÁLDOZ', 'ÁLHÍR',
+            'ÁLLAG', 'ÁLLAM', 'ÁLLAT', 'ÁLLÁS', 'ÁLLÍT', 'ÁLMOS', 'ÁLNÉV', 'ÁLNOK', 'ÁLTAL', 'ÁLTAT', 'ÁMBÁR', 'ÁMBRA', 'ÁNIZS', 'ÁPOLÓ',
+            'ÁPOLT', 'ÁRADÓ', 'ÁRBOC', 'ÁRGUS', 'ÁRKÁD', 'ÁRKOL', 'ÁRLAP', 'ÁRRÉS', 'ÁRSÁV', 'ÁRTÁS', 'ÁRTÉR', 'ÁRUDA', 'ÁRULÓ', 'ÁRVÍZ',
+            'ÁSPIS', 'ÁSZKA', 'ÁTADÓ', 'ÁTALL', 'ÁTÁLL', 'ÁTBÖK', 'ÁTDOB', 'ÁTDÖF', 'ÁTDŐL', 'ÁTDUG', 'ÁTEJT', 'ÁTFED', 'ÁTFEJ', 'ÁTFÉR',
+            'ÁTFOG', 'ÁTFON', 'ÁTFŐZ', 'ÁTFUT', 'ÁTFÚJ', 'ÁTFÚR', 'ÁTFŰT', 'ÁTFŰZ', 'ÁTHAT', 'ÁTHÁG', 'ÁTHÍV', 'ÁTHOZ', 'ÁTHÚZ', 'ÁTHŰL',
+            'ÁTHŰT', 'ÁTJÁR', 'ÁTJÖN', 'ÁTJUT', 'ÁTKEL', 'ÁTKÉR', 'ÁTKOS', 'ÁTKOZ', 'ÁTKÖT', 'ÁTLAG', 'ÁTLÁT', 'ÁTLÉP', 'ÁTLÓG', 'ÁTLÓS',
+            'ÁTLÖK', 'ÁTMOS', 'ÁTNÉZ', 'ÁTOLT', 'ÁTÖLT', 'ÁTÖNT', 'ÁTRAK', 'ÁTRÁG', 'ÁTRÁZ', 'ÁTSÜL', 'ÁTSÜT', 'ÁTSZŐ', 'ÁTTÉR', 'ÁTTOL',
+            'ÁTTÖR', 'ÁTÜTŐ', 'ÁTVÁG', 'ÁTVER', 'ÁTVET', 'ÁTVON', 'ÁZOTT', 'ÁZTAT', 'ÁZSIÓ', 'AZSÚR'
         ],
         '6': [
-            'ÁBRÁND', 'ÁCSOLT', 'ÁFONYA', 'ÁGAZAT', 'ÁJULAT', 'ÁJULÁS', 'ÁLDOTT', 'ÁLLAMI', 'ÁLLATI', 'ÁMULAT', 'ÁMULÁS', 'ÁRADÁS',
-            'ÁRNYAS', 'ÁRTÁRI', 'ÁTDÖNT', 'ÁTÉPÍT', 'ÁTÉPÜL', 'ÁTFEJT', 'ÁTHAJT', 'ÁTMÉRŐ', 'ÁTRÁNT', 'ÁTSZEL', 'ÁTSZÓL', 'ÁTSZÚR',
-            'ÁTTESZ', 'ÁTVÁLT', 'ÁTVESZ', 'ÁTVISZ'
+            'ÁBRÁND', 'ÁCSOLT', 'ÁDVENT', 'ÁFONYA', 'ÁGAZAT', 'ÁGAZIK', 'ÁGRAJZ', 'ÁGYELŐ', 'ÁGYÉKI', 'ÁGYLÁB', 'ÁGYTÁL', 'ÁHÍTAT',
+            'ÁJULAT', 'ÁJULÁS', 'ÁLDOTT', 'ÁLDOZÓ', 'ÁLLAGÚ', 'ÁLLAMI', 'ÁLLATI', 'ÁLLÍTÓ', 'ÁLLOTT', 'ÁLRUHA', 'ÁMÍTÁS', 'ÁMULAT',
+            'ÁMULÁS', 'ÁPOLÁS', 'ÁRADÁS', 'ÁRADAT', 'ÁRALKU', 'ÁRASZT', 'ÁRENDA', 'ÁRESÉS', 'ÁRMÁNY', 'ÁRNIKA', 'ÁRNYAL', 'ÁRNYAS',
+            'ÁRNYÉK', 'ÁROLLÓ', 'ÁRTÁNY', 'ÁRTÉRI', 'ÁRUHÁZ', 'ÁRULÁS', 'ÁRUNEM', 'ÁRUSÍT', 'ÁSATÁS', 'ÁSÍTÁS', 'ÁSVÁNY', 'ÁTADÁS',
+            'ÁTÁZÁS', 'ÁTÁZIK', 'ÁTCSAP', 'ÁTDÖNT', 'ÁTEMEL', 'ÁTESIK', 'ÁTESÉS', 'ÁTEVEZ', 'ÁTÉGET', 'ÁTÉGÉS', 'ÁTÉLÉS', 'ÁTÉPÍT',
+            'ÁTÉPÜL', 'ÁTÉREZ', 'ÁTFAGY', 'ÁTFEJT', 'ÁTFEST', 'ÁTFOGÓ', 'ÁTFUTÓ', 'ÁTGYÚR', 'ÁTHAJT', 'ÁTHATÓ', 'ÁTHÁNY', 'ÁTHORD',
+            'ÁTIRAT', 'ÁTITAT', 'ÁTÍRAT', 'ÁTÍRÁS', 'ÁTÍVEL', 'ÁTJÁRÓ', 'ÁTKÖLT', 'ÁTKÜLD', 'ÁTKÜZD', 'ÁTLŐTT', 'ÁTLÖVŐ', 'ÁTMEGY',
+            'ÁTMENŐ', 'ÁTMENT', 'ÁTMÉRŐ', 'ÁTNYOM', 'ÁTNYÚL', 'ÁTOSON', 'ÁTÖLEL', 'ÁTRÁNT', 'ÁTRIUM', 'ÁTSZAB', 'ÁTSZEL', 'ÁTSZÍV',
+            'ÁTSZÓL', 'ÁTSZÚR', 'ÁTSZŰR', 'ÁTTESZ', 'ÁTTÖLT', 'ÁTTÖRT', 'ÁTUTAL', 'ÁTÜTÉS', 'ÁTÜZEN', 'ÁTVARR', 'ÁTVÁLT', 'ÁTVESZ',
+            'ÁTVETT', 'ÁTVEVŐ', 'ÁTVISZ', 'ÁTVITT', 'ÁZSIAI'
         ],
         '7': [
-            'ÁBRÁZOL', 'ÁJTATOS', 'ÁLLANDÓ', 'ÁPRILIS', 'ÁRAMKÖR', 'ÁTHAJÍT', 'ÁTKAROL', 'ÁTLÁTÁS', 'ÁTJUTÁS', 'ÁTOLVAS'
+            'ÁCSBÁRD', 'ÁCSOLÁS', 'ÁCSOLAT', 'ÁCSOROG', 'ÁBRÁZAT', 'ÁBRÁZOL', 'ÁGAZATI', 'ÁGSEPRŰ', 'ÁGYNEMŰ', 'ÁGYTÁRS', 'ÁGYÚCSŐ',
+            'ÁGYÚSZÓ', 'ÁGYÚTŰZ', 'ÁHÍTOTT', 'ÁJTATOS', 'ÁJULTAN', 'ÁLARCOS', 'ÁLCÁZÁS', 'ÁLDÁSOS', 'ÁLDOMÁS', 'ÁLDOZAT', 'ÁLDOZÁS',
+            'ÁLDOZIK', 'ÁLKULCS', 'ÁLLANDÓ', 'ÁLLÍTÁS', 'ÁLLOMÁS', 'ÁLLÓKÉP', 'ÁLLÓÓRA', 'ÁLLÓVÍZ', 'ÁLLVÁNY', 'ÁLMATAG', 'ÁLMODIK',
+            'ÁLMOSÍT', 'ÁLOMKÉP', 'ÁLOMKÓR', 'ÁLOMŰZŐ', 'ÁLRUHÁS', 'ÁLSÁGOS', 'ÁLSZENT', 'ÁLTATÁS', 'ÁPRILIS', 'ÁRAMKÖR', 'ÁRAMLÁS',
+            'ÁRAMLAT', 'ÁRAMLIK', 'ÁRAPÁLY', 'ÁRENDÁS', 'ÁRLISTA', 'ÁRNYALT', 'ÁRNYKÉP', 'ÁRSKÁLA', 'ÁRSAPKA', 'ÁRSZINT', 'ÁRTALOM',
+            'ÁRUCIKK', 'ÁRUHÁZI', 'ÁRUJEGY', 'ÁRUPIAC', 'ÁRVAHÁZ', 'ÁRVASÁG', 'ÁRVEREZ', 'ÁRVERÉS', 'ÁSÓNYÉL', 'ÁSÓNYOM', 'ÁSVÁNYI',
+            'ÁTÁLLÁS', 'ÁTÁLLÍT', 'ÁTÁZOTT', 'ÁTÁZTAT', 'ÁTBÚJIK', 'ÁTBUKÁS', 'ÁTBUKIK', 'ÁTDÖFÉS', 'ÁTERESZ', 'ÁTÉRZÉS', 'ÁTFÁRAD',
+            'ÁTFÁZIK', 'ÁTFEDÉS', 'ÁTFÉSÜL', 'ÁTFOLYÓ', 'ÁTFUTÁS', 'ÁTFÚVÁS', 'ÁTGÁZOL', 'ÁTGURÍT', 'ÁTGURUL', 'ÁTHAJOL', 'ÁTHAJÓZ',
+            'ÁTHAJÍT', 'ÁTHALAD', 'ÁTHARAP', 'ÁTHATOL', 'ÁTHÁGÁS', 'ÁTHÁRÍT', 'ÁTHÁRUL', 'ÁTHEVÍT', 'ÁTHEVÜL', 'ÁTHIDAL', 'ÁTHÍVAT',
+            'ÁTHOZAT', 'ÁTHÚZÁS', 'ÁTIZZAD', 'ÁTIZZIK', 'ÁTIZZÍT', 'ÁTJAVÍT', 'ÁTJÁRÁS', 'ÁTJUTÁS', 'ÁTKAROL', 'ÁTKELÉS', 'ÁTKÉPEZ',
+            'ÁTKERÜL', 'ÁTKÍSÉR', 'ÁTKÓDOL', 'ÁTKÖTÉS', 'ÁTKÖTÖZ', 'ÁTKUTAT', 'ÁTLAGOL', 'ÁTLAGOS', 'ÁTLAPOZ', 'ÁTLÁTÁS', 'ÁTLÉPÉS',
+            'ÁTMÁSOL', 'ÁTMÁZOL', 'ÁTMENET', 'ÁTMETSZ', 'ÁTMOSÁS', 'ÁTMULAT', 'ÁTNEVEL', 'ÁTNÉZÉS', 'ÁTNYÚJT', 'ÁTOLVAS', 'ÁTÖMLIK',
+            'ÁTÖNTÉS', 'ÁTPOFOZ', 'ÁTRAGAD', 'ÁTRAKÁS', 'ÁTRÁGÁS', 'ÁTRÁZÁS', 'ÁTROBOG', 'ÁTROHAN', 'ÁTRUHÁZ', 'ÁTSEGÍT', 'ÁTSOROL',
+            'ÁTSUHAN', 'ÁTSÜLÉS', 'ÁTSÜTÉS', 'ÁTSZÁLL', 'ÁTSZŐTT', 'ÁTTELEL', 'ÁTTEREL', 'ÁTTÉRÉS', 'ÁTTÉTEL', 'ÁTTOLÁS', 'ÁTTÖRÉS',
+            'ÁTTŰNÉS', 'ÁTTŰNIK', 'ÁTUGRAT', 'ÁTUGRIK', 'ÁTÚSZÁS', 'ÁTÚSZIK', 'ÁTÜLTET', 'ÁTVÁGÁS', 'ÁTVERÉS', 'ÁTVÉTEL', 'ÁTVEZET',
+            'ÁTVITEL', 'ÁTVONUL', 'ÁZTATÁS'
         ]
     },
     'B': {
         '3': [
-            'BAB', 'BAJ', 'BAK', 'BAL', 'BÁJ', 'BÁL', 'BÁN', 'BÁR', 'BÉG', 'BÉL', 'BÉR', 'BÍR', 'BOA', 'BOR', 'BOT', 'BÓR', 'BÖK', 'BŐG',
-            'BŐR', 'BÚB', 'BÚG', 'BÚS', 'BŰN', 'BŰZ'
+            'BAB', 'BAJ', 'BAK', 'BAL', 'BÁB', 'BÁJ', 'BÁL', 'BÁN', 'BÁR', 'BEJ', 'BÉG', 'BÉL', 'BÉR', 'BIT', 'BÍR', 'BÍZ', 'BOA', 'BOB',
+            'BOG', 'BOR', 'BOT', 'BOX', 'BÓK', 'BÓN', 'BÓR', 'BÖK', 'BŐG', 'BŐR', 'BÚB', 'BÚG', 'BÚR', 'BÚS', 'BŰN', 'BŰZ'
         ],
         '4': [
-            'BABA', 'BABÓ', 'BACI', 'BAKA', 'BAKI', 'BANK', 'BASA', 'BÁLA', 'BÁLI', 'BÁRD', 'BÁRÓ', 'BEAD', 'BEÁS', 'BEÉG', 'BEÉR', 'BEÍR',
-            'BELE', 'BELÉ', 'BENN', 'BENŐ', 'BENT', 'BETŰ', 'BEÜL', 'BEÜT', 'BÉKA', 'BÉKE', 'BÉNA', 'BÉZS', 'BIKA', 'BÍRÓ', 'BOKA', 'BOLT',
-            'BONT', 'BORS', 'BORÚ', 'BÖKŐ', 'BŐGŐ', 'BUGA', 'BUSZ', 'BUTA', 'BÚZA'
+            'BABA', 'BABÓ', 'BACI', 'BAGÓ', 'BAKA', 'BAKI', 'BAKÓ', 'BANK', 'BASA', 'BÁBA', 'BÁBU', 'BÁJT', 'BÁLA', 'BÁLI', 'BÁNT', 'BÁRD',
+            'BÁRÓ', 'BÁTY', 'BEAD', 'BEÁS', 'BECS', 'BEÉG', 'BEÉR', 'BEGY', 'BEÍR', 'BELE', 'BELÉ', 'BELŐ', 'BENN', 'BENŐ', 'BENT', 'BETŰ',
+            'BEÜL', 'BEÜT', 'BÉBI', 'BÉKA', 'BÉKE', 'BÉNA', 'BÉRC', 'BÉZS', 'BIBE', 'BIBI', 'BIDÉ', 'BIGE', 'BIKA', 'BILI', 'BIRS', 'BITÓ',
+            'BÍRÓ', 'BLŐD', 'BLÚZ', 'BOCI', 'BOCS', 'BOHÓ', 'BOKA', 'BOLT', 'BOLY', 'BONT', 'BORS', 'BORZ', 'BORÚ', 'BÓDÉ', 'BÓJA', 'BÓLÉ',
+            'BÓRA', 'BÖJT', 'BÖKŐ', 'BŐGŐ', 'BŐSZ', 'BRIT', 'BRÓM', 'BUBI', 'BUCI', 'BUDI', 'BUGA', 'BUJA', 'BUKÉ', 'BULI', 'BURA', 'BUSA',
+            'BUSÓ', 'BUSZ', 'BUTA', 'BUZI', 'BÚGÓ', 'BÚZA', 'BÜFÉ', 'BÜFI', 'BÜKK', 'BYTE'
         ],
         '5': [
-            'BABOS', 'BADAR', 'BAJOS', 'BALGA', 'BAMBA', 'BANKI', 'BANYA', 'BARKA', 'BARNA', 'BÁLNA', 'BÁJOS', 'BÁLÁS', 'BÁRKI', 'BÁRMI',
-            'BÁTOR', 'BEÁLL', 'BEDŐL', 'BEDUG', 'BEFED', 'BEFÉR', 'BEFON', 'BEFŐZ', 'BEFUT', 'BEFÚJ', 'BEFÚR', 'BEFŰT', 'BEFŰZ', 'BEHÚZ',
-            'BEJUT', 'BEKAP', 'BEKÉR', 'BEKÖT', 'BELÁT', 'BELEP', 'BELES', 'BELÉP', 'BELGA', 'BELOP', 'BELÓG', 'BELÖK', 'BELSŐ', 'BEMÉR',
-            'BENÉZ', 'BENTI', 'BEOLT', 'BEÖLT', 'BEÖNT', 'BERAK', 'BERÁZ', 'BEREK', 'BESÚG', 'BESZŐ', 'BETEG', 'BETÉP', 'BETÉR', 'BETÉT',
-            'BETŰR', 'BETŰZ', 'BEVÁR', 'BEVÉS', 'BEVON', 'BEZÁR', 'BÉLEL', 'BÉLÉS', 'BÉREL', 'BÉRES', 'BÉRLŐ', 'BIMBÓ', 'BINGÓ', 'BIRKA',
-            'BÍRÁS', 'BLOKK', 'BOGÁR', 'BOMBA', 'BONTÓ', 'BORDA', 'BORDÓ', 'BORÍT', 'BOROS', 'BORSÓ', 'BORUL', 'BORÚS', 'BOTOR', 'BOTOS',
-            'BOTOZ', 'BOZÓT', 'BÖDÖN', 'BÖKÉS', 'BÖLCS', 'BŐGŐS', 'BŐRÖS', 'BUGYI', 'BUKÁS', 'BUKIK', 'BUTÍT', 'BÚBOS', 'BÚGÁS', 'BÚSUL',
-            'BÚTOR', 'BÜDÖS', 'BŰBÁJ', 'BŰNÖS', 'BŰZÖS'
+            'BABÉR', 'BABOS', 'BADAR', 'BAJOR', 'BAJOS', 'BALEK', 'BALGA', 'BALHÉ', 'BALOS', 'BALTA', 'BALUL', 'BAMBA', 'BANÁN', 'BANDA',
+            'BANKI', 'BANKÓ', 'BANYA', 'BARÁT', 'BARKA', 'BARKÓ', 'BARNA', 'BAROM', 'BASZK', 'BATÁR', 'BATIK', 'BATYU', 'BAZÁR', 'BÁBOS',
+            'BÁCSI', 'BÁDOG', 'BÁJOS', 'BÁLÁS', 'BÁLÁZ', 'BÁLNA', 'BÁMUL', 'BÁNAT', 'BÁNÁS', 'BÁNIK', 'BÁNTÓ', 'BÁNYA', 'BÁRCA', 'BÁRKA',
+            'BÁRKI', 'BÁRMI', 'BÁRÓI', 'BÁTOR', 'BÁZIS', 'BEÁLL', 'BEDOB', 'BEDÖF', 'BEDŐL', 'BEDUG', 'BEEJT', 'BEFAL', 'BEFED', 'BEFÉR',
+            'BEFOG', 'BEFON', 'BEFÖD', 'BEFŐZ', 'BEFUT', 'BEFÚJ', 'BEFÚR', 'BEFŰT', 'BEFŰZ', 'BEHÍV', 'BEHOZ', 'BEHÚZ', 'BEHŰT', 'BEINT',
+            'BEJÁR', 'BEJÖN', 'BEJUT', 'BEKAP', 'BEKEN', 'BEKÉR', 'BEKÖP', 'BEKÖT', 'BELAK', 'BELÁT', 'BELEP', 'BELES', 'BELÉP', 'BELGA',
+            'BELOP', 'BELÓG', 'BELÖK', 'BELSŐ', 'BELÜL', 'BEMAR', 'BEMÉR', 'BENDŐ', 'BENÉZ', 'BENNE', 'BENSŐ', 'BENTI', 'BEOLT', 'BEÖLT',
+            'BEÖNT', 'BERAK', 'BERÁG', 'BERÁZ', 'BEREK', 'BERÚG', 'BESÓZ', 'BESÚG', 'BESÜT', 'BESZŐ', 'BETEG', 'BETÉP', 'BETÉR', 'BETÉT',
+            'BETOL', 'BETON', 'BETÖM', 'BETÖR', 'BETUD', 'BETŰR', 'BETŰZ', 'BEVÁG', 'BEVÁR', 'BEVER', 'BEVET', 'BEVÉD', 'BEVÉS', 'BEVON',
+            'BEZÁR', 'BEZÚZ', 'BÉGET', 'BÉKÉS', 'BÉKÍT', 'BÉKÜL', 'BÉLEL', 'BÉLES', 'BÉLÉS', 'BÉNÍT', 'BÉREL', 'BÉRES', 'BÉRLŐ', 'BICAJ',
+            'BICEG', 'BIGYÓ', 'BIMBÓ', 'BINGÓ', 'BIRKA', 'BIROK', 'BIZSU', 'BÍBIC', 'BÍBOR', 'BÍRÁL', 'BÍRÁS', 'BÍRÓI', 'BÍZIK', 'BLATT',
+            'BLIKK', 'BLOKK', 'BLÖFF', 'BODZA', 'BOGÁR', 'BOGOZ', 'BOGYÓ', 'BOHÉM', 'BOHÓC', 'BOKOR', 'BOKSZ', 'BOLHA', 'BOLTI', 'BOLYH',
+            'BOMBA', 'BONTÓ', 'BORDA', 'BORDÓ', 'BORÍT', 'BORJÚ', 'BORKŐ', 'BOROS', 'BORSÓ', 'BORUL', 'BORÚS', 'BOTOR', 'BOTOS', 'BOTOZ',
+            'BOXER', 'BOZÓT', 'BÓDÍT', 'BÓDUL', 'BÓKOL', 'BÓVLI', 'BÖDÖN', 'BÖFÖG', 'BÖGRE', 'BÖJTI', 'BÖKÉS', 'BÖLCS', 'BÖRZE', 'BŐGÉS',
+            'BŐGŐS', 'BŐRKE', 'BŐRÖS', 'BŐRÖV', 'BŐRÖZ', 'BŐSÉG', 'BŐVEN', 'BŐVÍT', 'BŐVÜL', 'BRAVÓ', 'BRIÓS', 'BRONZ', 'BROSS', 'BUCKA',
+            'BUGYI', 'BUKÁS', 'BUKIK', 'BUKSI', 'BUKTA', 'BULLA', 'BUNDA', 'BUNKÓ', 'BUNYÓ', 'BUROK', 'BUSÁS', 'BUTÁN', 'BUTIK', 'BUTÍT',
+            'BUTUL', 'BUTUS', 'BUXUS', 'BUZGÓ', 'BUZOG', 'BÚBOS', 'BÚCSÚ', 'BÚGAT', 'BÚGÁS', 'BÚJÁS', 'BÚJIK', 'BÚJÓS', 'BÚSÍT', 'BÚSUL',
+            'BÚTOR', 'BÚVÁR', 'BÜDÖS', 'BÜRÖK', 'BŰBÁJ', 'BŰNÖS', 'BŰVÖS', 'BŰZÖS'
         ],
         '6': [
-            'BAJNOK', 'BAJUSZ', 'BAMBUL', 'BANKOL', 'BARNÁS', 'BAROKK', 'BEADÁS', 'BECSAL', 'BECSAP', 'BEDÖNT', 'BEÉPÍT', 'BEÉPÜL',
-            'BEHAJT', 'BEIJED', 'BELÁTÓ', 'BELEÁS', 'BELEÉG', 'BELEÉL', 'BELEFŐ', 'BELEÍR', 'BELENŐ', 'BELEÖL', 'BELEÜL', 'BELEÜT',
-            'BEOSZT', 'BERÁNT', 'BEROGY', 'BERONT', 'BESÚGÓ', 'BESZED', 'BESZÉD', 'BESZÉL', 'BESZÓL', 'BESZÚR', 'BETESZ', 'BEÜTÉS',
-            'BEVARR', 'BEVESZ', 'BEVISZ', 'BÉRLET', 'BILLEG', 'BILLOG', 'BIMBÓS', 'BITANG', 'BIZONY', 'BOLOND', 'BOLTOS', 'BOLTÍV',
-            'BONTÁS', 'BORDAL', 'BORONG', 'BORÓKA', 'BORSOS', 'BORSÓS', 'BORULT', 'BÖLCSŐ', 'BRINGA', 'BÜSZKE', 'BŰNÖZŐ'
+            'BABONA', 'BABRÁL', 'BAGÁZS', 'BAGETT', 'BAGOLY', 'BAJNOK', 'BAJUSZ', 'BAKFIS', 'BAKSIS', 'BAKTAT', 'BAKTER', 'BALETT',
+            'BALJÓS', 'BALKON', 'BALLAG', 'BALLON', 'BAMBUL', 'BANKÁR', 'BANKOL', 'BANZÁJ', 'BARACK', 'BARAKK', 'BARÁTI', 'BARBÁR',
+            'BARNÁS', 'BARNÍT', 'BARNUL', 'BAROKK', 'BAROMI', 'BARTER', 'BAUXIT', 'BAZALT', 'BÁMÉSZ', 'BÁNTÁS', 'BÁRÁNY', 'BÁRGYÚ',
+            'BÁRHOL', 'BÁRKIT', 'BÁRMIT', 'BÁRÓNÉ', 'BÁRÓNŐ', 'BÁSTYA', 'BEADÁS', 'BEAKAD', 'BEAVAT', 'BEÁLLÓ', 'BEÁRAD', 'BEÁRAZ',
+            'BEÁRUL', 'BEÁSÁS', 'BEÁZÁS', 'BEÁZIK', 'BECSAL', 'BECSAP', 'BECSES', 'BECSÍP', 'BECSUK', 'BECSÜL', 'BECSÜS', 'BEDÖNT',
+            'BEDUIN', 'BEEMEL', 'BEESÉS', 'BEESIK', 'BEETET', 'BEEVEZ', 'BEÉGET', 'BEÉKEL', 'BEÉPÍT', 'BEÉPÜL', 'BEÉRÉS', 'BEÉRIK',
+            'BEFAGY', 'BEFELÉ', 'BEFEST', 'BEFOGÓ', 'BEFORR', 'BEFŐTT', 'BEFUTÓ', 'BEGYES', 'BEGYŰR', 'BEHAJT', 'BEHATÓ', 'BEHÁNY',
+            'BEHINT', 'BEHÍVÓ', 'BEHORD', 'BEHUNY', 'BEIDÉZ', 'BEIJED', 'BEÍGÉR', 'BEÍRAT', 'BEÍRÁS', 'BEJGLI', 'BEJÖVŐ', 'BEKECS',
+            'BEKÜLD', 'BELÁTÓ', 'BELEAD', 'BELEÁS', 'BELEÉG', 'BELEÉL', 'BELEÉR', 'BELEFŐ', 'BELEÍR', 'BELELŐ', 'BELENŐ', 'BELEÖL',
+            'BELEUN', 'BELEÜL', 'BELEÜT', 'BELÉPŐ', 'BELŐLE', 'BELSŐS', 'BELTAG', 'BELTÉR', 'BELUGA', 'BELÜGY', 'BELÜLI', 'BELVÍZ',
+            'BEMÁRT', 'BEMEGY', 'BEMOND', 'BENNÉG', 'BENŐTT', 'BENZIN', 'BENZOL', 'BENYAL', 'BENYIT', 'BENYOM', 'BENYÚL', 'BEOSON',
+            'BEOSZT', 'BEPIÁL', 'BERÁNT', 'BEROGY', 'BERONT', 'BERREG', 'BESIET', 'BESTIA', 'BESÚGÓ', 'BESZED', 'BESZEG', 'BESZÉD',
+            'BESZÉL', 'BESZÍV', 'BESZÓL', 'BESZÓR', 'BESZÚR', 'BETART', 'BETESZ', 'BETEVŐ', 'BETÉVE', 'BETILT', 'BETOLD', 'BETÖLT',
+            'BETÖRŐ', 'BETYÁR', 'BEUGRÓ', 'BEUTAL', 'BEÜTÉS', 'BEVALL', 'BEVARR', 'BEVÁLT', 'BEVESZ', 'BEVETT', 'BEVISZ', 'BEZZEG',
+            'BÉKLYÓ', 'BÉLELT', 'BÉLRÁK', 'BÉLSÁR', 'BÉLYEG', 'BÉNULT', 'BÉRELT', 'BÉRENC', 'BÉRHÁZ', 'BÉRLET', 'BÉRMÁL', 'BICEGŐ',
+            'BICSKA', 'BIFLÁZ', 'BIGOTT', 'BIKINI', 'BILÉTA', 'BILLEG', 'BILLEN', 'BILLIÓ', 'BILLOG', 'BIMBÓS', 'BIOGÁZ', 'BIRTOK',
+            'BISZEX', 'BITANG', 'BITÓFA', 'BIVALY', 'BIZARR', 'BIZMUT', 'BIZONY', 'BIZTAT', 'BIZTOS', 'BÍRÁLÓ', 'BÍRSÁG', 'BLAMÁL',
+            'BLENDE', 'BLÉZER', 'BLOKÁD', 'BOCSÁT', 'BODEGA', 'BODNÁR', 'BOGLYA', 'BOGNÁR', 'BOGYÓS', 'BOILER', 'BOJLER', 'BOJTÁR',
+            'BOJTOS', 'BOKROS', 'BOLDOG', 'BOLGÁR', 'BOLHÁS', 'BÓLINT', 'BOLOND', 'BOLTOS', 'BOLTÍV', 'BOLYGÓ', 'BOMBÁZ', 'BOMLÁS',
+            'BOMLIK', 'BONCOL', 'BONTÁS', 'BORÁSZ', 'BORDAL', 'BORDÁS', 'BORDÁZ', 'BORÍTÓ', 'BORÍZŰ', 'BORJAS', 'BORLAP', 'BORONA',
+            'BORONG', 'BOROZÓ', 'BORÓKA', 'BORSCS', 'BORSOS', 'BORSOZ', 'BORSÓS', 'BORULT', 'BORZAD', 'BORZAS', 'BORZOL', 'BOSSZÚ',
+            'BOTFÜL', 'BOTLÁS', 'BOTLIK', 'BÓBITA', 'BÓDÍTÓ', 'BÓDULT', 'BÓNUSZ', 'BÓRSAV', 'BÖGÖLY', 'BÖGYÖS', 'BÖJTÖL', 'BÖKDÖS',
+            'BÖLCSŐ', 'BÖLÉNY', 'BÖLLÉR', 'BÖMBÖL', 'BÖRTÖN', 'BŐKEZŰ', 'BŐRÁRU', 'BŐRÖND', 'BŐRRÁK', 'BŐSZÍT', 'BŐVEBB', 'BŐVÍZŰ',
+            'BRANCS', 'BRAVÚR', 'BRAZIL', 'BRÁCSA', 'BREKEG', 'BRETON', 'BRIDZS', 'BRIGÁD', 'BRINGA', 'BROKÁT', 'BRÓKER', 'BRUTTÓ',
+            'BUDOÁR', 'BUGRIS', 'BUGYOG', 'BUGYOR', 'BUJKÁL', 'BUKKAN', 'BUKOTT', 'BUKSZA', 'BUKTAT', 'BULVÁR', 'BUNDÁS', 'BUNKER',
+            'BURKOL', 'BUSMAN', 'BUZDÍT', 'BUZGÁS', 'BUZGÁR', 'BUZUKI', 'BÚCSÚS', 'BÚJTAT', 'BÜDZSÉ', 'BÜKKFA', 'BÜKKÖS', 'BÜLBÜL',
+            'BÜNTET', 'BÜSZKE', 'BÜTYÖK', 'BŰNBAK', 'BŰNJEL', 'BŰNÖZŐ', 'BŰNPER', 'BŰNÜGY', 'BŰVÉSZ', 'BŰVKÖR', 'BŰZLIK'
         ],
         '7': [
-            'BAKANCS', 'BAMBUSZ', 'BARLANG', 'BÁJITAL', 'BÁLVÁNY', 'BÁRSONY', 'BEBORUL', 'BEFŐZÉS', 'BEHAJÍT', 'BEHATOL', 'BEHEGED',
-            'BEJUTÁS', 'BEKÖTÉS', 'BELÁTÁS', 'BELEDŐL', 'BELEFÉR', 'BELEFON', 'BELEFUT', 'BELEFÚR', 'BELEHÚZ', 'BELEKAP', 'BELEKÖT',
-            'BELELÖK', 'BELEMAR', 'BELENÉZ', 'BELEÖNT', 'BELERÁZ', 'BELEÖNT', 'BELEVON', 'BELERAK', 'BELERÁZ', 'BELESÜL', 'BELESÜT',
-            'BELÉPÉS', 'BEOLVAS', 'BEPÁCOL', 'BEPEREL', 'BEREZEL', 'BETAGOZ', 'BETÁJOL', 'BETEGES', 'BETÉTES', 'BEZUHAN', 'BILINCS',
-            'BIZALOM', 'BÍRÓSÁG', 'BOGARAS', 'BOZÓTOS', 'BŐGŐZIK', 'BRINGÁS', 'BUTASÁG', 'BUTÍTÁS', 'BÚSULÁS', 'BÚZASÖR', 'BŰBÁJOS',
-            'BŰNÖZÉS'
+            'BABÉRFA', 'BABONÁS', 'BACILUS', 'BAGÓZIK', 'BAJNOKI', 'BAJTÁRS', 'BAJVÍVÓ', 'BAKANCS', 'BAKELIT', 'BAKIZIK', 'BAKLAVA',
+            'BALESET', 'BALSORS', 'BALZSAM', 'BAMBUSZ', 'BANÁLIS', 'BANDITA', 'BANDZSA', 'BANKETT', 'BARÁTNŐ', 'BARÁZDA', 'BARIKÁD',
+            'BARITON', 'BARLANG', 'BAROMFI', 'BASSZUS', 'BATIKOL', 'BATTYOG', 'BÁBFILM', 'BÁDOGOS', 'BÁDOGOZ', 'BÁGYADT', 'BÁJITAL',
+            'BÁJOLOG', 'BÁLOZIK', 'BÁLVÁNY', 'BÁMULAT', 'BÁNATOS', 'BÁNYÁSZ', 'BÁRCSAK', 'BÁRHOGY', 'BÁRHOVA', 'BÁRHOVÁ', 'BÁRMELY',
+            'PÁRPULT', 'BÁRSONY', 'BÁRSZÉK', 'BÁTORÍT', 'BEAJÁNL', 'BEÁGYAZ', 'BEÁLLÁS', 'BEÁLLÍT', 'BEÁZTAT', 'BEBORUL', 'BECSLÉS',
+            'BECSSZÓ', 'BEDAGAD', 'BEDOBÁL', 'BEDOBÁS', 'BEDŐLÉS', 'BEDUGÁS', 'BEDUGUL', 'BEEJTÉS', 'BEENGED', 'BEESETT', 'BEESZIK',
+            'BEFALAZ', 'BEFÁRAD', 'BEFÁSÍT', 'BEFEDÉS', 'BEFEJEL', 'BEFEJEZ', 'BEFÉRÉS', 'BEFIZET', 'BEFOGAD', 'BEFOGÁS', 'BEFOGAT',
+            'BEFONÁS', 'BEFŐZÉS', 'BEFUTÁS', 'BEFÚJÁS', 'BEFÚRÁS', 'BEFŰTÉS', 'BEFŰZÉS', 'BEGÉPEL', 'BEGÓNIA', 'BEGURÍT', 'BEGURUL',
+            'BEGYÚJT', 'BEGYŰJT', 'BEHABAR', 'BEHAJÍT', 'BEHAJOL', 'BEHAJÓZ', 'BEHAJTÓ', 'BEHASAD', 'BEHASÍT', 'BEHATÁS', 'BEHATOL',
+            'BEHAVAZ', 'BEHEGED', 'BEHÁLÓZ', 'BEHEGED', 'BEHEMÓT', 'BEHÍVÁS', 'BEHÓDOL', 'BEHOZÁS', 'BEHÚZÁS', 'BEHŰTÉS', 'BEIJEDT',
+            'BEIKTAT', 'BEILLIK', 'BEINDÍT', 'BEINDUL', 'BEINTÉS', 'BEISMER', 'BEISZIK', 'BEJÁRAT', 'BEJÁRÁS', 'BEJELÖL', 'BEJÓDOZ',
+            'BEJÖVET', 'BEJUTÁS', 'BEKAKÁL', 'BEKAKIL', 'BEKAPÁS', 'BEKENÉS', 'BEKÉRET', 'BEKÉRÉS', 'BEKERÍT', 'BEKERÜL', 'BEKEVER',
+            'BEKIÁLT', 'BEKÍSÉR', 'BEKÓDOL', 'BEKÓMÁL', 'BEKÖPÉS', 'BEKÖTÉS', 'BEKÖTÖZ', 'BELAKIK', 'BELAPUL', 'BELÁTÁS', 'BELEÁLL',
+            'BELEÁRT', 'BELEDOB', 'BELEDÖF', 'BELEDŐL', 'BELEDUG', 'BELEEJT', 'BELEFÉR', 'BELEFOG', 'BELEFON', 'BELEFUT', 'BELEFÚJ',
+            'BELEFÚR', 'BELEFŰZ', 'BELEHAL', 'BELEHEL', 'BELEHÚZ', 'BELEJÖN', 'BELEJUT', 'BELEKAP', 'BELEKÖP', 'BELEKÖT', 'BELELÁT',
+            'BELELÉP', 'BELELÓG', 'BELELÖK', 'BELEMAR', 'BELENÉZ', 'BELEOLT', 'BELEÖNT', 'BELERAK', 'BELERÁZ', 'BELERÚG', 'BELEVON',
+            'BELERAK', 'BELERÁZ', 'BELESÉS', 'BELESÜL', 'BELESÜT', 'BELESZŐ', 'BELETÖM', 'BELEVÁG', 'BELEVER', 'BELEVET', 'BELEVÉS',
+            'BELEVON', 'BELEZÚG', 'BELÉPÉS', 'BELFÖLD', 'BELHARC', 'BELJEBB', 'BELÓGÁS', 'BELÖKÉS', 'BELÖVÉS', 'BELSEJE', 'BELTÉRI',
+            'BEMARAT', 'BEMÁZOL', 'BEMENET', 'BEMERÍT', 'BEMERÜL', 'BEMESÉL', 'BEMETSZ', 'BEMONDÓ', 'BEMOSÁS', 'BEMUTAT', 'BENDZSÓ',
+            'BENEVEZ', 'BENÉZÉS', 'BENÖVÉS', 'BENŐSÜL', 'BENTRŐL', 'BENYÚJT', 'BEOLTÁS', 'BEOLVAD', 'BEOLVAS', 'BEOMLÁS', 'BEOMLIK',
+            'BEÖMLIK', 'BEÖNTÉS', 'BEPAKOL', 'BEPALIZ', 'BEPÁCOL', 'BEPEREL', 'BEPISIL', 'BEPOROZ', 'BEPÓTOL', 'BEPÖRÖG', 'BEPUCOL',
+            'BERAGAD', 'BERAKÁS', 'BERÁMÁZ', 'BEREKED', 'BEREPED', 'BEREPÜL', 'BEREZEL', 'BERMUDA', 'BEROBOG', 'BEROHAN', 'BERREGŐ',
+            'BERUHÁZ', 'BERÚGÁS', 'BESÁROZ', 'BESEGÍT', 'BESENYŐ', 'BESEPER', 'BESÖPÖR', 'BESÉTÁL', 'BESOROL', 'BESOROZ', 'BESÚGÁS',
+            'BESÜTÉS', 'BESŰRÍT', 'BESZÁLL', 'BESZÁNT', 'BESZÉLŐ', 'BESZÉLT', 'BETAGOZ', 'BETAKAR', 'BETALÁL', 'BETANÍT', 'BETANUL',
+            'BETÁJOL', 'BETEGES', 'BETEGÍT', 'BETEKER', 'BETELIK', 'BETEMET', 'BETETÉZ', 'BETETŐZ', 'BETÉTES', 'BETÉVED', 'BETOLAT',
+            'BETONOS', 'BETONOZ', 'BETONÚT', 'BETÓDUL', 'BETÖMÉS', 'BETÖRÉS', 'BETÖRIK', 'BETŰRÍM', 'BETŰSOR', 'BETŰSZÓ', 'BETŰZÉS',
+            'BEUGRAT', 'BEUGRÁS', 'BEUGRIK', 'BEUTALÓ', 'BEÚSZIK', 'BEÜLTET', 'BEVAKOL', 'BEVASAL', 'BEVÁDOL', 'BEVÁGÁS', 'BEVÁLIK',
+            'BEVÁRÁS', 'BEVERÉS', 'BEVETÉS', 'BEVEZET', 'BEVÉDÉS', 'BEVÉGEZ', 'BEVÉREZ', 'BEVÉSÉS', 'BEVÉTEL', 'BEVITEL', 'BEVIZEL',
+            'BEVIZEZ', 'BEVONAT', 'BEVONÁS', 'BEVONUL', 'BEZABÁL', 'BEZÁRAT', 'BEZÁRÁS', 'BEZÁRUL', 'BEZUHAN', 'BEZÚDUL', 'BEZÚZÁS',
+            'BÉGETÉS', 'BÉKEIDŐ', 'BÉKÍTÉS', 'BÉKLYÓZ', 'BÉLSZÍN', 'BÉNASÁG', 'BÉNULÁS', 'BÉRALAP', 'BÉRALKU', 'BÉRANYA', 'BÉRAUTÓ',
+            'BÉREZÉS', 'BÉRSTOP', 'BIATLON', 'BICCENT', 'BICEGÉS', 'BIGÁMIA', 'BILINCS', 'BICEPSZ', 'BICIKLI', 'BICSKÁS', 'BIKINIS',
+            'BILIÁRD', 'BILINCS', 'BILLENT', 'BILLIÓS', 'BINÁRIS', 'BIONIKA', 'BISZTRÓ', 'BITORLÓ', 'BITOROL', 'BITUMEN', 'BIZALMI',
+            'BIZALOM', 'BIZNISZ', 'BIZTATÓ', 'BÍBOROS', 'BÍRÁLAT', 'BÍRÓSÁG', 'BLAMÁZS', 'BLATTOL', 'BLAZÍRT', 'BLICCEL', 'BLOKKOL',
+            'BLÖFFÖL', 'BOGARAS', 'BOGÁNCS', 'BOGLYAS', 'BOGRÁCS', 'BOGOZÁS', 'BOHÓKÁS', 'BOHÓZAT', 'BOJKOTT', 'BOKÁZIK', 'BOKRÉTA',
+            'BOKSZER', 'BOKSZOL', 'BOKSZOS', 'BOLYGAT', 'BOLYHOS', 'BOLYONG', 'BOMBÁZÓ', 'BOMLOTT', 'BONSZÁJ', 'BORBÉLY', 'BORDÉLY',
+            'BORECET', 'BORÍTÁS', 'BORÍTÉK', 'BOROGAT', 'BORONÁL', 'BOROSTA', 'BOROTVA', 'BORPRÉS', 'BORZONG', 'BOSNYÁK', 'BOSSZÚS',
+            'BOTFÜLŰ', 'BOTOZÁS', 'BOTRÁNY', 'BOZÓTOS', 'BÓDÍTÁS', 'BÓDULAT', 'BÓKOLÁS', 'BÓLOGAT', 'BÖFFENT', 'BÖFÖGÉS', 'BÖKKENŐ',
+            'BŐGŐZIK', 'BŐREGÉR', 'BŐRFEJŰ', 'BŐRIPAR', 'BŐRSZÍN', 'BŐSÉGES', 'BŐVÍTÉS', 'BŐVÜLÉS', 'BRÁCSÁS', 'BRICSKA', 'BRIKETT',
+            'BRINGÁS', 'BROSÚRA', 'BRUMMOG', 'BUBORÉK', 'BUGGYAN', 'BUGGYOS', 'BUGYOGÓ', 'BUGYUTA', 'BUHERÁL', 'BUJASÁG', 'BUJDOSÓ',
+            'BUKFENC', 'BUKKANÓ', 'BUKSZUS', 'BUKTATÓ', 'BULIMIA', 'BULIZIK', 'BULIZÓS', 'BULLDOG', 'BUNGALÓ', 'BURKOLT', 'BURZSOÁ',
+            'BUSZSÁV', 'BUTASÁG', 'BUTÍTÁS', 'BUTULÁS', 'BUTUSKA', 'BUTYKOS', 'BUZERÁL', 'BÚBÁNAT', 'BÚSULÁS', 'BÚZAMAG', 'BÚZASÖR',
+            'BÜDÖSÍT', 'BÜDÖSKE', 'BÜFIZIK', 'BÜKKÖNY', 'BÜNTETŐ', 'BÜTYKÖL', 'BÜTYKÖS', 'BŰBÁJOS', 'BŰNBÁNÓ', 'BŰNESET', 'BŰNÖZÉS',
+            'BŰNÖZIK', 'BŰNTÁRS', 'BŰNTETT', 'BŰNTÉNY', 'BŰNÜGYI', 'BŰVÖLET'
         ]
     },
     'C': {
         '3': [
-            'CÁR', 'CET', 'CÉG', 'CÉL', 'CÍM', 'CSŐ'
+            'CÁR', 'CET', 'CÉG', 'CÉH', 'CÉL', 'CIN', 'CÍM', 'CÚG', 'CSŐ'
         ],
         '4': [
-            'CÁPA', 'CENT', 'CICA', 'CICI', 'CIGI', 'CINK', 'CIPÓ', 'CIPŐ', 'CSAK', 'CSAL', 'CSAP', 'CSAT', 'CSEN', 'CSER', 'CSÉR', 'CSÍK',
-            'CSÍP', 'CSÍZ', 'CSÓK', 'CSÓR', 'CSÚZ', 'CSŰR'
+            'CÁPA', 'CÁRI', 'CECH', 'CENT', 'CÉCÓ', 'CÉDA', 'CHAT', 'CHIP', 'CIÁN', 'CICA', 'CICI', 'CIGI', 'CIHA', 'CIKI', 'CIKK', 'CINK',
+            'CIPÓ', 'CIPŐ', 'COMB', 'COPF', 'CUCC', 'CUKI', 'CUMI', 'CSAJ', 'CSAK', 'CSAL', 'CSAP', 'CSAT', 'CSÁP', 'CSEH', 'CSEL', 'CSEN',
+            'CSER', 'CSÉR', 'CSÍK', 'CSÍP', 'CSÍZ', 'CSÓK', 'CSÓR', 'CSŐD', 'CSŐR', 'CSUK', 'CSÚF', 'CSÚZ', 'CSŰR'
         ],
         '5': [
-            'CAFAT', 'CAFKA', 'CANKÓ', 'CELEB', 'CENTI', 'CETLI', 'CÉGÉR', 'CÉKLA', 'CÉRNA', 'CICUS', 'CINKE', 'CÍMEZ', 'CSALÓ', 'CSAPÓ',
-            'CSATA', 'CSÁKÓ', 'CSÁLÉ', 'CSEKK', 'CSEND', 'CSENG', 'CSEPP', 'CSIGA', 'CSIBE', 'CSIPA', 'CSÍPŐ', 'CSÍRA', 'CSODA', 'CSOKI',
-            'CSOMÓ', 'CSONT', 'CSÖND', 'CSÖNG', 'CSÖPP', 'CSUKA', 'CSUMA', 'CSUPA', 'CSÚCS', 'CUCLI', 'CUDAR', 'CUKOR'
+            'CAFAT', 'CAFKA', 'CANKÓ', 'CÁFOL', 'CEFRE', 'CELEB', 'CELLA', 'CENTI', 'CETLI', 'CÉGES', 'CÉGÉR', 'CÉKLA', 'CÉLOZ', 'CÉRNA',
+            'CÉZÁR', 'CHIPS', 'CIBÁL', 'CICUS', 'CIDRI', 'CIFRA', 'CIKIS', 'CIKIZ', 'CIMET', 'CIMPA', 'CINKE', 'CIRKA', 'CIROK', 'CITÁL',
+            'CIVIL', 'CÍVIS', 'CÍMER', 'CÍMEZ', 'CÍMKE', 'CÖLÖP', 'CÖVEK', 'CUCLI', 'CUDAR', 'CUKOR', 'CÚGOS', 'CSALI', 'CSALÓ', 'CSAPA',
+            'CSAPÓ', 'CSATA', 'CSÁJA', 'CSÁKÓ', 'CSÁLÉ', 'CSÁVA', 'CSECS', 'CSEHÓ', 'CSEKK', 'CSEND', 'CSENG', 'CSEPP', 'CSERE', 'CSÉVE',
+            'CSÉZA', 'CSIBE', 'CSIGA', 'CSIBE', 'CSIKK', 'CSIKÓ', 'CSILI', 'CSITT', 'CSÍNY', 'CSIPA', 'CSÍPŐ', 'CSÍRA', 'CSODA', 'CSOKI',
+            'CSOMÓ', 'CSONK', 'CSONT', 'CSÓKA', 'CSÓRÓ', 'CSÓVA', 'CSÖCS', 'CSÖND', 'CSÖNG', 'CSÖPP', 'CSŐSZ', 'CSUHA', 'CSUHÉ', 'CSUKA',
+            'CSUMA', 'CSUPA', 'CSÚCS', 'CSÜNG', 'CUCLI', 'CUDAR', 'CUKOR'
         ],
         '6': [
-            'CAKKOS', 'CEKKER', 'CEMENT', 'CERKÓF', 'CERUZA', 'CETHAL', 'CICCEG', 'CICOMA', 'CIGÁNY', 'CINEGE', 'CIPÉSZ', 'CÍMZÉS',
-            'CSALÁD', 'CSALÁS', 'CSALFA', 'CSAPAT', 'CSAPOS', 'CSELÉD', 'CSÉSZE', 'CSAPAT', 'CSAPÁS', 'CSAVAR', 'CSENGŐ', 'CSIPÁS',
-            'CSIPET', 'CSIPOG', 'CSIRKE', 'CSIZMA', 'CSÍKOS', 'CSÍKOZ', 'CSÍPÉS', 'CSÍPŐS', 'CSÍRÁS', 'CSODÁL', 'CSODÁS', 'CSOKIS',
-            'CSOMAG', 'CSOMÓS', 'CSOMÓZ', 'CSÓKOL', 'CSÓKOS', 'CSÖVES', 'CSÖVEZ', 'CSUPÁN', 'CSUPOR', 'CSUTAK', 'CSÚZLI', 'CSÚZOS',
-            'CUKROS', 'CUNAMI', 'CUPPAN', 'CUPPOG'
+            'CAKKOS', 'CAKKOZ', 'CAMMOG', 'CÁFOLÓ', 'CEFRÉS', 'CEKKER', 'CELLUX', 'CEMENT', 'CENTER', 'CENZOR', 'CENZUS', 'CERKÓF',
+            'CERUZA', 'CETHAL', 'CEZÚRA', 'CÉDRUS', 'CÉDULA', 'CÉGJOG', 'CÉLZÁS', 'CÉLZAT', 'CÉZÁRI', 'CÉZIUM', 'CIÁNOS', 'CIÁNOZ',
+            'CICCEG', 'CICOMA', 'CIFRÁZ', 'CIGÁNY', 'CIKLON', 'CIKLUS', 'CINCÉR', 'CINCOG', 'CINEGE', 'CINGÁR', 'CINKEL', 'CINKOS',
+            'CIPÉSZ', 'CIPRUS', 'CIPZÁR', 'CIRÁDA', 'CIRILL', 'CIRKÁL', 'CIRMOS', 'CIRÓKA', 'CIRPEL', 'CISZTA', 'CITERA', 'CITRÁT',
+            'CITROM', 'CITRUS', 'CÍMADÓ', 'CÍMKÉZ', 'CÍMLAP', 'CÍMLET', 'CÍMSZÓ', 'CÍMZÉS', 'COBOLY', 'COMBOS', 'COPFOS', 'CÓKMÓK',
+            'CUKKOL', 'CUKROS', 'CUKROZ', 'CUPPAN', 'CUPPOG', 'CSACSI', 'CSADOR', 'CSAHOL', 'CSAKIS', 'CSAJKA', 'CSALÁD', 'CSALÁN',
+            'CSALÁS', 'CSALFA', 'CSALIT', 'CSAPAT', 'CSAPÁS', 'CSAPDA', 'CSAPOL', 'CSAPOS', 'CSATAK', 'CSATÁR', 'CSATOL', 'CSATOS',
+            'CSAVAR', 'CSÁPOL', 'CSÁBÍT', 'CSÁBOS', 'CSÁRDA', 'CSEBER', 'CSECSE', 'CSEHÜL', 'CSELES', 'CSELEZ', 'CSELÉD', 'CSELLÓ',
+            'CSEMPE', 'CSENGŐ', 'CSEPEG', 'CSEPÜL', 'CSEREZ', 'CSERÉL', 'CSERÉP', 'CSERJE', 'CSEVEG', 'CSEVEJ', 'CSÉPEL', 'CSÉSZE',
+            'CSÉVÉL', 'CSIBUK', 'CSIGÁZ', 'CSIHOL', 'CSIKAR', 'CSIKLÓ', 'CSIKÓS', 'CSILLE', 'CSILLI', 'CSINÁL', 'CSINOS', 'CSIPÁS',
+            'CSIPET', 'CSIPKE', 'CSIPOG', 'CSIRIZ', 'CSIRKE', 'CSITÍT', 'CSITRI', 'CSITUL', 'CSIZMA', 'CSÍKOS', 'CSÍKOZ', 'CSÍPÉS',
+            'CSÍPŐS', 'CSÍRÁS', 'CSÍZIÓ', 'CSOBOG', 'CSOCSÓ', 'CSODÁL', 'CSODÁS', 'CSOKIS', 'CSOKOR', 'CSOMAG', 'CSOMÓS', 'CSOMÓZ',
+            'CSONKA', 'CSORBA', 'CSORDA', 'CSORGÓ', 'CSOROG', 'CSÓKOL', 'CSÓKOS', 'CSÓNAK', 'CSÓVÁL', 'CSÖBÖR', 'CSÖMÖR', 'CSÖPÖG',
+            'CSÖRGŐ', 'CSÖRLŐ', 'CSÖRÖG', 'CSÖRTE', 'CSÖVES', 'CSÖVEZ', 'CSŐDÖR', 'CSŐDÜL', 'CSŐRÖS', 'CSŐRÖZ', 'CSUHAJ', 'CSUHÁS',
+            'CSUKLÓ', 'CSUPÁN', 'CSUPOR', 'CSURGÓ', 'CSUROG', 'CSUPOR', 'CSUROM', 'CSUTAK', 'CSUTKA', 'CSÚFOL', 'CSÚFOS', 'CSÚFUL',
+            'CSÚNYA', 'CSÚZLI', 'CSÚZOS', 'CSÜCCS', 'CSÜLÖK', 'CSÜRHE', 'CUKROS', 'CUNAMI', 'CUPPAN', 'CUPPOG'
         ],
         '7': [
-            'CIKÓRIA', 'CÍMZETT', 'CSAPKOD', 'CSAVART', 'CSÁSZÁR', 'CSEMEGE', 'CSEMETE', 'CSENDES', 'CSENDŐR', 'CSENGET', 'CSEPPEN',
-            'CSILLAG', 'CSILLAN', 'CSILLOG', 'CSONTOS', 'CSÖNDES', 'CSÖNGET', 'CSÖRTET', 'CSURRAN', 'CSUSZKA', 'CSÚSZDA', 'CSÚSZKA',
-            'CSÚSZIK', 'CSÚSZÓS'
+            'CAFRANG', 'CÁFOLAT', 'CELOFÁN', 'CENTRUM', 'CENZÚRA', 'CEPELIN', 'CÉDULÁZ', 'CÉGÉRES', 'CÉGTÁRS', 'CÉHBELI', 'CÉLFOTÓ',
+            'CÉLGÖMB', 'CÉLPONT', 'CÉLZOTT', 'CIKÓRIA', 'CIBÁLÁS', 'CICÁZIK', 'CICKÁNY', 'CICOMÁZ', 'CIKÁZIK', 'CIKCAKK', 'CIKKELY',
+            'CIKKÍRÓ', 'CIMBORA', 'CINIKUS', 'CINKÉRC', 'CINÓBER', 'CIPPZÁR', 'CIRIPEL', 'CIRKÁLÓ', 'CIRKUSZ', 'CIRÓGAT', 'CITERÁS',
+            'CIVÓDIK', 'CUMIZIK', 'CUPPANT', 'CÍMBÉLI', 'CÍMERES', 'CÍMVÉDŐ', 'CÍMZETT', 'COLSTOK', 'CSACSKA', 'CSACSOG', 'CSAKLIZ',
+            'CSAKNEM', 'CSAKÚGY', 'CSALÁDI', 'CSALÁRD', 'CSALÓKA', 'CSAPÁGY', 'CSAPDOS', 'CSAPKOD', 'CSAPOLT', 'CSAPONG', 'CSAPOTT',
+            'CSAPPAN', 'CSAPVÍZ', 'CSARNOK', 'CSATALÓ', 'CSATLÓS', 'CSATOLT', 'CSATTAN', 'CSATTOG', 'CSAVART', 'CSÁBÍTÓ', 'CSÁKLYA',
+            'CSÁMPÁS', 'CSÁRDÁS', 'CSÁSZÁR', 'CSECSEN', 'CSEKÉLY', 'CSEMEGE', 'CSEMETE', 'CSEMPÉZ', 'CSENDES', 'CSENDŐR', 'CSENDÜL',
+            'CSENGET', 'CSEPPEN', 'CSEPPKŐ', 'CSERFES', 'CSERSAV', 'CSERZÉS', 'CSIBÉSZ', 'CSICSÁS', 'CSILLAG', 'CSILLAN', 'CSILLÁM',
+            'CSILLÁR', 'CSILLOG', 'CSIMBÓK', 'CSIPESZ', 'CSIPKED', 'CSIPKÉS', 'CSIPKÉZ', 'CSIPOGÓ', 'CSISZOL', 'CSIVAVA', 'CSÍNJÁN',
+            'CSÍPTET', 'CSOBBAN', 'CSONKÍT', 'CSONKOL', 'CSONTOS', 'CSONTOZ', 'CSOPORT', 'CSORBÍT', 'CSORBUL', 'CSORDÁS', 'CSORDUL',
+            'CSORGAT', 'CSOSZOG', 'CSÓTÁNY', 'CSÖKKEN', 'CSÖNDES', 'CSÖNGET', 'CSÖPPEN', 'CSÖRGET', 'CSÖRGÉS', 'CSÖRÖGE', 'CSÖRREN',
+            'CSÖRTET', 'CSŐIDOM', 'CSŐLAKÓ', 'CSŐSTÜL', 'CSUKLÁS', 'CSUKLIK', 'CSUKLYA', 'CSUKOTT', 'CSUPASZ', 'CSURRAN', 'CSUSZKA',
+            'CSÚCSÍV', 'CSÚCSOS', 'CSÚFNÉV', 'CSÚFSÁG', 'CSÚNYÁN', 'CSÚNYÍT', 'CSÚNYUL', 'CSÚSZÁS', 'CSÚSZDA', 'CSÚSZIK', 'CSÚSZKA',
+            'CSÚSZÓS', 'CSÜCSÖK', 'CSÜCSÜL', 'CSÜGGED'
         ]
     },
     'D': {
         '3': [
-            'DAC', 'DAL', 'DÁM', 'DÁN', 'DÉD', 'DÉL', 'DÉR', 'DIA', 'DIÓ', 'DÍJ', 'DOB', 'DÓR', 'DOG', 'DÖG', 'DŐL', 'DUG', 'DÚR'
+            'DAC', 'DAL', 'DAN', 'DÁK', 'DÁN', 'DÉD', 'DÉL', 'DÉR', 'DIA', 'DIN', 'DIÓ', 'DÍJ', 'DOB', 'DOG', 'DOH', 'DÓM', 'DÓR', 'DÖF',
+            'DÖG', 'DŐL', 'DUG', 'DUÓ', 'DÚC', 'DÚL', 'DÚR', 'DÚS', 'DÜH', 'DŰL'
         ],
         '4': [
-            'DADA', 'DAGI', 'DARA', 'DARU', 'DERŰ', 'DÉDI', 'DÉLI', 'DIÓS', 'DÍSZ', 'DONG', 'DÖNG', 'DÖNT', 'DŐLT', 'DŐRE', 'DUDA', 'DUGÓ'
+            'DADA', 'DAGI', 'DARA', 'DARU', 'DÁDÁ', 'DÁKÓ', 'DÁMA', 'DECI', 'DEDÓ', 'DEGU', 'DEKA', 'DELI', 'DEMÓ', 'DEPÓ', 'DERŰ', 'DÉDI',
+            'DÉLI', 'DIÁK', 'DIDI', 'DILI', 'DIÓS', 'DÍSZ', 'DÍVA', 'DOBÓ', 'DOKI', 'DOKK', 'DOMB', 'DONG', 'DÖNG', 'DÖNT', 'DŐLT', 'DŐRE',
+            'DROG', 'DRÓT', 'DUDA', 'DUGI', 'DUGÓ', 'DUMA', 'DÚLT', 'DŰLŐ', 'DŰNE'
         ],
         '5': [
-            'DACOL', 'DACOS', 'DAGAD', 'DALOL', 'DALOS', 'DARAB', 'DARÁL', 'DARUS', 'DELEJ', 'DELEL', 'DERES', 'DERÉK', 'DINGÓ', 'DIVAT',
-            'DÍJAZ', 'DOBÁL', 'DOBOL', 'DOBOS', 'DOBOZ', 'DOLOG', 'DONGÓ', 'DÖGÖS', 'DÖNGŐ', 'DÖNTŐ', 'DÖRÖG', 'DŐLÉS', 'DRÁGA', 'DUDÁL',
-            'DUDÁS', 'DUDVA', 'DUGÓS', 'DUNDI', 'DURVA', 'DZSÚZ'
+            'DACOL', 'DACOS', 'DADOG', 'DAFKE', 'DAGAD', 'DAJKA', 'DALIA', 'DALOL', 'DALOS', 'DALMŰ', 'DAMIL', 'DARAB', 'DARÁL', 'DARÓC',
+            'DARTS', 'DARUS', 'DATÁL', 'DAUER', 'DÁCSA', 'DÁRDA', 'DÁTUM', 'DECIS', 'DECIZ', 'DEKÁD', 'DELEJ', 'DELEL', 'DELTA', 'DENIM',
+            'DERBI', 'DERES', 'DERÉK', 'DERÍT', 'DERÜL', 'DERŰS', 'DETTÓ', 'DÉKÁN', 'DÉMON', 'DÉNÁR', 'DÉVAJ', 'DÉZSA', 'DICSŐ', 'DIÉTA',
+            'DILIS', 'DINGÓ', 'DIÓDA', 'DIÓFA', 'DIVAT', 'DÍJAZ', 'DÍLER', 'DÍNÁR', 'DÍVIK', 'DÍZEL', 'DOBÁL', 'DOBÁS', 'DOBOG', 'DOBOL',
+            'DOBOS', 'DOBOZ', 'DOGMA', 'DOHOG', 'DOHOS', 'DOLOG', 'DONGA', 'DONGÓ', 'DONNA', 'DONOR', 'DOSZT', 'DOTÁL', 'DÓZIS', 'DÓZSE',
+            'DÖCÖG', 'DÖFÉS', 'DÖGÖS', 'DÖNGŐ', 'DÖNTŐ', 'DÖREJ', 'DÖRGŐ', 'DÖRÖG', 'DŐLÉS', 'DÖLYF', 'DRÁGA', 'DRÁMA', 'DRUKK', 'DUDÁL',
+            'DUDÁS', 'DUDOR', 'DUDVA', 'DUETT', 'DUGÁS', 'DUGIG', 'DUGÓS', 'DUGUL', 'DUHAJ', 'DUKÁL', 'DUKÁT', 'DUMÁL', 'DUMÁS', 'DUNDI',
+            'DUNNA', 'DUPLA', 'DURVA', 'DÚCOL', 'DÚDOL', 'DUSÍT', 'DÚSUL', 'DÚVAD', 'DÜHÍT', 'DÜHÖS', 'DZSEM', 'DZSIP', 'DZSÚZ'
         ],
         '6': [
-            'DAGADÓ', 'DAGADT', 'DALMÁT', 'DARÁZS', 'DÁMVAD', 'DÁRIDÓ', 'DELELŐ', 'DELFIN', 'DÉLCEG', 'DÉLIES', 'DIÓBÉL', 'DINNYE',
-            'DÍSZES', 'DÍSZÍT', 'DOCENS', 'DOKTOR', 'DOLGOS', 'DÖNGET', 'DÖNTÉS', 'DÖNGÉS', 'DÖRGÉS', 'DRUIDA', 'DUDVÁS', 'DUNYHA',
-            'DUZZOG', 'DÜRRÖG'
+            'DACÁRA', 'DADOGÓ', 'DAGADÓ', 'DAGADT', 'DAGÁLY', 'DAJKÁL', 'DAKOTA', 'DALIÁS', 'DALLAM', 'DALMÁT', 'DALNOK', 'DANDÁR',
+            'DARÁLÓ', 'DARÁLT', 'DARÁZS', 'DÁMVAD', 'DÁRIDÓ', 'DECENS', 'DEFEKT', 'DEHOGY', 'DEISTA', 'DEKKOL', 'DELELŐ', 'DELFIN',
+            'DELTÁS', 'DENTIN', 'DERENG', 'DERÍTŐ', 'DERMED', 'DERÜLT', 'DESZKA', 'DEVIZA', 'DÉDAPA', 'DÉKÁNI', 'DÉLCEG', 'DÉLIDŐ',
+            'DÉLIES', 'DÉLKÖR', 'DÉMONI', 'DÉMOSZ', 'DÉZSMA', 'DIAKÉP', 'DIADAL', 'DIADÉM', 'DIÁKOS', 'DICSÉR', 'DIÉTÁS', 'DIFFÚZ',
+            'DIKTÁL', 'DINAMÓ', 'DINNYE', 'DIÓBÉL', 'DIÓHÉJ', 'DIREKT', 'DISZKÓ', 'DISZNÓ', 'DIZÁJN', 'DÍSZES', 'DÍSZFA', 'DÍSZÍT',
+            'DÍSZTŰ', 'DÍVÁNY', 'DOBBAN', 'DOBFÉK', 'DOBGÉP', 'DOBOGÓ', 'DOBSZÓ', 'DOCENS', 'DOHÁNY', 'DOKKOL', 'DOKTOR', 'DOLGOS',
+            'DOLLÁR', 'DOLMEN', 'DOLOGI', 'DOMBOS', 'DOMINÓ', 'DORGÁL', 'DOROMB', 'DORONG', 'DÖBBEN', 'DÖCCEN', 'DÖGEVŐ', 'DÖGHÚS',
+            'DÖGKÚT', 'DÖGLIK', 'DÖMPER', 'DÖNGET', 'DÖNGÖL', 'DÖNTÉS', 'DÖNGÉS', 'DÖRDÜL', 'DÖRGÉS', 'DÖRGÖL', 'DÖRMÖG', 'DÖRREN',
+            'DŐZSÖL', 'DRAZSÉ', 'DRÁGÍT', 'DRÁGUL', 'DRÁMAI', 'DROGOS', 'DRÓTOZ', 'DRUIDA', 'DRUSZA', 'DUÁLIS', 'DUBLŐR', 'DUDVÁS',
+            'DUGASZ', 'DUGDOS', 'DUNYHA', 'DUNSZT', 'DUNYHA', 'DUPLÁN', 'DUPLÁZ', 'DURCÁS', 'DURMOL', 'DURRAN', 'DURROG', 'DURVÁN',
+            'DURVÍT', 'DURVUL', 'DUZZAD', 'DUZZOG', 'DÚSKÁL', 'DÜFTIN', 'DÜHÖDT', 'DÜHÖNG', 'DÜRRÖG', 'DŰLŐÚT', 'DZSÁMI', 'DZSEKI',
+            'DZSIDA'
         ],
         '7': [
-            'DALMATA', 'DAGADÁS', 'DALOLÁS', 'DARABOL', 'DARABOS', 'DENEVÉR', 'DEREKAS', 'DÉLUTÁN', 'DIAFILM', 'DINNYÉS', 'DIVATOS',
-            'DÍSZLET', 'DOBOZOL', 'DÜBÖRÖG', 'DÜNNYÖG'
+            'DADOGÁS', 'DAGADÁS', 'DAGANAT', 'DAGASZT', 'DAGONYA', 'DAKSZLI', 'DALÁRDA', 'DALMATA', 'DALOLÁS', 'DARABÁR', 'DARABKA',
+            'DARABOL', 'DARABOS', 'DARUHÍD', 'DATOLYA', 'DEBELLA', 'DEBILIS', 'DEBÜTÁL', 'DECIBEL', 'DEDIKÁL', 'DEFICIT', 'DEKÁZIK',
+            'DEKÓDER', 'DEKÓDOL', 'DEKORÁL', 'DEKÓRUM', 'DELEGÁL', 'DELEJES', 'DELEJEZ', 'DELELÉS', 'DELIKÁT', 'DELTOID', 'DEMAGÓG',
+            'DENEVÉR', 'DEREKAS', 'DERELYE', 'DERÉKIG', 'DERIVÁL', 'DERMEDT', 'DEROGÁL', 'DESPOTA', 'DESZANT', 'DESZKÁZ', 'DEVIÁNS',
+            'DEZODOR', 'DÉDANYA', 'DÉLIBÁB', 'DÉLUTÁN', 'DÉZSMÁL', 'DIAFILM', 'DIAGRAM', 'DIÁKKÖR', 'DICSÉRŐ', 'DICSŐÍT', 'DIDEREG',
+            'DILEMMA', 'DINAMIT', 'DINNYÉS', 'DIÓOLAJ', 'DIÓTÖRŐ', 'DIPLOMA', 'DIPÓLUS', 'DIRIGÁL', 'DISPUTA', 'DIVATOS', 'DIVÍZIÓ',
+            'DÍJAZÁS', 'DÍSZLET', 'DÍSZTAG', 'DÍSZTÖK', 'DOBBANT', 'DOBOGÁS', 'DOBOGÓS', 'DOBOLÁS', 'DOBOZOL', 'DOBOZOS', 'DOBÜTÉS',
+            'DÜBÖRÖG', 'DOBVERŐ', 'DODZSEM', 'DOKKOLÓ', 'DOKTORI', 'DOLGOZÓ', 'DOLMÁNY', 'DOLOMIT', 'DOMBHÁT', 'DOMBORÚ', 'DOMBSÁG',
+            'DOMBSOR', 'DOMINÁL', 'DOSSZIÉ', 'DOTÁCIÓ', 'DÖBBENT', 'DÖCÖGÉS', 'DÖGIVEL', 'DÖGLÉGY', 'DÖGLÖTT', 'DÖGVÉSZ', 'DÖLYFÖS',
+            'DÖRZSÖL', 'DŐRESÉG', 'DRÁGAKŐ', 'DRÁGÁLL', 'DRUKKER', 'DRUKKOL', 'DUDASZÓ', 'DUGULÁS', 'DUGVÁNY', 'DURRANÓ', 'DURRANT',
+            'DUZZADÓ', 'DUZZADT', 'DÚDOLÁS', 'DÜBÖRÖG', 'DÜHÖNGŐ', 'DÜHÖSÍT', 'DÜLLEDT', 'DÜNNYÖG', 'DZSIDÁS', 'DZSIHÁD', 'DZSÓKER'
         ]
     },
     'E': {
@@ -164,7 +336,7 @@ export const wordsHun: Words = {
             'ELÉRT', 'ELFED', 'ELFÉR', 'ELFOG', 'ELFŐZ', 'ELFUT', 'ELFÚJ', 'ELHAL', 'ELHÚZ', 'ELJUT', 'ELKAP', 'ELKÖT', 'ELKEL', 'ELKÉR',
             'ELLÁT', 'ELLEP', 'ELLES', 'ELLÉP', 'ELLÉS', 'ELLIK', 'ELLOP', 'ELLÓG', 'ELLÖK', 'ELMAR', 'ELMÉR', 'ELMÉS', 'ELNÉZ', 'ELNÖK',
             'ELOLT', 'ELÖNT', 'ELŐAD', 'ELŐÍR', 'ELRAK', 'ELRÁZ', 'ELSÜL', 'ELSÜT', 'ELTÉR', 'ELTŰR', 'ELVÁR', 'ELVON', 'ELZÁR', 'EMBER',
-            'ENGED', 'EPRES', 'ERDŐS', 'EREDŐ', 'ERESZ', 'ESÉLY', 'ESZES', 'ESZIK', 'ETETŐ', 'EXTRA', 'EZRED', 'EZRES'
+            'ENGED', 'EPRES', 'ERDŐS', 'EREDŐ', 'ERESZ', 'ESÉLY', 'ESKET', 'ESZES', 'ESZIK', 'ETETŐ', 'EXTRA', 'EZRED', 'EZRES'
         ],
         '6': [
             'EBÉDEL', 'EGYEDI', 'EGYÉNI', 'ELAPAD', 'ELÁJUL', 'ELÁLLÓ', 'ELÁMUL', 'ELBONT', 'ELCSAL', 'ELCSAP', 'ELEMEL', 'ELEMES',
@@ -255,8 +427,8 @@ export const wordsHun: Words = {
             'GIDA', 'GIGA', 'GOND', 'GŐTE', 'GYÁR', 'GYÉR', 'GYÚR', 'GYŰR'
         ],
         '5': [
-            'GALÁD', 'GALLY', 'GAZDA', 'GAZOL', 'GAZOS', 'GÁGOG', 'GÁZOL', 'GÁZOS', 'GERLE', 'GÉPEL', 'GÉPES', 'GIPSZ', 'GITÁR', 'GOMBA',
-            'GÖRÖG', 'GULYA', 'GURÍT', 'GURUL', 'GÚNÁR', 'GYÁRI', 'GYÁRT', 'GYÓGY', 'GYUFA', 'GYŰRT', 'GYŰRŰ'
+            'GALÁD', 'GALLY', 'GATYA', 'GAZDA', 'GAZOL', 'GAZOS', 'GÁGOG', 'GÁZOL', 'GÁZOS', 'GERLE', 'GÉPEL', 'GÉPES', 'GIPSZ', 'GITÁR',
+            'GOMBA', 'GÖRÖG', 'GULYA', 'GURÍT', 'GURUL', 'GÚNÁR', 'GYÁRI', 'GYÁRT', 'GYÓGY', 'GYUFA', 'GYŰRT', 'GYŰRŰ'
         ],
         '6': [
             'GABONA', 'GALAMB', 'GARÁZS', 'GAZDAG', 'GÁLÁNS', 'GÁNYOL', 'GERELY', 'GEREZD', 'GERINC', 'GÉBICS', 'GÉPÉSZ', 'GINDÁR',
@@ -286,10 +458,11 @@ export const wordsHun: Words = {
         ],
         '6': [
             'HABZÁS', 'HABZIK', 'HAJLAT', 'HAJLÁS', 'HAJLIK', 'HAJLÍT', 'HAJNAL', 'HAJTÁS', 'HAGYMA', 'HALADÓ', 'HALÁLI', 'HALLÁS',
-            'HAMVAD', 'HAMVAS', 'HANGOL', 'HANGOS', 'HANGYA', 'HANYAG', 'HANTÁS', 'HANTOL', 'HARANG', 'HARMAD', 'HARMAT', 'HATVAN',
-            'HÁBORÚ', 'HÁNTOL', 'HÁRMAS', 'HÁRSFA', 'HÁTAKT', 'HÁTRÁL', 'HEGEDŰ', 'HEGYES', 'HEGYEZ', 'HELYES', 'HELYEZ', 'HENTES',
-            'HERCEG', 'HERING', 'HEROIN', 'HETVEN', 'HEVERŐ', 'HIMLŐS', 'HISZEN', 'HITVES', 'HÍMNŐS', 'HÍRADÓ', 'HÍRNÉV', 'HOBBIT',
-            'HOGYAN', 'HOLDAS', 'HOLNAP', 'HONVÉD', 'HORVÁT', 'HÓÁGYÚ', 'HŐMÉRŐ', 'HULLÁM', 'HUMUSZ', 'HUSZAD', 'HÚSZAS', 'HÜVELY'
+            'HALOTT', 'HAMVAD', 'HAMVAS', 'HANGOL', 'HANGOS', 'HANGYA', 'HANYAG', 'HANTÁS', 'HANTOL', 'HARANG', 'HARMAD', 'HARMAT',
+            'HATVAN', 'HÁBORÚ', 'HÁNTOL', 'HÁRMAS', 'HÁRSFA', 'HÁTAKT', 'HÁTRÁL', 'HEGEDŰ', 'HEGYES', 'HEGYEZ', 'HELYES', 'HELYEZ',
+            'HENTES', 'HERCEG', 'HERING', 'HEROIN', 'HETVEN', 'HEVERŐ', 'HIMLŐS', 'HISZEN', 'HITVES', 'HÍMNŐS', 'HÍRADÓ', 'HÍRNÉV',
+            'HOBBIT', 'HOGYAN', 'HOLDAS', 'HOLNAP', 'HONVÉD', 'HORVÁT', 'HÓÁGYÚ', 'HŐMÉRŐ', 'HULLÁM', 'HUMUSZ', 'HUSZAD', 'HÚSZAS',
+            'HÜVELY'
         ],
         '7': [
             'HABARCS', 'HABOZÁS', 'HAGYMÁS', 'HAJÍTÁS', 'HAJLOTT', 'HAJNALI', 'HAJÓHAD', 'HAJSZÁL', 'HALADÁS', 'HALLGAT', 'HANGADÓ',
@@ -314,8 +487,8 @@ export const wordsHun: Words = {
             'ISKOLA', 'ISMERT', 'ISTENI', 'ISZONY', 'IZGATÓ'
         ],
         '7': [
-            'IGAVONÓ', 'IGEKÖTŐ', 'IJEDSÉG', 'IGAZOLT', 'IGÉNYEL', 'ILDOMOS', 'ILLATOS', 'ILLENDŐ', 'IMAHELY', 'IGAZGAT', 'INTEGET',
-            'INTÉZET', 'ISKOLÁS', 'ISMERŐS', 'ISTENNŐ', 'ISZONYÚ'
+            'IGAVONÓ', 'IGEKÖTŐ', 'IJEDSÉG', 'IGAZGAT', 'IGAZOLT', 'IGÉNYEL', 'ILDOMOS', 'ILLATOS', 'ILLENDŐ', 'IMAHELY', 'IGAZGAT',
+            'INTEGET', 'INTÉZET', 'ISKOLÁS', 'ISMERŐS', 'ISTENNŐ', 'ISZONYÚ', 'IZGALOM'
         ]
     },
     'Í': {
@@ -340,15 +513,15 @@ export const wordsHun: Words = {
             'JAK', 'JÁR', 'JEL', 'JEN', 'JÉG', 'JÓD', 'JÓL', 'JÓS', 'JÖN', 'JUH', 'JUT', 'JÜT'
         ],
         '4': [
-            'JÁDE', 'JEGY', 'JUSS'
+            'JATT', 'JÁDE', 'JEGY', 'JUSS'
         ],
         '5': [
             'JAPÁN', 'JÁRAT', 'JÁRDA', 'JÁROM', 'JÁTÉK', 'JEGES', 'JELEL', 'JELEN', 'JELES', 'JELEZ', 'JELÖL', 'JÉRCE', 'JÓDOS', 'JÓSOL',
             'JÖVET', 'JUHOS', 'JURTA', 'JUTÁS'
         ],
         '6': [
-            'JAGUÁR', 'JANUÁR', 'JÁDEKŐ', 'JÁRKÁL', 'JÁZMIN', 'JEGYES', 'JEGYEZ', 'JEGYZŐ', 'JELENT', 'JELKÉP', 'JELLEG', 'JELÖLT',
-            'JELZÉS', 'JÉGESŐ', 'JÓSLAT', 'JÓSLÁS', 'JÚLIUS', 'JÚNIUS'
+            'JAGUÁR', 'JANUÁR', 'JATTOL', 'JÁDEKŐ', 'JÁRKÁL', 'JÁZMIN', 'JEGYES', 'JEGYEZ', 'JEGYZŐ', 'JELENT', 'JELKÉP', 'JELLEG',
+            'JELÖLT', 'JELZÉS', 'JÉGESŐ', 'JÓSLAT', 'JÓSLÁS', 'JÚLIUS', 'JÚNIUS'
         ],
         '7': [
             'JAKUZZI', 'JAVASOL', 'JÁRADÉK', 'JÁRKÁLÁS', 'JÁTÉKOS', 'JELELÉS', 'JELENET', 'JELENÉS', 'JELÖLÉS', 'JELVÉNY', 'JÖVETEL'
@@ -361,40 +534,40 @@ export const wordsHun: Words = {
         ],
         '4': [
             'KACS', 'KAKA', 'KAKI', 'KAMU', 'KAPA', 'KAPU', 'KARÓ', 'KÁBA', 'KÁLA', 'KÁNA', 'KÁSA', 'KEDD', 'KEDV', 'KEFE', 'KEGY', 'KELL',
-            'KELT', 'KEND', 'KERT', 'KESE', 'KEZD', 'KÉRD', 'KÉSZ', 'KÉVE', 'KÉZI', 'KIAD', 'KIÁS', 'KIÉG', 'KIÉL', 'KIÉR', 'KIFŐ', 'KIÍR',
-            'KILŐ', 'KINŐ', 'KINT', 'KIRÓ', 'KIÜT', 'KIÜT', 'KIVI', 'KOFA', 'KOSZ', 'KÖLT', 'KÖSZ', 'KRÉM', 'KUPA', 'KÜZD'
+            'KELT', 'KEND', 'KERT', 'KESE', 'KEZD', 'KÉRD', 'KÉSŐ', 'KÉSZ', 'KÉVE', 'KÉZI', 'KIAD', 'KIÁS', 'KIÉG', 'KIÉL', 'KIÉR', 'KIFŐ',
+            'KIÍR', 'KILŐ', 'KINŐ', 'KINT', 'KIRÓ', 'KIÜT', 'KIÜT', 'KIVI', 'KOFA', 'KOSZ', 'KÖLT', 'KÖSZ', 'KRÉM', 'KUPA', 'KÜZD'
         ],
         '5': [
             'KACAJ', 'KACÉR', 'KACSA', 'KACSÓ', 'KAKÁL', 'KAKIL', 'KALAP', 'KAMRA', 'KANÁL', 'KANNA', 'KAPAR', 'KAPÁL', 'KAPUS', 'KARMA',
             'KAROL', 'KARÓS', 'KARÓZ', 'KAVAR', 'KASZA', 'KASZT', 'KAZAL', 'KÁBEL', 'KÁBÍT', 'KÁDAS', 'KÁDÁR', 'KÁOSZ', 'KÁROS', 'KEBEL',
             'KEFÉL', 'KELTA', 'KELET', 'KELÉS', 'KELLŐ', 'KENET', 'KENÉS', 'KEREK', 'KERES', 'KERET', 'KERÉK', 'KETTŐ', 'KEVER', 'KEVÉS',
-            'KEZES', 'KEZEL', 'KÉJES', 'KÉKES', 'KÉMIA', 'KÉPES', 'KÉSEL', 'KÉSÉS', 'KÉSIK', 'KIADÓ', 'KIÁLL', 'KIBÍR', 'KICSI', 'KIDOB',
-            'KIDŐL', 'KIEJT', 'KIFED', 'KIFEJ', 'KIFEN', 'KIFÉR', 'KIFOG', 'KIFŐZ', 'KIFUT', 'KIFÚJ', 'KIFÚR', 'KIFŰT', 'KIFŰZ', 'KIHAL',
-            'KIHÚZ', 'KIJUT', 'KIKAP', 'KIKEL', 'KIKEN', 'KIKÉR', 'KIKÖT', 'KILÁT', 'KILÉP', 'KILOP', 'KILÓG', 'KILÖK', 'KIMÉR', 'KINÉZ',
-            'KINCS', 'KIOLT', 'KIONT', 'KIÖLT', 'KIÖNT', 'KISÍR', 'KIRAK', 'KIRÁZ', 'KISÜL', 'KISÜT', 'KITÁR', 'KITÉR', 'KITÚR', 'KIVÁR',
-            'KIVER', 'KIVÉD', 'KIVON', 'KIZÁR', 'KÍNOS', 'KÍNOZ', 'KÍVÁN', 'KONDA', 'KOROM', 'KOROS', 'KOSÁR', 'KOSZT', 'KOTTA', 'KÓDOL',
-            'KÓROS', 'KÖDÖL', 'KÖDÖS', 'KÖLES', 'KÖLTŐ', 'KÖNNY', 'KÖNYV', 'KÖRBE', 'KÖRÖM', 'KÖRÖZ', 'KÖRTE', 'KÖRÜL', 'KÖSZI', 'KÖTET',
-            'KÖTÉL', 'KÖTÉS', 'KÖZEL', 'KÖZÖL', 'KÖZÖS', 'KÖZTE', 'KULCS', 'KUTAT', 'KUTYA', 'KÚTFŐ', 'KÜLSŐ', 'KÜTYÜ'
+            'KEZES', 'KEZEL', 'KÉJES', 'KÉKES', 'KÉMIA', 'KÉPES', 'KÉREG', 'KÉSEL', 'KÉSÉS', 'KÉSIK', 'KIADÓ', 'KIÁLL', 'KIBÍR', 'KICSI',
+            'KIDOB', 'KIDŐL', 'KIEJT', 'KIFED', 'KIFEJ', 'KIFEN', 'KIFÉR', 'KIFOG', 'KIFŐZ', 'KIFUT', 'KIFÚJ', 'KIFÚR', 'KIFŰT', 'KIFŰZ',
+            'KIHAL', 'KIHÚZ', 'KIJUT', 'KIKAP', 'KIKEL', 'KIKEN', 'KIKÉR', 'KIKÖT', 'KILÁT', 'KILÉP', 'KILOP', 'KILÓG', 'KILÖK', 'KIMÉR',
+            'KINÉZ', 'KINCS', 'KIOLT', 'KIONT', 'KIÖLT', 'KIÖNT', 'KISÍR', 'KIRAK', 'KIRÁZ', 'KISÜL', 'KISÜT', 'KITÁR', 'KITÉR', 'KITÚR',
+            'KIVÁR', 'KIVER', 'KIVÉD', 'KIVON', 'KIZÁR', 'KÍNOS', 'KÍNOZ', 'KÍVÁN', 'KONDA', 'KOROM', 'KOROS', 'KOSÁR', 'KOSZT', 'KOTTA',
+            'KÓDOL', 'KÓROS', 'KÖDÖL', 'KÖDÖS', 'KÖLES', 'KÖLTŐ', 'KÖNNY', 'KÖNYV', 'KÖRBE', 'KÖRÖM', 'KÖRÖZ', 'KÖRTE', 'KÖRÜL', 'KÖSZI',
+            'KÖTET', 'KÖTÉL', 'KÖTÉS', 'KÖZEL', 'KÖZÖL', 'KÖZÖS', 'KÖZTE', 'KULCS', 'KUTAT', 'KUTYA', 'KÚTFŐ', 'KÜLSŐ', 'KÜTYÜ'
         ],
         '6': [
             'KABARÉ', 'KABÓCA', 'KAGYLÓ', 'KAKADU', 'KALAND', 'KANAPÉ', 'KANCSÓ', 'KANYAR', 'KAPPAN', 'KARIKA', 'KASSZA', 'KÁNTOR',
             'KEDVES', 'KEDVEZ', 'KEGYES', 'KELLEM', 'KELLÉK', 'KELTET', 'KEMÉNY', 'KENDER', 'KENYÉR', 'KERENG', 'KERING', 'KERTEL',
-            'KERTES', 'KETTED', 'KETTES', 'KEZDET', 'KEZDÉS', 'KÉMLEL', 'KÉMÉNY', 'KÉRLEL', 'KIADÁS', 'KIADÓS', 'KIBONT', 'KICSAL',
-            'KICSAP', 'KICSÍP', 'KIDÖNT', 'KIEMEL', 'KIÉPÍT', 'KIÉPÜL', 'KIFEJT', 'KIHAGY', 'KIHAJT', 'KIHALL', 'KIHALT', 'KIKELT',
-            'KIKÖLT', 'KIKÖTŐ', 'KILÁTÓ', 'KILENC', 'KINYÍR', 'KINYÚL', 'KIRÁNT', 'KIRÁLY', 'KIRONT', 'KISZED', 'KISZEL', 'KISZÚR',
-            'KISZŰR', 'KITESZ', 'KITÉRŐ', 'KIUTAL', 'KIUTÁL', 'KIÜTÉS', 'KIVARR', 'KIVESZ', 'KIVISZ', 'KIZÁRT', 'KÍNZÁS', 'KOKAIN',
-            'KOMOLY', 'KONDÁS', 'KONYHA', 'KORHAD', 'KORHOL', 'KORLÁT', 'KORMOS', 'KORONG', 'KOSBOR', 'KOSZOS', 'KÓDOLT', 'KÖDMÖN',
-            'KÖLTÉS', 'KÖLYÖK', 'KÖMÉNY', 'KÖNNYŰ', 'KÖNTÖS', 'KÖRMÖS', 'KÖRÖND', 'KÖSZÖN', 'KÖTŐTŰ', 'KÖZELI', 'KÖZÖTT', 'KRÉMES',
-            'KRÉMEZ', 'KUDARC', 'KULACS', 'KUNCOG', 'KUTATÓ', 'KÜLÖNB'
+            'KERTES', 'KESERŰ', 'KETTED', 'KETTES', 'KEZDET', 'KEZDÉS', 'KÉMLEL', 'KÉMÉNY', 'KÉRGES', 'KÉRLEL', 'KIADÁS', 'KIADÓS',
+            'KIBONT', 'KICSAL', 'KICSAP', 'KICSÍP', 'KIDÖNT', 'KIEMEL', 'KIÉPÍT', 'KIÉPÜL', 'KIFEJT', 'KIHAGY', 'KIHAJT', 'KIHALL',
+            'KIHALT', 'KIKELT', 'KIKÖLT', 'KIKÖTŐ', 'KILÁTÓ', 'KILENC', 'KINYÍR', 'KINYÚL', 'KIRÁNT', 'KIRÁLY', 'KIRONT', 'KISZED',
+            'KISZEL', 'KISZÚR', 'KISZŰR', 'KITESZ', 'KITÉRŐ', 'KIUTAL', 'KIUTÁL', 'KIÜTÉS', 'KIVARR', 'KIVESZ', 'KIVISZ', 'KIZÁRT',
+            'KÍNZÁS', 'KOKAIN', 'KOMOLY', 'KONDÁS', 'KONYHA', 'KORHAD', 'KORHOL', 'KORLÁT', 'KORMOS', 'KORONG', 'KOSBOR', 'KOSZOS',
+            'KÓDOLT', 'KÖDMÖN', 'KÖLTÉS', 'KÖLYÖK', 'KÖMÉNY', 'KÖNNYŰ', 'KÖNTÖS', 'KÖRMÖS', 'KÖRÖND', 'KÖSZÖN', 'KÖTŐTŰ', 'KÖZELI',
+            'KÖZÖTT', 'KRÉMES', 'KRÉMEZ', 'KUDARC', 'KULACS', 'KUNCOG', 'KUTATÓ', 'KÜLÖNB'
         ],
         '7': [
             'KACKIÁS', 'KACSINT', 'KAGYLÓS', 'KAGYLÓZ', 'KAKTUSZ', 'KANCSAL', 'KANYARÓ', 'KARVALY', 'KATTINT', 'KELTETŐ', 'KEMENCE',
-            'KEREKES', 'KERENGŐ', 'KERESZT', 'KERESET', 'KERESÉS', 'KERETES', 'KERINGŐ', 'KEZDETI', 'KEZELÉS', 'KÉSELÉS', 'KÉSZLET',
-            'KIBORÍT', 'KIBORUL', 'KIESZEL', 'KIFOGÁS', 'KIHAJÍT', 'KIHEVER', 'KIJUTÁS', 'KIKAPAR', 'KIKAVAR', 'KIKERES', 'KIKEVER',
-            'KIKÖTÉS', 'KIKUTAT', 'KILÁTÁS', 'KILÉPÉS', 'KILINCS', 'KILÖVÉS', 'KINÉZET', 'KINÖVÉS', 'KIOKTAT', 'KIOLVAS', 'KIONTÁS',
-            'KIÖNTÉS', 'KIPEREG', 'KIRAKAT', 'KIROHAN', 'KISÜLÉS', 'KISÜTÉS', 'KIVESÉZ', 'KÍVÁNÓS', 'KOLBÁSZ', 'KORHADT', 'KOSZORÚ',
-            'KOSZTOS', 'KÓDOLÁS', 'KÓRISME', 'KÖRTEFA', 'KÖLCSÖN', 'KÖLTSÉG', 'KÖNNYES', 'KÖNYVEL', 'KÖNYVES', 'KÖSZÖNT', 'KÖTELES',
-            'KULCSOL', 'KULCSOS', 'KURKUMA', 'KUTATÁS', 'KUTYAÓL'
+            'KEREKES', 'KERENGŐ', 'KERESZT', 'KERESET', 'KERESÉS', 'KERETES', 'KERINGŐ', 'KESEREG', 'KEZDETI', 'KEZELÉS', 'KÉSELÉS',
+            'KÉSZLET', 'KIBORÍT', 'KIBORUL', 'KIESZEL', 'KIFOGÁS', 'KIHAJÍT', 'KIHEVER', 'KIJUTÁS', 'KIKAPAR', 'KIKAVAR', 'KIKERES',
+            'KIKEVER', 'KIKÖTÉS', 'KIKUTAT', 'KILÁTÁS', 'KILÉPÉS', 'KILINCS', 'KILÖVÉS', 'KINÉZET', 'KINÖVÉS', 'KIOKTAT', 'KIOLVAS',
+            'KIONTÁS', 'KIÖNTÉS', 'KIPEREG', 'KIRAKAT', 'KIROHAN', 'KISÜLÉS', 'KISÜTÉS', 'KIVESÉZ', 'KÍVÁNÓS', 'KOLBÁSZ', 'KORHADT',
+            'KOSZORÚ', 'KOSZTOS', 'KÓDOLÁS', 'KÓRISME', 'KÖRTEFA', 'KÖLCSÖN', 'KÖLTSÉG', 'KÖNNYES', 'KÖNYVEL', 'KÖNYVES', 'KÖSZÖNT',
+            'KÖTELES', 'KULCSOL', 'KULCSOS', 'KURKUMA', 'KUTATÁS', 'KUTYAÓL'
         ]
     },
     'L': {
@@ -423,10 +596,10 @@ export const wordsHun: Words = {
             'LOBBAN', 'LOMPOS', 'LÖKDÖS'
         ],
         '7': [
-            'LANKADT', 'LÁBSZÁR', 'LÁTÓTÉR', 'LÁTSZAT', 'LEFÁRAD', 'LEHAJÍT', 'LEJUTÁS', 'LEKAPAR', 'LEKEVER', 'LEKÖTÉS', 'LELÁTÁS',
-            'LELÉCEL', 'LELOHAD', 'LELÓGÁS', 'LENÉZÉS', 'LENGYEL', 'LEPEDÉK', 'LEPEREG', 'LEPOROL', 'LERAKAT', 'LEROHAN', 'LETEPER',
-            'LETÖRÖL', 'LEVAKAR', 'LEZUHAN', 'LEXIKON', 'LÉNYEGI', 'LÉPEGET', 'LÉTELEM', 'LIGETES', 'LISZTES', 'LISZTEZ', 'LOBOGÁS',
-            'LOHOLÁS', 'LONCSOS'
+            'LAMINÁL', 'LANKADT', 'LÁBSZÁR', 'LÁTÓTÉR', 'LÁTSZAT', 'LEFÁRAD', 'LEHAJÍT', 'LEJUTÁS', 'LEKAPAR', 'LEKEVER', 'LEKÖTÉS',
+            'LELÁTÁS', 'LELÉCEL', 'LELOHAD', 'LELÓGÁS', 'LENÉZÉS', 'LENGYEL', 'LEPEDÉK', 'LEPEREG', 'LEPOROL', 'LERAKAT', 'LEROHAN',
+            'LETEPER', 'LETÖRÖL', 'LEVAKAR', 'LEZUHAN', 'LEXIKON', 'LÉNYEGI', 'LÉPEGET', 'LÉTELEM', 'LIGETES', 'LISZTES', 'LISZTEZ',
+            'LOBOGÁS', 'LOHOLÁS', 'LONCSOS'
         ]
     },
     'M': {
@@ -482,7 +655,7 @@ export const wordsHun: Words = {
         ],
         '7': [
             'NAPLOPÓ', 'NAPOZÁS', 'NAPOZIK', 'NARANCS', 'NÁSZNÉP', 'NEGYVEN', 'NEMZETI', 'NEVETÉS', 'NEVETŐS', 'NÉMASÁG', 'NYAKÖRV',
-            'NYALINT', 'NYÁRIAS', 'NYELVEL', 'NYELVES', 'NYOLCAD', 'NYOLCAS', 'NYOMTAT', 'NYUGATI', 'NYÜSTÖL'
+            'NYALINT', 'NYALÓKA', 'NYÁRIAS', 'NYELVEL', 'NYELVES', 'NYOLCAD', 'NYOLCAS', 'NYOMTAT', 'NYUGATI', 'NYÜSTÖL'
         ]
     },
     'O': {
@@ -490,14 +663,15 @@ export const wordsHun: Words = {
             'ODA', 'ODÚ', 'OJT', 'OLD', 'OLT', 'ONT', 'ORK', 'ORR', 'ORV', 'OTT'
         ],
         '4': [
-            'OBOA', 'OKÁD', 'OKOS', 'OKOZ', 'OLLÓ', 'OPÁL', 'ORSÓ', 'OSON', 'OSZT'
+            'OBOA', 'OKÁD', 'OKOS', 'OKOZ', 'OLAJ', 'OLLÓ', 'OPÁL', 'ORSÓ', 'OSON', 'OSZT'
         ],
         '5': [
-            'OBOÁS', 'ODAAD', 'ODAÉR', 'ODVAS', 'OKTAT', 'OLASZ', 'OLDAL', 'OLDAT', 'OLDÁS', 'OLTÁS', 'OLVAD', 'OLVAS', 'OPIÁT', 'ORDAS',
-            'OROSZ', 'ORSÓS', 'ORVOS', 'ORVUL', 'OTTAN'
+            'OBOÁS', 'ODAAD', 'ODAÉR', 'ODVAS', 'OKTAT', 'OLASZ', 'OLDAL', 'OLDAT', 'OLDÁS', 'OLTÁS', 'OLTAT', 'OLVAD', 'OLVAS', 'OPIÁT',
+            'ORDAS', 'OROSZ', 'ORSÓS', 'ORVOS', 'ORVUL', 'OTTAN'
         ],
         '6': [
-            'ODAHÍV', 'ODAKAP', 'ODAVÁG', 'OKÁDÉK', 'OKOZAT', 'OKTATÓ', 'OLTOTT', 'OMLETT', 'OPÁLOS', 'ORSZÁG', 'OSTOBA', 'OSZTÁS'
+            'ODAHÍV', 'ODAKAP', 'ODAVÁG', 'OKÁDÉK', 'OKOZAT', 'OKTATÓ', 'OLAJOS', 'OLAJOZ', 'OLTOTT', 'OMLETT', 'OPÁLOS', 'ORSZÁG',
+            'OSTOBA', 'OSZTÁS'
         ],
         '7': [
             'ODAMEGY', 'ODASZÓL', 'ODAVESZ', 'ODAVISZ', 'OKARINA', 'OKOSSÁG', 'OKTATÁS', 'OKTÓBER', 'OLDALAS', 'OLVADÁS'
@@ -564,7 +738,7 @@ export const wordsHun: Words = {
     },
     'P': {
         '3': [
-            'PAD', 'PAP', 'PÁC', 'PÁR', 'PEJ', 'PER', 'PÉK', 'PER', 'PIA', 'PIN', 'POR', 'PÓK', 'PÓR', 'PÓT', 'PUB'
+            'PAD', 'PAP', 'PÁC', 'PÁN', 'PÁR', 'PEJ', 'PER', 'PÉK', 'PER', 'PIA', 'PIN', 'POR', 'PÓK', 'PÓR', 'PÓT', 'PUB'
         ],
         '4': [
             'PAKK', 'PALA', 'PALI', 'PAPA', 'PAPI', 'PARA', 'PARK', 'PART', 'PASI', 'PATA', 'PÁPA', 'PÁRA', 'PÁNT', 'PÁRT', 'PÁST', 'PIÁL',
@@ -579,10 +753,10 @@ export const wordsHun: Words = {
         ],
         '6': [
             'PADLÁS', 'PAJKOS', 'PAJTÁS', 'PALÁST', 'PAMACS', 'PAMLAG', 'PARÁDÉ', 'PARÁNY', 'PARIPA', 'PARKOL', 'PARKOS', 'PÁCOLT',
-            'PÁRDUC', 'PÁROLT', 'PÁRTOL', 'PENÉSZ', 'PENGET', 'PÉKÁRU', 'PÉNTEK', 'PÉNZEL', 'PÉNZES', 'PICIKE', 'PIKÁNS', 'PIKKEL',
-            'PIMASZ', 'PINCSI', 'PIPACS', 'PISZOK', 'POGÁNY', 'POLCOL', 'POLCOS', 'PONTOS', 'PORCOS', 'POROLÓ', 'POROND', 'POROSZ',
-            'PORTÁS', 'POSTÁS', 'POSTÁZ', 'PÓRNÉP', 'PÓTLÁS', 'PÖRKÖL', 'PÖRKÖS', 'PRÓBÁL', 'PRIZMA', 'PUHÁNY', 'PULCSI', 'PULTOS',
-            'PUSZIL'
+            'PÁNSÍP', 'PÁRDUC', 'PÁROLT', 'PÁRTOL', 'PENÉSZ', 'PENGET', 'PÉKÁRU', 'PÉNTEK', 'PÉNZEL', 'PÉNZES', 'PICIKE', 'PIKÁNS',
+            'PIKKEL', 'PIMASZ', 'PINCSI', 'PIPACS', 'PISZOK', 'POGÁNY', 'POLCOL', 'POLCOS', 'PONTOS', 'PORCOS', 'POROLÓ', 'POROND',
+            'POROSZ', 'PORTÁS', 'POSTÁS', 'POSTÁZ', 'PÓRNÉP', 'PÓTLÁS', 'PÖRKÖL', 'PÖRKÖS', 'PRÓBÁL', 'PRIZMA', 'PUHÁNY', 'PULCSI',
+            'PULTOS', 'PUSZIL'
         ],
         '7': [
             'PAKOLÁS', 'PAPAGÁJ', 'PAPRIKA', 'PAPSAJT', 'PARANCS', 'PARASZT', 'PARÁNYI', 'PASSZOL', 'PAZAROL', 'PÁFRÁNY', 'PÁLINKA',
@@ -602,11 +776,11 @@ export const wordsHun: Words = {
         ],
         '5': [
             'RABLÓ', 'RABOL', 'RADAR', 'RADÍR', 'RAGOZ', 'RAGYA', 'RAKÁS', 'RANDA', 'RÁÁLL', 'RÁBÍR', 'RÁBÖK', 'RÁDIÓ', 'RÁDŐL', 'RÁEJT',
-            'RÁFOG', 'RÁFUT', 'RÁFÚJ', 'RÁFŰT', 'RÁFŰZ', 'RÁHÚZ', 'RÁKAP', 'RÁKOS', 'RÁKÖT', 'RÁLÁT', 'RÁLEL', 'RÁLÉP', 'RÁLÓG', 'RÁLÖK',
-            'RÁMÉR', 'RÁÖLT', 'RÁÖNT', 'RÁRAK', 'RÁRÁZ', 'RÁSÓZ', 'RÁSÜL', 'RÁSÜT', 'RÁVET', 'RÁVON', 'RÁZÁS', 'REBEG', 'REDŐS', 'REGÉL',
-            'REMEG', 'REVES', 'REZEL', 'REZEG', 'REZES', 'RÉKLI', 'RÉMES', 'RÉTES', 'RIADÓ', 'RIADT', 'RIZSA', 'RÍMEL', 'RÍMES', 'ROBOT',
-            'ROHAD', 'ROHAM', 'ROHAN', 'ROKON', 'ROMÁN', 'ROMOS', 'RONDA', 'RONGY', 'ROSTA', 'ROVAR', 'RÓZSA', 'RÖFÖG', 'RÖGÖS', 'RÖHÖG',
-            'RŐZSE', 'RUGÓS', 'RUMOS', 'RÜHES'
+            'RÁFOG', 'RÁFUT', 'RÁFÚJ', 'RÁFŰT', 'RÁFŰZ', 'RÁHÚZ', 'RÁJÖN', 'RÁKAP', 'RÁKOS', 'RÁKÖT', 'RÁLÁT', 'RÁLEL', 'RÁLÉP', 'RÁLÓG',
+            'RÁLÖK', 'RÁMÉR', 'RÁÖLT', 'RÁÖNT', 'RÁRAK', 'RÁRÁZ', 'RÁSÓZ', 'RÁSÜL', 'RÁSÜT', 'RÁVET', 'RÁVON', 'RÁZÁS', 'REBEG', 'REDŐS',
+            'REGÉL', 'REMEG', 'REVES', 'REZEL', 'REZEG', 'REZES', 'RÉKLI', 'RÉMES', 'RÉTES', 'RIADÓ', 'RIADT', 'RIZSA', 'RÍMEL', 'RÍMES',
+            'ROBOT', 'ROHAD', 'ROHAM', 'ROHAN', 'ROKON', 'ROMÁN', 'ROMOS', 'RONDA', 'RONGY', 'ROSTA', 'ROVAR', 'ROVAT', 'RÓZSA', 'RÖFÖG',
+            'RÖGÖS', 'RÖHÖG', 'RŐZSE', 'RUGÓS', 'RUMOS', 'RÜHES'
         ],
         '6': [
             'RABIGA', 'RAGYÁS', 'RAGYOG', 'RAJONG', 'RAJTOL', 'RAJZOL', 'RAJZOS', 'RÁCSAP', 'RÁCSOS', 'RÁCSOZ', 'RÁDIÓS', 'RÁDÖNT',
@@ -629,9 +803,9 @@ export const wordsHun: Words = {
         ],
         '4': [
             'SAJT', 'SAKK', 'SARK', 'SATU', 'SÁNC', 'SEJT', 'SÉMA', 'SÉRT', 'SÉRV', 'SÉTA', 'SIET', 'SIKK', 'SIMA', 'SITT', 'SÍEL', 'SÍZŐ',
-            'SKÓT', 'SOKÁ', 'SRÁC', 'SRÉG', 'STOP', 'SUTA', 'SÚGÓ', 'SÜLT', 'SÜNI', 'SÜTŐ', 'SŰRŰ', 'SVÉD', 'SZAK', 'SZÁJ', 'SZÁL', 'SZÁM',
-            'SZÁN', 'SZÁR', 'SZÁZ', 'SZED', 'SZEG', 'SZEL', 'SZEM', 'SZER', 'SZÉK', 'SZÉL', 'SZÉN', 'SZÉP', 'SZÉT', 'SZIA', 'SZID', 'SZIK',
-            'SZIL', 'SZÍR', 'SZÍN', 'SZÍT', 'SZÍV', 'SZÓL', 'SZÓR', 'SZŐR', 'SZÚR', 'SZŰK', 'SZŰR'
+            'SKÓT', 'SLAG', 'SOKÁ', 'SRÁC', 'SRÉG', 'STOP', 'SUTA', 'SÚGÓ', 'SÜLT', 'SÜNI', 'SÜTŐ', 'SŰRŰ', 'SVÉD', 'SZAK', 'SZÁJ', 'SZÁL',
+            'SZÁM', 'SZÁN', 'SZÁR', 'SZÁZ', 'SZED', 'SZEG', 'SZEL', 'SZEM', 'SZER', 'SZÉK', 'SZÉL', 'SZÉN', 'SZÉP', 'SZÉT', 'SZIA', 'SZID',
+            'SZIK', 'SZIL', 'SZÍR', 'SZÍN', 'SZÍT', 'SZÍV', 'SZÓL', 'SZÓR', 'SZŐR', 'SZÚR', 'SZŰK', 'SZŰR'
         ],
         '5': [
             'SAJÁT', 'SAJKA', 'SAKÁL', 'SANDA', 'SAPKA', 'SARAZ', 'SARKI', 'SAROK', 'SASOL', 'SAVAS', 'SAVAZ', 'SÁNTA', 'SÁPAD', 'SÁRGA',
@@ -667,30 +841,30 @@ export const wordsHun: Words = {
         '4': [
             'TANK', 'TART', 'TATU', 'TALP', 'TAVI', 'TÁNC', 'TÁRS', 'TEÁS', 'TEKE', 'TELE', 'TELI', 'TELT', 'TERC', 'TEST', 'TESZ', 'TETŐ',
             'TETT', 'TETŰ', 'TEVE', 'TÉLI', 'TÉMA', 'TÉNY', 'TÉRD', 'TÉVÉ', 'TOKA', 'TOLD', 'TOLL', 'TOTÓ', 'TORS', 'TORZ', 'TOVA', 'TÖBB',
-            'TÖLT', 'TÖMB', 'TÖRP', 'TÖRT', 'TUSA', 'TÚRÓ', 'TYÚK'
+            'TÖLT', 'TÖMB', 'TÖRP', 'TÖRT', 'TUJA', 'TUSA', 'TÚRÓ', 'TYÚK'
         ],
         '5': [
-            'TACSI', 'TAGOL', 'TAKAR', 'TALÁN', 'TALÁR', 'TANÁR', 'TANGÓ', 'TANÍT', 'TANUL', 'TAPÍR', 'TARAJ', 'TARÉJ', 'TARKA', 'TAROL',
-            'TASAK', 'TAVAS', 'TÁBOR', 'TÁGAS', 'TÁGUL', 'TÁJOL', 'TÁKOL', 'TÁLAL', 'TÁLIB', 'TÁMAD', 'TÁMLA', 'TÁPOS', 'TÁRGY', 'TÁRNA',
-            'TÁRÁZ', 'TÁROL', 'TÁSKA', 'TÁTOG', 'TÁVOL', 'TEHER', 'TEHÉN', 'TEJEL', 'TEJES', 'TEKER', 'TEKNŐ', 'TELEK', 'TELÍT', 'TEMET',
-            'TEPER', 'TEREL', 'TEREM', 'TERÍT', 'TESTI', 'TESZT', 'TÉPÉS', 'TÉRÍT', 'TÉTEL', 'TÉVÉS', 'TINCS', 'TINTA', 'TISZT', 'TIZED',
-            'TÍZES', 'TOJÁS', 'TOJIK', 'TOKOS', 'TOLAT', 'TOLÁS', 'TOMPA', 'TORNA', 'TOROK', 'TORZÓ', 'TÓSZT', 'TÖBBI', 'TÖKÖL', 'TÖKÖS',
-            'TÖLGY', 'TÖLTŐ', 'TÖMÉS', 'TÖMLŐ', 'TÖMÖR', 'TÖREK', 'TÖRÉS', 'TÖRÖK', 'TÖRÖL', 'TÖRPE', 'TRIKÓ', 'TROLL', 'TRÜKK', 'TUDAT',
-            'TUDÁS', 'TUDÓS', 'TÚRÁS', 'TÚRÓS', 'TÜNDE', 'TÜNET', 'TÜZEL', 'TÜZES', 'TŰNIK', 'TŰRÉS', 'TŰZÉS'
+            'TACSI', 'TAGAD', 'TAGOL', 'TAKAR', 'TALÁN', 'TALÁR', 'TANÁR', 'TANGÓ', 'TANÍT', 'TANUL', 'TAPÍR', 'TARAJ', 'TARÉJ', 'TARKA',
+            'TAROL', 'TASAK', 'TAVAS', 'TÁBOR', 'TÁGAS', 'TÁGUL', 'TÁJOL', 'TÁKOL', 'TÁLAL', 'TÁLIB', 'TÁMAD', 'TÁMLA', 'TÁPOS', 'TÁRGY',
+            'TÁRNA', 'TÁRÁZ', 'TÁROL', 'TÁSKA', 'TÁTOG', 'TÁVOL', 'TEHER', 'TEHÉN', 'TEJEL', 'TEJES', 'TEKER', 'TEKNŐ', 'TELEK', 'TELÍT',
+            'TEMET', 'TEPER', 'TEREL', 'TEREM', 'TERÍT', 'TESTI', 'TESZT', 'TÉPÉS', 'TÉRÍT', 'TÉTEL', 'TÉVÉS', 'TINCS', 'TINTA', 'TISZT',
+            'TIZED', 'TÍZES', 'TOJÁS', 'TOJIK', 'TOKOS', 'TOLAT', 'TOLÁS', 'TOMPA', 'TORNA', 'TOROK', 'TORZÓ', 'TÓSZT', 'TÖBBI', 'TÖKÖL',
+            'TÖKÖS', 'TÖLGY', 'TÖLTŐ', 'TÖMÉS', 'TÖMLŐ', 'TÖMÖR', 'TÖREK', 'TÖRÉS', 'TÖRÖK', 'TÖRÖL', 'TÖRPE', 'TRIKÓ', 'TROLL', 'TRÜKK',
+            'TUDAT', 'TUDÁS', 'TUDÓS', 'TUJÁS', 'TUKÁN', 'TÚRÁS', 'TÚRÓS', 'TÜNDE', 'TÜNET', 'TÜZEL', 'TÜZES', 'TŰNIK', 'TŰRÉS', 'TŰZÉS'
         ],
         '6': [
             'TACSKÓ', 'TAGLAL', 'TAKARÓ', 'TAKART', 'TAKONY', 'TALPAL', 'TARTÁR', 'TARTÁS', 'TARTÓS', 'TÁBORI', 'TÁLTOS', 'TÁMADÓ',
             'TÁMASZ', 'TÁMFAL', 'TÁNCOL', 'TÁNCOS', 'TÁPLÁL', 'TÁRSAS', 'TEÁZÁS', 'TEÁZIK', 'TEGNAP', 'TEKINT', 'TEKNŐS', 'TELEÍR',
             'TELJES', 'TEMETŐ', 'TENGER', 'TENGET', 'TEREMT', 'TERHES', 'TERÍTŐ', 'TERMET', 'TESPED', 'TESTES', 'TETTES', 'TETVES',
-            'TÉGELY', 'TÉLIES', 'TÉRDEL', 'TÉSZTA', 'TIGRIS', 'TINTÁS', 'TISZTA', 'TOLLAS', 'TOLLAZ', 'TONHAL', 'TORKOS', 'TORSOS',
-            'TORZÍT', 'TOVÁBB', 'TÖLTÉS', 'TÖMBÖS', 'TÖMŐFA', 'TÖRLÉS', 'TÖRPÖL', 'TURKÁL', 'TÜNDÉR', 'TÜNTET', 'TÜRKIZ'
+            'TÉGELY', 'TÉLIES', 'TÉRDEL', 'TÉSZTA', 'TIGRIS', 'TINTÁS', 'TISZTA', 'TOLLAS', 'TOLLAZ', 'TOLVAJ', 'TONHAL', 'TORKOS',
+            'TORSOS', 'TORZÍT', 'TOVÁBB', 'TÖLTÉS', 'TÖMBÖS', 'TÖMŐFA', 'TÖRLÉS', 'TÖRPÖL', 'TURKÁL', 'TÜNDÉR', 'TÜNTET', 'TÜRKIZ'
         ],
         '7': [
-            'TAGOZAT', 'TAKARÁS', 'TAKARÍT', 'TAKNYOS', 'TANÍTÁS', 'TANSZER', 'TANULÁS', 'TARAJOS', 'TAROLÁS', 'TÁMADÁS', 'TÁMASZT',
-            'TÁPLÁLÓ', 'TÁRGYAL', 'TÁRKONY', 'TÁROLÁS', 'TEGNAPI', 'TELEFON', 'TEKÉZIK', 'TELEPES', 'TELEPÍT', 'TELEPÜL', 'TELERAK',
-            'TEMETÉS', 'TEMPERA', 'TEMPLOM', 'TENGERI', 'TEPERTŐ', 'TEREMŐR', 'TEREMTŐ', 'TERÍTÉS', 'TÉNYLEG', 'TÉVÉZIK', 'TISZTEL',
-            'TIZEDEL', 'TIZEDES', 'TOJÁSOS', 'TOLÓZÁR', 'TORNÁSZ', 'TÖLTÉNY', 'TÖLTÖTT', 'TRÜKKÖS', 'TULIPÁN', 'TURKÁLÓ', 'TÜNDÉRI',
-            'TÜNTETŐ', 'TÜRELEM'
+            'TAGADÁS', 'TAGOZAT', 'TAKARÁS', 'TAKARÍT', 'TAKNYOS', 'TANÍTÁS', 'TANSZER', 'TANULÁS', 'TARAJOS', 'TAROLÁS', 'TÁMADÁS',
+            'TÁMASZT', 'TÁPLÁLÓ', 'TÁRGYAL', 'TÁRKONY', 'TÁROLÁS', 'TEGNAPI', 'TELEFON', 'TEKÉZIK', 'TELEPES', 'TELEPÍT', 'TELEPÜL',
+            'TELERAK', 'TEMETÉS', 'TEMPERA', 'TEMPLOM', 'TENGERI', 'TEPERTŐ', 'TEREMŐR', 'TEREMTŐ', 'TERÍTÉS', 'TÉNYLEG', 'TÉVÉZIK',
+            'TISZTEL', 'TIZEDEL', 'TIZEDES', 'TOJÁSOS', 'TOLÓZÁR', 'TORNÁSZ', 'TÖLTÉNY', 'TÖLTÖTT', 'TRÜKKÖS', 'TULIPÁN', 'TURKÁLÓ',
+            'TÜNDÉRI', 'TÜNTETŐ', 'TÜRELEM'
         ]
     },
     'U': {
@@ -788,7 +962,7 @@ export const wordsHun: Words = {
             'ZAB', 'ZÁP', 'ZÁR', 'ZÚG', 'ZÚZ', 'ZŰR'
         ],
         '4': [
-            'ZÁRT', 'ZEKE', 'ZENE', 'ZENG', 'ZÖLD', 'ZÚGÓ', 'ZÚZA', 'ZSÁK', 'ZSEB', 'ZSÍR', 'ZÚZA'
+            'ZAGY', 'ZÁRT', 'ZEKE', 'ZENE', 'ZENG', 'ZÖLD', 'ZÚGÓ', 'ZÚZA', 'ZSÁK', 'ZSEB', 'ZSÍR', 'ZÚZA'
         ],
         '5': [
             'ZABÁL', 'ZABOS', 'ZAFÍR', 'ZAVAR', 'ZÁPOR', 'ZÁRVA', 'ZENÉL', 'ZENÉS', 'ZENGŐ', 'ZOKNI', 'ZÖRÖG', 'ZSEPI', 'ZUBOG', 'ZUHAN',

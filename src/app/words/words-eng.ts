@@ -369,8 +369,8 @@ export const wordsEng: Words = {
             'TAN', 'TAP', 'TEA', 'TEN', 'THE', 'TIN', 'TIT', 'TOE', 'TOP', 'TRY', 'TWO'
         ],
         '4': [
-            'TAIL', 'TAKE', 'TALE', 'TAME', 'TANK', 'TAPE', 'TASK', 'TEAL', 'TEAM', 'THEM', 'THEN', 'TILE', 'TILL', 'TIME', 'TOOL', 'TRAM',
-            'TRAY', 'TREE', 'TRIP', 'TRUE', 'TUBE', 'TUNE', 'TYPE'
+            'TAIL', 'TAKE', 'TALE', 'TAME', 'TANK', 'TAPE', 'TASK', 'TEAL', 'TEAM', 'TENT', 'THEM', 'THEN', 'THIN', 'TILE', 'TILL', 'TIME',
+            'TOOL', 'TRAM', 'TRAY', 'TREE', 'TRIP', 'TRUE', 'TUBE', 'TUNE', 'TYPE'
         ],
         '5': [
             'TABLE', 'TALON', 'TASTE', 'TEACH', 'THANK', 'THEFT', 'THEIR', 'THERE', 'THICK', 'THIEF', 'THING', 'THINK', 'THREE', 'THROW',
