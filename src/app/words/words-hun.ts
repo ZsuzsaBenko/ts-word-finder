@@ -558,53 +558,138 @@ export const wordsHun: Words = {
     },
     'G': {
         '3': [
-            'GAZ', 'GÁZ', 'GÉB', 'GÉL', 'GÉM', 'GÉN', 'GÉP', 'GÉZ', 'GIN', 'GNÚ', 'GÓT'
+            'GAZ', 'GÁT', 'GÁZ', 'GEG', 'GÉB', 'GÉL', 'GÉM', 'GÉN', 'GÉP', 'GÉZ', 'GIN', 'GÍM', 'GNÚ', 'GÓC', 'GÓJ', 'GÓL', 'GÓT', 'GÖB',
+            'GŐG', 'GŐZ', 'GYÍ'
         ],
         '4': [
-            'GIDA', 'GIGA', 'GOND', 'GŐTE', 'GYÁR', 'GYÉR', 'GYÚR', 'GYŰR'
+            'GAEL', 'GALL', 'GANG', 'GÁLA', 'GEBE', 'GEIL', 'GÉGE', 'GÉPI', 'GIDA', 'GIGA', 'GITT', 'GNÓM', 'GOLF', 'GOMB', 'GOND', 'GONG',
+            'GÓRÉ', 'GÖMB', 'GÖNC', 'GŐTE', 'GRÁF', 'GRÁL', 'GRÍZ', 'GRÓF', 'GRÚZ', 'GUBA', 'GUBÓ', 'GUMI', 'GUMÓ', 'GURU', 'GUTA', 'GÚLA',
+            'GÚNY', 'GÚZS', 'GYÁM', 'GYÁR', 'GYEP', 'GYÉR', 'GYÍK', 'GYOM', 'GYÓN', 'GYÖK', 'GYŐZ', 'GYÚR', 'GYŰR'
         ],
         '5': [
-            'GALÁD', 'GALLY', 'GATYA', 'GAZDA', 'GAZOL', 'GAZOS', 'GÁGOG', 'GÁZOL', 'GÁZOS', 'GERLE', 'GÉPEL', 'GÉPES', 'GIPSZ', 'GITÁR',
-            'GOMBA', 'GÖRÖG', 'GULYA', 'GURÍT', 'GURUL', 'GÚNÁR', 'GYÁRI', 'GYÁRT', 'GYÓGY', 'GYUFA', 'GYŰRT', 'GYŰRŰ'
+            'GAGYI', 'GALÁD', 'GALLY', 'GAMMA', 'GANAJ', 'GANÉJ', 'GARAS', 'GARAT', 'GARBÓ', 'GATYA', 'GAZDA', 'GAZOL', 'GAZOS', 'GÁGOG',
+            'GÁLYA', 'GÁNCS', 'GÁRDA', 'GÁTLÓ', 'GÁTOL', 'GÁTŐR', 'GÁZLÓ', 'GÁZOL', 'GÁZOS', 'GÁZSI', 'GEKKÓ', 'GENNY', 'GERLE', 'GETTÓ',
+            'GÉPEL', 'GÉPES', 'GÉPÍR', 'GICCS', 'GIPSZ', 'GITÁR', 'GLANC', 'GLETT', 'GLÉDA', 'GOFRI', 'GOLYÓ', 'GOMBA', 'GÓLEM', 'GÓLYA',
+            'GÖDÖR', 'GÖRBE', 'GÖRCS', 'GÖRGŐ', 'GÖRÖG', 'GŐGÖS', 'GŐZÖL', 'GŐZÖS', 'GRAMM', 'GRIFF', 'GRILL', 'GRÓFI', 'GRUND', 'GUANÓ',
+            'GULÁG', 'GULYA', 'GUMIZ', 'GUMÓS', 'GUPPI', 'GURÍT', 'GURUL', 'GÚNÁR', 'GÚNYA', 'GÜGYE', 'GYALU', 'GYANÚ', 'GYAUR', 'GYÁRI',
+            'GYÁRT', 'GYÁSZ', 'GYÁVA', 'GYERE', 'GYORS', 'GYÓGY', 'GYÓNÓ', 'GYŐZŐ', 'GYUFA', 'GYÚJT', 'GYÚRÓ', 'GYÚRT', 'GYŰJT', 'GYŰRT',
+            'GYŰRŰ'
         ],
         '6': [
-            'GABONA', 'GALAMB', 'GARÁZS', 'GAZDAG', 'GÁLÁNS', 'GÁNYOL', 'GERELY', 'GEREZD', 'GERINC', 'GÉBICS', 'GÉPÉSZ', 'GINDÁR',
-            'GLUTÉN', 'GLÜKÓZ', 'GOMBÁS', 'GONDOL', 'GONDOS', 'GÖNDÖR', 'GULYÁS', 'GYÁROS', 'GYÁRTÓ', 'GYENGE', 'GYEREK', 'GYOMOR',
-            'GYÖNGY', 'GYÚRÁS', 'GYŰRŰS'
+            'GABONA', 'GACSOS', 'GAGYOG', 'GALAMB', 'GALERI', 'GALIBA', 'GALLÉR', 'GALLON', 'GALÓCA', 'GALOPP', 'GARÁZS', 'GARZON',
+            'GAZDAG', 'GAZSÁG', 'GÁCSÉR', 'GÁLÁNS', 'GÁNYOL', 'GÁTLÁS', 'GÁZCSŐ', 'GÁZÉGŐ', 'GÁZKAR', 'GÁZÓRA', 'GEJZÍR', 'GELLER',
+            'GEPÁRD', 'GERELY', 'GEREZD', 'GERINC', 'GERJED', 'GERMÁN', 'GERSLI', 'GÉBICS', 'GÉGEFŐ', 'GÉGÉSZ', 'GÉPELT', 'GÉPÉSZ',
+            'GÉPHÁZ', 'GÉPIES', 'GÉPÍRÓ', 'GÉPÍRT', 'GÉPSOR', 'GÉPTAN', 'GIGÁSZ', 'GINDÁR', 'GIRHES', 'GITTEL', 'GLÓRIA', 'GLUKÓZ',
+            'GLUTÉN', 'GLÜKÓZ', 'GOKART', 'GOLFOZ', 'GOLYÓS', 'GOLYVA', 'GOMBÁS', 'GOMBOL', 'GOMBOS', 'GOMBÓC', 'GONDOL', 'GONDOS',
+            'GONDOZ', 'GONOSZ', 'GORDON', 'GÓLIÁT', 'GÓRCSŐ', 'GÓTIKA', 'GÖDÉNY', 'GÖDRÖS', 'GÖMBÖC', 'GÖNDÖR', 'GÖRBÍT', 'GÖRBÜL',
+            'GÖRDÍT', 'GÖRDÜL', 'GÖRÉNY', 'GÖRGET', 'GÖTHÖS', 'GŐZGÉP', 'GRAFIT', 'GRÁCIA', 'GRÁNÁT', 'GRÁNIT', 'GRÓFNŐ', 'GUBACS',
+            'GUGGOL', 'GUKKER', 'GULYÁS', 'GUMIFA', 'GURTNI', 'GUSZTA', 'GÚNYOL', 'GÚNYOS', 'GÜGYÖG', 'GÜRCÖL', 'GYALÁZ', 'GYALOG',
+            'GYALUL', 'GYANÍT', 'GYANTA', 'GYANÚS', 'GYAPJÚ', 'GYAPOT', 'GYARLÓ', 'GYATRA', 'GYÁROS', 'GYÁRTÓ', 'GYÁVÁN', 'GYENGE',
+            'GYEPES', 'GYEPLŐ', 'GYEPÜL', 'GYEREK', 'GYÉREN', 'GYÉRÜL', 'GYILOK', 'GYOLCS', 'GYOMOR', 'GYOMOS', 'GYOPÁR', 'GYÓNÁS',
+            'GYÖKÉR', 'GYÖNGE', 'GYÖNGY', 'GYÖTÖR', 'GYÖTRŐ', 'GYURMA', 'GYÚJTÓ', 'GYÚRÁS', 'GYŰJTŐ', 'GYŰLÉS', 'GYŰLIK', 'GYŰLÖL',
+            'GYŰRŰS', 'GYŰRŰZ', 'GYŰSZŰ'
         ],
         '7': [
-            'GALLYAZ', 'GARNÉLA', 'GÁGOGÁS', 'GÁZOLÁS', 'GÉPELÉS', 'GÉPESÍT', 'GÉPÍRÁS', 'GITÁROS', 'GONDOLA', 'GOROMBA', 'GURÍTÁS',
-            'GURULÁS', 'GÖRÖNGY', 'GYÁRTÁS', 'GYERKŐC', 'GYERMEK', 'GYERTYA', 'GYÓGYÍT', 'GYUTACS', 'GYŰRÖTT'
+            'GALAXIS', 'GALÉRIA', 'GALLYAZ', 'GALUSKA', 'GARASOS', 'GARÁZDA', 'GARDRÓB', 'GARMADA', 'GARNÉLA', 'GAZELLA', 'GAZTETT',
+            'GÁGOGÁS', 'GÁLAEST', 'GÁNCSOL', 'GÁNCSOS', 'GÁZCSAP', 'GÁZFŐZŐ', 'GÁZGYÁR', 'GÁZLÁNG', 'GÁZNEMŰ', 'GÁZOLÁS', 'GÁZOLAJ',
+            'GÁZSZAG', 'GENERÁL', 'GENEZIS', 'GENNYED', 'GENNYES', 'GEODÉTA', 'GERBERA', 'GERENDA', 'GERILLA', 'GESZTUS', 'GÉNBANK',
+            'GÉNIUSZ', 'GÉPÁGYÚ', 'GÉPELEM', 'GÉPELÉS', 'GÉPESÍT', 'GÉPEZET', 'GÉPGYÁR', 'GÉPHANG', 'GÉPHIBA', 'GÉPIPAR', 'GÉPIRAT',
+            'GÉPÍRÁS', 'GÉPOLAJ', 'GÉPPARK', 'GÉPRÉSZ', 'GÉPSZÍJ', 'GICCSES', 'GIGABIT', 'GIGÁSZI', 'GIGERLI', 'GIKSZER', 'GINZENG',
+            'GIPSZEL', 'GIPSZES', 'GIRLAND', 'GITÁROS', 'GLANCOL', 'GLETTEL', 'GLOSSZA', 'GLÓBUSZ', 'GOBELIN', 'GOLFOZÓ', 'GOLFÜTŐ',
+            'GOLGOTA', 'GOMOLYA', 'GONDNOK', 'GONDOLA', 'GONDOZÓ', 'GONDŰZŐ', 'GORILLA', 'GOROMBA', 'GÓCPONT', 'GÓLLÖVŐ', 'GÓTIKUS',
+            'GÖRCSÖL', 'GÖRCSÖS', 'GÖRDÜLŐ', 'GÖRNYED', 'GÖRÖNGY', 'GŐZHAJÓ', 'GŐZÖLGŐ', 'GŐZÖLÖG', 'GŐZÖLŐS', 'GRAFIKA', 'GRÁDICS',
+            'GRÁTISZ', 'GUBERÁL', 'GURÍTÁS', 'GURULÁS', 'GÖDÖLYE', 'GÖNGYÖL', 'GÖRÖNGY', 'GRILLEZ', 'GRIMASZ', 'GRÓFSÁG', 'GUMIBOT',
+            'GUMÍROZ', 'GUSZTÁL', 'GUSZTUS', 'GUZSALY', 'GÚNYNÉV', 'GÜMŐKÓR', 'GÜRIZIK', 'GYAKORI', 'GYAKRAN', 'GYANÁNT', 'GYANTÁZ',
+            'GYAPJAS', 'GYARMAT', 'GYÁMSÁG', 'GYÁMÜGY', 'GYÁRTÁS', 'GYÁSZOL', 'GYÁSZOS', 'GYENGÉD', 'GYENGÉN', 'GYENGÍT', 'GYENGÜL',
+            'GYERKŐC', 'GYERMEK', 'GYERTYA', 'GYERÜNK', 'GYÉKÉNY', 'GYÉMÁNT', 'GYILKOL', 'GYILKOS', 'GYOGYÓS', 'GYOMLÁL', 'GYORSAN',
+            'GYORSÍR', 'GYORSÍT', 'GYORSUL', 'GYÓGYÍR', 'GYÓGYÍT', 'GYÓGYUL', 'GYÓNTAT', 'GYÖKJEL', 'GYÖMBÉR', 'GYÖNYÖR', 'GYŐZTES',
+            'GYULLAD', 'GYUTACS', 'GYÚJTÁS', 'GYÚJTÓS', 'GYŰJTÉS', 'GYŰLÖLT', 'GYŰRÖTT'
         ]
     },
     'H': {
         '3': [
-            'HAB', 'HAD', 'HAJ', 'HAL', 'HAS', 'HAT', 'HÁJ', 'HÁL', 'HÁM', 'HÁT', 'HÁZ', 'HEG', 'HEJ', 'HÉT', 'HIT', 'HÍM', 'HÍR', 'HOL',
-            'HON', 'HUN', 'HÚR', 'HÚS', 'HÚZ', 'HŰS'
+            'HAB', 'HAD', 'HAJ', 'HAL', 'HAS', 'HAT', 'HÁG', 'HÁJ', 'HÁL', 'HÁM', 'HÁT', 'HÁZ', 'HEG', 'HEJ', 'HÉJ', 'HÉT', 'HÉV', 'HIT',
+            'HIÚ', 'HÍD', 'HÍG', 'HÍM', 'HÍR', 'HÍV', 'HOL', 'HON', 'HOZ', 'HÓD', 'HÓN', 'HŐN', 'HŐS', 'HUN', 'HÚG', 'HÚR', 'HÚS', 'HÚZ',
+            'HŰL', 'HŰS', 'HŰT'
         ],
         '4': [
-            'HADI', 'HAGY', 'HAJÓ', 'HAJT', 'HALK', 'HALL', 'HANG', 'HANT', 'HAZA', 'HÁLA', 'HÁLÓ', 'HÁNY', 'HÁRS', 'HEGY', 'HELY', 'HERE',
-            'HÉJA', 'HIBA', 'HINT', 'HISZ', 'HÍVŐ', 'HOGY', 'HOLD', 'HOLT', 'HOVA', 'HOVÁ', 'HÓKA', 'HULL', 'HUSI', 'HÚSZ'
+            'HADD', 'HADI', 'HAGY', 'HAHÓ', 'HAJÓ', 'HAJT', 'HALK', 'HALL', 'HALÓ', 'HAMU', 'HAMV', 'HANG', 'HANT', 'HARC', 'HASÉ', 'HASI',
+            'HATÓ', 'HAVI', 'HAZA', 'HÁGÓ', 'HÁLA', 'HÁLÓ', 'HÁNT', 'HÁNY', 'HÁRS', 'HÁTI', 'HÁZI', 'HECC', 'HEGY', 'HEKK', 'HELY', 'HERE',
+            'HESS', 'HETI', 'HÉJA', 'HIBA', 'HIFI', 'HINT', 'HISZ', 'HIÚZ', 'HÍJA', 'HÍRŰ', 'HÍVE', 'HÍVÓ', 'HÍVŐ', 'HÍZÓ', 'HOGY', 'HOHÓ',
+            'HOKI', 'HOLD', 'HOLT', 'HONI', 'HOPP', 'HORD', 'HOVA', 'HOVÁ', 'HÓKA', 'HŐSI', 'HULL', 'HUNY', 'HURI', 'HUSI', 'HÚGY', 'HÚSZ',
+            'HŰHA', 'HŰHÓ', 'HŰLT', 'HŰTŐ'
         ],
         '5': [
-            'HABOS', 'HADAR', 'HAJÍT', 'HAJOL', 'HAJÓS', 'HAJTÓ', 'HALAD', 'HALAS', 'HALÁL', 'HANGA', 'HANTA', 'HARAG', 'HASIS', 'HATOD',
-            'HATOL', 'HATOS', 'HAVAS', 'HÁJAS', 'HÁLÁS', 'HÁLÓS', 'HÁLÓZ', 'HÁROM', 'HÁTAS', 'HÁTRA', 'HÁTSÓ', 'HÁZAL', 'HÁZAS', 'HEGED',
-            'HEGES', 'HELLÓ', 'HETED', 'HETES', 'HEVER', 'HEVÍT', 'HÉBER', 'HÉTFŐ', 'HIBÁS', 'HIDEG', 'HIMLŐ', 'HINTA', 'HINTÓ', 'HITEL',
-            'HITES', 'HÍMES', 'HÍMEZ', 'HÍNÁR', 'HÍRES', 'HOBBI', 'HOLLÓ', 'HOMOK', 'HONOL', 'HOTEL', 'HŐKÖL', 'HULLA', 'HUMÁN', 'HURKA',
-            'HUZAL', 'HUZAM', 'HUZAT', 'HÚZÁS', 'HÚROS', 'HÚROZ', 'HÚSOS', 'HŰSÍT', 'HŰSÖL', 'HŰVÖS'
+            'HABAR', 'HABÁR', 'HABOS', 'HADAR', 'HADÚR', 'HAIKU', 'HAJAS', 'HAJDÚ', 'HAJÍT', 'HAJOL', 'HAJÓS', 'HAJRÁ', 'HAJTÓ', 'HAJTŰ',
+            'HAKNI', 'HALAD', 'HALAS', 'HALÁL', 'HALLÓ', 'HALOM', 'HALŐR', 'HALVA', 'HAMAR', 'HAMIS', 'HANEM', 'HANGA', 'HANTA', 'HAPCI',
+            'HAPSI', 'HARAP', 'HARAG', 'HARCI', 'HASAD', 'HASAL', 'HASAS', 'HASÁB', 'HASIS', 'HASÍT', 'HASON', 'HATAN', 'HATÁR', 'HATÁS',
+            'HATOD', 'HATOL', 'HATOS', 'HATUK', 'HAVAS', 'HAVER', 'HAZAI', 'HAZUG', 'HÁJAS', 'HÁLÁS', 'HÁLÓS', 'HÁLÓZ', 'HÁMOZ', 'HÁNCS',
+            'HÁPOG', 'HÁREM', 'HÁRFA', 'HÁRÍT', 'HÁROM', 'HÁRUL', 'HÁTAS', 'HÁTHA', 'HÁTRA', 'HÁTSÓ', 'HÁTUL', 'HÁZAL', 'HÁZAS', 'HEBEG',
+            'HEGED', 'HEGES', 'HEGYI', 'HEKUS', 'HELLÓ', 'HELYI', 'HENYE', 'HERÉL', 'HETED', 'HETEN', 'HETES', 'HEVER', 'HEVES', 'HEVÍT',
+            'HEVÜL', 'HÉBER', 'HÉDER', 'HÉJAS', 'HÉTFŐ', 'HÉVÍZ', 'HÉZAG', 'HIÁBA', 'HIÁNY', 'HIBÁS', 'HIDEG', 'HIDRA', 'HIÉNA', 'HIMLŐ',
+            'HINDI', 'HINDU', 'HINTA', 'HINTÓ', 'HIPPI', 'HITEL', 'HITES', 'HITHŰ', 'HÍDFŐ', 'HÍGÍT', 'HÍGUL', 'HÍJÁN', 'HÍMES', 'HÍMEZ',
+            'HÍNÁR', 'HÍREK', 'HÍRES', 'HÍVAT', 'HÍVÁS', 'HÍVEN', 'HÍZÁS', 'HÍZIK', 'HOBBI', 'HOLLÓ', 'HOLMI', 'HOMÁR', 'HOMOK', 'HONOL',
+            'HONFI', 'HONOL', 'HONOS', 'HONŐR', 'HOPPÁ', 'HORDA', 'HORDÓ', 'HOROG', 'HOSSZ', 'HOTEL', 'HOZAM', 'HOZAT', 'HOZÁS', 'HOZZÁ',
+            'HÓDÍT', 'HÓDOL', 'HÓEKE', 'HÓHÉR', 'HÓNAP', 'HÖLGY', 'HÖRGŐ', 'HÖRÖG', 'HŐFOK', 'HŐKÖL', 'HŐSÉG', 'HŐSNŐ', 'HŐTAN', 'HUHOG',
+            'HULLA', 'HUMÁN', 'HUMOR', 'HURKA', 'HUROK', 'HURRÁ', 'HURUT', 'HUZAL', 'HUZAM', 'HUZAT', 'HÚZÁS', 'HÚROS', 'HÚROZ', 'HÚSOS',
+            'HÚZÓS', 'HÜLLŐ', 'HÜLYE', 'HŰBÉR', 'HŰDÉS', 'HŰLÉS', 'HŰLIK', 'HŰSÉG', 'HŰSÍT', 'HŰSÖL', 'HŰTÉS', 'HŰVÖS'
         ],
         '6': [
-            'HABZÁS', 'HABZIK', 'HAJLAT', 'HAJLÁS', 'HAJLIK', 'HAJLÍT', 'HAJNAL', 'HAJTÁS', 'HAGYMA', 'HALADÓ', 'HALÁLI', 'HALLÁS',
-            'HALOTT', 'HAMVAD', 'HAMVAS', 'HANGOL', 'HANGOS', 'HANGYA', 'HANYAG', 'HANTÁS', 'HANTOL', 'HARANG', 'HARMAD', 'HARMAT',
-            'HATVAN', 'HÁBORÚ', 'HÁNTOL', 'HÁRMAS', 'HÁRSFA', 'HÁTAKT', 'HÁTRÁL', 'HEGEDŰ', 'HEGYES', 'HEGYEZ', 'HELYES', 'HELYEZ',
-            'HENTES', 'HERCEG', 'HERING', 'HEROIN', 'HETVEN', 'HEVERŐ', 'HIMLŐS', 'HISZEN', 'HITVES', 'HÍMNŐS', 'HÍRADÓ', 'HÍRNÉV',
-            'HOBBIT', 'HOGYAN', 'HOLDAS', 'HOLNAP', 'HONVÉD', 'HORVÁT', 'HÓÁGYÚ', 'HŐMÉRŐ', 'HULLÁM', 'HUMUSZ', 'HUSZAD', 'HÚSZAS',
-            'HÜVELY'
+            'HABART', 'HABZÁS', 'HABZIK', 'HACKER', 'HACSAK', 'HADERŐ', 'HADOVA', 'HADTÁP', 'HADÜGY', 'HAGYMA', 'HAHOTA', 'HAJDAN',
+            'HAJLAM', 'HAJLAT', 'HAJLÁS', 'HAJLÉK', 'HAJLIK', 'HAJLÍT', 'HAJNAL', 'HAJÓÚT', 'HAJSZA', 'HAJTAT', 'HAJTÁS', 'HAJVÍZ',
+            'HAJZAT', 'HALADÓ', 'HALÁLI', 'HALÁSZ', 'HALKAN', 'HALKÉS', 'HALKÍT', 'HALKUL', 'HALLAT', 'HALLÁS', 'HALMAZ', 'HALMOZ',
+            'HALOTT', 'HALÓDÓ', 'HALTEJ', 'HAMVAD', 'HAMVAS', 'HANGÁR', 'HANGOL', 'HANGOS', 'HANGZÓ', 'HANGYA', 'HANUKA', 'HANYAG',
+            'HANTÁS', 'HANTOL', 'HAPTÁK', 'HARANG', 'HARÁNT', 'HARCOL', 'HARCOS', 'HARCSA', 'HARMAD', 'HARMAT', 'HARSAN', 'HARSOG',
+            'HASADT', 'HASPÓK', 'HASTÁJ', 'HASZON', 'HATÁLY', 'HATÉVI', 'HATFŐS', 'HATUNK', 'HATTYÚ', 'HATVAN', 'HAVASI', 'HAZAAD',
+            'HAZAÉR', 'HAZAFI', 'HAZAÚT', 'HAZÁIG', 'HAZÁRD', 'HÁBORÚ', 'HÁJFEJ', 'HÁKLIS', 'HÁLYOG', 'HÁMLÁS', 'HÁMLIK', 'HÁNTOL',
+            'HÁNYAD', 'HÁNYAN', 'HÁNYAS', 'HÁNYÁS', 'HÁRFÁS', 'HÁRMAN', 'HÁRMAS', 'HÁRPIA', 'HÁRSFA', 'HÁRTYA', 'HÁTAKT', 'HÁTFAL',
+            'HÁTLAP', 'HÁTRÁL', 'HÁTTÉR', 'HÁTVÉD', 'HÁZADÓ', 'HÁZALÓ', 'HÁZIAS', 'HÁZBÉR', 'HÁZIKÓ', 'HÁZIÚR', 'HÁZSOR', 'HEBEGŐ',
+            'HECCEL', 'HEGEDŰ', 'HEGYES', 'HEGYEZ', 'HEKTÁR', 'HELLÉN', 'HELYÁR', 'HELYES', 'HELYEZ', 'HENCEG', 'HENGER', 'HENTES',
+            'HENYÉL', 'HERCEG', 'HERCIG', 'HERÉLT', 'HERGEL', 'HERING', 'HERNYÓ', 'HEROIN', 'HERVAD', 'HETERÓ', 'HETVEN', 'HETYEG',
+            'HETYKE', 'HEVENY', 'HEVERŐ', 'HÉLIUM', 'HÉTÉVI', 'HÉTFŐI', 'HÉTFŐS', 'HÉTRÉT', 'HIÁTUS', 'HIBRID', 'HIDRÁL', 'HIDRÁT',
+            'HIGANY', 'HIHETŐ', 'HIMBÁL', 'HINTÁS', 'HIMLŐS', 'HIRDET', 'HISZEN', 'HISZTI', 'HITTAN', 'HITVES', 'HIÚSÁG', 'HIZLAL',
+            'HÍDVÁM', 'HÍGÍTÓ', 'HÍMNEM', 'HÍMNŐS', 'HÍMPOR', 'HÍMZÉS', 'HÍRADÓ', 'HÍRLAP', 'HÍRLIK', 'HÍRNÉV', 'HÍRNÖK', 'HOBBIT',
+            'HODÁLY', 'HOGYAN', 'HOGYHA', 'HOGYNE', 'HOLDAS', 'HOLDÉV', 'HOLLÉT', 'HOLNAP', 'HOLOTT', 'HOLTAN', 'HOLTÁG', 'HOMÁLY',
+            'HOMBÁR', 'HOMLOK', 'HOMORÚ', 'HONLAP', 'HONNAN', 'HONVÉD', 'HORDÁR', 'HORDOZ', 'HORGAS', 'HORGOL', 'HORGOS', 'HORKOL',
+            'HORMON', 'HORONY', 'HORPAD', 'HORROR', 'HORVÁT', 'HOSSZÚ', 'HOTDOG', 'HOZOTT', 'HÓÁGYÚ', 'HÓBORT', 'HÓCIPŐ', 'HÓDÍTÓ',
+            'HÓDOLÓ', 'HÓESÉS', 'HÓKÁSA', 'HÓLÁNC', 'HÓLYAG', 'HÓMARÓ', 'HÓMEZŐ', 'HÓNALJ', 'HÓNAPI', 'HÓRUKK', 'HÓTOLÓ', 'HÖRGÉS',
+            'HŐÁLLÓ', 'HŐGUTA', 'HŐMÉRŐ', 'HŐSIES', 'HŐSKOR', 'HUGYOS', 'HUGYOZ', 'HULLAT', 'HULLÁM', 'HUMBUG', 'HUMUSZ', 'HUNCUT',
+            'HUPPAN', 'HURCOL', 'HURKOL', 'HUSÁNG', 'HUSZAD', 'HUSZÁR', 'HÚSEVŐ', 'HÚSVÉT', 'HÚSZAN', 'HÚSZAS', 'HÜMMÖG', 'HÜVELY',
+            'HŰBÉRI', 'HŰSÍTŐ', 'HŰTLEN', 'HŰTÖTT'
         ],
         '7': [
-            'HABARCS', 'HABOZÁS', 'HAGYMÁS', 'HAJÍTÁS', 'HAJLOTT', 'HAJNALI', 'HAJÓHAD', 'HAJSZÁL', 'HALADÁS', 'HALLGAT', 'HANGADÓ',
-            'HANGZÁS', 'HARAGOS', 'HARMINC', 'HAVAZÁS', 'HÁBORÚS', 'HÁLÓZAT', 'HÁTASLÓ', 'HEGEDŰS', 'HIBÁZIK', 'HIMNUSZ', 'HITELES',
-            'HITELEZ', 'HÍRHEDT', 'HOLLAND', 'HOLNAPI', 'HÓEMBER', 'HUMÁNUS', 'HUZAMOS', 'HUZATOS', 'HŰSÖLÉS'
+            'HABARCS', 'HABCSÓK', 'HABITUS', 'HABOZÁS', 'HABOZIK', 'HABVERŐ', 'HABZSOL', 'HADARÁS', 'HADBÍRÓ', 'HADIADÓ', 'HADNAGY',
+            'HADOVÁL', 'HADREND', 'HADTEST', 'HADÜGYI', 'HAGYJÁN', 'HAGYMÁS', 'HAJADON', 'HAJCIHŐ', 'HAJCSAT', 'HAJCSÁR', 'HAJDANI',
+            'HAJDÍSZ', 'HAJFÜRT', 'HAJHÁLÓ', 'HAJIGÁL', 'HAJÍTÁS', 'HAJKEFE', 'HAJLAKK', 'HAJLONG', 'HAJLOTT', 'HAJNALI', 'HAJOLAJ',
+            'HAJÓÁCS', 'HAJÓFAR', 'HAJÓHAD', 'HAJÓHÍD', 'HAJÓORR', 'HAJÓRAJ', 'HAJÓTÉR', 'HAJÓZIK', 'HAJPÁNT', 'HAJSZÁL', 'HAJSZÍN',
+            'HAJSZOL', 'HAJTÓKA', 'HAJTŐMŰ', 'HALADÁS', 'HALADÉK', 'HALANDÓ', 'HALASTÓ', 'HALASZT', 'HALÁLOK', 'HALÁLOS', 'HALÁRUS',
+            'HALÉTEL', 'HALFILÉ', 'HALIKRA', 'HALLÁSI', 'HALLGAT', 'HALOGAT', 'HALOGÉN', 'HALOTTI', 'HALPIAC', 'HALSZEM', 'HALVÁNY',
+            'HALVÉRŰ', 'HAMISÍT', 'HANGADÓ', 'HANGAFA', 'HANGERŐ', 'HANGFAL', 'HANGKÖZ', 'HANGNEM', 'HANGRÉS', 'HANGSÁV', 'HANGSOR',
+            'HANGTAN', 'HANGZAT', 'HANGZIK', 'HANGZÁS', 'HANYATT', 'HARAGÍT', 'HARAGOS', 'HARAGVÓ', 'HARAMIA', 'HARAPÁS', 'HARAPÓS',
+            'HARASZT', 'HARCIAS', 'HARCTÉR', 'HARDVER', 'HARKÁLY', 'HARMINC', 'HARSÁNY', 'HARSOGÓ', 'HARSONA', 'HASADÁS', 'HASADÉK',
+            'HASÁBOS', 'HASIZOM', 'HASÍTÉK', 'HASKÖTŐ', 'HASMÁNT', 'HASMARS', 'HASNYÁL', 'HASOGAT', 'HASONÍT', 'HASONUL', 'HASONLÓ',
+            'HASTÁJI', 'HASTÁNC', 'HASÚSZÓ', 'HASÜREG', 'HASZNÁL', 'HASZNOS', 'HATALMI', 'HATALOM', 'HATÁRKŐ', 'HATÁROL', 'HATÁROS',
+            'HATÁROZ', 'HATÁRŐR', 'HATÁSOS', 'HATÉVES', 'HATFÉLE', 'HATHAVI', 'HATHETI', 'HATNAPI', 'HATODÉV', 'HATÓERŐ', 'HATÓKÖR',
+            'HATÓRAI', 'HATÓRÁS', 'HATÓSÁG', 'HATÖKÖR', 'HATSZÁZ', 'HATSZOR', 'HATSZÖG', 'HATTAGÚ', 'HATVÁNY', 'HAVAZÁS', 'HAVAZIK',
+            'HAVIBAJ', 'HAVIBÉR', 'HAVIDÍJ', 'HAVILAP', 'HAVONTA', 'HAZAHÍV', 'HAZAHOZ', 'HAZAJÖN', 'HAZAJUT', 'HAZATÉR', 'HAZUDIK',
+            'HÁBORGÓ', 'HÁBOROG', 'HÁBORÚS', 'HÁJFEJŰ', 'HÁLÁSAN', 'HÁLÓING', 'HÁLÓZAT', 'HÁMOZÁS', 'HÁMSEJT', 'HÁNTOLT', 'HÁNYTAT',
+            'HÁPOGÁS', 'HÁRTYÁS', 'HÁRTYÁZ', 'HÁTASLÓ', 'HÁTRAAD', 'HÁTRÁBB', 'HÁTRÁNY', 'HÁTRÉBB', 'HÁTSZÉL', 'HÁTSZÍN', 'HÁTULJA',
+            'HÁTULSÓ', 'HÁZALÁS', 'HÁZBELI', 'HÁZHELY', 'HÁZILAG', 'HÁZŐRZŐ', 'HÁZSZÁM', 'HÁZTÁJI', 'HÁZTETŐ', 'HÁZTÖMB', 'HEBEGÉS',
+            'HECCLAP', 'HEGEDÜL', 'HEGEDŰS', 'HEGESZT', 'HEGYEZŐ', 'HEGYFOK', 'HEGYLÁB', 'HEGYSÉG', 'HEHEZET', 'HELYNÉV', 'HELYSÉG',
+            'HEYLZET', 'HEMZSEG', 'HENCEGŐ', 'HEPCIÁS', 'HERCEGI', 'HERÉLÉS', 'HERPESZ', 'HERVADT', 'HETEDIK', 'HETIBÉR', 'HETILAP',
+            'HETTITA', 'HEVEDER', 'HEVÍTÉS', 'HEVÜLET', 'HEVÜLÉS', 'HEZITÁL', 'HÉTÉVES', 'HÉTFÉLE', 'HÉTHAVI', 'HÉTHETI', 'HÉTNAPI',
+            'HÉTÓRAI', 'HÉTÓRÁS', 'HÉTSZÁZ', 'HÉTSZER', 'HÉTSZÖG', 'HÉTTAGÚ', 'HÉTTUSA', 'HÉTVÉGE', 'HÉTVÉGI', 'HÉZAGOL', 'HÉZAGOS',
+            'HIÁNYOL', 'HIÁNYOS', 'HIÁNYZÓ', 'HIBBANT', 'HIBÁZIK', 'HIDEGEN', 'HIGGADT', 'HIMNUSZ', 'HINTALÓ', 'HIPOXIA', 'HIRDETŐ',
+            'HITEGET', 'HITELES', 'HITELEZ', 'HITÉLET', 'HITVÁNY', 'HIVATAL', 'HIVATÁS', 'HIVATVA', 'HIZLALÓ', 'HÍDDARU', 'HÍDPÉNZ',
+            'HÍGÍTÁS', 'HÍMNEMŰ', 'HÍMZETT', 'HÍRADÁS', 'HÍRADÓS', 'HÍRHEDT', 'HÍRVIVŐ', 'HÍVÓJEL', 'HOGYLÉT', 'HOKEDLI', 'HOKIBOT',
+            'HOKIÜTŐ', 'HOKIZIK', 'HOLDING', 'HOLLAND', 'HOLNAPI', 'HOLTIDŐ', 'HOLTTÉR', 'HOMOFÓN', 'HOMOGÉN', 'HOMOKKŐ', 'HOMOKOS',
+            'HOMORÍT', 'HONATYA', 'HONORÁL', 'HONOSÍT', 'HONOSUL', 'HONVÁGY', 'HONVÉDŐ', 'HORDÁGY', 'HORGANY', 'HORGÁSZ', 'HORGONY',
+            'HORNYOL', 'HORTYOG', 'HORZSOL', 'HOSPICE', 'HOSTESS', 'HOSSZAN', 'HOSSZAS', 'HOZZÁAD', 'HOZZÁÉR', 'HÓBUCKA', 'HÓDOLAT',
+            'HÓEMBER', 'HÓFEDTE', 'HÓFEHÉR', 'HÓFELHŐ', 'HÓFÚVÁS', 'HÓFÖDTE', 'HÓGOLYÓ', 'HÓHÁNYÓ', 'HÓHATÁR', 'HÓKOTRÓ', 'HÓLABDA',
+            'HÓLAPÁT', 'HÓMOBIL', 'HÓVIHAR', 'HÓVIRÁG', 'HÓZÁPOR', 'HÖRCSÖG', 'HÖRPINT', 'HŐERŐMŰ', 'HŐPAPÍR', 'HŐSTETT', 'HŐTARTÓ',
+            'HUMÁNUS', 'HÓNAPOS', 'HUHOGÁS', 'HULIGÁN', 'HULLOTT', 'HUMÁNUM', 'HUMÁNUS', 'HUMOROS', 'HURUTOS', 'HUZAMOS', 'HUZATOS',
+            'HÚGYCSŐ', 'HÚGYSAV', 'HÚSBOLT', 'HÚSÉTEL', 'HÚSIPAR', 'HÚSVÉTI', 'HÚSZÉVI', 'HÚSSZOR', 'HÚZÓDÁS', 'HÚZÓDIK', 'HÚZÓZÁR',
+            'HÜVELYK', 'HŰBÉRES', 'HŰBÉRÚR', 'HŰDÉSES', 'HŰSÉGES', 'HŰSÖLÉS', 'HŰTŐGÉP', 'HŰTŐHÁZ', 'HŰTŐVÍZ', 'HŰVÖSEN'
         ]
     },
     'I': {
