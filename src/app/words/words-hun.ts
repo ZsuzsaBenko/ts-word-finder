@@ -694,59 +694,97 @@ export const wordsHun: Words = {
     },
     'I': {
         '3': [
-            'IDE', 'IGA', 'IGE', 'IMA', 'ING', 'INT', 'IPA', 'IRT', 'ITT', 'IZÉ'
+            'IDE', 'IDŐ', 'IGA', 'IGE', 'ILY', 'IMA', 'ING', 'INT', 'ION', 'IÓN', 'IPA', 'IRT', 'ITT', 'IVÓ', 'IZÉ'
         ],
         '4': [
-            'IDEG', 'IGAZ', 'IGÁS', 'IGÁZ', 'IGEN', 'IJED', 'IKER', 'IKON', 'IKRA', 'IMÁD', 'INGA', 'INKA', 'INTŐ', 'IPAR', 'IRAM', 'IRAT',
-            'IRHA', 'IRTÓ', 'ITAL', 'ITAT', 'IVÁS', 'IZZÓ'
+            'IDEA', 'IDEG', 'IDEI', 'IDÉN', 'IDÉZ', 'IDOM', 'IDŐS', 'IDUS', 'IFJÚ', 'IGAZ', 'IGÁS', 'IGÁZ', 'IGEI', 'IGEN', 'IGÉZ', 'IGEN',
+            'IJED', 'IKER', 'IKON', 'IKRA', 'ILLÓ', 'ILLŐ', 'IMÁD', 'IMÁM', 'INAS', 'INDA', 'INFÓ', 'INGA', 'INGÓ', 'INKA', 'INOG', 'INTŐ',
+            'IPAR', 'IPSE', 'IRAM', 'IRAT', 'IRHA', 'IRKA', 'IRTÓ', 'ITAL', 'ITAT', 'IVÁS', 'IZGI', 'IZOM', 'IZZÓ'
         ],
         '5': [
-            'IGEGI', 'IGAZI', 'IGÉNY', 'IJEDT', 'IKRÁS', 'ILLAN', 'ILLAT', 'ILLET', 'ILLIK', 'INDÍT', 'INDUL', 'INGAT', 'INTÉS', 'INTÉZ',
-            'IPARI', 'IRODA', 'IRTÁS', 'ISMER', 'ISTEN', 'ISZIK', 'ITATÓ', 'ITTAS', 'ITTEN', 'IZGAT', 'IZZAD', 'IZZÁS', 'IZZIK'
+            'IÁZÁS', 'IÁZIK', 'IBRIK', 'IDÁIG', 'IDEAD', 'IDEÁL', 'IDEÁT', 'IDEÉR', 'IDEGI', 'IDEJE', 'IDEÚT', 'IDÉBB', 'IDÉNY', 'IDILL',
+            'IDŐSB', 'IDÜLT', 'IFJÚI', 'IGAZI', 'IGETŐ', 'IGÉNY', 'IHATÓ', 'IHLET', 'IJEDT', 'IKRÁS', 'IKTAT', 'ILLAN', 'ILLAT', 'ILLEM',
+            'ILLET', 'ILLIK', 'ILYEN', 'IMÁDÓ', 'IMÁGÓ', 'IMÁZS', 'IMÉNT', 'IMMÁR', 'INDEX', 'INDÍT', 'INDOK', 'INDUL', 'INDUS', 'INGAT',
+            'INGÁS', 'INGER', 'INNEN', 'INPUT', 'INTÉS', 'INTÉZ', 'INTIM', 'IPARI', 'IRÁNY', 'IRÁNT', 'IRIGY', 'IRKÁL', 'IRODA', 'IRTÁS',
+            'ISLER', 'ISMER', 'ISMÉT', 'ISPÁN', 'ISTEN', 'ISZAP', 'ISZÁK', 'ISZIK', 'ITATÓ', 'ITTAS', 'ITTEN', 'ITYEG', 'IVÓLÉ', 'IVRIT',
+            'IZÉKE', 'IZGAT', 'IZGUL', 'IZMOS', 'IZMUS', 'IZZAD', 'IZZÁS', 'IZZIK', 'IZZÍT'
         ],
         '6': [
-            'IBOLYA', 'IDEGEN', 'IDEGES', 'IGAZÍT', 'IGAZOL', 'IMÁDAT', 'INGYEN', 'INTÉZŐ', 'IPARÁG', 'IPAROS', 'IROMBA',
-            'ISKOLA', 'ISMERT', 'ISTENI', 'ISZONY', 'IZGATÓ'
+            'IBOLYA', 'IDEGEN', 'IDEÁLL', 'IDEGEN', 'IDEGES', 'IDEHÍV', 'IDEHOZ', 'IDEHÚZ', 'IDEJÖN', 'IDEJUT', 'IDELÁT', 'IDENÉZ',
+            'IDEVÁG', 'IDÉZET', 'IDÉZÉS', 'IDILLI', 'IDIÓMA', 'IDIÓTA', 'IDOMÁR', 'IDOMÍT', 'IDOMUL', 'IDŐJÓS', 'IDŐKÖZ', 'IDŐVEL',
+            'IDŐZIK', 'IDŐZÍT', 'IJEDEZ', 'IJEDŐS', 'IJESZT', 'IFJABB', 'IGAZÁN', 'IGAZÍT', 'IGAZOL', 'IGÁSLÓ', 'IGENÉV', 'IGENIS',
+            'IGENLŐ', 'IGERAG', 'IKTATÓ', 'ILLANÓ', 'ILLETŐ', 'ILLŐEN', 'IMAHÁZ', 'IMÁDAT', 'IMPALA', 'IMPORT', 'INDIÁN', 'INDIGÓ',
+            'INDÍTÓ', 'INDULÓ', 'INGÁZÓ', 'INGUJJ', 'INGYEN', 'INKÁBB', 'INOGÁS', 'INTAKT', 'INTÉZŐ', 'INVERZ', 'IPARÁG', 'IPAROS',
+            'IRATOS', 'IRÁNTI', 'IRODAI', 'IROKÉZ', 'IROMBA', 'IRÓNIA', 'ISIÁSZ', 'ISKOLA', 'ISMERŐ', 'ISMERT', 'ISMÉRV', 'ISTENI',
+            'ISZKOL', 'ISZLÁM', 'ISZONY', 'ITALOS', 'ITATÁS', 'ITATÓS', 'ITTENI', 'ITTHON', 'ITTLÉT', 'IVADÉK', 'IVÓKÚT', 'IVÓVÍZ',
+            'IZGATÓ', 'IZGÁGA', 'IZOLÁL', 'IZOTÓP', 'IZZADT'
         ],
         '7': [
-            'IGAVONÓ', 'IGEKÖTŐ', 'IJEDSÉG', 'IGAZGAT', 'IGAZOLT', 'IGÉNYEL', 'ILDOMOS', 'ILLATOS', 'ILLENDŐ', 'IMAHELY', 'IGAZGAT',
-            'INTEGET', 'INTÉZET', 'ISKOLÁS', 'ISMERŐS', 'ISTENNŐ', 'ISZONYÚ', 'IZGALOM'
+            'ICIPICI', 'IDDOGÁL', 'IDEÁLIS', 'IDEBENN', 'IDEBENT', 'IDEFELÉ', 'IDEFENN', 'IDEFENT', 'IDEGBAJ', 'IDEGDÚC', 'IDEGGÁZ',
+            'IDEHAZA', 'IDEILLŐ', 'IDEKINN', 'IDEKINT', 'IDEKÜLD', 'IDELENN', 'IDELENT', 'IDEVÁGÓ', 'IDEVALÓ', 'IDÉTLEN', 'IDÉZETT',
+            'IDŐÁLLÓ', 'IDŐBELI', 'IDŐKÖZI', 'IDŐMÉRŐ', 'IDŐPONT', 'IDŐREND', 'IDŐSKOR', 'IDŐSZAK', 'IDŐTLEN', 'IFJÚKOR', 'IFJÚSÁG',
+            'IGAVONÓ', 'IGEKÖTŐ', 'IGAZGAT', 'IGAZOLT', 'IGAZSÁG', 'IGEALAK', 'IGÉNYEL', 'IGÉNYES', 'IGÉNYLŐ', 'IGYEKVŐ', 'IJEDSÉG',
+            'IJESZTŐ', 'IKEBANA', 'IKERÁGY', 'IKERHÁZ', 'IKERPÁR', 'IKERSZÓ', 'ILDOMOS', 'ILLATOS', 'ILLEGET', 'ILLENDŐ', 'ILLESZT',
+            'ILLETÉK', 'ILLETVE', 'ILLÚZIÓ', 'ILYESMI', 'IMAHELY', 'IMÁDOTT', 'IMÁDSÁG', 'IMMUNIS', 'IMPASSZ', 'IMPONÁL', 'INAKTÍV',
+            'INDEXÁL', 'INDEXEL', 'INDIGÓS', 'INDÍTÁS', 'INDÍTÉK', 'INDOKOL', 'INDUKÁL', 'INDULAT', 'INDULÁS', 'INERCIA', 'INFÚZIÓ',
+            'INGAÓRA', 'INGATAG', 'INGÁZÁS', 'INGÁZIK', 'INGBLÚZ', 'INGEREL', 'INGERLŐ', 'INGGOMB', 'INGRUHA', 'INHALÁL', 'INNENSŐ',
+            'INTEGET', 'INTELEM', 'INTERJÚ', 'INTÉZET', 'INTRIKA', 'INVÁZIÓ', 'INZULIN', 'IPARÜGY', 'IRAMLIK', 'IRATTÁR', 'IRÁNYÁR',
+            'IRÁNYÍT', 'IRÁNYOZ', 'IRÁNYTŰ', 'IRÁNYUL', 'IRGALOM', 'IRIGYEL', 'IROMÁNY', 'IRRIGÁL', 'IRRITÁL', 'IRTÓZAT', 'IRTÓZÁS',
+            'IRTÓZIK', 'ISKOLAI', 'ISKOLÁS', 'ISMERET', 'ISMERŐS', 'ISMÉTEL', 'ISTÁLLÓ', 'ISTÁPOL', 'ISTENÍT', 'ISTENNŐ', 'ISTRÁNG',
+            'ISZAPOS', 'ISZÁKOS', 'ISZOGAT', 'ISZONYÚ', 'IVÁSZAT', 'IVÓKÚRA', 'IZGALMI', 'IZGALOM', 'IZGATÁS', 'IZOMERŐ', 'IZOMLÁZ',
+            'IZOMZAT', 'IZZADÁS', 'IZZASZT'
         ]
     },
     'Í': {
         '3': [
-            'ÍGY', 'ÍNY', 'ÍRÓ'
+            'ÍGY', 'ÍME', 'ÍNY', 'ÍRÓ', 'ÍZŰ'
         ],
         '4': [
-            'ÍRÁS', 'ÍVÁS', 'ÍVES', 'ÍZES'
+            'ÍGÉR', 'ÍJAZ', 'ÍRAT', 'ÍRÁS', 'ÍRÓI', 'ÍTÉL', 'ÍVÁS', 'ÍVEL', 'ÍVES', 'ÍVIK', 'ÍZES'
         ],
         '5': [
-            'ÍJÁSZ', 'ÍROTT', 'ÍVELT', 'ÍZLEL', 'ÍZLÉS', 'ÍZLIK'
+            'ÍBISZ', 'ÍJÁSZ', 'ÍJHÚR', 'ÍNSÉG', 'ÍRISZ', 'ÍRMAG', 'ÍRNOK', 'ÍROTT', 'ÍRÓNŐ', 'ÍTÉSZ', 'ÍVELT', 'ÍZLEL', 'ÍZLÉS', 'ÍZLIK'
         ],
         '6': [
-            'ÍNYENC'
+            'ÍGÉRET', 'ÍNYENC', 'ÍRÁSOS', 'ÍRHATÓ', 'ÍROGAT', 'ÍRÓGÉP', 'ÍTÉLET', 'ÍVFÉNY', 'ÍZESÍT', 'ÍZIBEN', 'ÍZLÉSŰ', 'ÍZÜLET'
         ],
         '7': [
-            'ÍZLETES', 'ÍZLÉSES'
+            'ÍJÁSZAT', 'ÍNSÉGES', 'ÍRATLAN', 'ÍRÁSJEL', 'ÍRÁSMÓD', 'ÍRÓPULT', 'ÍRÓSZER', 'ÍRÓTÖMB', 'ÍVLÁMPA', 'ÍZELÍTŐ', 'ÍZESÍTŐ',
+            'ÍZETLEN', 'ÍZLETES', 'ÍZLÉSES', 'ÍZTELEN', 'ÍZÜLETI'
         ]
     },
     'J': {
         '3': [
-            'JAK', 'JÁR', 'JEL', 'JEN', 'JÉG', 'JÓD', 'JÓL', 'JÓS', 'JÖN', 'JUH', 'JUT', 'JÜT'
+            'JAJ', 'JAK', 'JÁR', 'JEL', 'JEN', 'JÉG', 'JOG', 'JÓD', 'JÓL', 'JÓN', 'JÓS', 'JÖN', 'JUH', 'JUJ', 'JUT', 'JÜT'
         ],
         '4': [
-            'JATT', 'JÁDE', 'JEGY', 'JUSS'
+            'JADE', 'JATT', 'JAVA', 'JÁDE', 'JÁRÓ', 'JÁRT', 'JEGY', 'JETI', 'JOBB', 'JOGI', 'JÓGA', 'JÓGI', 'JÖVŐ', 'JUSS', 'JUTA'
         ],
         '5': [
-            'JAPÁN', 'JÁRAT', 'JÁRDA', 'JÁROM', 'JÁTÉK', 'JEGES', 'JELEL', 'JELEN', 'JELES', 'JELEZ', 'JELÖL', 'JÉRCE', 'JÓDOS', 'JÓSOL',
-            'JÖVET', 'JUHOS', 'JURTA', 'JUTÁS'
+            'JACHT', 'JAKUT', 'JAPÁN', 'JAVAK', 'JAVÍT', 'JAVUL', 'JÁRAT', 'JÁRÁS', 'JÁRDA', 'JÁRMŰ', 'JÁROM', 'JÁRŐR', 'JÁRUL', 'JÁTÉK',
+            'JEGEL', 'JEGES', 'JELEL', 'JELEN', 'JELES', 'JELEZ', 'JELÖL', 'JELZŐ', 'JENKI', 'JÉGER', 'JÉNAI', 'JÉRCE', 'JOGAR', 'JOGOS',
+            'JOKER', 'JÓDLI', 'JÓDOS', 'JÓDOZ', 'JÓÍZŰ', 'JÓKOR', 'JÓLÉT', 'JÓMÓD', 'JÓSÁG', 'JÓSDA', 'JÓSNŐ', 'JÓSOL', 'JÓVAL', 'JÓZAN',
+            'JÖVET', 'JUHAR', 'JUHOS', 'JUKKA', 'JURTA', 'JUTÁS'
         ],
         '6': [
-            'JAGUÁR', 'JANUÁR', 'JATTOL', 'JÁDEKŐ', 'JÁRKÁL', 'JÁZMIN', 'JEGYES', 'JEGYEZ', 'JEGYZŐ', 'JELENT', 'JELKÉP', 'JELLEG',
-            'JELÖLT', 'JELZÉS', 'JÉGESŐ', 'JÓSLAT', 'JÓSLÁS', 'JÚLIUS', 'JÚNIUS'
+            'JAGUÁR', 'JAJGAT', 'JAJONG', 'JAMBUS', 'JAMPEC', 'JANUÁR', 'JATTOL', 'JAVALL', 'JAVÁRA', 'JÁCINT', 'JÁDEKŐ', 'JÁMBOR',
+            'JÁRÁSI', 'JÁRKÁL', 'JÁRÓKA', 'JÁRTAS', 'JÁRTAT', 'JÁSPIS', 'JÁSZOL', 'JÁTSZI', 'JÁZMIN', 'JEGELT', 'JEGYES', 'JEGYEZ',
+            'JEGYZŐ', 'JELENT', 'JELIGE', 'JELKÉP', 'JELLEG', 'JELLEM', 'JELMEZ', 'JELÖLŐ', 'JELÖLT', 'JELSZÓ', 'JELZET', 'JELZÉS',
+            'JELZŐI', 'JELZŐS', 'JÉGESŐ', 'JÉGKÁR', 'JIDDIS', 'JOBBAN', 'JOBBIK', 'JOBBÍT', 'JOBBOS', 'JOBBRA', 'JOGÁSZ', 'JOGCÍM',
+            'JOGDÍJ', 'JOGERŐ', 'JOGGAL', 'JOGKÖR', 'JOGÜGY', 'JOJOBA', 'JÓFÉLE', 'JÓKEDV', 'JÓKÉPŰ', 'JÓKORA', 'JÓLESŐ', 'JÓLÉTI',
+            'JÓLLÉT', 'JÓMÓDÚ', 'JÓNEVŰ', 'JÓPOFA', 'JÓPONT', 'JÓSLAT', 'JÓSLÁS', 'JÓSZÁG', 'JÓTÁLL', 'JÓTETT', 'JÓTEVŐ', 'JÓVÁÍR',
+            'JÖVŐRE', 'JUHÁSZ', 'JUHHÚS', 'JUHTEJ', 'JUNIOR', 'JUTTAT', 'JÚLIUS', 'JÚNIUS'
         ],
         '7': [
-            'JAKUZZI', 'JAVASOL', 'JÁRADÉK', 'JÁRKÁLÁS', 'JÁTÉKOS', 'JELELÉS', 'JELENET', 'JELENÉS', 'JELÖLÉS', 'JELVÉNY', 'JÖVETEL'
+            'JACKPOT', 'JAKUZZI', 'JANUÁRI', 'JAVASOL', 'JAVÁBAN', 'JAVÍTÁS', 'JAVULÁS', 'JÁRADÉK', 'JÁRATOS', 'JÁRGÁNY', 'JÁRHATÓ',
+            'JÁRŐRÖZ', 'JÁRULÉK', 'JÁRVÁNY', 'JÁTÉKOS', 'JÁTSZIK', 'JÁTSZMA', 'JÁTSZVA', 'JEGELÉS', 'JEGENYE', 'JEGYZÉK', 'JEGYZÉS',
+            'JEGYZET', 'JELADÁS', 'JELELÉS', 'JELENET', 'JELENÉS', 'JELENTŐ', 'JELESÜL', 'JELFOGÓ', 'JELIGÉS', 'JELLEGŰ', 'JELLEMŰ',
+            'JELÖLÉS', 'JELVÉNY', 'JELZETT', 'JÉGCSAP', 'JÉGHEGY', 'JÉGHOKI', 'JÉGKORI', 'JÉGKRÉM', 'JÉGMEZŐ', 'JÉGREVÜ', 'JÉGTÖMB',
+            'JÉGTÖRŐ', 'JOBBÁGY', 'JOBBÁRA', 'JOBBKOR', 'JOBBLÉT', 'JOGALAP', 'JOGÁSZI', 'JOGELŐD', 'JOGERŐS', 'JOGGING', 'JOGGOLÓ',
+            'JOGHURT', 'JOGILAG', 'JOGOSAN', 'JOGOSÍT', 'JOGREND', 'JOGUTÓD', 'JOGVÉDŐ', 'JOGVITA', 'JÓAKARÓ', 'JÓCSKÁN', 'JÓÉRZÉS',
+            'JÓFAJTA', 'JÓGÁZIK', 'JÓÍZŰEN', 'JÓKEDVŰ', 'JÓLELKŰ', 'JÓLESIK', 'JÓMODOR', 'JÓRÉSZT', 'JÓSÁGOS', 'JÓSZÍVŰ', 'JÓTÁLLÓ',
+            'JÓZANUL', 'JÖVENDŐ', 'JÖVETEL', 'JÖVŐKÉP', 'JUBILÁL', 'JUHAKOL', 'JUHARFA', 'JUHNYÁJ', 'JUHSAJT', 'JUHTÚRÓ', 'JUTALÉK',
+            'JUTALOM'
         ]
     },
     'K': {
