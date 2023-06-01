@@ -1133,24 +1133,54 @@ export const wordsHun: Words = {
     },
     'N': {
         '3': [
-            'NAP', 'NÁD', 'NEM', 'NET', 'NÉP', 'NÉV', 'NÉZ', 'NOS', 'NŐS', 'NYŰ'
+            'NAP', 'NÁD', 'NEJ', 'NEM', 'NET', 'NÉP', 'NÉV', 'NÉZ', 'NOS', 'NŐI', 'NŐS', 'NYŰ'
         ],
         '4': [
-            'NACI', 'NAGY', 'NAPA', 'NÁSZ', 'NEMI', 'NEMZ', 'NERC', 'NESZ', 'NETT', 'NÉGY', 'NÉMA', 'NÉPI', 'NŐCI', 'NYAK', 'NYAL',
-            'NYÁK', 'NYÁL', 'NYÁR', 'NYEL', 'NYÉL', 'NYÍL', 'NYÍR', 'NYOM', 'NYÚL', 'NYÚZ'
+            'NACI', 'NAGY', 'NAIV', 'NANA', 'NANÁ', 'NAPA', 'NAPI', 'NÁCI', 'NÁSZ', 'NECC', 'NEDŰ', 'NEDV', 'NEKI', 'NEMI', 'NEMZ', 'NEON',
+            'NERC', 'NESZ', 'NETT', 'NEVŰ', 'NÉGY', 'NÉHA', 'NÉMA', 'NÉMI', 'NÉNE', 'NÉNI', 'NÉPI', 'NÉZŐ', 'NINI', 'NIPP', 'NÍVÓ', 'NOHA',
+            'NONO', 'NÓTA', 'NÓZI', 'NŐÁG', 'NŐCI', 'NULL', 'NYAK', 'NYAL', 'NYÁJ', 'NYÁK', 'NYÁL', 'NYÁR', 'NYEL', 'NYER', 'NYES', 'NYÉL',
+            'NYIT', 'NYÍL', 'NYÍR', 'NYOM', 'NYÖG', 'NYÚL', 'NYÚZ'
         ],
         '5': [
-            'NAGYI', 'NANDU', 'NAPOS', 'NÁBOB', 'NÁDAS', 'NÁDOR', 'NEMES', 'NEMEZ', 'NEVES', 'NEVET', 'NEVEZ', 'NÉMET', 'NÉPES', 'NINCS',
-            'NOMÁD', 'NORMA', 'NÖVÉS', 'NŐIES', 'NYAKI', 'NYÁRI', 'NYÁRS', 'NYELV', 'NYEST', 'NYÉRC', 'NYOLC'
+            'NADÍR', 'NAGYI', 'NAHÁT', 'NAIVA', 'NAHÁT', 'NAJÁD', 'NANDU', 'NAPÉV', 'NAPLÓ', 'NAPOS', 'NARKÓ', 'NATÚR', 'NÁBOB', 'NÁCIÓ',
+            'NÁDAS', 'NÁDAZ', 'NÁDOR', 'NÁTHA', 'NEHÉZ', 'NEMDE', 'NEMES', 'NEMEZ', 'NESZE', 'NETÁN', 'NETTÓ', 'NEVEL', 'NEVES', 'NEVET',
+            'NEVEZ', 'NEXUS', 'NÉGER', 'NÉHAI', 'NÉHOL', 'NÉMÁN', 'NÉMET', 'NÉPES', 'NÉZET', 'NÉZÉS', 'NÉZVE', 'NIMFA', 'NINCS', 'NÍVÓS',
+            'NOHÁT', 'NOMÁD', 'NORMA', 'NOSZA', 'NÓGAT', 'NÓVUM', 'NÖRSZ', 'NÖVEL', 'NÖVÉS', 'NŐIES', 'NŐÍRÓ', 'NŐNAP', 'NŐNEM', 'NŐSÜL',
+            'NŐÜGY', 'NŐVÉR', 'NŐZÉS', 'NŐZIK', 'NUDLI', 'NULLA', 'NYLON', 'NYAKI', 'NYÁRI', 'NYÁRS', 'NYELV', 'NYERŐ', 'NYERS', 'NYERT',
+            'NYEST', 'NYÉRC', 'NYITÓ', 'NYÍLÓ', 'NYÍLT', 'NYOLC', 'NYUGI', 'NYÚJT', 'NYÚLÓ', 'NYŰTT'
         ],
         '6': [
-            'NADRÁG', 'NAGYON', 'NAPPAL', 'NEGYED', 'NEMZET', 'NESZEZ', 'NÉGYES', 'NÉPIES', 'NÖVÉNY', 'NYAKAS', 'NYAKAZ', 'NYAKÉK',
-            'NYALÁS', 'NYÁLAS', 'NYÁPIC', 'NYÁVOG', 'NYELES', 'NYELVI', 'NYÍLÁS', 'NYÍRÁS', 'NYÍRFA', 'NYOMAT', 'NYOMÁS', 'NYOMOR', 'NYUGAT',
-            'NYURGA', 'NYÚLIK', 'NYŰVES'
+            'NADRÁG', 'NAGYÍT', 'NAGYON', 'NAGYÚR', 'NAPALM', 'NAPÁGY', 'NAPOZÓ', 'NAPÓRA', 'NAPPAL', 'NAPTÁR', 'NARKÓS', 'NARRÁL',
+            'NARVÁL', 'NASSOL', 'NASZÁD', 'NÁSZÚT', 'NÁTHÁS', 'NEBULÓ', 'NECCES', 'NEDVES', 'NEGYED', 'NEHOGY', 'NEJLON', 'NEKIAD',
+            'NEKIÜL', 'NEKTÁR', 'NEMESI', 'NEMLÉT', 'NEMRÉG', 'NEMZET', 'NEMZÉS', 'NEOLIT', 'NAPPER', 'NESZEZ', 'NEURON', 'NEVELŐ',
+            'NEVEZŐ', 'NÉGYEN', 'NÉGYES', 'NÉHÁNY', 'NÉLKÜL', 'NÉMBER', 'NÉMELY', 'NÉNIKE', 'NÉPDAL', 'NÉPHIT', 'NÉPIES', 'NÉPSÉG',
+            'NÉVADÓ', 'NÉVELŐ', 'NÉVLEG', 'NÉVMÁS', 'NÉVNAP', 'NÉVSOR', 'NÉVSZÓ', 'NÉVUTÓ', 'NÉZŐKE', 'NICSAK', 'NIKKEL', 'NITRÁT',
+            'NÍMAND', 'NOCSAK', 'NORMÁL', 'NOTESZ', 'NÖVÉNY', 'NŐALAK', 'NŐCSKE', 'NŐNEMŰ', 'NŐTLEN', 'NUMERA', 'NUTRIA', 'NÜANSZ',
+            'NÜÁNSZ', 'NYAFKA', 'NYAFOG', 'NYAKAL', 'NYAKAS', 'NYAKAZ', 'NYAKÉK', 'NYAKLÓ', 'NYALÁB', 'NYALÁS', 'NYALKA', 'NYALÓS',
+            'NYANYA', 'NYARAL', 'NYÁJAS', 'NYÁKOS', 'NYÁLAS', 'NYÁLKA', 'NYÁPIC', 'NYÁRFA', 'NYÁVOG', 'NYEGLE', 'NYELES', 'NYELÉS',
+            'NYELVI', 'NYEREG', 'NYERÉS', 'NYERÍT', 'NYESÉS', 'NYIHOG', 'NYILAS', 'NYILAZ', 'NYIROK', 'NYITÁS', 'NYITJA', 'NYITVA',
+            'NYÍLÁS', 'NYÍLIK', 'NYÍRÁS', 'NYÍRFA', 'NYOMAT', 'NYOMÁN', 'NYOMÁS', 'NYOMDA', 'NYOMOR', 'NYOMOZ', 'NYOMÓS', 'NYOMUL',
+            'NYÖGÉS', 'NYUGAT', 'NYUGIS', 'NYUGTA', 'NYURGA', 'NYUSZI', 'NYUSZT', 'NYÚJTÓ', 'NYÚLÁS', 'NYÚLIK', 'NYÚLÓS', 'NYÚZÁS',
+            'NYÜZSI', 'NYŰGÖS', 'NYŰVES'
         ],
         '7': [
-            'NAPLOPÓ', 'NAPOZÁS', 'NAPOZIK', 'NARANCS', 'NÁSZNÉP', 'NEGYVEN', 'NEMZETI', 'NEVETÉS', 'NEVETŐS', 'NÉMASÁG', 'NYAKÖRV',
-            'NYALINT', 'NYALÓKA', 'NYÁRIAS', 'NYELVEL', 'NYELVES', 'NYOLCAD', 'NYOLCAS', 'NYOMTAT', 'NYUGATI', 'NYÜSTÖL'
+            'NAGYAGY', 'NAGYAPA', 'NAGYBAN', 'NAGYDÍJ', 'NAGYDOB', 'NAGYEVŐ', 'NAGYHÉT', 'NAGYÍTÓ', 'NAGYKÉS', 'NAGYOBB', 'NAGYSÁG',
+            'NAGYUJJ', 'NAGYÚRI', 'NAGYVAD', 'NAGYZÁS', 'NAGYZOL', 'NAIVSÁG', 'NAPÁLLÓ', 'NAPELEM', 'NAPFÉNY', 'NAPFOLT', 'NAPIDÍJ',
+            'NAPILAP', 'NAPKÖZI', 'NAPKÚRA', 'NAPLOPÓ', 'NAPOLAJ', 'NAPONTA', 'NAPOZÁS', 'NAPOZIK', 'NAPPALI', 'NAPSZAK', 'NAPSZÁM',
+            'NARANCS', 'NAVIGÁL', 'NAZÁLIS', 'NÁDSZÁL', 'NÁDSZÉK', 'NÁDTETŐ', 'NÁDTOLL', 'NÁPOLYI', 'NÁRCISZ', 'NÁSZNÉP', 'NÁTRIUM',
+            'NEDVDÚS', 'NEGATÍV', 'NEGÁCIÓ', 'NEGÉDES', 'NEGYVEN', 'NEHEZEN', 'NEHEZÉK', 'NEHEZÍT', 'NEHEZÜL', 'NEKIÁLL', 'NEKIDOB',
+            'NEKIDŐL', 'NEKIFOG', 'NEKIFUT', 'NEKILÁT', 'NEKILÖK', 'NEKIVÁG', 'NEMCSAK', 'NEMESÍT', 'NEMESÜL', 'NEMEZIS', 'NEMHOGY',
+            'NEMIGEN', 'NEMILEG', 'NEMISÉG', 'NEMZETI', 'NEONCSŐ', 'NEONÁCI', 'NESCAFÉ', 'NESZTEK', 'NETALÁN', 'NEUTRON', 'NEVELÉS',
+            'NEVESÍT', 'NEVETÉS', 'NEVETŐS', 'NEVEZÉS', 'NÉGYÉVI', 'NÉGYFŐS', 'NÉGYRÉT', 'NÉGYZET', 'NÉLKÜLI', 'NÉMASÁG', 'NÉMETÜL',
+            'NÉMILEG', 'NÉPMESE', 'NÉPPÁRT', 'NÉPRAJZ', 'NÉPTÁNC', 'NÉPZENE', 'NÉVADÁS', 'NÉVJEGY', 'NÉVNAPI', 'NÉZEGET', 'NÉZŐTÉR',
+            'NIKOTIN', 'NINCSEN', 'NINDZSA', 'NIMBUSZ', 'NÍVÓDÍJ', 'NOKEDLI', 'NOKTÜRN', 'NONSTOP', 'NORMANN', 'NOTÁCIÓ', 'NOVELLA',
+            'NÓGATÁS', 'NÓNIUSZ', 'NÓTÁZIK', 'NÖVEKVŐ', 'NÖVELÉS', 'NÖVÉNYI', 'NÖVESZT', 'NŐROKON', 'NŐSTÉNY', 'NŐSÜLÉS', 'NŐVÉRKE',
+            'NUDISTA', 'NUNCIUS', 'NYAGGAT', 'NYAKÖRV', 'NYAKSÁL', 'NYALÁNK', 'NYALINT', 'NYALDOS', 'NYALÓKA', 'NYARALÓ', 'NYARGAL',
+            'NYÁLKÁS', 'NYÁRELŐ', 'NYÁRIAS', 'NYÁRIDŐ', 'NYÁRUTÓ', 'NYELVEL', 'NYELVES', 'NYELVŐR', 'NYERGEL', 'NYERGES', 'NYERSEN',
+            'NYERTES', 'NYILALL', 'NYILVÁN', 'NYIRBÁL', 'NYIRKOS', 'NYISZÁL', 'NYITÁNY', 'NYITOTT', 'NYITÓÁR', 'NYÍLTAN', 'NYÍROTT',
+            'NYOLCAD', 'NYOLCAN', 'NYOLCAS', 'NYOMBAN', 'NYOMBÉL', 'NYOMDAI', 'NYOMDOK', 'NYOMKOD', 'NYOMOTT', 'NYOMOZÓ', 'NYOMTAT',
+            'NYOMTÁV', 'NYUGATI', 'NYUGÁGY', 'NYUGDÍJ', 'NYUGODT', 'NYUGOVÓ', 'NYUGTAT', 'NYUGTÁZ', 'NYUGTON', 'NYUGVÁS', 'NYÚJTÁS',
+            'NYÚLÁNK', 'NYÚLBŐR', 'NYÚLGÁT', 'NYÚLHÚS', 'NYÚLKÁL', 'NYÚZOTT', 'NYÜSTÖL', 'NYÜSZÍT', 'NYÜZSÖG'
         ]
     },
     'O': {
