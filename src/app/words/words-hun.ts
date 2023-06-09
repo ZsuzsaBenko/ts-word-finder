@@ -1185,35 +1185,63 @@ export const wordsHun: Words = {
     },
     'O': {
         '3': [
-            'ODA', 'ODÚ', 'OJT', 'OLD', 'OLT', 'ONT', 'ORK', 'ORR', 'ORV', 'OTT'
+            'ODA', 'ODÚ', 'OJT', 'OKÉ', 'OKI', 'OLD', 'OLT', 'ONT', 'ORK', 'ORR', 'ORV', 'OTT', 'OVI'
         ],
         '4': [
-            'OBOA', 'OKÁD', 'OKOS', 'OKOZ', 'OLAJ', 'OLLÓ', 'OPÁL', 'ORSÓ', 'OSON', 'OSZT'
+            'OBOA', 'OCSÚ', 'OKÁD', 'OKÍT', 'OKOL', 'OKOS', 'OKOZ', 'OKUL', 'OLAJ', 'OLÁH', 'OLLÓ', 'OLTÓ', 'OMLÓ', 'ONDÓ', 'OPÁL', 'OPUS',
+            'OROM', 'OROZ', 'ORSÓ', 'OSON', 'OSZT', 'OXID'
         ],
         '5': [
-            'OBOÁS', 'ODAAD', 'ODAÉR', 'ODVAS', 'OKTAT', 'OLASZ', 'OLDAL', 'OLDAT', 'OLDÁS', 'OLTÁS', 'OLTAT', 'OLVAD', 'OLVAS', 'OPIÁT',
-            'ORDAS', 'OROSZ', 'ORSÓS', 'ORVOS', 'ORVUL', 'OTTAN'
+            'OÁZIK', 'OÁZIS', 'OBOÁS', 'ODAAD', 'ODAÁT', 'ODAÉG', 'ODAÉR', 'ODAÍR', 'ODALŐ', 'ODANŐ', 'ODAÜL', 'ODAÜT', 'ODÁBB', 'ODÁIG',
+            'ODÉBB', 'ODVAS', 'OKKER', 'OKOZÓ', 'OKSÁG', 'OKTAT', 'OKTÁN', 'OKTÁV', 'OLASZ', 'OLCSÓ', 'OLDAL', 'OLDAT', 'OLDÁS', 'OLDOZ',
+            'OLÍVA', 'OLLÓZ', 'OLTAT', 'OLTÁR', 'OLTÁS', 'OLVAD', 'OLVAS', 'OLYAN', 'OMEGA', 'OMLÁS', 'OMLIK', 'OMLÓS', 'ONNAN', 'ONNÉT',
+            'OPCIÓ', 'OPERA', 'OPIÁT', 'ORDAS', 'ORDÍT', 'ORGIA', 'ORIGÓ', 'ORKÁN', 'OROSZ', 'ORROL', 'ORSÓS', 'ORSÓZ', 'ORVOS', 'ORVUL',
+            'OSTOR', 'OSTYA', 'OSZTÓ', 'OTTAN'
         ],
         '6': [
-            'ODAHÍV', 'ODAKAP', 'ODAVÁG', 'OKÁDÉK', 'OKOZAT', 'OKTATÓ', 'OLAJOS', 'OLAJOZ', 'OLTOTT', 'OMLETT', 'OPÁLOS', 'ORSZÁG',
-            'OSTOBA', 'OSZTÁS'
+            'OCELOT', 'ODAADÓ', 'ODAÁLL', 'ODADOB', 'ODAÉRT', 'ODAFÉR', 'ODAFUT', 'ODAHAT', 'ODAHÍV', 'ODAHOZ', 'ODAHÚZ', 'ODAINT',
+            'ODAJÁR', 'ODAJÖN', 'ODAJUT', 'ODAKAP', 'ODAKEN', 'ODAKÖT', 'ODALÉP', 'ODALÖK', 'ODANÉZ', 'ODASÓZ', 'ODASÚG', 'ODASÜL',
+            'ODASÜT', 'ODATOL', 'ODATŰZ', 'ODAVAN', 'ODAVÁG', 'ODAVET', 'OKÁDÁS', 'OKÁDÉK', 'OKÁDIK', 'OKIRAT', 'OKÍTÁS', 'OKKULT',
+            'OKMÁNY', 'OKOSAN', 'OKOZAT', 'OKOZÁS', 'OKSÁGI', 'OKTATÓ', 'OKTETT', 'OKULÁS', 'OLAJÁG', 'OLAJFA', 'OLAJOS', 'OLAJOZ',
+            'OLCSÓN', 'OLDALT', 'OLDOTT', 'OLTÁRI', 'OLTOTT', 'OLTÓÁG', 'OLTÓTŰ', 'OLVASÓ', 'OLYKOR', 'OMLETT', 'ONLINE', 'OPÁLOS',
+            'OPERÁL', 'OPTIKA', 'ORÁLIS', 'ORÁTOR', 'ORBÁNC', 'ORDÍTÓ', 'ORFEUM', 'ORGONA', 'ORMÁNY', 'OROZVA', 'ORSZÁG', 'ORVOSI',
+            'OSONÁS', 'OSTOBA', 'OSTROM', 'OSZLAT', 'OSZLÁS', 'OSZLIK', 'OSZLOP', 'OSZMÁN', 'OSZOLJ', 'OSZTAG', 'OSZTÁS', 'OTTANI',
+            'OTTHON', 'OTTLÉT', 'OVÁCIÓ', 'OVÁLIS', 'OXIDÁL', 'OXIGÉN'
         ],
         '7': [
-            'ODAMEGY', 'ODASZÓL', 'ODAVESZ', 'ODAVISZ', 'OKARINA', 'OKOSSÁG', 'OKTATÁS', 'OKTÓBER', 'OLDALAS', 'OLVADÁS'
+            'OBOÁZIK', 'OBSITOS', 'OBSZCÉN', 'OCSMÁNY', 'OCSÚDIK', 'ODAADÁS', 'ODABENN', 'ODABENT', 'ODACSAL', 'ODACSAP', 'ODACSÍP',
+            'ODAÉGET', 'ODAFAGY', 'ODAFELÉ', 'ODAFENN', 'ODAFENT', 'ODAHAZA', 'ODAHORD', 'ODAILLŐ', 'ODAÍGÉR', 'ODAÍRÁS', 'ODAÍTÉL',
+            'ODAKINN', 'ODAKINT', 'ODAKÜLD', 'ODALENN', 'ODALENT', 'ODAMEGY', 'ODAMOND', 'ODANYOM', 'ODANYÚL', 'ODASIET', 'ODASZÓL',
+            'ODATART', 'ODATESZ', 'ODAVALÓ', 'ODAVESZ', 'ODAVÉSZ', 'ODAVISZ', 'OKARINA', 'OKARÍNA', 'OKLEVÉL', 'OKOSSÁG', 'OKOZATI',
+            'OKSZERŰ', 'OKTALAN', 'OKTATÁS', 'OKTATÓI', 'OKTÓBER', 'OKTONDI', 'OKULÁRÉ', 'OLAJCSŐ', 'OLAJÉGŐ', 'OLAJKÉP', 'OLAJKÚT',
+            'OLAJMAG', 'OLAJOZÓ', 'OLAJSAV', 'OLDALAS', 'OLDALAZ', 'OLDALÁG', 'OLDALSÓ', 'OLDHATÓ', 'OLDÓDIK', 'OLIMPIA', 'OLLÓZÁS',
+            'OLTALOM', 'OLTÓKÉS', 'OLTVÁNY', 'OLVADÁS', 'OLVASAT', 'OLVASÁS', 'OLVASZT', 'OLYASMI', 'OMLADÉK', 'ONDOLÁL', 'OPERETT',
+            'OPPONÁL', 'OPTIKAI', 'OPTIKUS', 'ORDÍTÁS', 'OREGANO', 'ORIGANO', 'ORGÁNUM', 'ORGAZDA', 'ORGONÁL', 'ORIGAMI', 'ORNÁTUS',
+            'OROMFAL', 'OROMZAT', 'OROSZOS', 'OROSZUL', 'ORRHANG', 'ORRHEGY', 'ORRLYUK', 'ORRÜREG', 'ORRVÉDŐ', 'ORTODOX', 'ORTOPÉD',
+            'ORVOSNŐ', 'ORVOSOL', 'OSTOROS', 'OSTOROZ', 'OSZTÁLY', 'OSZTOTT', 'OSZTRÁK', 'OTROMBA', 'OTTHAGY', 'OTTHONI', 'OTTOMÁN',
+            'OVERALL', 'OZMÓZIS'
         ]
     },
     'Ó': {
         '3': [
-            'ÓDA', 'ÓRA', 'ÓTA'
+            'ÓDA', 'ÓÉV', 'ÓRA', 'ÓTA'
         ],
         '4': [
-            'ÓDON', 'ÓHAJ', 'ÓKOR', 'ÓLOM', 'ÓRÁS', 'ÓSDI', 'ÓVÁS', 'ÓZON'
+            'ÓBOR', 'ÓDON', 'ÓHAJ', 'ÓKOR', 'ÓLOM', 'ÓMEN', 'ÓNIX', 'ÓNOS', 'ÓNOZ', 'ÓRAI', 'ÓRÁS', 'ÓSDI', 'ÓVÁS', 'ÓZON'
         ],
         '5': [
-            'ÓCSKA', 'ÓHAJT', 'ÓKORI', 'ÓLMOS', 'ÓPIUM', 'ÓVODA', 'ÓVÓNŐ'
+            'ÓCEÁN', 'ÓCSKA', 'ÓHAJT', 'ÓHAZA', 'ÓKORI', 'ÓKULA', 'ÓLMOS', 'ÓLMOZ', 'ÓNÉRC', 'ÓPIUM', 'ÓRAMŰ', 'ÓRIÁS', 'ÓTVAR', 'ÓVODA',
+            'ÓVÓNŐ'
         ],
-        '6': ['ÓVODÁS'],
-        '7': []
+        '6': [
+            'ÓANGOL', 'ÓARANY', 'ÓBÉGAT', 'ÓCEÁNI', 'ÓCSKÁS', 'ÓHAJTÓ', 'ÓNOZÁS', 'ÓRAADÓ', 'ÓRABÉR', 'ÓRADÍJ', 'ÓRAJEL', 'ÓRALAP',
+            'ÓRATOK', 'ÓRÁNYI', 'ÓRIÁSI', 'ÓSZLÁV', 'ÓVADÉK', 'ÓVÁROS', 'ÓVATOS', 'ÓVODAI', 'ÓVODÁS', 'ÓVSZER'
+        ],
+        '7': [
+            'ÓCSÁROL', 'ÓDIVATÚ', 'ÓHAJTÁS', 'ÓLOMMÁZ', 'ÓMAGYAR', 'ÓNEDÉNY', 'ÓNMŰVES', 'ÓNOZOTT', 'ÓPIUMOS', 'ÓRAADÁS', 'ÓRALÁNC',
+            'ÓRAREND', 'ÓRARUGÓ', 'ÓRASZÁM', 'ÓRASZÍJ', 'ÓRATERV', 'ÓRAÜTÉS', 'ÓRAÜVEG', 'ÓRAZSEB', 'ÓRIÁSNŐ', 'ÓSZERES', 'ÓTVAROS',
+            'ÓVATLAN', 'ÓVÓHELY', 'ÓVÓNÉNI', 'ÓZONDÚS'
+        ]
     },
     'Ö': {
         '3': [
