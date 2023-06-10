@@ -1245,27 +1245,32 @@ export const wordsHun: Words = {
     },
     'Ö': {
         '3': [
-            'ÖCS', 'ÖLT', 'ÖNT', 'ÖRV', 'ÖVÉ'
+            'ÖCS', 'ÖLŐ', 'ÖLT', 'ÖNÉ', 'ÖNT', 'ÖRV', 'ÖVÉ'
         ],
         '4': [
-            'ÖCSI', 'ÖBÖL', 'ÖKÖL', 'ÖKÖR', 'ÖLEB', 'ÖLEL', 'ÖLES', 'ÖLÉS', 'ÖLYŰ', 'ÖLYV', 'ÖMÖL', 'ÖNÖS', 'ÖNZŐ', 'ÖREG', 'ÖRÖK', 'ÖRÖM',
-            'ÖRÜL', 'ÖTÖD', 'ÖTÖS', 'ÖVEZ', 'ÖZÖN'
+            'ÖCSI', 'ÖBÖL', 'ÖKÖL', 'ÖKÖR', 'ÖLEB', 'ÖLEL', 'ÖLES', 'ÖLÉS', 'ÖLYŰ', 'ÖLYV', 'ÖMÖL', 'ÖNÖK', 'ÖNÖS', 'ÖNÖZ', 'ÖNZŐ', 'ÖREG',
+            'ÖRÖK', 'ÖRÖM', 'ÖRÜL', 'ÖTEN', 'ÖTÖD', 'ÖTÖL', 'ÖTÖS', 'ÖVES', 'ÖVEZ', 'ÖVÉI', 'ÖVÉK', 'ÖZÖN'
         ],
         '5': [
-            'ÖBLÍT', 'ÖBLÖS', 'ÖDÉMA', 'ÖKLEL', 'ÖKRÖS', 'ÖLTÉS', 'ÖMLÉS', 'ÖMLIK', 'ÖNERŐ', 'ÖNGÓL', 'ÖNNÖN', 'ÖNTET', 'ÖNTÉS', 'ÖNTÖZ',
-            'ÖNVÁD', 'ÖNZÉS', 'ÖRDÖG', 'ÖRVÖS', 'ÖSSZE', 'ÖTLET', 'ÖTVEN', 'ÖTVÖS', 'ÖTVÖZ'
+            'ÖBLÍT', 'ÖBLÖS', 'ÖDÉMA', 'ÖKLEL', 'ÖKLÖZ', 'ÖKRÖS', 'ÖLDÖS', 'ÖLELŐ', 'ÖLTÉS', 'ÖMLÉS', 'ÖMLIK', 'ÖNCÉL', 'ÖNERŐ', 'ÖNGÓL',
+            'ÖNNÖN', 'ÖNTET', 'ÖNTÉS', 'ÖNTÖZ', 'ÖNVÁD', 'ÖNZÉS', 'ÖRDÖG', 'ÖRVÖS', 'ÖSSZE', 'ÖTÁGÚ', 'ÖTÉVI', 'ÖTFŐS', 'ÖTLET', 'ÖTLIK',
+            'ÖTVEN', 'ÖTVÖS', 'ÖTVÖZ'
         ],
         '6': [
-            'ÖBLÍTŐ', 'ÖCSKÖS', 'ÖKLEND', 'ÖLELÉS', 'ÖLTÖNY', 'ÖLTÖZŐ', 'ÖMLENG', 'ÖNÁLLÓ', 'ÖNCÉLÚ', 'ÖNERŐS', 'ÖNFEJŰ', 'ÖNGÚNY',
-            'ÖNHIBA', 'ÖNHITT', 'ÖNJÁRÓ', 'ÖNKÉNT', 'ÖNKÉNY', 'ÖNMAGA', 'ÖNSÚLY', 'ÖNTELT', 'ÖNTÖDE', 'ÖNTÖTT', 'ÖNTÖZŐ', 'ÖRDÖGI',
-            'ÖREGES', 'ÖREGÍT', 'ÖREGÚR', 'ÖRMÉNY', 'ÖRÖKÍT', 'ÖRÖKKÉ', 'ÖRÖKÖL', 'ÖRÖKÖS', 'ÖRÖKRE', 'ÖRVEND', 'ÖRVÉNY', 'ÖSSZEG',
-            'ÖSSZES', 'ÖSVÉNY', 'ÖSZTÖN', 'ÖSZVÉR', 'ÖTTUSA', 'ÖVCSAT', 'ÖVEZET', 'ÖZVEGY'
+            'ÖBLÍTŐ', 'ÖCSKÖS', 'ÖKLEND', 'ÖLELÉS', 'ÖLTÖNY', 'ÖLTÖZŐ', 'ÖMLENG', 'ÖNÁLLÓ', 'ÖNCÉLÚ', 'ÖNCSŐD', 'ÖNERŐS', 'ÖNFEJŰ',
+            'ÖNGÚNY', 'ÖNHIBA', 'ÖNHITT', 'ÖNJÁRÓ', 'ÖNKÉNT', 'ÖNKÉNY', 'ÖNMAGA', 'ÖNRÉSZ', 'ÖNSÚLY', 'ÖNTELT', 'ÖNTÖDE', 'ÖNTÖTT',
+            'ÖNTÖZŐ', 'ÖRDÖGI', 'ÖREGEM', 'ÖREGES', 'ÖREGÍT', 'ÖREGÚR', 'ÖRMÉNY', 'ÖRÖKÍT', 'ÖRÖKKÉ', 'ÖRÖKÖL', 'ÖRÖKÖS', 'ÖRÖKRE',
+            'ÖRÜLÉS', 'ÖRVEND', 'ÖRVÉNY', 'ÖSSZEG', 'ÖSSZES', 'ÖSVÉNY', 'ÖSZTÖN', 'ÖSZVÉR', 'ÖTÉVES', 'ÖTFÉLE', 'ÖTHAVI', 'ÖTHETI',
+            'ÖTNAPI', 'ÖTÓRAI', 'ÖTÓRÁS', 'ÖTÖDÉV', 'ÖTÖDIK', 'ÖTSZÁZ', 'ÖTSZÖG', 'ÖTSZÖR', 'ÖTTAGÚ', 'ÖTTUSA', 'ÖVCSAT', 'ÖVEZET',
+            'ÖZVEGY'
         ],
         '7': [
-            'ÖBLÍTÉS', 'ÖBLÖGET', 'ÖKLELÉS', 'ÖKLÖZÉS', 'ÖKÖLJOG', 'ÖKÖRSÉG', 'ÖLDÖKLŐ', 'ÖLDÖKÖL', 'ÖLELGET', 'ÖLTÖZÉK', 'ÖLTÖZET',
-            'ÖLTÖZIK', 'ÖNÉRDEK', 'ÖNÉRZET', 'ÖNTÖGET', 'ÖNTÖZÉS', 'ÖNTUDAT', 'ÖNTVÉNY', 'ÖREGBÍT', 'ÖREGKOR', 'ÖREGSÉG', 'ÖRÖKLÉS',
-            'ÖRÖKLÉT', 'ÖRÖMAPA', 'ÖRÖMHÍR', 'ÖSSZEAD', 'ÖSSZEÉG', 'ÖSSZEÉR', 'ÖSSZEFŐ', 'ÖSSZEÍR', 'ÖSSZENŐ', 'ÖSSZEÜL', 'ÖSSZEÜT',
-            'ÖSSZKÉP', 'ÖSSZTŰZ', 'ÖSZTÖKE', 'ÖTLETES', 'ÖTVÖZET', 'ÖVSÖMÖR', 'ÖZÖNLIK', 'ÖZÖNVÍZ', 'ÖZVEGYI'
+            'ÖBLÍTÉS', 'ÖBLÖGET', 'ÖKLELÉS', 'ÖKLÖZÉS', 'ÖKÖLJOG', 'ÖKÖRSÉG', 'ÖLDÖKLŐ', 'ÖLDÖKÖL', 'ÖLELGET', 'ÖLTÖGET', 'ÖLTÖZET',
+            'ÖLTÖZÉK', 'ÖLTÖZIK', 'ÖMLENGŐ', 'ÖMLESZT', 'ÖNADÓZÓ', 'ÖNÉRDEK', 'ÖNÉRZET', 'ÖNTÖGET', 'ÖNTÖZÉS', 'ÖNTUDAT', 'ÖNTVÉNY',
+            'ÖREGAPA', 'ÖREGBÍT', 'ÖREGFIÚ', 'ÖREGKOR', 'ÖREGSÉG', 'ÖRÖKJOG', 'ÖRÖKLÉS', 'ÖRÖKLÉT', 'ÖRÖKSÉG', 'ÖRÖMAPA', 'ÖRÖMEST',
+            'ÖRÖMHÍR', 'ÖRÖMTŰZ', 'ÖSSZEAD', 'ÖSSZEÉG', 'ÖSSZEÉR', 'ÖSSZEFŐ', 'ÖSSZEÍR', 'ÖSSZENŐ', 'ÖSSZEÜL', 'ÖSSZEÜT', 'ÖSSZÉBB',
+            'ÖSSZKÉP', 'ÖSSZTŰZ', 'ÖSZTÖKE', 'ÖTAJTÓS', 'ÖTHETES', 'ÖTJEGYŰ', 'ÖTLETES', 'ÖTNAPOS', 'ÖTÖDIKE', 'ÖTÖDÖLŐ', 'ÖTPÁRTI',
+            'ÖTPRÓBA', 'ÖTSOROS', 'ÖTSZÖRI', 'ÖTVENEN', 'ÖTVENES', 'ÖTVÖZET', 'ÖVSÖMÖR', 'ÖVTÁSKA', 'ÖZÖNLIK', 'ÖZÖNVÍZ', 'ÖZVEGYI'
         ]
     },
     'Ő': {
@@ -1277,16 +1282,17 @@ export const wordsHun: Words = {
         ],
         '5': [
             'ŐDÖNG', 'ŐRHÁZ', 'ŐRJÍT', 'ŐRLÉS', 'ŐRSÉG', 'ŐRTŰZ', 'ŐRÜLT', 'ŐRZÉS', 'ŐSAPA', 'ŐSERŐ', 'ŐSIDŐ', 'ŐSKOR', 'ŐSZES', 'ŐSZÜL',
-            'ŐZBAK', 'ŐZIKE'
+            'ŐZBAK', 'ŐZBŐR', 'ŐZHÚS', 'ŐZIKE'
         ],
         '6': [
-            'ŐKELME', 'ŐRBÓDÉ', 'ŐRGRÓF', 'ŐRHELY', 'ŐRIZET', 'ŐRJÍTŐ', 'ŐRJÖNG', 'ŐRLÁNG', 'ŐRNAGY', 'ŐRSZEM', 'ŐRÜLET', 'ŐRZÖTT',
-            'ŐSANYA', 'ŐSATYA', 'ŐSELEM', 'ŐSERDŐ', 'ŐSHAZA', 'ŐSKORI', 'ŐSLAKÓ', 'ŐSLÉNY', 'ŐSRÉGI', 'ŐSZAPÓ', 'ŐSZIES', 'ŐZGIDA',
-            'ŐZSUTA'
+            'ŐKELME', 'ŐRBÓDÉ', 'ŐRGRÓF', 'ŐRHAJÓ', 'ŐRHELY', 'ŐRIZET', 'ŐRJÍTŐ', 'ŐRJÖNG', 'ŐRLÁNG', 'ŐRNAGY', 'ŐRSZEM', 'ŐRÜLET',
+            'ŐRZÖTT', 'ŐSANYA', 'ŐSATYA', 'ŐSELEM', 'ŐSERDŐ', 'ŐSHAZA', 'ŐSIDŐK', 'ŐSKORI', 'ŐSLAKÓ', 'ŐSLÉNY', 'ŐSPARK', 'ŐSRÉGI',
+            'ŐSSEJT', 'ŐSZAPÓ', 'ŐSZELŐ', 'ŐSZIES', 'ŐSZIKE', 'ŐSZUTÓ', 'ŐSZÜLŐ', 'ŐZGIDA', 'ŐZSUTA'
         ],
         '7': [
-            'ŐGYELEG', 'ŐRIZGET', 'ŐRJÁRAT', 'ŐRKÖDIK', 'ŐRLŐDIK', 'ŐRLŐFOG', 'ŐRSZOBA', 'ŐSÁLLAT', 'ŐSEMBER', 'ŐSERDEI', 'ŐSHONOS',
-            'ŐSHÜLLŐ', 'ŐSLAKOS', 'ŐSSZÁJÚ', 'ŐSZINTE'
+            'ŐGYELEG', 'ŐREZRED', 'ŐRIZGET', 'ŐRJÁRAT', 'ŐRKÖDÉS', 'ŐRKÖDIK', 'ŐRLŐDIK', 'ŐRLŐFOG', 'ŐRSZOBA', 'ŐRÜLTEN', 'ŐSÁLLAT',
+            'ŐSEMBER', 'ŐSERDEI', 'ŐSHONOS', 'ŐSHÜLLŐ', 'ŐSKŐKOR', 'ŐSKŐZET', 'ŐSLAKOS', 'ŐSMONDA', 'ŐSNYELV', 'ŐSSZÁJÚ', 'ŐSTÍPUS',
+            'ŐSZINTE', 'ŐSZÜLÉS', 'ŐZBARNA'
         ]
     },
     'P': {
