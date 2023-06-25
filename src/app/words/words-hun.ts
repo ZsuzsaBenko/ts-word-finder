@@ -1297,30 +1297,83 @@ export const wordsHun: Words = {
     },
     'P': {
         '3': [
-            'PAD', 'PAP', 'PÁC', 'PÁN', 'PÁR', 'PEJ', 'PER', 'PÉK', 'PER', 'PIA', 'PIN', 'POR', 'PÓK', 'PÓR', 'PÓT', 'PUB'
+            'PAD', 'PAP', 'PÁC', 'PÁN', 'PÁR', 'PÁT', 'PEJ', 'PER', 'PÉK', 'PÉP', 'PIA', 'PIN', 'PÍR', 'POP', 'POR', 'PÓK', 'PÓR', 'PÓT',
+            'PÓZ', 'PUB', 'PÚP'
         ],
         '4': [
-            'PAKK', 'PALA', 'PALI', 'PAPA', 'PAPI', 'PARA', 'PARK', 'PART', 'PASI', 'PATA', 'PÁPA', 'PÁRA', 'PÁNT', 'PÁRT', 'PÁST', 'PIÁL',
-            'PIÁS', 'PELE', 'PENG', 'PERC', 'PÉNZ', 'PIAC', 'PICI', 'PIHE', 'PINT', 'PIPA', 'PISA', 'PISI', 'PITA', 'PLÉD', 'PLÉH', 'POLC',
-            'PONT', 'PORC', 'PÓLÓ', 'PÓNI', 'PÖRK', 'PŐRE', 'PRŰD', 'PUHA', 'PUFI', 'PULT', 'PUMA', 'PUNK', 'PÜRÉ'
+            'PACA', 'PACI', 'PAFF', 'PAKK', 'PALA', 'PALI', 'PANG', 'PAPA', 'PAPI', 'PARA', 'PARI', 'PARK', 'PART', 'PASA', 'PASI', 'PATA',
+            'PATT', 'PÁKA', 'PÁPA', 'PÁPÁ', 'PÁRA', 'PÁNT', 'PÁRT', 'PÁST', 'PÁVA', 'PIÁL', 'PIÁS', 'PECH', 'PEDZ', 'PELE', 'PENG', 'PERC',
+            'PETE', 'PÉNZ', 'PFUJ', 'PIAC', 'PIÁL', 'PIÁS', 'PICI', 'PIHE', 'PIKK', 'PINT', 'PIPA', 'PIPI', 'PISA', 'PISI', 'PITA', 'PITE',
+            'PITI', 'PLÉD', 'PLÉH', 'POÉN', 'POFA', 'POLC', 'PONT', 'POPÓ', 'PORC', 'PORT', 'PÓLÓ', 'PÓNI', 'PÓPA', 'PÖRC', 'PÖRK', 'PŐRE',
+            'PRÉM', 'PRÉS', 'PRÍM', 'PRŰD', 'PSZT', 'PUHA', 'PUFF', 'PUFI', 'PUHA', 'PULI', 'PULT', 'PUMA', 'PUNK', 'PÜRÉ'
         ],
         '5': [
-            'PAPÍR', 'PAKOL', 'PARTI', 'PASAS', 'PATAK', 'PATÁS', 'PAZAR', 'PÁCOL', 'PÁCOS', 'PÁNIK', 'PÁRÁS', 'PÁRNA', 'PÁROL', 'PÁROS',
-            'PÁRTA', 'PEDIG', 'PENGE', 'PEREC', 'PEREG', 'PEREL', 'PERES', 'PEREM', 'PIACI', 'PIHEN', 'PIHÉS', 'PILLA', 'PILLE', 'PINCE',
-            'PINTY', 'PIÓCA', 'PIROG', 'PIROS', 'PISÁL', 'PISIL', 'PISZE', 'PIZZA', 'POCAK', 'POÉTA', 'POHÁR', 'POHOS', 'PONTY', 'POROL',
-            'PORTA', 'POSTA', 'PÓTOL', 'PÖCÖK', 'PÖFÖG', 'PRÓBA', 'PURDÉ', 'PUFÓK', 'PUSKA', 'PUSZI', 'PÜRÉS'
+            'PACAL', 'PACÁK', 'PACÁS', 'PACNI', 'PACSI', 'PADKA', 'PADLÓ', 'PAJOR', 'PAJTA', 'PAJZS', 'PAKLI', 'PAKOL', 'PALÁS', 'PALLÓ',
+            'PAKOL', 'PAMPA', 'PAMUT', 'PANCS', 'PANDA', 'PANEL', 'PANÍR', 'PAPÍR', 'PAPOL', 'PAPOS', 'PARAJ', 'PARÉJ', 'PARFÉ', 'PARTI',
+            'PASAS', 'PASSZ', 'PATAK', 'PATÁS', 'PATKÓ', 'PAUZA', 'PAZAR', 'PÁCOL', 'PÁCOS', 'PÁLCA', 'PÁLMA', 'PÁLYA', 'PÁNIK', 'PÁPAI',
+            'PÁPUA', 'PÁRÁS', 'PÁRIA', 'PÁRKA', 'PÁRNA', 'PÁROL', 'PÁROS', 'PÁRTA', 'PÁRTI', 'PÁTER', 'PECEK', 'PEDÁL', 'PEDIG', 'PELUS',
+            'PEMPŐ', 'PENGE', 'PENGŐ', 'PEREC', 'PEREG', 'PEREL', 'PEREM', 'PERES', 'PERGŐ', 'PERJE', 'PERON', 'PERTU', 'PETÁK', 'PETTY',
+            'PÉLDA', 'PÉPES', 'PIACI', 'PIHEG', 'PIHEN', 'PIHÉS', 'PILLA', 'PILLE', 'PINCE', 'PINTY', 'PIÓCA', 'PIPÁL', 'PIPÁS', 'PIRÍT',
+            'PIROG', 'PIROS', 'PIRUL', 'PISÁL', 'PISIL', 'PISIS', 'PISZE', 'PITLI', 'PITON', 'PIXEL', 'PIZZA', 'PLACC', 'PLATÓ', 'PLÁNE',
+            'PLÁZA', 'PLEXI', 'PLUSZ', 'PLÜSS', 'POCAK', 'POCOK', 'POÉTA', 'POFÁS', 'POFON', 'POFOZ', 'POHÁR', 'POHOS', 'POKOL', 'POLIP',
+            'POLKA', 'POMPA', 'PONTY', 'POPSI', 'PORHÓ', 'PORÍT', 'PORNÓ', 'POROL', 'POROS', 'POROZ', 'PORTA', 'PORTÓ', 'PORZÓ', 'POSTA',
+            'POSZT', 'POTOM', 'POTYA', 'POZŐR', 'PÓKER', 'PÓLÓS', 'PÓLUS', 'PÓLYA', 'PÓRÁZ', 'PÓRUS', 'PÓTOL', 'PÓZNA', 'PÓZOL', 'PÖCÖK',
+            'PÖDÖR', 'PÖFÖG', 'PÖRÖG', 'PÖTTY', 'PÖSZE', 'PRÉDA', 'PRÉRI', 'PRÍMA', 'PROCC', 'PROFI', 'PROLI', 'PRÓBA', 'PRÓZA', 'PUCÉR',
+            'PUCOL', 'PUCCS', 'PUDLI', 'PUFOG', 'PUFÓK', 'PUHÍT', 'PUHUL', 'PUMPA', 'PUNCS', 'PURDÉ', 'PUSKA', 'PUSZI', 'PUTRI', 'PUZÓN',
+            'PÚDER', 'PÚPOS', 'PÚPOZ', 'PÜFÖL', 'PÜLÓN', 'PÜRÉS'
         ],
         '6': [
-            'PADLÁS', 'PAJKOS', 'PAJTÁS', 'PALÁST', 'PAMACS', 'PAMLAG', 'PARÁDÉ', 'PARÁNY', 'PARIPA', 'PARKOL', 'PARKOS', 'PÁCOLT',
-            'PÁNSÍP', 'PÁRDUC', 'PÁROLT', 'PÁRTOL', 'PENÉSZ', 'PENGET', 'PÉKÁRU', 'PÉNTEK', 'PÉNZEL', 'PÉNZES', 'PICIKE', 'PIKÁNS',
-            'PIKKEL', 'PIMASZ', 'PINCSI', 'PIPACS', 'PISZOK', 'POGÁNY', 'POLCOL', 'POLCOS', 'PONTOS', 'PORCOS', 'POROLÓ', 'POROND',
-            'POROSZ', 'PORTÁS', 'POSTÁS', 'POSTÁZ', 'PÓRNÉP', 'PÓTLÁS', 'PÖRKÖL', 'PÖRKÖS', 'PRÓBÁL', 'PRIZMA', 'PUHÁNY', 'PULCSI',
-            'PULTOS', 'PUSZIL'
+            'PADLÁS', 'PADLAT', 'PADLÓZ', 'PADSOR', 'PAGODA', 'PAJESZ', 'PAJKOS', 'PAJTÁS', 'PAJZÁN', 'PAKETT', 'PAKTÁL', 'PAKTUM',
+            'PAKURA', 'PALACK', 'PALÁNK', 'PALÁST', 'PALLÉR', 'PALLOS', 'PALOTA', 'PAMACS', 'PAMLAG', 'PANAMA', 'PANASZ', 'PANDÚR',
+            'PANGÁS', 'PANZIÓ', 'PAPAJA', 'PAPAYA', 'PAPLAK', 'PAPLAN', 'PAPSÁG', 'PAPUCS', 'PARAFA', 'PARÁDÉ', 'PARÁNY', 'PARÁZS',
+            'PARDON', 'PARFÜM', 'PARIPA', 'PARKOL', 'PARKOS', 'PARKŐR', 'PARLAG', 'PAROLA', 'PARÓKA', 'PASKOL', 'PASSIÓ', 'PASZTA',
+            'PATENT', 'PATIKA', 'PATINA', 'PATKOL', 'PATRON', 'PATTAN', 'PATTOG', 'PÁCOLT', 'PÁHOLY', 'PÁLCÁS', 'PÁLCÁZ', 'PÁLLÁS',
+            'PÁLLIK', 'PÁNCÉL', 'PÁNSÍP', 'PÁNTOS', 'PÁNYVA', 'PÁRBAJ', 'PÁRDUC', 'PÁRLAT', 'PÁRNÁS', 'PÁRNÁZ', 'PÁROLT', 'PÁRTHŰ',
+            'PÁRTOL', 'PÁRTOS', 'PÁRZÁS', 'PÁRZIK', 'PÁSZKA', 'PÁTOSZ', 'PÁVIÁN', 'PÁZSIT', 'PECHES', 'PECKEL', 'PECKES', 'PECSÉT',
+            'PEDÁNS', 'PEDZÉS', 'PEHELY', 'PEKTIN', 'PELYVA', 'PEMZLI', 'PENDÜL', 'PENÉSZ', 'PENGET', 'PENZIÓ', 'PENZUM', 'PEPITA',
+            'PERCEG', 'PERDÜL', 'PERGET', 'PERGÉS', 'PERJEL', 'PERKÁL', 'PERMET', 'PERNYE', 'PERSZE', 'PERTLI', 'PERZSA', 'PESTIS',
+            'PEZSEG', 'PEZSGŐ', 'PÉKÁRU', 'PÉKSÉG', 'PÉLDÁS', 'PÉLDÁZ', 'PÉNISZ', 'PÉNTEK', 'PÉNZEL', 'PÉNZES', 'PÉZSMA', 'PFUJOL',
+            'PFUJOZ', 'PIÁLÁS', 'PICIKE', 'PIHENŐ', 'PIHENT', 'PIKÁNS', 'PIKÍRT', 'PIKKEL', 'PIKNIK', 'PIKOLÓ', 'PIKTOR', 'PILLÉR',
+            'PILÓTA', 'PIMASZ', 'PINCÉR', 'PINCSI', 'PINGÁL', 'PINTÉR', 'PIONÍR', 'PIPACS', 'PIRÍTÓ', 'PIRKAD', 'PIRULA', 'PISLOG',
+            'PISZKE', 'PISZOK', 'PITVAR', 'PITYKE', 'PLAFON', 'PLAKÁT', 'PLATÁN', 'PLATNI', 'PLAZMA', 'PLÁTÓI', 'PLEBSZ', 'PLÉNUM',
+            'PLOMBA', 'POCSÉK', 'POÉNOS', 'POÉZIS', 'POGÁNY', 'POGROM', 'POJÁCA', 'POKOLI', 'POKRÓC', 'POLCOL', 'POLCOS', 'POLGÁR',
+            'POLLEN', 'POMÁDÉ', 'POMPÁS', 'POMPON', 'PONCSÓ', 'PONDRÓ', 'PONTON', 'PONTOS', 'PONTOZ', 'PONYVA', 'PORCIÓ', 'PORCOS',
+            'PORLAD', 'POROLÓ', 'POROND', 'POROLÓ', 'POROSZ', 'PORTÁL', 'PORTÁS', 'PORTRÉ', 'PORTYA', 'PORZIK', 'PORZÓS', 'POSHAD',
+            'POSTAI', 'POSTÁS', 'POSTÁZ', 'POSZTÓ', 'POTENS', 'POTROH', 'POTYOG', 'PÓDIUM', 'PÓLYÁL', 'PÓLYÁS', 'PÓLYÁZ', 'PÓRIAS',
+            'PÓRNÉP', 'PÓTÁGY', 'PÓTDÍJ', 'PÓTLÁS', 'PÓTLÉK', 'PÓTTAG', 'PÓZOLÓ', 'PÖCKÖL', 'PÖRGET', 'PÖRGÉS', 'PÖRKÖL', 'PÖRKÖS',
+            'PÖRÖLY', 'PÖTTÖM', 'PÖTYÖG', 'PRACLI', 'PRAXIS', 'PRECÍZ', 'PRELŰD', 'PRÉDÁL', 'PRÉMES', 'PRÉMEZ', 'PRÉSEL', 'PRÉZLI',
+            'PRIBÉK', 'PRICCS', 'PRIMER', 'PRIMŐR', 'PRIUSZ', 'PRIVÁT', 'PRIZMA', 'PRÍMÁS', 'PROFÁN', 'PROFIL', 'PROFIT', 'PROMPT',
+            'PROPÁN', 'PROSTI', 'PROTON', 'PRÓBÁL', 'PRÓZAI', 'PUDING', 'PUDVÁS', 'PUFFAD', 'PUFFAN', 'PUFFER', 'PUFFOS', 'PUHAFA',
+            'PUHÁNY', 'PUKKAD', 'PUKKAN', 'PULCSI', 'PULTOS', 'PULZÁL', 'PULZÁR', 'PULZUS', 'PULYKA', 'PUMPÁL', 'PUMPOL', 'PURGÁL',
+            'PUSMOG', 'PUSZIL', 'PUSZTA', 'PUZDRA', 'PÜFFED', 'PÜSPÖK'
         ],
         '7': [
-            'PAKOLÁS', 'PAPAGÁJ', 'PAPRIKA', 'PAPSAJT', 'PARANCS', 'PARASZT', 'PARÁNYI', 'PASSZOL', 'PAZAROL', 'PÁFRÁNY', 'PÁLINKA',
-            'PÁSZTOR', 'PELENKA', 'PENGETŐ', 'PIHENÉS', 'PIKKELY', 'PINGVIN', 'PIPÁZIK', 'PIROSAS', 'PIZSAMA', 'POCAKOS', 'POGÁCSA',
-            'PORCOGÓ', 'PÓKHÁLÓ', 'PÖRKÖLT', 'PROGRAM', 'PÜRÉSÍT'
+            'PACSKOL', 'PACSULI', 'PADOZAT', 'PAGINÁL', 'PAJSZER', 'PAKOLÁS', 'PALÁNTA', 'PALÁVER', 'PALETTA', 'PALOTÁS', 'PAMFLET',
+            'PAMPAFŰ', 'PANCSER', 'PANCSOL', 'PANÍROZ', 'PANTEON', 'PAPAGÁJ', 'PAPIROS', 'PAPÍROS', 'PAPÍROZ', 'PAPRIKA', 'PAPSAJT',
+            'PARADIÓ', 'PARADOX', 'PARANCS', 'PARASZT', 'PARAVÁN', 'PARÁDÉS', 'PARÁNYI', 'PARÁZIK', 'PARÁZNA', 'PARITÁS', 'PARKETT',
+            'PARKOLÓ', 'PARLAGI', 'PAROLÁZ', 'PARÓDIA', 'PARÓKÁS', 'PARÓKIA', 'PARTNER', 'PARTVIS', 'PASZPÓL', 'PASZULY', 'PASSZIÓ',
+            'PASSZÍV', 'PASSZOL', 'PASSZUS', 'PATÁLIA', 'PATIKUS', 'PATINÁS', 'PATKÁNY', 'PATKOLT', 'PATOGÉN', 'PATRÓNA', 'PATTANT',
+            'PATTINT', 'PATTOGÓ', 'PAVILON', 'PAZARLÓ', 'PAZAROL', 'PÁCIENS', 'PÁCOLÁS', 'PÁFRÁNY', 'PÁLCIKA', 'PÁLINKA', 'PÁLLOTT',
+            'PÁLMAÁG', 'PÁLMAFA', 'PÁLYAMŰ', 'PÁLYAŐR', 'PÁLYÁZÓ', 'PÁNIKOL', 'PÁNYVÁZ', 'PÁPASÁG', 'PÁPISTA', 'PÁRADÚS', 'PÁRHARC',
+            'PÁRIZSI', 'PÁRKÁNY', 'PÁROLÁS', 'PÁROLGÓ', 'PÁROLOG', 'PÁROSÍT', 'PÁROSUL', 'PÁRSZOR', 'PÁRTHÁZ', 'PÁRTLAP', 'PÁRTOLÓ',
+            'PÁRTTAG', 'PÁRTÜTŐ', 'PÁSZTÁZ', 'PÁSZTOR', 'PECABOT', 'PECÁZÁS', 'PECÁZIK', 'PEDÁLOS', 'PEDÁLOZ', 'PEDIGRÉ', 'PEDIKŰR',
+            'PEDOFIL', 'PELENKA', 'PELERIN', 'PELIKÁN', 'PELYHES', 'PENDELY', 'PENGETŐ', 'PERBELI', 'PERCNYI', 'PERESÍT', 'PERFEKT',
+            'PERGOLA', 'PERIRAT', 'PERSELY', 'PERTÁRS', 'PERVERZ', 'PERZSEL', 'PETÁRDA', 'PETÍCIÓ', 'PETTING', 'PETÚNIA', 'PETTYES',
+            'PETTYEZ', 'PEZSGÉS', 'PEZSGŐS', 'PÉKINAS', 'PÉLDÁNY', 'PÉLDÁUL', 'PÉNTEKI', 'PÉNZNEM', 'PÉNZTÁR', 'PÉNZÜGY', 'PÉPESÍT',
+            'PIACTÉR', 'PIANÍNÓ', 'PIGMENT', 'PIGMEUS', 'PIHEGÉS', 'PIHENÉS', 'PIKKELY', 'PILLANT', 'PILLEDT', 'PINGVIN', 'PIPÁZIK',
+            'PIPOGYA', 'PIRAMIS', 'PIRANHA', 'PIRINYÓ', 'PIRÍTÁS', 'PIRÍTÓS', 'PIROSAS', 'PIROSÍT', 'PIRUETT', 'PIRULÁS', 'PISKÓTA',
+            'PISLANT', 'PISZKÁL', 'PISZKÍT', 'PISZKOL', 'PISZKOS', 'PISZMOG', 'PISZOÁR', 'PISSZEG', 'PISSZEN', 'PITBULL', 'PITIZIK',
+            'PIZSAMA', 'PLACEBO', 'PLATINA', 'PLÁGIUM', 'PLÁNTÁL', 'PLECSNI', 'PLETYKA', 'PLOMBÁL', 'POCAKOS', 'POFÁZÁS', 'POFÁZIK',
+            'POFOZÁS', 'POGÁCSA', 'POHARAZ', 'POINTER', 'POLÁRIS', 'POLÉMIA', 'POLGÁRI', 'POLIFON', 'POLIGÁM', 'POLIGON', 'POLIMER',
+            'POLITÚR', 'POLÍROZ', 'POLOSKA', 'PONTOZÓ', 'POPZENE', 'PORCICA', 'PORCIKA', 'PORCIÓZ', 'PORCOGÓ', 'POROLÁS', 'POROLTÓ',
+            'PORONTY', 'PORÓZUS', 'PORSZEM', 'PORTÉKA', 'PORVÉDŐ', 'PORZSÁK', 'POSHADT', 'POSVÁNY', 'POSZMÉH', 'POSZTER', 'POSZTOL',
+            'POTYÁZÓ', 'POTTYAN', 'POZITÍV', 'POZÍCIÓ', 'POZSGÁS', 'PÓKHASÚ', 'PÓKHÁLÓ', 'PÓLÓING', 'PÓLÓZIK', 'PÓLYÁZÓ', 'PÓTJEGY',
+            'PÓTKÁVÉ', 'PÓTMAMA', 'PÓTPAPA', 'PÓTSZER', 'PÓTSZÉK', 'PÓTSZÖG', 'PÓTUTAS', 'PÓTÜLÉS', 'PÓZOLÁS', 'PÖFÉKEL', 'PÖFÖGÉS',
+            'PÖRKÖLT', 'PÖSSENT', 'PÖTTYÖS', 'PÖTTYÖZ', 'PRALINÉ', 'PREMIER', 'PRESSZÓ', 'PRÉMIUM', 'PRÉPOST', 'PRÉSELT', 'PRÉSGÉP',
+            'PRIMULA', 'PRINTEL', 'PRIZNIC', 'PROCCOL', 'PROCCOS', 'PROGRAM', 'PROJEKT', 'PROTEIN', 'PRÓBAÉV', 'PRÓBAKŐ', 'PRÓBAÚT',
+            'PRÓFÉTA', 'PSZICHÉ', 'PUCERÁJ', 'PUCOLÁS', 'PUFAJKA', 'PUFFADT', 'PUFOGÁS', 'PUHASÁG', 'PUHATOL', 'PUHÍTÁS', 'PUHULÁS',
+            'PUKEDLI', 'PUKKANT', 'PULÓVER', 'PUNKTUM', 'PUPILLA', 'PURITÁN', 'PUSZTAI', 'PUSZTÁN', 'PUSZTÍT', 'PUSZTUL', 'PUTTONY',
+            'PÚDERES', 'PÚDEREZ', 'PÚDEROS', 'PÚDEROZ', 'PÜFFEDT', 'PÜFÖLÉS', 'PÜNKÖSD', 'PÜRÉSÍT', 'PÜSPÖKI'
         ]
     },
     'R': {
@@ -1528,8 +1581,8 @@ export const wordsHun: Words = {
             'ZUTTY', 'ZÚGÁS', 'ZŰRÖS'
         ],
         '6': [
-            'ZAVARÓ', 'ZENDÜL', 'ZÖLDES', 'ZSÁKOL', 'ZSÁKOS', 'ZSEBEL', 'ZSEBES', 'ZSEMLE', 'ZSENGE', 'ZSINEG', 'ZSINÓR', 'ZSÍROS',
-            'ZSÖMLE', 'ZUHANY'
+            'ZAVARÓ', 'ZENDÜL', 'ZÖLDES', 'ZSANÉR', 'ZSÁKOL', 'ZSÁKOS', 'ZSEBEL', 'ZSEBES', 'ZSEMLE', 'ZSENGE', 'ZSINEG', 'ZSINÓR',
+            'ZSÍROS', 'ZSÖMLE', 'ZUHANY'
         ],
         '7': [
             'ZAKKANT', 'ZAVARÁS', 'ZÁPOROS', 'ZIVATAR', 'ZÖLDELL', 'ZÖLDSÉG', 'ZSENDÜL', 'ZUHATAG', 'ZSIBBAD'
