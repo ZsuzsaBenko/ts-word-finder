@@ -13,7 +13,7 @@ export const wordsEng: Words = {
             'AMBER', 'AMEND', 'AMITY', 'AMPLE', 'ANGER', 'ANGRY', 'ARISE', 'AROMA', 'ARROW', 'ASSET', 'ATONE', 'AVOID', 'AWARE'
         ],
         '6': [
-            'ABDUCT', 'ABSURD', 'ACCENT', 'ACIDIC', 'ADMIRE', 'ADVERB', 'ADVERT', 'ADVICE', 'ADVISE', 'AGENCY', 'AMIDST', 'AMOUNT',
+            'ABDUCT', 'ABOARD', 'ABSURD', 'ACCENT', 'ACIDIC', 'ADMIRE', 'ADVERB', 'ADVERT', 'ADVICE', 'ADVISE', 'AGENCY', 'AMIDST', 'AMOUNT',
             'ANIMAL', 'ANEMIC', 'ANOINT', 'ANSWER', 'AROUND', 'AROUSE', 'ARTIST', 'ASSERT', 'ATOMIC', 'AUGUST', 'AUTUMN'
         ],
         '7': [
@@ -189,7 +189,7 @@ export const wordsEng: Words = {
         '6': [
             'JUNGLE'
         ],
-        '7': []
+        '7': ['JUNIPER']
     },
     'K': {
         '3': [
@@ -349,15 +349,15 @@ export const wordsEng: Words = {
         '5': [
             'SABER', 'SAINT', 'SALTY', 'SAPPY', 'SAVOR', 'SAVVY', 'SCARE', 'SCARF', 'SCARY', 'SCREW', 'SERVE', 'SEVEN', 'SHAME', 'SHARK',
             'SHARP', 'SHELL', 'SHINE', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRT', 'SHOCK', 'SHOES', 'SHOOT', 'SHORT', 'SILLY', 'SIXTY', 'SLACK',
-            'SLAVE', 'SLEEP', 'SLIDE', 'SMART', 'SMELL', 'SMILE', 'SNOWY', 'SOCKS', 'SOLID', 'SOUND', 'SPELL', 'SPICE', 'SPICY', 'SPOON',
-            'SPRAY', 'STAGE', 'STAIN', 'STALE', 'START', 'STATE', 'STEAL', 'STEAM', 'STEEL', 'STING', 'STICK', 'STING', 'STINK', 'STOCK',
-            'STORE', 'STORM', 'STUDY', 'STYLE', 'SUNNY', 'SWEET', 'SWING'
+            'SLAVE', 'SLEEP', 'SLIDE', 'SLIME', 'SLIMY', 'SMART', 'SMELL', 'SMILE', 'SNAKE', 'SNEAK', 'SNOWY', 'SOCKS', 'SOLID', 'SOUND',
+            'SPELL', 'SPICE', 'SPICY', 'SPOON', 'SPRAY', 'STAGE', 'STAIN', 'STALE', 'START', 'STATE', 'STEAL', 'STEAM', 'STEEL', 'STING',
+            'STICK', 'STING', 'STINK', 'STOCK', 'STORE', 'STORM', 'STUDY', 'STYLE', 'SUNNY', 'SWEAR', 'SWEET', 'SWING'
         ],
         '6': [
             'SAILOR', 'SAMPLE', 'SAVAGE', 'SAVIOR', 'SAVOUR', 'SAYING', 'SCARED', 'SCHOOL', 'SCREAM', 'SCREEN', 'SEARCH', 'SEASON',
             'SECOND', 'SELECT', 'SELFIE', 'SENDER', 'SHIVER', 'SHORTS', 'SHOULD', 'SHOWER', 'SICKEN', 'SILVER', 'SINGER', 'SINGLE',
             'SISTER', 'SKINNY', 'SLEEPY', 'SLOPPY', 'SMOOTH', 'SNEEZE', 'SOURCE', 'SPIRIT', 'SPRING', 'STARRY', 'STATUS', 'STINKY',
-            'STREAM', 'STUPID', 'SUMMER', 'SUNDAY', 'SWITCH', 'SYSTEM'
+            'STREAM', 'STRONG', 'STUPID', 'SUMMER', 'SUNDAY', 'SWITCH', 'SYSTEM'
         ],
         '7': [
             'SAVIOUR', 'SERVICE', 'SETTING', 'SEVENTY', 'SHELTER', 'SHOOTER', 'STATION', 'STOMACH', 'STRANGE', 'STUPEFY', 'SUCCESS',
@@ -373,14 +373,15 @@ export const wordsEng: Words = {
             'TOOL', 'TRAM', 'TRAY', 'TREE', 'TRIP', 'TRUE', 'TUBE', 'TUNE', 'TYPE'
         ],
         '5': [
-            'TABLE', 'TALON', 'TASTE', 'TEACH', 'THANK', 'THEFT', 'THEIR', 'THERE', 'THICK', 'THIEF', 'THING', 'THINK', 'THREE', 'THROW',
-            'TIGER', 'TIMER', 'TIRED', 'TODAY', 'TOOTH', 'TOUCH', 'TRACE', 'TRAIL', 'TRAMP', 'TREND', 'TROOP', 'TRUCK', 'TRUTH', 'TWICE'
+            'TABLE', 'TALON', 'TASTE', 'TEACH', 'THANK', 'THEFT', 'THEIR', 'THERE', 'THICK', 'THIEF', 'THING', 'THINK', 'THORN', 'THREE',
+            'THROW', 'TIGER', 'TIMER', 'TIRED', 'TODAY', 'TOOTH', 'TOUCH', 'TRACE', 'TRAIL', 'TRAIN', 'TRAMP', 'TREND', 'TROOP', 'TRUCK',
+            'TRUTH', 'TWICE'
         ],
         '6': [
             'THANKS', 'THEIRS', 'THINGY', 'THIRTY', 'THRIVE', 'TOILET', 'TOMATO', 'TOUCHY', 'TRENDY', 'TWELVE', 'TWENTY'
         ],
         '7': [
-            'TEACHER', 'TERRIER', 'THOUGHT', 'TODDLER', 'TONIGHT', 'TROOPER', 'TUESDAY'
+            'TEACHER', 'TERRIER', 'THOUGHT', 'TODDLER', 'TONIGHT', 'TRAINER', 'TROOPER', 'TUESDAY'
         ]
     },
     'U': {
@@ -402,13 +403,13 @@ export const wordsEng: Words = {
     },
     'V': {
         '3': [
-            'VAN', 'VET'
+            'VAN', 'VET', 'VOW'
         ],
         '4': [
             'VALE', 'VAMP', 'VANE', 'VARY', 'VASE', 'VAST', 'VERB', 'VERY'
         ],
         '5': [
-            'VAGUE', 'VALID', 'VALOR', 'VALUE', 'VALVE', 'VIDEO', 'VIRAL', 'VIRUS', 'VISIT'
+            'VAGUE', 'VALID', 'VALOR', 'VALUE', 'VALVE', 'VIDEO', 'VIRAL', 'VIRUS', 'VISIT', 'VOWEL'
         ],
         '6': [
             'VACUUM', 'VALLEY', 'VALOUR', 'VANISH', 'VANITY', 'VERIFY', 'VERSUS', 'VIOLIN'
@@ -422,23 +423,23 @@ export const wordsEng: Words = {
             'WAN', 'WAR', 'WAS', 'WAY', 'WET', 'WHY', 'WIG', 'WIN'
         ],
         '4': [
-            'WAIL', 'WAIT', 'WANT', 'WARD', 'WARM', 'WARN', 'WASH', 'WAVE', 'WAVY', 'WEAK', 'WEAN', 'WEAR', 'WELL', 'WERE', 'WHAT', 'WHEN',
+            'WAIL', 'WAIT', 'WANE', 'WANT', 'WARD', 'WARM', 'WARN', 'WASH', 'WAVE', 'WAVY', 'WEAK', 'WEAN', 'WEAR', 'WELL', 'WERE', 'WHAT', 'WHEN',
             'WHOM', 'WILL', 'WIND', 'WING', 'WIRE', 'WISH', 'WITH', 'WORD', 'WORK'
         ],
         '5': [
-            'WATER', 'WAIST', 'WEARY', 'WEAVE', 'WHERE', 'WHICH', 'WHILE', 'WHITE', 'WHOSE', 'WIDOW', 'WIELD', 'WINCE', 'WINDY', 'WITCH',
+            'WATER', 'WAIST', 'WEARY', 'WEAVE', 'WHERE', 'WHICH', 'WHILE', 'WHITE', 'WHOLE', 'WHOSE', 'WIDOW', 'WIELD', 'WINCE', 'WINDY', 'WITCH',
             'WOMAN', 'WORLD', 'WOULD', 'WOUND', 'WRING', 'WRITE', 'WRONG'
         ],
         '6': [
-            'WAITER', 'WEALTH', 'WEAPON', 'WEASEL', 'WEIGHT', 'WINDOW', 'WINNER', 'WINTER', 'WITHER', 'WRITER', 'WRITHE'
+            'WAITER', 'WEALTH', 'WEAPON', 'WEASEL', 'WEIGHT', 'WINDOW', 'WINNER', 'WINTER', 'WITHER', 'WRAITH', 'WRITER', 'WRITHE'
         ],
         '7': [
-            'WARLOCK', 'WARLORD', 'WARNING', 'WEALTHY', 'WEATHER', 'WISHFUL', 'WOUNDED'
+            'WARLOCK', 'WARLORD', 'WARNING', 'WEALTHY', 'WEATHER', 'WISHFUL', 'WHISPER', 'WOUNDED'
         ]
     },
     'Y': {
         '3': [
-            'YEA', 'YES', 'YET'
+            'YEA', 'YES', 'YET', 'YOU'
         ],
         '4': [
             'YEAH', 'YEAR', 'YELL', 'YELP', 'YOUR', 'YUCK'

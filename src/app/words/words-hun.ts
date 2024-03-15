@@ -647,15 +647,15 @@ export const wordsHun: Words = {
             'HECCEL', 'HEGEDŰ', 'HEGYES', 'HEGYEZ', 'HEKTÁR', 'HELLÉN', 'HELYÁR', 'HELYES', 'HELYEZ', 'HENCEG', 'HENGER', 'HENTES',
             'HENYÉL', 'HERCEG', 'HERCIG', 'HERÉLT', 'HERGEL', 'HERING', 'HERNYÓ', 'HEROIN', 'HERVAD', 'HETERÓ', 'HETVEN', 'HETYEG',
             'HETYKE', 'HEVENY', 'HEVERŐ', 'HÉLIUM', 'HÉTÉVI', 'HÉTFŐI', 'HÉTFŐS', 'HÉTRÉT', 'HIÁTUS', 'HIBRID', 'HIDRÁL', 'HIDRÁT',
-            'HIGANY', 'HIHETŐ', 'HIMBÁL', 'HINTÁS', 'HIMLŐS', 'HIRDET', 'HISZEN', 'HISZTI', 'HITTAN', 'HITVES', 'HIÚSÁG', 'HIZLAL',
-            'HÍDVÁM', 'HÍGÍTÓ', 'HÍMNEM', 'HÍMNŐS', 'HÍMPOR', 'HÍMZÉS', 'HÍRADÓ', 'HÍRLAP', 'HÍRLIK', 'HÍRNÉV', 'HÍRNÖK', 'HOBBIT',
-            'HODÁLY', 'HOGYAN', 'HOGYHA', 'HOGYNE', 'HOLDAS', 'HOLDÉV', 'HOLLÉT', 'HOLNAP', 'HOLOTT', 'HOLTAN', 'HOLTÁG', 'HOMÁLY',
-            'HOMBÁR', 'HOMLOK', 'HOMORÚ', 'HONLAP', 'HONNAN', 'HONVÉD', 'HORDÁR', 'HORDOZ', 'HORGAS', 'HORGOL', 'HORGOS', 'HORKOL',
-            'HORMON', 'HORONY', 'HORPAD', 'HORROR', 'HORVÁT', 'HOSSZÚ', 'HOTDOG', 'HOZOTT', 'HÓÁGYÚ', 'HÓBORT', 'HÓCIPŐ', 'HÓDÍTÓ',
-            'HÓDOLÓ', 'HÓESÉS', 'HÓKÁSA', 'HÓLÁNC', 'HÓLYAG', 'HÓMARÓ', 'HÓMEZŐ', 'HÓNALJ', 'HÓNAPI', 'HÓRUKK', 'HÓTOLÓ', 'HÖRGÉS',
-            'HŐÁLLÓ', 'HŐGUTA', 'HŐMÉRŐ', 'HŐSIES', 'HŐSKOR', 'HUGYOS', 'HUGYOZ', 'HULLAT', 'HULLÁM', 'HUMBUG', 'HUMUSZ', 'HUNCUT',
-            'HUPPAN', 'HURCOL', 'HURKOL', 'HUSÁNG', 'HUSZAD', 'HUSZÁR', 'HÚSEVŐ', 'HÚSVÉT', 'HÚSZAN', 'HÚSZAS', 'HÜMMÖG', 'HÜVELY',
-            'HŰBÉRI', 'HŰSÍTŐ', 'HŰTLEN', 'HŰTÖTT'
+            'HIGANY', 'HIHETŐ', 'HIMBÁL', 'HINTÁS', 'HINTÉS', 'HIMLŐS', 'HIRDET', 'HISZEN', 'HISZTI', 'HITTAN', 'HITVES', 'HIÚSÁG',
+            'HIZLAL', 'HÍDVÁM', 'HÍGÍTÓ', 'HÍMNEM', 'HÍMNŐS', 'HÍMPOR', 'HÍMZÉS', 'HÍRADÓ', 'HÍRLAP', 'HÍRLIK', 'HÍRNÉV', 'HÍRNÖK',
+            'HOBBIT', 'HODÁLY', 'HOGYAN', 'HOGYHA', 'HOGYNE', 'HOLDAS', 'HOLDÉV', 'HOLLÉT', 'HOLNAP', 'HOLOTT', 'HOLTAN', 'HOLTÁG',
+            'HOMÁLY', 'HOMBÁR', 'HOMLOK', 'HOMORÚ', 'HONLAP', 'HONNAN', 'HONVÉD', 'HORDÁR', 'HORDOZ', 'HORGAS', 'HORGOL', 'HORGOS',
+            'HORKOL', 'HORMON', 'HORONY', 'HORPAD', 'HORROR', 'HORVÁT', 'HOSSZÚ', 'HOTDOG', 'HOZOTT', 'HÓÁGYÚ', 'HÓBORT', 'HÓCIPŐ',
+            'HÓDÍTÓ', 'HÓDOLÓ', 'HÓESÉS', 'HÓKÁSA', 'HÓLÁNC', 'HÓLYAG', 'HÓMARÓ', 'HÓMEZŐ', 'HÓNALJ', 'HÓNAPI', 'HÓRUKK', 'HÓTOLÓ',
+            'HÖRGÉS', 'HŐÁLLÓ', 'HŐGUTA', 'HŐMÉRŐ', 'HŐSIES', 'HŐSKOR', 'HUGYOS', 'HUGYOZ', 'HULLAT', 'HULLÁM', 'HUMBUG', 'HUMUSZ',
+            'HUNCUT', 'HUPPAN', 'HURCOL', 'HURKOL', 'HUSÁNG', 'HUSZAD', 'HUSZÁR', 'HÚSEVŐ', 'HÚSVÉT', 'HÚSZAN', 'HÚSZAS', 'HÜMMÖG',
+            'HÜVELY', 'HŰBÉRI', 'HŰSÍTŐ', 'HŰTLEN', 'HŰTÖTT'
         ],
         '7': [
             'HABARCS', 'HABCSÓK', 'HABITUS', 'HABOZÁS', 'HABOZIK', 'HABVERŐ', 'HABZSOL', 'HADARÁS', 'HADBÍRÓ', 'HADIADÓ', 'HADNAGY',
@@ -796,11 +796,11 @@ export const wordsHun: Words = {
         '4': [
             'KACS', 'KAJA', 'KAKA', 'KAKI', 'KAMU', 'KAPA', 'KAPU', 'KARD', 'KARI', 'KARÓ', 'KÁBA', 'KÁDI', 'KÁKA', 'KÁLA', 'KÁNA', 'KÁPA',
             'KÁPÉ', 'KÁRÓ', 'KÁSA', 'KÁTÉ', 'KÁVA', 'KÁVÉ', 'KECS', 'KEDD', 'KEDV', 'KEFE', 'KEGY', 'KEKI', 'KELL', 'KELT', 'KEND', 'KENÓ',
-            'KENU', 'KEPE', 'KERT', 'KESE', 'KEZD', 'KÉNE', 'KÉRD', 'KÉRÓ', 'KÉRŐ', 'KÉSŐ', 'KÉSZ', 'KÉVE', 'KÉZI', 'KIAD', 'KIÁS', 'KIES',
-            'KIÉG', 'KIÉL', 'KIÉR', 'KIFŐ', 'KIÍR', 'KILÓ', 'KILŐ', 'KINN', 'KINŐ', 'KINT', 'KIÖL', 'KIRÍ', 'KIRÓ', 'KIÚT', 'KIÜL', 'KIÜT',
-            'KIŰZ', 'KIWI', 'KLÁN', 'KLIP', 'KLÓN', 'KLÓR', 'KLUB', 'KOCA', 'KOFA', 'KOHÓ', 'KOMA', 'KOMP', 'KONC', 'KONG', 'KOPT', 'KOPÓ',
-            'KORA', 'KORD', 'KOSZ', 'KOVA', 'KÓDA', 'KÓLA', 'KÓLÓ', 'KÓMA', 'KÓPÉ', 'KÓRÓ', 'KÖLT', 'KÖPŰ', 'KÖRÉ', 'KÖSZ', 'KÖTŐ', 'KÖZÉ',
-            'KÖZT', 'KŐSÓ', 'KRÉM', 'KRÓM', 'KUKA', 'KUKI', 'KUKK', 'KULI', 'KUPA', 'KUPÉ', 'KÚRA', 'KÜLD', 'KÜRT', 'KÜZD', 'KVÍZ'
+            'KENU', 'KEPE', 'KERT', 'KESE', 'KEZD', 'KÉNE', 'KÉPI', 'KÉRD', 'KÉRÓ', 'KÉRŐ', 'KÉSŐ', 'KÉSZ', 'KÉVE', 'KÉZI', 'KIAD', 'KIÁS',
+            'KIES', 'KIÉG', 'KIÉL', 'KIÉR', 'KIFŐ', 'KIÍR', 'KILÓ', 'KILŐ', 'KINN', 'KINŐ', 'KINT', 'KIÖL', 'KIRÍ', 'KIRÓ', 'KIÚT', 'KIÜL',
+            'KIÜT', 'KIŰZ', 'KIWI', 'KLÁN', 'KLIP', 'KLÓN', 'KLÓR', 'KLUB', 'KOCA', 'KOFA', 'KOHÓ', 'KOMA', 'KOMP', 'KONC', 'KONG', 'KOPT',
+            'KOPÓ', 'KORA', 'KORD', 'KOSZ', 'KOVA', 'KÓDA', 'KÓLA', 'KÓLÓ', 'KÓMA', 'KÓPÉ', 'KÓRÓ', 'KÖLT', 'KÖPŰ', 'KÖRÉ', 'KÖSZ', 'KÖTŐ',
+            'KÖZÉ', 'KÖZT', 'KŐSÓ', 'KRÉM', 'KRÓM', 'KUKA', 'KUKI', 'KUKK', 'KULI', 'KUPA', 'KUPÉ', 'KÚRA', 'KÜLD', 'KÜRT', 'KÜZD', 'KVÍZ'
         ],
         '5': [
             'KABÁT', 'KABIN', 'KACAG', 'KACAJ', 'KACAT', 'KACÉR', 'KACSA', 'KACSÓ', 'KADÉT', 'KAJAK', 'KAJÁL', 'KAJÁN', 'KAJLA', 'KAJÜT',
@@ -1378,8 +1378,8 @@ export const wordsHun: Words = {
     },
     'R': {
         '3': [
-            'RAB', 'RAG', 'RAJ', 'RAK', 'RAP', 'RÁC', 'RÁG', 'RÁK', 'RÁZ', 'REÁ', 'RÉG', 'RÉM', 'RÉS', 'RÉT', 'RÉV', 'RÉZ', 'RÍM', 'ROM',
-            'ROP', 'RÖG', 'RŐF', 'RŐT', 'RUM', 'RÚD', 'RÚG', 'RÚT', 'RÜH'
+            'RAB', 'RAG', 'RAJ', 'RAK', 'RAP', 'RÁC', 'RÁF', 'RÁG', 'RÁK', 'RÁZ', 'REÁ', 'RÉG', 'RÉM', 'RÉS', 'RÉT', 'RÉV', 'RÉZ', 'RÍM',
+            'ROM', 'ROP', 'RÖG', 'RŐF', 'RŐT', 'RUM', 'RÚD', 'RÚG', 'RÚT', 'RÜH'
         ],
         '4': [
             'RAGU', 'RAJZ', 'RAJT', 'RAJZ', 'RALI', 'RANG', 'RÁAD', 'RÁCS', 'RÁÉG', 'RÁÉR', 'RÁGÓ', 'RÁÍR', 'RÁJA', 'RÁLŐ', 'RÁMA', 'RÁNC',
@@ -1461,38 +1461,79 @@ export const wordsHun: Words = {
     },
     'S': {
         '3': [
-            'SAH', 'SAS', 'SAV', 'SÁL', 'SÁP', 'SÁR', 'SÁS', 'SÁV', 'SEB', 'SEJ', 'SEM', 'SER', 'SÍK', 'SÍN', 'SÍP', 'SÍR', 'SOK', 'SOM',
-            'SOR', 'SÓS', 'SÓZ', 'SÖR', 'SUT', 'SÚG', 'SÜL', 'SÜN', 'SÜT', 'SZÍ', 'SZÓ', 'SZŐ', 'SZÚ', 'SZŰ'
+            'SAH', 'SAS', 'SAV', 'SÁL', 'SÁP', 'SÁR', 'SÁS', 'SÁV', 'SEB', 'SEJ', 'SEM', 'SER', 'SÉF', 'SÍK', 'SÍN', 'SÍP', 'SÍR', 'SOK',
+            'SOM', 'SOR', 'SÓS', 'SÓZ', 'SÖR', 'SŐT', 'SUT', 'SÚG', 'SÜL', 'SÜN', 'SÜT', 'SZÍ', 'SZÓ', 'SZŐ', 'SZÚ', 'SZŰ'
         ],
         '4': [
-            'SAJT', 'SAKK', 'SARK', 'SATU', 'SÁNC', 'SEJT', 'SÉMA', 'SÉRT', 'SÉRV', 'SÉTA', 'SIET', 'SIKK', 'SIMA', 'SITT', 'SÍEL', 'SÍZŐ',
-            'SKÓT', 'SLAG', 'SOKÁ', 'SRÁC', 'SRÉG', 'STOP', 'SUTA', 'SÚGÓ', 'SÜLT', 'SÜNI', 'SÜTŐ', 'SŰRŰ', 'SVÉD', 'SZAK', 'SZÁJ', 'SZÁL',
-            'SZÁM', 'SZÁN', 'SZÁR', 'SZÁZ', 'SZED', 'SZEG', 'SZEL', 'SZEM', 'SZER', 'SZÉK', 'SZÉL', 'SZÉN', 'SZÉP', 'SZÉT', 'SZIA', 'SZID',
-            'SZIK', 'SZIL', 'SZÍR', 'SZÍN', 'SZÍT', 'SZÍV', 'SZÓL', 'SZÓR', 'SZŐR', 'SZÚR', 'SZŰK', 'SZŰR'
+            'SAJT', 'SAKK', 'SARC', 'SARJ', 'SARK', 'SARU', 'SATU', 'SAVÓ', 'SÁNC', 'SEFT', 'SEJK', 'SEJT', 'SÉMA', 'SÉRT', 'SÉRV', 'SÉTA',
+            'SIET', 'SICC', 'SIKK', 'SILÓ', 'SIMA', 'SITT', 'SÍEL', 'SÍRI', 'SÍRÓ', 'SÍZŐ', 'SKÓT', 'SLAG', 'SMÚZ', 'SODÓ', 'SOHA', 'SOKÁ',
+            'SOKK', 'SORS', 'SORT', 'SOSE', 'SÖNT', 'SPAM', 'SRÁC', 'SRÉG', 'SRÓF', 'STÁB', 'STÉG', 'STOP', 'SUBA', 'SUTA', 'SÚGÓ', 'SÚJT',
+            'SÚLY', 'SÜLT', 'SÜNI', 'SÜTŐ', 'SŰRŰ', 'SVÁB', 'SVÉD', 'SZAB', 'SZAK', 'SZÁJ', 'SZÁL', 'SZÁM', 'SZÁN', 'SZÁR', 'SZÁZ', 'SZED',
+            'SZEG', 'SZEL', 'SZEM', 'SZER', 'SZÉK', 'SZÉL', 'SZÉN', 'SZÉP', 'SZÉT', 'SZIA', 'SZID', 'SZIK', 'SZIL', 'SZÍR', 'SZÍN', 'SZÍT',
+            'SZÍV', 'SZÓL', 'SZÓR', 'SZŐR', 'SZÚR', 'SZŰK', 'SZŰR', 'SZŰZ'
         ],
         '5': [
-            'SAJÁT', 'SAJKA', 'SAKÁL', 'SANDA', 'SAPKA', 'SARAZ', 'SARKI', 'SAROK', 'SASOL', 'SAVAS', 'SAVAZ', 'SÁNTA', 'SÁPAD', 'SÁRGA',
-            'SÁLAS', 'SÁROS', 'SÁTÁN', 'SÁVOS', 'SÁVOZ', 'SEBES', 'SEBEZ', 'SEGÍT', 'SEMMI', 'SENKI', 'SEREG', 'SERKE', 'SERTE', 'SÉRTŐ',
-            'SÉTÁL', 'SIKER', 'SIKET', 'SIKÉR', 'SIKÍT', 'SIKLÓ', 'SINCS', 'SISAK', 'SIVÁR', 'SÍELŐ', 'SÍKOS', 'SÍLÉC', 'SÍPOL', 'SÍPOS',
-            'SÍRÁS', 'SÍRÓS', 'SÍZÉS', 'SKICC', 'SMINK', 'SOKAN', 'SORBA', 'SOROS', 'SOROZ', 'SÖRÉT', 'SÖRTE', 'SÖTÉT', 'SUDÁR', 'SUGÁR',
-            'SUNYI', 'SUSOG', 'SÚGÁS', 'SÚROL', 'SÜKET', 'SÜLÉS', 'SÜTÉS', 'SZÁLL', 'SZÁNT', 'SZENT', 'SZERV', 'SZÉNA', 'SZIKE', 'SZITA',
-            'SZOBA', 'SZÓDA', 'SZŐKE', 'SZÜGY', 'SZŰRŐ', 'SZŰRT'
+            'SAJÁT', 'SAJGÓ', 'SAJKA', 'SAJOG', 'SAJTÓ', 'SAKÁL', 'SALAK', 'SALSA', 'SANDA', 'SANSZ', 'SAPKA', 'SARAZ', 'SARKI', 'SARLÓ',
+            'SAROK', 'SASOL', 'SAVAS', 'SAVAZ', 'SAVÓS', 'SÁFÁR', 'SÁLAS', 'SÁMÁN', 'SÁMFA', 'SÁMLI', 'SÁNTA', 'SÁPAD', 'SÁRGA', 'SÁROS',
+            'SÁSKA', 'SÁTÁN', 'SÁTOR', 'SÁVOS', 'SÁVOZ', 'SABAJ', 'SEBES', 'SEBEZ', 'SEGÉD', 'SEGÍT', 'SEHOL', 'SELLŐ', 'SEMMI', 'SENKI',
+            'SEPER', 'SEPRŐ', 'SEPRŰ', 'SEREG', 'SERKE', 'SERTE', 'SÉRTŐ', 'SÉTÁL', 'SIKÁL', 'SIKER', 'SIKET', 'SIKÉR', 'SIKÍT', 'SIKLÓ',
+            'SILÓZ', 'SIMÁN', 'SIMÍT', 'SIMLI', 'SIMUL', 'SINCS', 'SIPÍT', 'SIRAT', 'SIRÁM', 'SISAK', 'SIVÁR', 'SIVÍT', 'SÍBOL', 'SÍBOT',
+            'SÍELŐ', 'SÍKOS', 'SÍLÉC', 'SÍPOL', 'SÍPOS', 'SÍRÁS', 'SÍRÓS', 'SÍRKŐ', 'SÍRÓS', 'SÍZÉS', 'SÍZIK', 'SKALP', 'SKÁLA', 'SKICC',
+            'SLÁJM', 'SLEJM', 'SLEPP', 'SLICC', 'SLUKK', 'SMACI', 'SMAFU', 'SMINK', 'SMUKK', 'SNITT', 'SODOR', 'SOFŐR', 'SOKAN', 'SOMFA',
+            'SONKA', 'SORBA', 'SOROL', 'SOROS', 'SOROZ', 'SÓDER', 'SÓGOR', 'SÓGUN', 'SÓHAJ', 'SÓHER', 'SÓLYA', 'SÓSAV', 'SÓSKA', 'SÓSTÓ',
+            'SÓVÁR', 'SÖMÖR', 'SÖPÖR', 'SÖPRŰ', 'SÖRÉT', 'SÖRÖS', 'SÖRÖZ', 'SÖRTE', 'SÖTÉT', 'SPÁJZ', 'SPEJZ', 'SPÉCI', 'SPICC', 'SPINÉ',
+            'SPION', 'SPÓRA', 'SPORT', 'SPRŐD', 'SPURI', 'STAND', 'START', 'STÓLA', 'SUDÁR', 'SUFNI', 'SUGÁR', 'SUHAN', 'SUHOG', 'SUMÁK',
+            'SUMMA', 'SUNYI', 'SUSOG', 'SUNYI', 'SUSOG', 'SUTTY', 'SÚGÁS', 'SÚROL', 'SÜGÉR', 'SÜKET', 'SÜLDŐ', 'SÜLÉS', 'SÜLLŐ', 'SÜRGŐ',
+            'SÜRÖG', 'SÜTÉS', 'SÜVEG', 'SÜVÍT', 'SŰRÍT', 'SŰRŰN', 'SVUNG', 'SZABÓ', 'SZÁLL', 'SZÁNT', 'SZENT', 'SZERV', 'SZÉNA', 'SZIKE',
+            'SZIRT', 'SZITA', 'SZOBA', 'SZÓDA', 'SZŐKE', 'SZÚRÓ', 'SZÚRT', 'SZÜGY', 'SZŰRŐ', 'SZŰRT', 'SZŰZI'
         ],
         '6': [
-            'SABLON', 'SAJNÁL', 'SAJNOS', 'SAJTOL', 'SALÁTA', 'SÁNTÍT', 'SÁRGÁS', 'SÁRMOS', 'SÁPADT', 'SÁTÁNI', 'SEBÉSZ', 'SEJTES',
-            'SEJTÉS', 'SEKÉLY', 'SELEJT', 'SERLEG', 'SERTÉS', 'SÉRTÉS', 'SIKKES', 'SIKLIK', 'SIKOLT', 'SÍELÉS', 'SÓZOTT', 'SÖNTÉS',
-            'SÖRTÉS', 'SUTTOG', 'SZAKAD', 'SZAKÍT', 'SZAKMA', 'SZALAD', 'SZALON', 'SZALTÓ', 'SZAUNA', 'SZAVAZ', 'SZÁJAL', 'SZÁMOL',
-            'SZÁMOS', 'SZÁMOZ', 'SZÁRAD', 'SZÁRAZ', 'SZÁRÍT', 'SZÁZAS', 'SZEDER', 'SZEGFŰ', 'SZEKÉR', 'SZELES', 'SZELET', 'SZELÉS',
-            'SZELÍD', 'SZELLŐ', 'SZEMES', 'SZEMEZ', 'SZEMÉT', 'SZENDE', 'SZENES', 'SZEREL', 'SZERET', 'SZEREZ', 'SZERKÓ', 'SZERTE',
-            'SZÉKEL', 'SZÉLES', 'SZÉPÍT', 'SZIDÁS', 'SZIGET', 'SZIKES', 'SZIKLA', 'SZILFA', 'SZILKE', 'SZILVA', 'SZIMAT', 'SZINTE',
-            'SZITÁL', 'SZÍNES', 'SZÍNEZ', 'SZÍVÁS', 'SZÍVES', 'SZÍVÓS', 'SZÓLÁS', 'SZÓVAL', 'SZÓZAT', 'SZÖSZI', 'SZŐRÖS', 'SZŐRÖZ',
-            'SZUNDI', 'SZUVAS', 'SZÜNET', 'SZŰKÖL', 'SZŰKÖS'
+            'SABLON', 'SACCOL', 'SAJDÍT', 'SAJGÁS', 'SAJNÁL', 'SAJNOS', 'SAJTÁR', 'SAJTOL', 'SAJTOS', 'SALÁTA', 'SAMPON', 'SANDÁN',
+            'SANDÍT', 'SANZON', 'SAPKÁS', 'SARCOL', 'SARJAD', 'SARKAL', 'SARKÍT', 'SARKÖV', 'SARLÓZ', 'SASLIK', 'SASORR', 'SASSZÉ',
+            'SATNYA', 'SÁMFÁZ', 'SÁNCOL', 'SÁNTÁN', 'SÁNTÍT', 'SÁPADT', 'SÁRGÁS', 'SÁRMOS', 'SÁPADT', 'SÁRGÁS', 'SÁRGÍT', 'SÁRGUL',
+            'SÁTÁNI', 'SEBÉSZ', 'SEBLÁZ', 'SEFTEL', 'SEGÉLY', 'SEGÍTŐ', 'SEHÁNY', 'SEHOGY', 'SEHOVA', 'SEHOVÁ', 'SEJTES', 'SEJTET',
+            'SEJTÉS', 'SEKÉLY', 'SELEJT', 'SELYEM', 'SEMMIS', 'SERBET', 'SERCEG', 'SERDÜL', 'SERÉNY', 'SERIFF', 'SERKED', 'SERKEN',
+            'SERLEG', 'SERTÉS', 'SEZLON', 'SÉRTÉS', 'SÉRÜLT', 'SÉTÁLÓ', 'SÉTÁNY', 'SÉTAÚT', 'SIETÉS', 'SIETŐS', 'SIETVE', 'SIKKES',
+            'SIKLIK', 'SIKOLT', 'SIKOLY', 'SIKONG', 'SILÁNY', 'SIRÁLY', 'SIMLIS', 'SIMULÓ', 'SINTÉR', 'SIPIRC', 'SIPOLY', 'SÍELÉS',
+            'SÍFUTÓ', 'SÍKSÁG', 'SÍLIFT', 'SÍNPÁR', 'SÍPJEL', 'SÍPSZÓ', 'SÍRÁSÓ', 'SÍRUHA', 'SÍTALP', 'SÍTÚRA', 'SÍUGRÓ', 'SLÁGER',
+            'SLUSSZ', 'SMARNI', 'SMÁROL', 'SMUCIG', 'SMÚZOL', 'SNAPSZ', 'SNASSZ', 'SODRÁS', 'SOKALL', 'SOKÁIG', 'SOKÁRA', 'SOKÉVI',
+            'SOKKAL', 'SOKKOL', 'SOKKOS', 'SOMMÁS', 'SONKÁS', 'SORFAL', 'SORHÁZ', 'SORKÖZ', 'SORSOL', 'SORTŰZ', 'SORVAD', 'SORVÉG',
+            'SOVÁNY', 'SÓHAJT', 'SÓLYOM', 'SÓSRÚD', 'SÓTLAN', 'SÓZOTT', 'SÖNTÉS', 'SÖPRÉS', 'SÖRBET', 'SÖRÉNY', 'SÖRHAB', 'SÖRHAS',
+            'SÖRIVÓ', 'SÖRÖZŐ', 'SÖRTÉS', 'SÖVÉNY', 'SPAKLI', 'SPÁRGA', 'SPÉKEL', 'SPENÓT', 'SPERMA', 'SPICLI', 'SPIRÁL', 'SPÓROL',
+            'SPRINT', 'SPULNI', 'SRAMLI', 'SRÉGEN', 'SRÓFOL', 'STABIL', 'STÁCIÓ', 'STÁTUS', 'STERIL', 'STIGMA', 'STIKLI', 'STÍLUS',
+            'STÍROL', 'STÍRÖL', 'STOPLI', 'STRAMM', 'STRAND', 'STRAPA', 'STRICI', 'STRÓFA', 'STRUCC', 'STRÚMA', 'STUKKÓ', 'STÚDIÓ',
+            'SUBLÓT', 'SUGALL', 'SUHANC', 'SUHANÓ', 'SUHINT', 'SUHOGÓ', 'SUJTÁS', 'SULYOK', 'SUMMÁZ', 'SUNYÍT', 'SURRAN', 'SUSKUS',
+            'SUSOGÓ', 'SUTTOG', 'SUTTYÓ', 'SÚLYOS', 'SÚLYOZ', 'SÚLYZÓ', 'SÚROLÓ', 'SÜPPED', 'SÜRGET', 'SÜRGÉS', 'SÜRGŐS', 'SÜTÖDE',
+            'SÜTTET', 'SÜVÍTŐ', 'SÜVÖLT', 'SVIHÁK', 'SZABAD', 'SZABÁS', 'SZAKAD', 'SZAKÍT', 'SZAKMA', 'SZALAD', 'SZALON', 'SZALTÓ',
+            'SZAUNA', 'SZAVAZ', 'SZÁJAL', 'SZÁMOL', 'SZÁMOS', 'SZÁMOZ', 'SZÁRAD', 'SZÁRAZ', 'SZÁRÍT', 'SZÁZAS', 'SZEDER', 'SZEGFŰ',
+            'SZEKÉR', 'SZELES', 'SZELET', 'SZELÉN', 'SZELÉS', 'SZELÍD', 'SZELLŐ', 'SZEMES', 'SZEMEZ', 'SZEMÉT', 'SZENDE', 'SZENES',
+            'SZEREL', 'SZERET', 'SZEREZ', 'SZERKÓ', 'SZERTE', 'SZÉDÍT', 'SZÉDÜL', 'SZÉKEL', 'SZÉKES', 'SZÉLES', 'SZÉPEN', 'SZÉPÍT',
+            'SZÉRUM', 'SZIDÁS', 'SZIGET', 'SZIKES', 'SZIKLA', 'SZILFA', 'SZILKE', 'SZILVA', 'SZIMAT', 'SZINTE', 'SZITÁL', 'SZÍNES',
+            'SZÍNEZ', 'SZÍVÁS', 'SZÍVES', 'SZÍVÓS', 'SZÓLÁS', 'SZÓVAL', 'SZÓZAT', 'SZÖSZI', 'SZÖVEG', 'SZŐRÖS', 'SZŐRÖZ', 'SZUNDI',
+            'SZUROK', 'SZUVAS', 'SZÚRÁS', 'SZÚRÓS', 'SZÜNET', 'SZŰKÖL', 'SZŰKÖS', 'SZŰKÜL', 'SZŰRÉS'
         ],
         '7': [
-            'SARKKÖR', 'SÁFRÁNY', 'SÁPADÁS', 'SÁRMÁNY', 'SÉTATÉR', 'SIETSÉG', 'SIKERES', 'SIKERÜL', 'SÍFUTÁS', 'SMINKEL', 'SMINKES',
-            'SOKASÁG', 'SOROZAT', 'SOROZÁS', 'SPANYOL', 'STRÁZSA', 'SUSZTER', 'SÚROLÁS', 'SZAKAJT', 'SZAKÁCS', 'SZAKÁLL', 'SZAKMAI',
-            'SZAGGAT', 'SZAPPAN', 'SZENVED', 'SZERETŐ', 'SZIKLÁS', 'SZIKVÍZ', 'SZILÁRD', 'SZÍNHÁZ', 'SZEGÉLY', 'SZELLEM', 'SZELLŐS',
-            'SZEMÉLY', 'SZERINT', 'SZERVÁL', 'SZERVEZ', 'SZÉKELY', 'SZISZEG', 'SZLOVÁK', 'SZLOVÉN', 'SZOMORÚ', 'SZŐRZET', 'SZUSZOG'
+            'SAJÁTOS', 'SAJTOLÓ', 'SAKKOZÓ', 'SAKKÓRA', 'SALAKOS', 'SALLANG', 'SARABOL', 'SARKALL', 'SARKKÖR', 'SAROKKŐ', 'SASFIÓK',
+            'SASORRÚ', 'SASSZEM', 'SATÍROZ', 'SATRAFA', 'SATUPAD', 'SAVÁLLÓ', 'SAVANYÚ', 'SAVAZÁS', 'SÁFRÁNY', 'SÁPADÁS', 'SÁRCIPŐ',
+            'SÁRKÁNY', 'SÁRMÁNY', 'SÁRNYOM', 'SÁRVÉDŐ', 'SÁTORFA', 'SÁTOROS', 'SEBHELY', 'SEBSZÁJ', 'SEBZETT', 'SEJTFAL', 'SEJTMAG',
+            'SEJTTAN', 'SELYMES', 'SELYPÍT', 'SEMERRE', 'SEMMINT', 'SENYVED', 'SERDÜLŐ', 'SERDÜLT', 'SERKENT', 'SESZÍNŰ', 'SÉRELEM',
+            'SÉRTETT', 'SÉRÜLÉS', 'SÉTABOT', 'SÉTATÉR', 'SIETSÉG', 'SIETTET', 'SIFONÉR', 'SIHEDER', 'SIKÁTOR', 'SIKERES', 'SIKERÜL',
+            'SIKÍTÁS', 'SIMÍTÁS', 'SIMOGAT', 'SIMULÁS', 'SINCSEN', 'SIRALOM', 'SIRATÁS', 'SIVATAG', 'SÍFUTÁS', 'SÍKIDOM', 'SÍKÜVEG',
+            'SÍMASZK', 'SÍMOBIL', 'SÍPÁLYA', 'SÍPOLÁS', 'SÍRBOLT', 'SÍRDOMB', 'SÍRHELY', 'SÍRKERT', 'SÍSAPKA', 'SÍUGRÁS', 'SKALPOL',
+            'SKANDÁL', 'SKANZEN', 'SKARLÁT', 'SKICCEL', 'SKORBUT', 'SKORPIÓ', 'SLAFROK', 'SLAMPOS', 'SMAKKOL', 'SMARAGD', 'SMINKEL',
+            'SMINKES', 'SMIRGLI', 'SNÁJDIG', 'SNOOKER', 'SODRÓFA', 'SODRONY', 'SODROTT', 'SOKADIK', 'SOKARCÚ', 'SOKASÁG', 'SOKFELÉ',
+            'SOKFÉLE', 'SOKNEJŰ', 'SOKRÉTŰ', 'SOKSZOR', 'SOKSZÖG', 'SORHAJÓ', 'SOROMPÓ', 'SOROZAT', 'SOROZÁS', 'SORREND', 'SORSZÁM',
+            'SORVÉGI', 'SÓBÁNYA', 'SÓGORNŐ', 'SÓSZÓRÓ', 'SÓTARTÓ', 'SÓTALAN', 'SÓVÁRAN', 'SÓVÁROG', 'SÓVÁRGÓ', 'SÖRÉTES', 'SÖRFŐZŐ',
+            'SÖRGYÁR', 'SÖRÖZÉS', 'SÖTÉTEN', 'SÖTÉTÍT', 'SPANGLI', 'SPANYOL', 'SPATULA', 'SPECIEL', 'SPICCEL', 'SPICCES', 'SPIRÁNS',
+            'SPONTÁN', 'SPORTÁG', 'SPORTOL', 'SPORTOS', 'STADION', 'STAFÉTA', 'STAGNÁL', 'STALLUM', 'STANGLI', 'STARTOL', 'STATIKA',
+            'STATUÁL', 'STÁDIUM', 'STÁTUSZ', 'STEMPLI', 'STENCIL', 'STEPPEL', 'STIGLIC', 'STIMMEL', 'STOPPER', 'STOPPOL', 'STOPPOS',
+            'STRAPÁL', 'STRAPÁS', 'STRASSZ', 'STRÁZSA', 'STRÉBER', 'STRESSZ', 'STRÓMAN', 'STÚDIUM', 'SUGARAZ', 'SUGARAS', 'SUGÁROZ',
+            'SUGÁRÚT', 'SUGÁRZÓ', 'SUHANÁS', 'SUHOGÁS', 'SULYKOL', 'SUMÁKOL', 'SUNNYOG', 'SURRANÓ', 'SUSOGÁS', 'SUSZTER', 'SUTTOGÓ',
+            'SÚGÓGÉP', 'SÚLYADÓ', 'SÚROLÁS', 'SÜKETEL', 'SÜKETÍT', 'SÜLLYED', 'SÜPPEDŐ', 'SÜRGETŐ', 'SÜRGÖNY', 'SÜTŐPOR', 'SÜTŐTÖK',
+            'SÜTŐVAS', 'SÜVÍTÉS', 'SÜVÖLTŐ', 'SŰRŰSÉG', 'SVINDLI', 'SZABOTT', 'SZAGGAT', 'SZAKAJT', 'SZAKÁCS', 'SZAKÁLL', 'SZAKMAI',
+            'SZAGGAT', 'SZAPPAN', 'SZENVED', 'SZERETŐ', 'SZIKLÁS', 'SZIKVÍZ', 'SZILÁRD', 'SZÍNHÁZ', 'SZEGÉLY', 'SZEGÉNY', 'SZELLEM',
+            'SZELLŐS', 'SZEMÉLY', 'SZERINT', 'SZERVÁL', 'SZERVEZ', 'SZÉDÍTŐ', 'SZÉKELY', 'SZÉPSÉG', 'SZILÁRD', 'SZIRÉNA', 'SZISZEG',
+            'SZLOVÁK', 'SZLOVÉN', 'SZOMORÚ', 'SZŐRZET', 'SZURDOK', 'SZURKOL', 'SZURKOS', 'SZUSZOG', 'SZŰZIES'
         ]
     },
     'T': {
@@ -1502,9 +1543,9 @@ export const wordsHun: Words = {
             'TYŰ'
         ],
         '4': [
-            'TANK', 'TART', 'TATU', 'TALP', 'TAVI', 'TÁNC', 'TÁRS', 'TEÁS', 'TEKE', 'TELE', 'TELI', 'TELT', 'TERC', 'TEST', 'TESZ', 'TETŐ',
-            'TETT', 'TETŰ', 'TEVE', 'TÉLI', 'TÉMA', 'TÉNY', 'TÉRD', 'TÉVÉ', 'TOKA', 'TOLD', 'TOLL', 'TOTÓ', 'TORS', 'TORZ', 'TOVA', 'TÖBB',
-            'TÖLT', 'TÖMB', 'TÖRP', 'TÖRT', 'TUJA', 'TUSA', 'TÚRÓ', 'TYÚK'
+            'TANK', 'TART', 'TATU', 'TALP', 'TAVI', 'TÁNC', 'TÁRA', 'TÁRS', 'TEÁS', 'TEKE', 'TELE', 'TELI', 'TELT', 'TERC', 'TEST', 'TESZ',
+            'TETŐ', 'TETT', 'TETŰ', 'TEVE', 'TÉLI', 'TÉMA', 'TÉNY', 'TÉRD', 'TÉVÉ', 'TOKA', 'TOLD', 'TOLL', 'TOTÓ', 'TORS', 'TORZ', 'TOVA',
+            'TÖBB', 'TÖLT', 'TÖMB', 'TÖRP', 'TÖRT', 'TUJA', 'TUSA', 'TÚRÓ', 'TYÚK'
         ],
         '5': [
             'TACSI', 'TAGAD', 'TAGOL', 'TAKAR', 'TALÁN', 'TALÁR', 'TANÁR', 'TANGÓ', 'TANÍT', 'TANUL', 'TAPÍR', 'TARAJ', 'TARÉJ', 'TARKA',
@@ -1535,7 +1576,7 @@ export const wordsHun: Words = {
             'UJJ', 'UTÓ'
         ],
         '4': [
-            'UGAT', 'UNKA', 'UTAL', 'UTAS', 'UTÁL', 'UTÁN'
+            'UGAT', 'UNKA', 'URAL', 'URAS', 'URÁN', 'UTAL', 'UTAS', 'UTÁL', 'UTÁN'
         ],
         '5': [
             'UDVAR', 'UGRÁL', 'UGRÁS', 'UGRIK', 'UJJAS', 'UKRÁN', 'UNDOK', 'UNDOR', 'UNOTT', 'UNTAT', 'UTÁNA'
@@ -1629,7 +1670,7 @@ export const wordsHun: Words = {
         ],
         '5': [
             'ZABÁL', 'ZABOS', 'ZAFÍR', 'ZAVAR', 'ZÁPOR', 'ZÁRVA', 'ZENÉL', 'ZENÉS', 'ZENGŐ', 'ZOKNI', 'ZÖRÖG', 'ZSEPI', 'ZUBOG', 'ZUHAN',
-            'ZUTTY', 'ZÚGÁS', 'ZŰRÖS'
+            'ZUTTY', 'ZÚGÁS', 'ZŰRÖS', 'ZSENI'
         ],
         '6': [
             'ZAVARÓ', 'ZENDÜL', 'ZÖLDES', 'ZSANÉR', 'ZSÁKOL', 'ZSÁKOS', 'ZSEBEL', 'ZSEBES', 'ZSEMLE', 'ZSENGE', 'ZSINEG', 'ZSINÓR',
