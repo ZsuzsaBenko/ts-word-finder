@@ -1577,37 +1577,98 @@ export const wordsHun: Words = {
     },
     'T': {
         '3': [
-            'TAG', 'TAN', 'TAR', 'TAT', 'TAG', 'TÁG', 'TÁJ', 'TÁL', 'TÁM', 'TÁN', 'TÁP', 'TÁR', 'TÁT', 'TÁV', 'TEA', 'TEJ', 'TÉL', 'TÉP',
-            'TÉR', 'TÉT', 'TÍZ', 'TOK', 'TOL', 'TOP', 'TOR', 'TÓT', 'TÖK', 'TÖM', 'TÖR', 'TŐR', 'TUD', 'TUS', 'TÚL', 'TÚR', 'TŰR', 'TŰZ',
-            'TYŰ'
+            'TAG', 'TAN', 'TAR', 'TAT', 'TAG', 'TAR', 'TAT', 'TÁG', 'TÁJ', 'TÁL', 'TÁM', 'TÁN', 'TÁP', 'TÁR', 'TÁT', 'TÁV', 'TEA', 'TEJ',
+            'TÉL', 'TÉP', 'TÉR', 'TÉT', 'TÍZ', 'TOK', 'TOL', 'TOP', 'TOR', 'TÓT', 'TÖK', 'TÖM', 'TÖR', 'TŐR', 'TRÉ', 'TUD', 'TUS', 'TÚL',
+            'TÚR', 'TŰR', 'TŰZ', 'TYŰ'
         ],
         '4': [
-            'TANK', 'TART', 'TATU', 'TALP', 'TAVI', 'TÁNC', 'TÁRA', 'TÁRS', 'TEÁS', 'TEKE', 'TELE', 'TELI', 'TELT', 'TERC', 'TEST', 'TESZ',
-            'TETŐ', 'TETT', 'TETŰ', 'TEVE', 'TÉLI', 'TÉMA', 'TÉNY', 'TÉRD', 'TÉVÉ', 'TOKA', 'TOLD', 'TOLL', 'TOTÓ', 'TORS', 'TORZ', 'TOVA',
-            'TÖBB', 'TÖLT', 'TÖMB', 'TÖRP', 'TÖRT', 'TUJA', 'TUSA', 'TÚRÓ', 'TYÚK'
+            'TABU', 'TACO', 'TAHÓ', 'TALP', 'TANK', 'TANÚ', 'TAPI', 'TAPS', 'TART', 'TATU', 'TAVI', 'TAXI', 'TÁJI', 'TÁNC', 'TÁRA', 'TÁRS',
+            'TÁRT', 'TEÁS', 'TEKE', 'TELE', 'TELI', 'TELJ', 'TELT', 'TERC', 'TERV', 'TESÓ', 'TEST', 'TESZ', 'TETŐ', 'TETT', 'TETŐ', 'TETŰ',
+            'TEVE', 'TÉKA', 'TÉLI', 'TÉMA', 'TÉNY', 'TÉRD', 'TÉRI', 'TÉVÉ', 'TIED', 'TIÉD', 'TILT', 'TINI', 'TINÓ', 'TIPP', 'TOJÓ', 'TOKA',
+            'TOLD', 'TOLL', 'TOLÓ', 'TOTÓ', 'TORS', 'TORZ', 'TOTÓ', 'TOVA', 'TÓRA', 'TÖBB', 'TÖLT', 'TÖMB', 'TÖNK', 'TÖRP', 'TÖRT', 'TŐGY',
+            'TŐKE', 'TRÁK', 'TRIÓ', 'TRÓN', 'TUBA', 'TUFA', 'TUJA', 'TUSA', 'TÚRA', 'TÚRÓ', 'TÚSZ', 'TUTI', 'TÜDŐ', 'TÜLL', 'TÜRK', 'TÜTÜ',
+            'TŰZŐ', 'TYÚK'
         ],
         '5': [
-            'TACSI', 'TAGAD', 'TAGOL', 'TAKAR', 'TALÁN', 'TALÁR', 'TANÁR', 'TANGÓ', 'TANÍT', 'TANUL', 'TAPÍR', 'TARAJ', 'TARÉJ', 'TARKA',
-            'TAROL', 'TASAK', 'TAVAS', 'TÁBOR', 'TÁGAS', 'TÁGUL', 'TÁJOL', 'TÁKOL', 'TÁLAL', 'TÁLIB', 'TÁMAD', 'TÁMLA', 'TÁPOS', 'TÁRGY',
-            'TÁRNA', 'TÁRÁZ', 'TÁROL', 'TÁSKA', 'TÁTOG', 'TÁVOL', 'TEHER', 'TEHÉN', 'TEJEL', 'TEJES', 'TEKER', 'TEKNŐ', 'TELEK', 'TELÍT',
-            'TEMET', 'TEPER', 'TEREL', 'TEREM', 'TERÍT', 'TESTI', 'TESZT', 'TÉPÉS', 'TÉRÍT', 'TÉTEL', 'TÉVÉS', 'TINCS', 'TINTA', 'TISZT',
-            'TIZED', 'TÍZES', 'TOJÁS', 'TOJIK', 'TOKOS', 'TOLAT', 'TOLÁS', 'TOMPA', 'TORNA', 'TOROK', 'TORZÓ', 'TÓSZT', 'TÖBBI', 'TÖKÖL',
-            'TÖKÖS', 'TÖLGY', 'TÖLTŐ', 'TÖMÉS', 'TÖMLŐ', 'TÖMÖR', 'TÖREK', 'TÖRÉS', 'TÖRÖK', 'TÖRÖL', 'TÖRPE', 'TRIKÓ', 'TROLL', 'TRÜKK',
-            'TUDAT', 'TUDÁS', 'TUDÓS', 'TUJÁS', 'TUKÁN', 'TÚRÁS', 'TÚRÓS', 'TÜNDE', 'TÜNET', 'TÜZEL', 'TÜZES', 'TŰNIK', 'TŰRÉS', 'TŰZÉS'
+            'TABLÓ', 'TACCS', 'TACSI', 'TAGAD', 'TAGOL', 'TAJGA', 'TAKAR', 'TALAJ', 'TALÁL', 'TALÁN', 'TALÁR', 'TALMI', 'TALON', 'TANÁR',
+            'TANGÓ', 'TANÉV', 'TANGA', 'TANGÓ', 'TANÍT', 'TANTI', 'TANUL', 'TANYA', 'TAPAD', 'TAPIZ', 'TAPÍR', 'TAPLÓ', 'TAPOS', 'TARAJ',
+            'TARÉJ', 'TARJA', 'TARKA', 'TARKÓ', 'TARLÓ', 'TAROL', 'TARTÓ', 'TASAK', 'TASLI', 'TATÁR', 'TAVAS', 'TAXIS', 'TÁBLA', 'TÁBOR',
+            'TÁGAS', 'TÁGÍT', 'TÁGUL', 'TÁJÉK', 'TÁJOL', 'TÁKOL', 'TÁLAL', 'TÁLCA', 'TÁLIB', 'TÁMAD', 'TÁMLA', 'TÁMÍV', 'TÁMLA', 'TÁPOS',
+            'TÁPSÓ', 'TÁRCA', 'TÁRGY', 'TÁRNA', 'TÁRÁZ', 'TÁRLÓ', 'TÁRNA', 'TÁROL', 'TÁRUL', 'TÁSKA', 'TÁTOG', 'TÁVHŐ', 'TÁVOL', 'TEAFŰ',
+            'TEÁZÓ', 'TEGEZ', 'TEHÁT', 'TEHER', 'TEHÉN', 'TEJEL', 'TEJES', 'TEKER', 'TEKNŐ', 'TELEK', 'TELEL', 'TELEP', 'TELEX', 'TELÉR',
+            'TELIK', 'TELÍT', 'TEMET', 'TEMPÓ', 'TENOR', 'TEPER', 'TEPSI', 'TEREL', 'TEREM', 'TEREP', 'TERÍT', 'TERMŐ', 'TESTI', 'TESZT',
+            'TETEM', 'TEVÉS', 'TETET', 'TETÉZ', 'TÉGLA', 'TÉPÉS', 'TÉRÍT', 'TÉRÜL', 'TÉTEL', 'TÉTET', 'TÉVED', 'TÉVES', 'TÉVÉS', 'TÉVÚT',
+            'TÉZIS', 'TIARA', 'TILOS', 'TILTÓ', 'TIMSÓ', 'TINCS', 'TINTA', 'TIPEG', 'TIPLI', 'TIPOR', 'TISZT', 'TITÁN', 'TITOK', 'TIZED',
+            'TÍMÁR', 'TÍPUS', 'TÍZEN', 'TÍZES', 'TOBOZ', 'TOJÁS', 'TOJIK', 'TOKÁS', 'TOKOS', 'TOLAT', 'TOLÁS', 'TOMPA', 'TONIK', 'TONNA',
+            'TOPIS', 'TOPOG', 'TORMA', 'TORNA', 'TOROK', 'TORTA', 'TORZÓ', 'TOTEM', 'TÓCSA', 'TÓDÍT', 'TÓDUL', 'TÓNUS', 'TÓSZT', 'TÖBBÉ',
+            'TÖBBI', 'TÖKÖL', 'TÖKÖS', 'TÖLGY', 'TÖLTŐ', 'TÖMEG', 'TÖMÉS', 'TÖMÍT', 'TÖMLŐ', 'TÖMÖR', 'TÖMPE', 'TÖREK', 'TÖRÉS', 'TÖRIK',
+            'TÖRÖK', 'TÖRÖL', 'TÖRPE', 'TÖRÜL', 'TÖRVE', 'TÖRZS', 'TÖVIG', 'TÖVIS', 'TŐKÉS', 'TŐZEG', 'TRAFÓ', 'TREFF', 'TREND', 'TRÉFA',
+            'TRIKÓ', 'TROLI', 'TROLL', 'TROMF', 'TRÜKK', 'TUBÁK', 'TUBUS', 'TUCAT', 'TUDAT', 'TUDÁS', 'TUDÓS', 'TUDTA', 'TUDVA', 'TUJÁS',
+            'TUKÁN', 'TULAJ', 'TUMOR', 'TUNYA', 'TURBÓ', 'TURNÉ', 'TUSKÓ', 'TUSOL', 'TUTAJ', 'TÚLAD', 'TÚLÉL', 'TÚLLŐ', 'TÚLNŐ', 'TÚLOZ',
+            'TÚLSÓ', 'TÚLZÓ', 'TÚRÁS', 'TÚRÓS', 'TÚZOK', 'TÜKÖR', 'TÜNDE', 'TÜNET', 'TÜSKE', 'TÜSZŐ', 'TÜZEL', 'TÜZES', 'TÜZÉR', 'TŰNÉS',
+            'TŰNIK', 'TŰRÉS', 'TŰZÉS', 'TŰZKŐ'
         ],
         '6': [
-            'TACSKÓ', 'TAGLAL', 'TAKARÓ', 'TAKART', 'TAKONY', 'TALPAL', 'TARTÁR', 'TARTÁS', 'TARTÓS', 'TÁBORI', 'TÁLTOS', 'TÁMADÓ',
-            'TÁMASZ', 'TÁMFAL', 'TÁNCOL', 'TÁNCOS', 'TÁPLÁL', 'TÁRSAS', 'TEÁZÁS', 'TEÁZIK', 'TEGNAP', 'TEKINT', 'TEKNŐS', 'TELEÍR',
-            'TELJES', 'TEMETŐ', 'TENGER', 'TENGET', 'TEREMT', 'TERHES', 'TERÍTŐ', 'TERMET', 'TESPED', 'TESTES', 'TETTES', 'TETVES',
-            'TÉGELY', 'TÉLIES', 'TÉRDEL', 'TÉSZTA', 'TIGRIS', 'TINTÁS', 'TISZTA', 'TOLLAS', 'TOLLAZ', 'TOLVAJ', 'TONHAL', 'TORKOS',
-            'TORSOS', 'TORZÍT', 'TOVÁBB', 'TÖLTÉS', 'TÖMBÖS', 'TÖMŐFA', 'TÖRLÉS', 'TÖRPÖL', 'TURKÁL', 'TÜNDÉR', 'TÜNTET', 'TÜRKIZ'
+            'TABLET', 'TACSKÓ', 'TAGADÓ', 'TAGDÍJ', 'TAGLAL', 'TAGOLT', 'TAGSÁG', 'TAJTÉK', 'TAKARÓ', 'TAKART', 'TAKÁCS', 'TAKONY',
+            'TAKSÁL', 'TAKTUS', 'TALÁLÓ', 'TALÁLT', 'TALÁNY', 'TALIGA', 'TALLÉR', 'TALLÓZ', 'TALPAL', 'TALPAS', 'TALPFA', 'TALPIG',
+            'TALPKŐ', 'TAMPON', 'TANÁCS', 'TANÁRI', 'TANDEM', 'TANDÍJ', 'TANERŐ', 'TANÍTÓ', 'TANKER', 'TANKOL', 'TANONC', 'TANÓRA',
+            'TANULÓ', 'TANULT', 'TANÜGY', 'TANYAI', 'TAPASZ', 'TAPÉTA', 'TAPINT', 'TAPSOL', 'TARACK', 'TARHÁL', 'TARIFA', 'TARKÍT',
+            'TAROKK', 'TARTAM', 'TARTÁN', 'TARTÁR', 'TARTÁS', 'TARTÓS', 'TASZÍT', 'TAVALY', 'TAVASZ', 'TÁBLÁS', 'TÁBORI', 'TÁJFUN',
+            'TÁJHÁZ', 'TÁJKÉP', 'TÁJOLÓ', 'TÁJSZÓ', 'TÁLALÓ', 'TÁLCÁS', 'TÁLTOS', 'TÁLYOG', 'TÁMADÓ', 'TÁMASZ', 'TÁMFAL', 'TÁMLÁS',
+            'TÁNCOL', 'TÁNCOS', 'TÁNYÉR', 'TÁPLÁL', 'TÁRCSA', 'TÁRGYI', 'TÁRHÁZ', 'TÁRLAT', 'TÁROLÓ', 'TÁROZÓ', 'TÁRSAS', 'TÁRSÍT',
+            'TÁRSUL', 'TÁSKÁS', 'TÁTIKA', 'TÁTONG', 'TÁTOTT', 'TÁVCSŐ', 'TÁVÍRÓ', 'TÁVKÖZ', 'TÁVLAT', 'TÁVOLI', 'TÁVOZÓ', 'TEAHÁZ',
+            'TEAVAJ', 'TEÁZÁS', 'TEÁZIK', 'TECHN0', 'TEENDŐ', 'TEFLON', 'TEGNAP', 'TEJELŐ', 'TEJFOG', 'TEJFEL', 'TEJFÖL', 'TEJIVÓ',
+            'TEJPOR', 'TEJSAV', 'TEKERT', 'TEKÉZŐ', 'TEKINT', 'TEKNŐC', 'TEKNŐS', 'TELEÍR', 'TELELŐ', 'TELJES', 'TEMETŐ', 'TEMPÓS',
+            'TENDÁL', 'TENDER', 'TENGER', 'TENGET', 'TENISZ', 'TENYÉR', 'TEÓRIA', 'TEPSIS', 'TERASZ', 'TERELŐ', 'TEREMT', 'TERHEL',
+            'TERHES', 'TERÍTŐ', 'TERJED', 'TERMEL', 'TERMET', 'TERMÉK', 'TERMÉS', 'TERMIK', 'TERROR', 'TERVEZ', 'TESPED', 'TESSÉK',
+            'TESTÁL', 'TESTES', 'TESTŐR', 'TETTES', 'TETTET', 'TETVES', 'TEXTIL', 'TÉBOLY', 'TÉGELY', 'TÉLIES', 'TÉLUTÓ', 'TÉLVÍZ',
+            'TÉPDES', 'TÉPETT', 'TÉRDEL', 'TÉRERŐ', 'TÉRFÉL', 'TÉRÍTŐ', 'TÉRKÉP', 'TÉRKÖZ', 'TÉRSÉG', 'TÉSZTA', 'TÉTLEN', 'TÉTOVA',
+            'TÉVHIT', 'TÉVTAN', 'TIETEK', 'TIÉTEK', 'TIGRIS', 'TIKKAD', 'TILTÁS', 'TINTÁS', 'TINÓRU', 'TIPEGŐ', 'TIPPEL', 'TIPRÁS',
+            'TIRÁDA', 'TISZTA', 'TISZTI', 'TITÁNI', 'TITKÁR', 'TITKOL', 'TITKON', 'TITKOS', 'TÍFUSZ', 'TÍZÉVI', 'TÍZFŐS', 'TOKÁNY',
+            'TOLDÁS', 'TOLDOZ', 'TOLLAS', 'TOLLAZ', 'TOLONG', 'TOLTÉK', 'TOLVAJ', 'TOMBOL', 'TOMPÁN', 'TOMPÍT', 'TOMPOR', 'TOMPUL',
+            'TONHAL', 'TORKOS', 'TORMÁS', 'TORNÁC', 'TORONY', 'TORSOS', 'TORZIÓ', 'TORZÍT', 'TORZUL', 'TORZSA', 'TOTÓZÓ', 'TOTYOG',
+            'TOVÁBB', 'TÓCSÁS', 'TÖBBEK', 'TÖBBEN', 'TÖBBES', 'TÖKÉLY', 'TÖKFEJ', 'TÖKMAG', 'TÖLTÉS', 'TÖLTET', 'TÖMBÖS', 'TÖMÉNY',
+            'TÖMJÉN', 'TÖMLÖC', 'TÖMÖTT', 'TÖMZSI', 'TÖMŐFA', 'TÖRDEL', 'TÖRLÉS', 'TÖRÖTT', 'TÖRPÖL', 'TÖRTET', 'TÖRZSI', 'TŐZSDE',
+            'TRACCS', 'TRAFIK', 'TRAKTA', 'TRANSZ', 'TRAPÉZ', 'TRAUMA', 'TRÁGÁR', 'TRÁGYA', 'TRENDI', 'TREZOR', 'TRÉFÁL', 'TRÉFÁS',
+            'TRÉNER', 'TRIÁSZ', 'TRIBÜN', 'TRILLA', 'TRIPLA', 'TROJKA', 'TRÓFEA', 'TRÓGER', 'TRÓJAI', 'TRÓNOL', 'TRÓNUS', 'TRÖSZT',
+            'TRUTYI', 'TUDOTT', 'TUNDRA', 'TUNIKA', 'TUNKOL', 'TUNYUL', 'TURBÁN', 'TURCSI', 'TURKÁL', 'TURMIX', 'TURNUS', 'TÚLEDZ',
+            'TÚLERŐ', 'TÚLÉLŐ', 'TÚLFŐZ', 'TÚLFŰT', 'TÚLHÚZ', 'TÚLJÁR', 'TÚLJUT', 'TÚLKAP', 'TÚLLÉP', 'TÚLÓRA', 'TÚLSÜT', 'TÚLZÁS',
+            'TÚRÁZÓ', 'TÜCSÖK', 'TÜKRÖS', 'TÜKRÖZ', 'TÜLKÖL', 'TÜNDÉR', 'TÜNETI', 'TÜNTET', 'TÜRKIZ', 'TÜSKÉS', 'TÜZELŐ', 'TŰHEGY',
+            'TŰZDEL', 'TŰZERŐ', 'TŰZFAL', 'TŰZIFA', 'TŰZKÁR', 'TŰZÖTT', 'TŰZTÉR', 'TYÚKÓL'
         ],
         '7': [
-            'TAGADÁS', 'TAGOZAT', 'TAKARÁS', 'TAKARÍT', 'TAKNYOS', 'TANÍTÁS', 'TANSZER', 'TANULÁS', 'TARAJOS', 'TAROLÁS', 'TÁMADÁS',
-            'TÁMASZT', 'TÁPLÁLÓ', 'TÁRGYAL', 'TÁRKONY', 'TÁROLÁS', 'TEGNAPI', 'TELEFON', 'TEKÉZIK', 'TELEPES', 'TELEPÍT', 'TELEPÜL',
-            'TELERAK', 'TEMETÉS', 'TEMPERA', 'TEMPLOM', 'TENGERI', 'TEPERTŐ', 'TEREMŐR', 'TEREMTŐ', 'TERÍTÉS', 'TÉNYLEG', 'TÉVÉZIK',
-            'TISZTEL', 'TIZEDEL', 'TIZEDES', 'TOJÁSOS', 'TOLÓZÁR', 'TORNÁSZ', 'TÖLTÉNY', 'TÖLTÖTT', 'TRÜKKÖS', 'TULIPÁN', 'TURKÁLÓ',
-            'TÜNDÉRI', 'TÜNTETŐ', 'TÜRELEM'
+            'TABELLA', 'TAGADÁS', 'TAGOLÁS', 'TAGOZAT', 'TAGSÁGI', 'TAGTÁRS', 'TAHÓSÁG', 'TAKARÁS', 'TAKARÉK', 'TAKARÍT', 'TAKAROS',
+            'TAKNYOS', 'TAKTIKA', 'TALÁLAT', 'TALÁLÁS', 'TALÁLKA', 'TALÁROS', 'TAMBURA', 'TANÁCSI', 'TANÁRNŐ', 'TANÁROS', 'TANGENS',
+            'TANÍTÁS', 'TANÍTÓI', 'TANÍTÓS', 'TANREND', 'TANSZAK', 'TANSZÉK', 'TANSZER', 'TANTERV', 'TANTUSZ', 'TANULÁS', 'TANÚJEL',
+            'TANÚSÁG', 'TANÚSÍT', 'TANÚZÁS', 'TANÜGYI', 'TANYASI', 'TAPADÁS', 'TAPADÓS', 'TAPASZT', 'TAPÉTÁS', 'TAPÉTÁZ', 'TAPIZÁS',
+            'TAPOGAT', 'TAPOSÁS', 'TARAJOS', 'TAROLÁS', 'TARSOLY', 'TARTÁLY', 'TASZÍTÓ', 'TATAROZ', 'TAVALYI', 'TAVASZI', 'TAVERNA',
+            'TÁBOROZ', 'TÁGÍTÁS', 'TÁGULAT', 'TÁGULÁS', 'TÁJFUTÓ', 'TÁLALÁS', 'TÁMADÁS', 'TÁMASZT', 'TÁMOGAT', 'TÁMPONT', 'TÁNCDAL',
+            'TÁNCEST', 'TÁNCHÁZ', 'TÁNCKAR', 'TÁNCÓRA', 'TÁPLÁLÓ', 'TÁPLÁLT', 'TÁPPÉNZ', 'TÁPSZER', 'TÁRCSÁS', 'TÁRCSÁZ', 'TÁRGYAL',
+            'TÁRGYAS', 'TÁRGYÉV', 'TÁRKONY', 'TÁROLÁS', 'TÁRULÁS', 'TÁTOGAT', 'TÁTONGÓ', 'TÁVFUTÓ', 'TÁVIRAT', 'TÁVIRDA', 'TÁVLATI',
+            'TÁVOZÁS', 'TÁVOZIK', 'TÁVÚSZÓ', 'TEABABA', 'TEAFŐZŐ', 'TEGEZÉS', 'TEGNAPI', 'TEHETŐS', 'TEJBOLT', 'TEJIPAR', 'TEJSODÓ',
+            'TEJSZÍN', 'TEJÜVEG', 'TEJÜZEM', 'TEJZSÍR', 'TEKEBÁB', 'TEKERCS', 'TEKEREG', 'TEKERÉS', 'TEKÉZIK', 'TELEESZ', 'TELEFAX',
+            'TELEFON', 'TELEKÁR', 'TELELÉS', 'TELEÖNT', 'TELEPES', 'TELEPÍT', 'TELEPÜL', 'TELERAK', 'TELETÖM', 'TELIVÉR', 'TELÍTÉS',
+            'TELTSÉG', 'TEMETÉS', 'TEMPERA', 'TEMPLOM', 'TENGELY', 'TENGERI', 'TEPERTŐ', 'TERÁPIA', 'TEREGET', 'TERELÉS', 'TEREMŐR',
+            'TEREMTŐ', 'TERHELŐ', 'TERHELT', 'TERÍTÉK', 'TERÍTÉS', 'TERJENG', 'TERMELŐ', 'TERMESZ', 'TERMÉNY', 'TERMOSZ', 'TERPESZ',
+            'TERÜLET', 'TERVEZŐ', 'TESTVÉR', 'TESZTEL', 'TETEMES', 'TETETÉS', 'TETÉZÉS', 'TETOVÁL', 'TETŐFOK', 'TETŐTÉR', 'TETŐZIK',
+            'TETSZÉS', 'TETSZIK', 'TETTERŐ', 'TETTLEG', 'TEVŐLEG', 'TÉKOZLÓ', 'TÉKOZOL', 'TÉMAKÖR', 'TÉNYLEG', 'TÉPŐFOG', 'TÉPŐZÁR',
+            'TÉRBELI', 'TÉRÍTÉS', 'TÉVEDÉS', 'TÉVESEN', 'TÉVESZT', 'TÉVÉADÓ', 'TÉVÉZÉS', 'TÉVÉZIK', 'TIKKADT', 'TILALOM', 'TILINKÓ',
+            'TILTOTT', 'TIMFÖLD', 'TIPEGÉS', 'TIPIKUS', 'TIPIZÁL', 'TISZAFA', 'TISZTÁN', 'TISZTÁS', 'TISZTÁZ', 'TISZTEL', 'TISZTES',
+            'TISZTÍT', 'TISZTUL', 'TITKOLT', 'TITULÁL', 'TITULUS', 'TIZEDEL', 'TIZEDES', 'TIZEDIK', 'TIZENÖT', 'TÍPUSOS', 'TÍZÉVES',
+            'TÍZEZER', 'TÍZFÉLE', 'TÍZHAVI', 'TÍZHETI', 'TÍZÓRAI', 'TÍZÓRÁS', 'TÍZPERC', 'TÍZSZER', 'TÍZTAGÚ', 'TOALETT', 'TOBOROZ',
+            'TOBORZÓ', 'TOBOZOS', 'TOHONYA', 'TOJÁSOS', 'TOKLÁSZ', 'TOLATÁS', 'TOLERÁL', 'TOLMÁCS', 'TOLOGAT', 'TOLÓDIK', 'TOLÓZÁR',
+            'TOMBOLA', 'TOMBOLÓ', 'TONÁLIS', 'TONZÚRA', 'TOPOGÁS', 'TOPPANT', 'TORLASZ', 'TORNÁDÓ', 'TORNÁSZ', 'TORNYOS', 'TORPEDÓ',
+            'TORTÚRA', 'TORZKÉP', 'TOTÁLIS', 'TOTÓZIK', 'TOVÁBBÁ', 'TOVÁBBI', 'TOXIKUS', 'TÓDÍTÁS', 'TÓDULÁS', 'TÓNUSOS', 'TÓTÁGAS',
+            'TÖBBÉVI', 'TÖBBLET', 'TÖBBSÉG', 'TÖLCSÉR', 'TÖLGYES', 'TÖLGYFA', 'TÖLTÉNY', 'TÖLTÖTT', 'TÖMEGES', 'TÖMÍTÉS', 'TÖMÖRÍT',
+            'TÖMÖRÜL', 'TÖNKÖLY', 'TÖPRENG', 'TÖRDELT', 'TÖREDÉK', 'TÖREKVŐ', 'TÖRKÖLY', 'TÖRŐDIK', 'TÖRTETŐ', 'TÖRVÉNY', 'TÖVISES',
+            'TŐKEHAL', 'TŐKEHÚS', 'TŐKÉSÍT', 'TŐRVÍVÓ', 'TŐZEGES', 'TŐZSDEI', 'TŐZSDÉS', 'TRAGACS', 'TRAGIKA', 'TRAKTÁL', 'TRAKTOR',
+            'TRAKTUS', 'TRAMPLI', 'TRANZIT', 'TRAPPOL', 'TRAUMÁS', 'TRÁGYÁS', 'TRÁGYÁZ', 'TREHÁNY', 'TRÉCSEL', 'TRÉNING', 'TRILLIÓ',
+            'TRIMMEL', 'TRIPLÁN', 'TRIPLÁZ', 'TRIPPER', 'TROMBON', 'TROMFOL', 'TRÓPUSI', 'TRUTYIS', 'TRUTYMÓ', 'TRÜKKÖS', 'TUBUSOS',
+            'TUDAKOL', 'TUDATOS', 'TUDOMÁS', 'TUDÓSÍT', 'TULIPÁN', 'TURISTA', 'TURKÁLÓ', 'TUPÍROZ', 'TURBINA', 'TUSRAJZ', 'TUSZKOL',
+            'TUTAJOS', 'TÚLÁRAD', 'TÚLESIK', 'TÚLHAJT', 'TÚLMEGY', 'TÚLSÚLY', 'TÚLTENG', 'TÚLTESZ', 'TÚLZOTT', 'TÚRÁZÁS', 'TÚRÁZIK',
+            'TÜDŐBAJ', 'TÜDŐRÁK', 'TÜNDÉRI', 'TÜNTETŐ', 'TÜRELEM', 'TÜRELMI', 'TÜSTÉNT', 'TÜZELÉS', 'TÜZETES', 'TŰLEVÉL', 'TŰNŐDÉS',
+            'TŰNŐDIK', 'TŰPÁRNA', 'TŰRHETŐ', 'TŰSARKÚ', 'TŰSAROK', 'TŰZÁLLÓ', 'TŰZCSAP', 'TŰZDELT', 'TŰZESET', 'TÜZESÍT', 'TŰZHARC',
+            'TŰZHELY', 'TŰZOLTÓ', 'TŰZVÉSZ', 'TYÚKHÚS', 'TYÚKPER'
         ]
     },
     'U': {
@@ -1647,7 +1708,7 @@ export const wordsHun: Words = {
             'ÜDV', 'ÜGY', 'ÜRÜ', 'ÜST', 'ÜTŐ'
         ],
         '4': [
-            'ÜDÜL', 'ÜGET', 'ÜLEP', 'ÜLÉS', 'ÜREG', 'ÜRES', 'ÜRGE', 'ÜRÖM', 'ÜRÜL', 'ÜTEG', 'ÜTÉS', 'ÜVEG', 'ÜZEN'
+            'ÜDÜL', 'ÜGET', 'ÜLEP', 'ÜLÉS', 'ÜREG', 'ÜRES', 'ÜRGE', 'ÜRÖM', 'ÜRÜL', 'ÜSZŐ', 'ÜTEG', 'ÜTÉS', 'ÜVEG', 'ÜZEN'
         ],
         '5': [
             'ÜGETŐ', 'ÜGYEL', 'ÜGYES', 'ÜNNEP', 'ÜSTÖK'
