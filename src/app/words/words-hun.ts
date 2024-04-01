@@ -1673,19 +1673,27 @@ export const wordsHun: Words = {
     },
     'U': {
         '3': [
-            'UJJ', 'UTÓ'
+            'UFÓ', 'UHU', 'UJJ', 'UTÓ'
         ],
         '4': [
-            'UGAT', 'UNKA', 'URAL', 'URAS', 'URÁN', 'UTAL', 'UTAS', 'UTÁL', 'UTÁN'
+            'UGAR', 'UGAT', 'UGOR', 'UGRÓ', 'UGYE', 'UKÁZ', 'ULTI', 'UNIÓ', 'UNKA', 'URAL', 'URAS', 'URÁN', 'URDU', 'URNA', 'UTAL', 'UTAS',
+            'UTÁL', 'UTÁN', 'UTCA', 'UTÓD'
         ],
         '5': [
-            'UDVAR', 'UGRÁL', 'UGRÁS', 'UGRIK', 'UJJAS', 'UKRÁN', 'UNDOK', 'UNDOR', 'UNOTT', 'UNTAT', 'UTÁNA'
+            'UDVAR', 'UGRAT', 'UGRÁL', 'UGRÁS', 'UGRIK', 'UGYAN', 'UJJAS', 'UKRÁN', 'UNCIA', 'UNDOK', 'UNDOR', 'UNOKA', 'UNOTT', 'UNTAT',
+            'UNTIG', 'USZÍT', 'UTAZÓ', 'UTÁNA', 'UTÁNI', 'UTCAI', 'UTÓBB', 'UTÓÍZ', 'UVULA'
         ],
         '6': [
-            'UBORKA', 'UGATÁS', 'UNALOM', 'URASÁG', 'USZKÁR', 'USZODA', 'USZONY', 'UTALÁS', 'UTAZÁS', 'UTÁLAT', 'UTÓLAG', 'UTÓTAG'
+            'UDVARI', 'UBORKA', 'UGATÁS', 'UJJNYI', 'UJJONG', 'UMLAUT', 'UNALOM', 'UNIKUM', 'UNSZOL', 'URALOM', 'URASÁG', 'URIZÁL',
+            'USÁNKA', 'USZÁLY', 'USZKÁR', 'USZODA', 'USZONY', 'UTALÁS', 'USZÍTÓ', 'USZKÁR', 'USZKVE', 'USZODA', 'UTALÁS', 'UTASÍT',
+            'UTAZÁS', 'UTAZIK', 'UTÁLAT', 'UTÁNOZ', 'UTÁNZÓ', 'UTCANŐ', 'UTOLÉR', 'UTOLJA', 'UTOLSÓ', 'UTÓBBI', 'UTÓHAD', 'UTÓKOR',
+            'UTÓLAG', 'UTÓNÉV', 'UTÓPIA', 'UTÓSZÓ', 'UTÓTAG', 'UTÓVÉD', 'UZSORA'
         ],
         '7': [
-            'UDVAROL', 'UDVAROS', 'UGRÁLÁS', 'UNDORÍT', 'UTÓÉLET', 'UZSONNA'
+            'UDVARLÓ', 'UDVAROL', 'UDVAROS', 'UGRATÁS', 'UGRÁLÁS', 'UGRÓBOT', 'UGRÓRÚD', 'UGYANAZ', 'UGYANEZ', 'UGYANIS', 'UGYEBÁR',
+            'UJJBEGY', 'UJJHEGY', 'UJJNYOM', 'UJJPERC', 'UJJREND', 'UKULELE', 'ULTIZIK', 'UNALMAS', 'UNDORÍT', 'UNISZEX', 'UNOTTAN',
+            'URASÁGI', 'URÁNÉRC', 'URBÁNUS', 'URNASÍR', 'USZÍTÁS', 'UTASGÉP', 'UTASHÍD', 'UTASTÉR', 'UTAZÁSI', 'UTÁNVÉT', 'UTÁNZAT',
+            'UTÁNZÁS', 'UTCABÁL', 'UTCANÉV', 'UTÓDLÁS', 'UTÓÉLET', 'UTÓÉTEL', 'UTÓHANG', 'UTÓIRAT', 'UZSONNA', 'UZSORÁS'
         ]
     },
     'Ú': {
@@ -1693,91 +1701,164 @@ export const wordsHun: Words = {
             'ÚGY', 'ÚRI', 'ÚTI'
         ],
         '4': [
-            'ÚJRA', 'ÚJUL', 'ÚSZÓ'
+            'ÚJÉV', 'ÚJRA', 'ÚJÍT', 'ÚJJÁ', 'ÚJRA', 'ÚJUL', 'ÚRFI', 'ÚRNŐ', 'ÚSZÓ'
         ],
         '5': [
-            'ÚJSÁG', 'ÚSZÁS', 'ÚSZIK', 'ÚTZÁR'
+            'ÚGYIS', 'ÚGYSE', 'ÚJABB', 'ÚJBÓL', 'ÚJÉVI', 'ÚJÍTÓ', 'ÚJKOR', 'ÚJONC', 'ÚJRÁZ', 'ÚJSÁG', 'ÚJULT', 'ÚRINŐ', 'ÚSZÁS', 'ÚSZIK',
+            'ÚTADÓ', 'ÚTDÍJ', 'ÚTZÁR'
         ],
-        '6': [],
+        '6': [
+            'ÚGYSEM', 'ÚJBÓLI', 'ÚJFENT', 'ÚJHOLD', 'ÚJÍTÁS', 'ÚJULÁS', 'ÚJKORI', 'ÚJMÓDI', 'ÚJÓLAG', 'ÚJRAÉL', 'ÚJRAÍR', 'ÚSZKÁL',
+            'ÚSZÓÖV', 'ÚSZTAT', 'ÚTALAP', 'ÚTICÉL', 'ÚTSZÉL', 'ÚTTEST', 'ÚTTÖRŐ'
+        ],
         '7': [
-            'ÚTÉPÍTŐ', 'ÚTTALAN'
+            'ÚGYHOGY', 'ÚGYMINT', 'ÚJABBAN', 'ÚJFAJTA', 'ÚJONNAN', 'ÚJRAOLT', 'ÚJRÁZÁS', 'ÚJSÁGOL', 'ÚJSÁGOS', 'ÚJSZERŰ', 'ÚRILÁNY',
+            'ÚRISTEN', 'ÚRNAPJA', 'ÚSZÓLÁB', 'ÚSZÓLÁP', 'ÚTÉPÍTŐ', 'ÚTILAPU', 'ÚTIRAJZ', 'ÚTIRÁNY', 'ÚTOTÁRS', 'ÚTITERV', 'ÚTJELZŐ',
+            'ÚTLEVÉL', 'ÚTSZÉLI', 'ÚTTALAN', 'ÚTVONAL'
         ]
     },
     'Ü': {
         '3': [
-            'ÜDV', 'ÜGY', 'ÜRÜ', 'ÜST', 'ÜTŐ'
+            'ÜDE', 'ÜDV', 'ÜGY', 'ÜLŐ', 'ÜRÜ', 'ÜST', 'ÜTŐ'
         ],
         '4': [
-            'ÜDÜL', 'ÜGET', 'ÜLEP', 'ÜLÉS', 'ÜREG', 'ÜRES', 'ÜRGE', 'ÜRÖM', 'ÜRÜL', 'ÜSZŐ', 'ÜTEG', 'ÜTÉS', 'ÜVEG', 'ÜZEN'
+            'ÜDÍT', 'ÜDÜL', 'ÜGET', 'ÜLEP', 'ÜLÉS', 'ÜLLŐ', 'ÜREG', 'ÜRES', 'ÜRGE', 'ÜRÍT', 'ÜRÖM', 'ÜRÜL', 'ÜSZŐ', 'ÜTEG', 'ÜTEM', 'ÜTÉS',
+            'ÜTŐS', 'ÜVEG', 'ÜZEM', 'ÜZEN', 'ÜZÉR'
         ],
         '5': [
-            'ÜGETŐ', 'ÜGYEL', 'ÜGYES', 'ÜNNEP', 'ÜSTÖK'
+            'ÜDÍTŐ', 'ÜDÜLŐ', 'ÜDVÖS', 'ÜGETŐ', 'ÜGYEL', 'ÜGYES', 'ÜKAPA', 'ÜLDÖZ', 'ÜLNÖK', 'ÜLŐKE', 'ÜLTET', 'ÜNNEP', 'ÜREGI', 'ÜRMÖS',
+            'ÜRÜGY', 'ÜSTÖK', 'ÜSZÖG', 'ÜSZÖK', 'ÜTLEG', 'ÜTŐÉR', 'ÜVÖLT', 'ÜZEMI', 'ÜZLET'
         ],
         '6': [
-            'ÜDVÖS', 'ÜDÜLÉS', 'ÜGETÉS', 'ÜGYÉSZ', 'ÜGYFÉL', 'ÜGYNÖK', 'ÜGYVÉD', 'ÜNNEPI', 'ÜREGES', 'ÜRÜLÉK', 'ÜVEGES', 'ÜVEGEZ', 'ÜZENET'
+            'ÜDÍTÉS', 'ÜDÜLÉS', 'ÜGETÉS', 'ÜGYELŐ', 'ÜGYÉSZ', 'ÜGYFÉL', 'ÜGYKÖR', 'ÜGYLET', 'ÜGYNÖK', 'ÜGYVÉD', 'ÜKANYA', 'ÜLDÖZŐ',
+            'ÜLEDÉK', 'ÜLŐKÁD', 'ÜNNEPI', 'ÜREGES', 'ÜRESEN', 'ÜRÍTÉS', 'ÜRÜHÚS', 'ÜRÜLÉK', 'ÜSTDOB', 'ÜSZKÖS', 'ÜTEMES', 'ÜTEMEZ',
+            'ÜTKÖZŐ', 'ÜTÖGET', 'ÜTŐDÉS', 'ÜTŐDIK', 'ÜVEGES', 'ÜVEGEZ', 'ÜVÖLTŐ', 'ÜZEMÁG', 'ÜZEMEL', 'ÜZENET', 'ÜZLETI'
         ],
         '7': [
-            'ÜDVÖZÖL', 'ÜDVÖZÜL', 'ÜGYELET', 'ÜGYIRAT', 'ÜNNEPEL'
+            'ÜCSÖRÖG', 'ÜDVÖZÍT', 'ÜDVÖZLŐ', 'ÜDVÖZÖL', 'ÜDVÖZÜL', 'ÜGYELET', 'ÜGYESEN', 'ÜGYIRAT', 'ÜGYNÖKI', 'ÜGYREND', 'ÜGYSZÁM',
+            'ÜGYVÉDI', 'ÜGYVIVŐ', 'ÜKUNOKA', 'ÜLDÖGÉL', 'ÜLDÖZÉS', 'ÜLŐHELY', 'ÜLŐIDEG', 'ÜLTETÉS', 'ÜLTÉBEN', 'ÜLTÉBŐL', 'ÜNNEPEL',
+            'ÜNNEPLŐ', 'ÜRESSÉG', 'ÜRÜCOMB', 'ÜSTÖKÖS', 'ÜSZÖGÖS', 'ÜTEMJEL', 'ÜTKÖZET', 'ÜTKÖZÉS', 'ÜTKÖZIK', 'ÜTLEGEL', 'ÜTŐDÖTT',
+            'ÜTŐSÚLY', 'ÜTŐSZEG', 'ÜVEGÁRU', 'ÜVEGCSE', 'ÜVEGFAL', 'ÜVEGHÁZ', 'ÜVEGKÁR', 'ÜVEGLAP', 'ÜVEGTÁL', 'ÜVÖLTÉS', 'ÜZELMEK',
+            'ÜZLETEL'
         ]
     },
     'Ű': {
-        '3': [],
+        '3': [
+            'ŰZŐ'
+        ],
         '4': [
             'ŰZÉS'
         ],
         '5': [
-            'ŰZÖTT'
+            'ŰZÖTT', 'ŰRLAP'
         ],
         '6': [
-            'ŰRHAJÓ'
+            'ŰRHAJÓ', 'ŰRRUHA', 'ŰRSÉTA', 'ŰRUTAS'
         ],
         '7': [
-            'ŰRHAJÓS', 'ŰRSIKLÓ'
+            'ŰRBÁZIS', 'ŰRHAJÓS', 'ŰRJÁRMŰ', 'ŰRKABIN', 'ŰRMÉRET', 'ŰRPÁLYA', 'ŰRSIKLÓ'
         ]
     },
     'V': {
         '3': [
-            'VAD', 'VAK', 'VAN', 'VAR', 'VAS', 'VÁD', 'VÁG', 'VÁM', 'VÁR', 'VÁZ', 'VER', 'VET', 'VÉD', 'VÉL', 'VÉN', 'VÉR', 'VÉS', 'VÉT',
-            'VÍV', 'VÍZ', 'VON'
+            'VAD', 'VAJ', 'VAK', 'VAN', 'VAR', 'VAS', 'VÁD', 'VÁG', 'VÁJ', 'VÁM', 'VÁR', 'VÁZ', 'VER', 'VET', 'VÉD', 'VÉG', 'VÉL', 'VÉN',
+            'VÉR', 'VÉS', 'VÉT', 'VÍG', 'VÍV', 'VÍZ', 'VON'
         ],
         '4': [
-            'VAKU', 'VALL', 'VALÓ', 'VARR', 'VÁGY', 'VÁLL', 'VÁLT', 'VÁZA', 'VELE', 'VELŐ', 'VERS', 'VESE', 'VESZ', 'VEVŐ', 'VÉLT', 'VÉNY',
-            'VÉSŐ', 'VÉSZ', 'VITA', 'VÍVÓ', 'VÍZI', 'VOLT', 'VONZ'
+            'VAGY', 'VAKU', 'VALL', 'VALÓ', 'VARR', 'VÁGÓ', 'VÁGY', 'VÁJT', 'VÁLL', 'VÁLT', 'VÁRÓ', 'VÁRT', 'VÁZA', 'VELE', 'VELŐ', 'VERS',
+            'VERT', 'VESE', 'VESZ', 'VEVŐ', 'VÉCÉ', 'VÉDŐ', 'VÉGE', 'VÉKA', 'VÉLT', 'VÉNA', 'VÉNY', 'VÉRT', 'VÉSŐ', 'VÉSZ', 'VÉTÓ', 'VICC',
+            'VISZ', 'VITA', 'VIVŐ', 'VÍVÓ', 'VÍZI', 'VOKS', 'VOLT', 'VONÓ', 'VONZ'
         ],
         '5': [
-            'VACAK', 'VALÓS', 'VARGA', 'VARJÚ', 'VASAL', 'VATTA', 'VÁDOL', 'VÁGÁS', 'VÁLÁS', 'VÁLIK', 'VÁLTÓ', 'VÁMOS', 'VÁSÁR', 'VÁZOL',
-            'VEDEL', 'VEDER', 'VELŐS', 'VERES', 'VERÉB', 'VERÉS', 'VESÉZ', 'VESZT', 'VETÉS', 'VETÍT', 'VEZET', 'VÉDÉS', 'VÉNÜL', 'VÉRES',
-            'VÉSET', 'VÉSÉS', 'VÉTEL', 'VÉZNA', 'VIASZ', 'VIDEÓ', 'VIDRA', 'VIHAR', 'VILÁG', 'VILLA', 'VIRÁG', 'VIRUL', 'VITÁS', 'VIZEL',
-            'VIZES', 'VIZEZ', 'VÍVÁS', 'VÍZUM', 'VONAL', 'VONAT', 'VONZÓ', 'VÖDÖR', 'VÖRÖS'
+            'VACAK', 'VACOG', 'VACOK', 'VADAS', 'VADÍT', 'VADLÓ', 'VADON', 'VADÓC', 'VADŐR', 'VADUL', 'VAGON', 'VAJAS', 'VAJAZ', 'VAJDA',
+            'VAJMI', 'VAJON', 'VAKAR', 'VAKÍT', 'VAKOL', 'VAKON', 'VAKSI', 'VAKUL', 'VALÓS', 'VARAS', 'VARGA', 'VARJÚ', 'VASAL', 'VASAS',
+            'VASMŰ', 'VASÚT', 'VATTA', 'VÁDLI', 'VÁDLÓ', 'VÁDOL', 'VÁGAT', 'VÁGÁS', 'VÁGTA', 'VÁJAT', 'VÁJÁR', 'VÁJÁS', 'VÁLÁS', 'VÁLIK',
+            'VÁLTÓ', 'VÁLYÚ', 'VÁMOL', 'VÁMOS', 'VÁRAT', 'VÁROS', 'VÁRÚR', 'VÁSÁR', 'VÁSIK', 'VÁZOL', 'VEDEL', 'VEDER', 'VEGYI', 'VEKNI',
+            'VELŐS', 'VELÚR', 'VEREM', 'VERES', 'VERET', 'VERÉB', 'VERÉS', 'VESÉS', 'VESÉZ', 'VESZT', 'VETÉL', 'VETÉS', 'VETÍT', 'VEZET',
+            'VEZÉR', 'VEZÍR', 'VÉDÉS', 'VÉGES', 'VÉGEZ', 'VÉGIG', 'VÉGRE', 'VÉGSŐ', 'VÉGÜL', 'VÉNÁS', 'VÉNÜL', 'VÉRBŐ', 'VÉREB', 'VÉRES',
+            'VÉRÉR', 'VÉRZŐ', 'VÉSET', 'VÉSÉS', 'VÉTEK', 'VÉTEL', 'VÉTÉS', 'VÉZNA', 'VIASZ', 'VIDÁM', 'VIDEÓ', 'VIDÉK', 'VIDÍT', 'VIDRA',
+            'VIDUL', 'VIGAD', 'VIGÉC', 'VIHAR', 'VIHOG', 'VILÁG', 'VILLA', 'VIOLA', 'VIRÁG', 'VIRÍT', 'VIRUL', 'VISEL', 'VISÍT', 'VISKÓ',
+            'VITAT', 'VITÁS', 'VITEL', 'VITET', 'VITÉZ', 'VIZEL', 'VIZES', 'VIZEZ', 'VIZIT', 'VÍGAN', 'VÍRUS', 'VÍVÁS', 'VÍZIÓ', 'VÍZKŐ',
+            'VÍZUM', 'VOKÁL', 'VOLÁN', 'VOLNA', 'VONAL', 'VONAT', 'VONÁS', 'VONÍT', 'VONÓS', 'VONUL', 'VONZÓ', 'VÖDÖR', 'VÖLGY', 'VÖRÖS'
         ],
         '6': [
-            'VADÁSZ', 'VAKOND', 'VALLÁS', 'VASALÓ', 'VASTAG', 'VARRÁS', 'VÁLLFA', 'VÁLTÁS', 'VÁNKOS', 'VÁSOTT', 'VÁZLAT', 'VENDÉG',
-            'VERSEL', 'VERSES', 'VESZÍT', 'VESSZŐ', 'VEZETŐ', 'VÉSZES', 'VILLAN', 'VILLÁM', 'VILLÁS', 'VILLOG', 'VIRSLI', 'VISSZA',
-            'VONTAT', 'VONZAT', 'VONZÁS', 'VÖCSÖK', 'VULKÁN'
+            'VADÁSZ', 'VADHÚS', 'VADÍTÓ', 'VADKAN', 'VADMÉH', 'VADMÉZ', 'VADSÁG', 'VAGÁNY', 'VAGDAL', 'VAGINA', 'VAGYIS', 'VAGYON',
+            'VAJBAB', 'VAKARÓ', 'VAKBÉL', 'VAKOND', 'VAKÍTÓ', 'VAKSÁG', 'VALAHA', 'VALAKI', 'VALAMI', 'VALCER', 'VALLAT', 'VALLÁS',
+            'VALÓDI', 'VALUTA', 'VANDÁL', 'VARÁZS', 'VARIÁL', 'VARRAT', 'VARRÁS', 'VASALÓ', 'VASALT', 'VASÁGY', 'VASÁRU', 'VASCSŐ',
+            'VASEKE', 'VASÉRC', 'VASFOG', 'VASKÉZ', 'VASKOR', 'VASKOS', 'VASMAG', 'VASPÁT', 'VASRÚD', 'VASTAG', 'VASÚTI', 'VATTÁS',
+            'VATTÁZ', 'VÁGOTT', 'VÁGÁNY', 'VÁGTAT', 'VÁGYIK', 'VÁJKÁL', 'VÁKUUM', 'VÁLASZ', 'VÁLFAJ', 'VÁLLAL', 'VÁLLAS', 'VÁLLFA',
+            'VÁLÓOK', 'VÁLSÁG', 'VÁLTÁS', 'VÁLTIG', 'VÁLYOG', 'VÁMÁRU', 'VÁMHÁZ', 'VÁMPÍR', 'VÁMÜGY', 'VÁNDOR', 'VÁNKOS', 'VÁRFAL',
+            'VÁRFOK', 'VÁROSI', 'VÁRROM', 'VÁSÁRI', 'VÁSOTT', 'VÁSZON', 'VÁTESZ', 'VÁZLAT', 'VEDLÉS', 'VEDLIK', 'VEGZÁL', 'VEGYES',
+            'VEGYÍT', 'VEGYÜL', 'VEKKER', 'VEKTOR', 'VELEJE', 'VEMHES', 'VENDÉG', 'VERDES', 'VERKLI', 'VERMEL', 'VERMUT', 'VERŐÉR',
+            'VERSEL', 'VERSES', 'VERZIÓ', 'VESEKŐ', 'VESZÍT', 'VESSZŐ', 'VESZTE', 'VETETT', 'VETÉLŐ', 'VEVÉNY', 'VEZETŐ', 'VÉDENC',
+            'VÉDERŐ', 'VÉDETT', 'VÉDNÖK', 'VÉDŐNŐ', 'VÉGBÉL', 'VÉGCÉL', 'VÉGETT', 'VÉGLEG', 'VÉGLET', 'VÉGSZÓ', 'VÉGTAG', 'VÉGVÁR',
+            'VÉGZET', 'VÉGZÉS', 'VÉGZŐS', 'VÉKONY', 'VÉNSÉG', 'VÉRADÓ', 'VÉRBAJ', 'VÉRCSE', 'VÉRDÍJ', 'VÉRHAS', 'VÉRKÉP', 'VÉRKÖR',
+            'VÉRMES', 'VÉRPAD', 'VÉRRÖG', 'VÉRTEZ', 'VÉRZÉS', 'VÉRZIK', 'VÉSETT', 'VÉSNÖK', 'VÉSZES', 'VÉTELI', 'VÉTKES', 'VÉTLEN',
+            'VÉTSÉG', 'VIADAL', 'VIBRÁL', 'VICCEL', 'VICCES', 'VICSOR', 'VIDEÓS', 'VIDÉKI', 'VIDÍTÓ', 'VIGASZ', 'VIGYÁZ', 'VIGYOR',
+            'VIJJOG', 'VIKING', 'VILÁGI', 'VILLAN', 'VILLÁM', 'VILLÁS', 'VILLOG', 'VIPERA', 'VIRRAD', 'VIRSLI', 'VIRTUS', 'VIRULÓ',
+            'VISELŐ', 'VISELT', 'VISONG', 'VISSZA', 'VITRIN', 'VIZSGA', 'VIZSLA', 'VÍGSÁG', 'VÍZÁGY', 'VÍZDÍJ', 'VÍZFEJ', 'VÍZGŐZ',
+            'VÍZILÓ', 'VÍZISÍ', 'VÍZJEL', 'VÍZÓRA', 'VOKSOL', 'VONTAT', 'VONZAT', 'VONZÁS', 'VONYÍT', 'VÖCSÖK', 'VŐFÉLY', 'VULKÁN'
         ],
         '7': [
-            'VACSORA', 'VALÓSÁG', 'VARANGY', 'VARRÓNŐ', 'VASALÁS', 'VÁDLOTT', 'VÁLOGAT', 'VÁLTSÁG', 'VENYIGE', 'VESZTES', 'VETÍTÉS',
-            'VEZETÉS', 'VÉLELEM', 'VIHAROS', 'VILÁGOS', 'VIRÁGOS', 'VIRGÁCS', 'VISZONT', 'VISZONY', 'VITAMIN', 'VITÁZIK', 'VIZELET',
-            'VONALAS', 'VONALAZ', 'VONALZÓ', 'VONTATÓ'
+            'VACAKOL', 'VACOGÁS', 'VACSORA', 'VADALMA', 'VADÍTÉS', 'VADNYOM', 'VADNYÚL', 'VADORZÓ', 'VADULÁS', 'VAGDALT', 'VAJAZÁS',
+            'VAJSZÍN', 'VAJÚDÁS', 'VAJÚDIK', 'VAKARÁS', 'VAKARCS', 'VAKARÉK', 'VAKÁCIÓ', 'VAKCINA', 'VAKFOLT', 'VAKÍRÁS', 'VAKÍTÁS',
+            'VAKKANT', 'VAKMERŐ', 'VAKOLAT', 'VAKOLÁS', 'VAKULÁS', 'VAKUZIK', 'VALAHOL', 'VALLATÓ', 'VALLÁSI', 'VALÓBAN', 'VALÓSÁG',
+            'VANÍLIA', 'VARANGY', 'VARIÁNS', 'VARIETÉ', 'VARKOCS', 'VARRODA', 'VARROTT', 'VARRÓNŐ', 'VARRÓTŰ', 'VARTYOG', 'VASAJTÓ',
+            'VASALÁS', 'VASGYÁR', 'VASIPAR', 'VASKEZŰ', 'VASKOHÓ', 'VASÖKÖL', 'VASÖNTŐ', 'VASPÁNT', 'VASRÁCS', 'VASSZÖG', 'VASTAPS',
+            'VASTÜDŐ', 'VASUTAS', 'VAZELIN', 'VÁDIRAT', 'VÁDLOTT', 'VÁDPONT', 'VÁGÓGÉP', 'VÁGÓHÍD', 'VÁGTÁZÓ', 'VÁJLING', 'VÁLADÉK',
+            'VÁLASZT', 'VÁLOGAT', 'VÁLÓPER', 'VÁLTOZÓ', 'VÁLTSÁG', 'VÁRÁROK', 'VÁRHATÓ', 'VÁRHEGY', 'VÁRKAPU', 'VÁROSKA', 'VÁSÁRLÓ',
+            'VÁSÁROL', 'VEDELÉS', 'VEGETÁL', 'VEGYÉSZ', 'VEGYJEL', 'VEGYTAN', 'VELÁRIS', 'VELEJÁR', 'VELŐSEN', 'VENYIGE', 'VERANDA',
+            'VERDIKT', 'VEREGET', 'VERESÉG', 'VERETES', 'VERÍTÉK', 'VERKLIS', 'VERKLIZ', 'VERŐDIK', 'VERSENG', 'VERSENY', 'VERSLÁB',
+            'VERSPÁR', 'VERSSOR', 'VERSTAN', 'VESEBAJ', 'VESZÉLY', 'VESZETT', 'VESZTEG', 'VESZTES', 'VESZTÉS', 'VETERÁN', 'VETÉLÉS',
+            'VETÍTÉS', 'VETŐDÉS', 'VETŐDIK', 'VETŐGÉP', 'VETŐMAG', 'VETÜLET', 'VEVŐKÖR', 'VEZEKEL', 'VEZEKLŐ', 'VEZETÉK', 'VEZETÉS',
+            'VEZETŐI', 'VEZÉRÁG', 'VEZÉREL', 'VEZÉRLŐ', 'VEZÉRMŰ', 'VÉDELEM', 'VÉDELMI', 'VÉDJEGY', 'VÉDŐFAL', 'VÉDŐGÁT', 'VÉGEZET',
+            'VÉGIGÉL', 'VÉGIGÉR', 'VÉGIGÜL', 'VÉGKÉPP', 'VÉGPONT', 'VÉGTÉRE', 'VÉGZETT', 'VÉLELEM', 'VÉNLÁNY', 'VÉRADÁS', 'VÉRÁRAM',
+            'VÉRBANK', 'VÉRBELI', 'VÉRESEN', 'VÉRFOLT', 'VÉRNYOM', 'VÉRSAVÓ', 'VÉRSÉGI', 'VÉRSEJT', 'VÉRSZEM', 'VÉRTANÚ', 'VÉRTEST',
+            'VÉSŐDIK', 'VÉSZFÉK', 'VÉSZJEL', 'VÉTELÁR', 'VÉTELEZ', 'VÉTÓJOG', 'VIADUKT', 'VIASZOS', 'VIASZOZ', 'VICCLAP', 'VIDÍTÁS',
+            'VIDULÁS', 'VIGYÁZZ', 'VIGYORI', 'VIHAROS', 'VIHOGÁS', 'VIKUNYA', 'VILÁGFI', 'VILÁGÍT', 'VILÁGOS', 'VILÁGŰR', 'VILLANY',
+            'VILLONG', 'VINNYOG', 'VIRÁGOS', 'VIRÁGZÓ', 'VIRGÁCS', 'VIRGONC', 'VIRÍTÁS', 'VIRRADÓ', 'VIRTUÓZ', 'VIRULÁS', 'VISELET',
+            'VISELÉS', 'VISELŐS', 'VISÍTÁS', 'VISZÁLY', 'VISZKET', 'VISZKÓZ', 'VISZLÁT', 'VISZONT', 'VISZONY', 'VISSZÁS', 'VISSZÉR',
+            'VITAMIN', 'VITATÁS', 'VITÁZÁS', 'VITÁZIK', 'VITORLA', 'VITRIOL', 'VIZELDE', 'VIZELET', 'VIZELÉS', 'VIZENYŐ', 'VIZIGÓT',
+            'VIZITEL', 'VIZSGÁL', 'VIZSLAT', 'VÍRUSOS', 'VÍVMÁNY', 'VÍVÓDÁS', 'VÍVÓDIK', 'VÍVÓTŐR', 'VÍZÁGYÚ', 'VÍZÁLLÓ', 'VÍZCSAP',
+            'VÍZESÉS', 'VÍZFEJŰ', 'VÍZFOGÓ', 'VÍZIPÓK', 'VÍZKAPU', 'VÍZKÖPŐ', 'VÍZKÚRA', 'VÍZÖNTŐ', 'VÍZÖZÖN', 'VÍZPÁRA', 'VÍZRAJZ',
+            'VOKÁLIS', 'VOLUMEN', 'VONALAS', 'VONALAZ', 'VONALKA', 'VONALZÓ', 'VONÍTÁS', 'VONOGAT', 'VONÓERŐ', 'VONSZOL', 'VONTATÓ',
+            'VONULAT', 'VONULÁS', 'VONZERŐ', 'VÖLGYES', 'VÖRHENY', 'VÖRÖSEN', 'VÖRÖSLŐ', 'VULKÁNI', 'VURSTLI'
         ]
     },
     'Z': {
         '3': [
-            'ZAB', 'ZÁP', 'ZÁR', 'ZÚG', 'ZÚZ', 'ZŰR'
+            'ZAB', 'ZAJ', 'ZÁP', 'ZÁR', 'ZÖM', 'ZRÍ', 'ZUG', 'ZÚG', 'ZÚZ', 'ZŰR'
         ],
         '4': [
-            'ZAGY', 'ZÁRT', 'ZEKE', 'ZENE', 'ZENG', 'ZÖLD', 'ZÚGÓ', 'ZÚZA', 'ZSÁK', 'ZSEB', 'ZSÍR', 'ZÚZA'
+            'ZABA', 'ZACC', 'ZACI', 'ZAFT', 'ZAGY', 'ZAKÓ', 'ZÁRÓ', 'ZÁRT', 'ZEBU', 'ZEKE', 'ZENE', 'ZENG', 'ZÉRÓ', 'ZORD', 'ZÓNA', 'ZÖLD',
+            'ZUHÉ', 'ZÚGÓ', 'ZÚZA', 'ZÚZÓ', 'ZSÁK', 'ZSEB', 'ZSÍR', 'ZSÚP', 'ZSÚR'
         ],
         '5': [
-            'ZABÁL', 'ZABOS', 'ZAFÍR', 'ZAVAR', 'ZÁPOR', 'ZÁRVA', 'ZENÉL', 'ZENÉS', 'ZENGŐ', 'ZOKNI', 'ZÖRÖG', 'ZSEPI', 'ZUBOG', 'ZUHAN',
-            'ZUTTY', 'ZÚGÁS', 'ZŰRÖS', 'ZSENI'
+            'ZABÁL', 'ZABLA', 'ZABOS', 'ZAFÍR', 'ZAJLÓ', 'ZAJOS', 'ZAMAT', 'ZANZA', 'ZAVAR', 'ZÁLOG', 'ZÁPOR', 'ZÁRAS', 'ZÁRÁS', 'ZÁRDA',
+            'ZÁRKA', 'ZÁROL', 'ZÁROS', 'ZÁRUL', 'ZÁRVA', 'ZÁVÁR', 'ZEBRA', 'ZEFÍR', 'ZENEI', 'ZENÉL', 'ZENÉS', 'ZENGŐ', 'ZENIT', 'ZERGE',
+            'ZÉRUS', 'ZIHÁL', 'ZILÁL', 'ZIZEG', 'ZOKNI', 'ZOKOG', 'ZOKON', 'ZÖMÖK', 'ZÖNGE', 'ZÖREJ', 'ZÖRÖG', 'ZUBOG', 'ZÚDÍT', 'ZÚDUL',
+            'ZSEPI', 'ZUBOG', 'ZUHAN', 'ZUHOG', 'ZUTTY', 'ZUZMÓ', 'ZÚGÁS', 'ZÚZÁS', 'ZÚZDA', 'ZŰRÖS', 'ZSABÓ', 'ZSALU', 'ZSARU', 'ZSÁBA',
+            'ZSELÉ', 'ZSENI', 'ZSIDÓ', 'ZSOKÉ', 'ZSOLD', 'ZSONG', 'ZSUGA', 'ZSŰRI'
         ],
         '6': [
-            'ZAVARÓ', 'ZENDÜL', 'ZÖLDES', 'ZSANÉR', 'ZSÁKOL', 'ZSÁKOS', 'ZSEBEL', 'ZSEBES', 'ZSEMLE', 'ZSENGE', 'ZSINEG', 'ZSINÓR',
-            'ZSÍROS', 'ZSÖMLE', 'ZUHANY'
+            'ZABRÁL', 'ZACSKÓ', 'ZAFTOS', 'ZAGYVA', 'ZAJLÁS', 'ZAJLIK', 'ZAJONG', 'ZAKLAT', 'ZAVARÓ', 'ZAVART', 'ZÁPFOG', 'ZÁRLAT',
+            'ZÁROLT', 'ZÁRÓÁR', 'ZÁRÓDÓ', 'ZÁRÓKŐ', 'ZÁRÓRA', 'ZÁRSZÓ', 'ZÁSZLÓ', 'ZÁTONY', 'ZEGZUG', 'ZELLER', 'ZENDÜL', 'ZENEMŰ',
+            'ZENÉSZ', 'ZENGÉS', 'ZICCER', 'ZILÁLT', 'ZIPZÁR', 'ZOKNIS', 'ZOKSZÓ', 'ZOMÁNC', 'ZÓNÁZÓ', 'ZÖKKEN', 'ZÖLDÁG', 'ZÖLDES',
+            'ZÖLDÜL', 'ZÖNGÉS', 'ZÖRDÜL', 'ZÖRGET', 'ZÖRGÉS', 'ZÖRREN', 'ZÖTYÖG', 'ZUGIVÓ', 'ZUGÍRÓ', 'ZUHANY', 'ZUHOGÓ', 'ZÚZOTT',
+            'ZÚZÓMŰ', 'ZÜLLÉS', 'ZÜLLIK', 'ZÜMMÖG', 'ZSALUZ', 'ZSANÉR', 'ZSAROL', 'ZSÁKOL', 'ZSÁKOS', 'ZSÁNER', 'ZSÁZSA', 'ZSEBEL',
+            'ZSEBES', 'ZSELÉS', 'ZSEMLE', 'ZSENGE', 'ZSERBÓ', 'ZSETON', 'ZSIGER', 'ZSILIP', 'ZSINAT', 'ZSINEG', 'ZSINÓR', 'ZSIRÁF',
+            'ZSIVAJ', 'ZSÍROS', 'ZSÍROZ', 'ZSOZSÓ', 'ZSÖMLE', 'ZSUPSZ', 'ZSURLÓ', 'ZSÚFOL', 'ZSŰRIZ'
         ],
         '7': [
-            'ZAKKANT', 'ZAVARÁS', 'ZÁPOROS', 'ZIVATAR', 'ZÖLDELL', 'ZÖLDSÉG', 'ZSENDÜL', 'ZUHATAG', 'ZSIBBAD'
+            'ZABÁLÁS', 'ZABDARA', 'ZABKÁSA', 'ZABOLÁZ', 'ZABSZEM', 'ZACSKÓS', 'ZACSKÓZ', 'ZAGYVÁL', 'ZAJONGÓ', 'ZAKATOL', 'ZAKKANT',
+            'ZAMATOS', 'ZAVARÁS', 'ZAVATGÓ', 'ZAVAROG', 'ZAVAROS', 'ZÁPOROS', 'ZÁPOROZ', 'ZÁRADÉK', 'ZÁRHANG', 'ZÁRJEGY', 'ZÁROLÁS',
+            'ZÁRÓDÁS', 'ZÁRÓDIK', 'ZÁRÓJEL', 'ZÁRÓTŰZ', 'ZÁRULÁS', 'ZÁRVÁNY', 'ZÁSZLÓS', 'ZENDÜLŐ', 'ZENEGÉP', 'ZENEKAR', 'ZENEÓRA',
+            'ZENESZÓ', 'ZIHÁLÁS', 'ZILÁLÁS', 'ZIMANKÓ', 'ZIPPZÁR', 'ZIVATAR', 'ZIZEGÉS', 'ZOKOGÁS', 'ZONGORA', 'ZÓNAIDŐ', 'ZÖKKENŐ',
+            'ZÖLDBAB', 'ZÖLDELL', 'ZÖLDIKE', 'ZÖLDSÉG', 'ZUBBONY', 'ZUBOGÁS', 'ZUGÁRUS', 'ZUGPIAC', 'ZUHANÁS', 'ZUHATAG', 'ZUHOGÁS',
+            'ZÚDÍTÁS', 'ZÚDULÁS', 'ZÚZALÉK', 'ZÚZMARA', 'ZÚZÓDÁS', 'ZÚZÓDIK', 'ZÚZÓGÉP', 'ZÜLLÖTT', 'ZÜMMÖGŐ', 'ZSAKETT', 'ZSANDÁR',
+            'ZSARGON', 'ZSARNOK', 'ZSAROLÓ', 'ZSÁKNYI', 'ZSÁMOLY', 'ZSEBKÉS', 'ZSEBÓRA', 'ZSELLÉR', 'ZSENDÜL', 'ZSÉMBEL', 'ZSÉMBES',
+            'ZSIBÁRU', 'ZSIBBAD', 'ZSIBONG', 'ZSIGERI', 'ZSIVÁNY', 'ZSIZSIK', 'ZSÍRSAV', 'ZSOLDOS', 'ZSOLTÁR', 'ZSOMBÉK', 'ZSONGÁS',
+            'ZSONGÍT', 'ZSÖLLYE', 'ZSUGORI', 'ZSUPPOL', 'ZSÚFOLT'
         ]
     }
 };
