@@ -305,8 +305,8 @@ export const wordsHun: Words = {
             'DÖGKÚT', 'DÖGLIK', 'DÖMPER', 'DÖNGET', 'DÖNGÖL', 'DÖNTÉS', 'DÖNGÉS', 'DÖRDÜL', 'DÖRGÉS', 'DÖRGÖL', 'DÖRMÖG', 'DÖRREN',
             'DŐZSÖL', 'DRAZSÉ', 'DRÁGÍT', 'DRÁGUL', 'DRÁMAI', 'DROGOS', 'DRÓTOZ', 'DRUIDA', 'DRUSZA', 'DUÁLIS', 'DUBLŐR', 'DUDVÁS',
             'DUGASZ', 'DUGDOS', 'DUNYHA', 'DUNSZT', 'DUNYHA', 'DUPLÁN', 'DUPLÁZ', 'DURCÁS', 'DURMOL', 'DURRAN', 'DURROG', 'DURVÁN',
-            'DURVÍT', 'DURVUL', 'DUZZAD', 'DUZZOG', 'DÚSKÁL', 'DÜFTIN', 'DÜHÖDT', 'DÜHÖNG', 'DÜRRÖG', 'DŰLŐÚT', 'DZSÁMI', 'DZSEKI',
-            'DZSIDA'
+            'DURVÍT', 'DURVUL', 'DUZZAD', 'DUZZOG', 'DÚSKÁL', 'DÜFTIN', 'DÜHÖDT', 'DÜHÖNG', 'DÜRGÉS', 'DÜRRÖG', 'DŰLŐÚT', 'DZSÁMI',
+            'DZSEKI', 'DZSIDA'
         ],
         '7': [
             'DADOGÁS', 'DAGADÁS', 'DAGANAT', 'DAGASZT', 'DAGONYA', 'DAKSZLI', 'DALÁRDA', 'DALMATA', 'DALOLÁS', 'DARABÁR', 'DARABKA',
@@ -1045,22 +1045,22 @@ export const wordsHun: Words = {
             'MÚLT', 'MŰTŐ', 'MŰÚT', 'MŰVI'
         ],
         '5': [
-            'MACKÓ', 'MACSÓ', 'MADÁR', 'MAFLA', 'MAGAS', 'MAGÁZ', 'MAGMA', 'MAGNÓ', 'MAGOL', 'MAGUK', 'MAJOM', 'MAJOR', 'MAKOG', 'MAKRÓ',
-            'MALAC', 'MALOM', 'MALŐR', 'MAMBA', 'MAMBÓ', 'MAMUT', 'MANCS', 'MANGÓ', 'MANKÓ', 'MANNA', 'MAPPA', 'MARAD', 'MARAT', 'MARÁS',
-            'MARÉK', 'MARGÓ', 'MARHA', 'MAROK', 'MASNI', 'MASZK', 'MATAT', 'MATEK', 'MATYÓ', 'MÁGIA', 'MÁGUS', 'MÁJAS', 'MÁJUS', 'MÁKOS',
-            'MÁLHA', 'MÁLNA', 'MÁMOR', 'MÁNIA', 'MÁRGA', 'MÁRIS', 'MÁRKA', 'MÁRKI', 'MÁRNA', 'MÁSIK', 'MÁSOK', 'MÁSOL', 'MÁTKA', 'MÁZAS',
-            'MÁZAZ', 'MÁZLI', 'MÁZOL', 'MÁZSA', 'MECCS', 'MEDÁL', 'MEDDŐ', 'MEDER', 'MEDVE', 'MEGAD', 'MEGÁS', 'MEGÉG', 'MEGÉL', 'MEGÉR',
-            'MEGFŐ', 'MEGGY', 'MEGÍR', 'MEGLŐ', 'MEGNŐ', 'MEGÓV', 'MEGÖL', 'MEGRÓ', 'MEGUN', 'MEGÜL', 'MEGÜT', 'MEGYE', 'MEKEG', 'MELÁK',
-            'MELEG', 'MELLÉ', 'MELÓS', 'MENÁD', 'MENET', 'MENÉS', 'MENNY', 'MENTA', 'MENTE', 'MENTŐ', 'MENZA', 'MERED', 'MEREV', 'MERÍT',
-            'MERRE', 'MERSZ', 'MERÜL', 'MESÉL', 'MESÉS', 'METÁN', 'METÉL', 'METRÓ', 'METSZ', 'MEZEI', 'MÉDIA', 'MÉGIS', 'MÉGSE', 'MÉHES',
-            'MÉLÁZ', 'MÉLTÓ', 'MÉNES', 'MÉNKŰ', 'MÉRCE', 'MÉREG', 'MÉRET', 'MÉRÉS', 'MÉTER', 'MÉZES', 'MÉZEZ', 'MÉZGA', 'MIATT', 'MINTA',
-            'MIDŐN', 'MIENK', 'MIÉNK', 'MIÉRT', 'MIKOR', 'MIKRÓ', 'MINAP', 'MINEK', 'MINÉL', 'MINTA', 'MIÓMA', 'MIÓTA', 'MIRHA', 'MIVEL',
-            'MIXER', 'MILIŐ', 'MÍDER', 'MÍMEL', 'MÍVES', 'MOBIL', 'MODEM', 'MODOR', 'MODUL', 'MOGUL', 'MOHÁS', 'MOHOS', 'MOHÓN', 'MOKKA',
-            'MONÁD', 'MONDA', 'MOPED', 'MORAJ', 'MORÁL', 'MOROG', 'MORVA', 'MORZE', 'MOSAT', 'MOSÁS', 'MOSDÓ', 'MOTEL', 'MOTOR', 'MOTOZ',
-            'MOTTÓ', 'MOTYÓ', 'MOZGÓ', 'MOZOG', 'MÓDOS', 'MÓKÁS', 'MÓKUS', 'MÓRES', 'MÖGÜL', 'MUFTI', 'MULAT', 'MULTI', 'MULYA', 'MUMUS',
-            'MUNGÓ', 'MUNKA', 'MURCI', 'MURIS', 'MURVA', 'MUTAT', 'MUTÁL', 'MUTYI', 'MÚLÁS', 'MÚLIK', 'MÚLVA', 'MÚMIA', 'MÚZSA', 'MÜZLI',
-            'MŰBŐR', 'MŰDAL', 'MŰFAJ', 'MŰFOG', 'MŰJÉG', 'MŰLÁB', 'MŰNEM', 'MŰSOR', 'MŰTÉT', 'MŰTŐS', 'MŰSZÓ', 'MŰTÉT', 'MŰTŐS', 'MŰVEK',
-            'MŰVEL'
+            'MACKÓ', 'MACSÓ', 'MADÁR', 'MAFLA', 'MAGAS', 'MAGÁZ', 'MAGMA', 'MAGNÓ', 'MAGOL', 'MAGOS', 'MAGUK', 'MAJOM', 'MAJOR', 'MAKOG',
+            'MAKRÓ', 'MALAC', 'MALOM', 'MALŐR', 'MAMBA', 'MAMBÓ', 'MAMUT', 'MANCS', 'MANGÓ', 'MANKÓ', 'MANNA', 'MAPPA', 'MARAD', 'MARAT',
+            'MARÁS', 'MARÉK', 'MARGÓ', 'MARHA', 'MAROK', 'MASNI', 'MASZK', 'MATAT', 'MATEK', 'MATYÓ', 'MÁGIA', 'MÁGUS', 'MÁJAS', 'MÁJUS',
+            'MÁKOS', 'MÁLHA', 'MÁLNA', 'MÁMOR', 'MÁNIA', 'MÁRGA', 'MÁRIS', 'MÁRKA', 'MÁRKI', 'MÁRNA', 'MÁSIK', 'MÁSOK', 'MÁSOL', 'MÁTKA',
+            'MÁZAS', 'MÁZAZ', 'MÁZLI', 'MÁZOL', 'MÁZSA', 'MECCS', 'MEDÁL', 'MEDDŐ', 'MEDER', 'MEDVE', 'MEGAD', 'MEGÁS', 'MEGÉG', 'MEGÉL',
+            'MEGÉR', 'MEGFŐ', 'MEGGY', 'MEGÍR', 'MEGLŐ', 'MEGNŐ', 'MEGÓV', 'MEGÖL', 'MEGRÓ', 'MEGUN', 'MEGÜL', 'MEGÜT', 'MEGYE', 'MEKEG',
+            'MELÁK', 'MELEG', 'MELLÉ', 'MELÓS', 'MENÁD', 'MENET', 'MENÉS', 'MENNY', 'MENTA', 'MENTE', 'MENTŐ', 'MENZA', 'MERED', 'MEREV',
+            'MERÍT', 'MERRE', 'MERSZ', 'MERÜL', 'MESÉL', 'MESÉS', 'METÁN', 'METÉL', 'METRÓ', 'METSZ', 'MEZEI', 'MÉDIA', 'MÉGIS', 'MÉGSE',
+            'MÉHES', 'MÉLÁZ', 'MÉLTÓ', 'MÉNES', 'MÉNKŰ', 'MÉRCE', 'MÉREG', 'MÉRET', 'MÉRÉS', 'MÉTER', 'MÉZES', 'MÉZEZ', 'MÉZGA', 'MIATT',
+            'MINTA', 'MIDŐN', 'MIENK', 'MIÉNK', 'MIÉRT', 'MIKOR', 'MIKRÓ', 'MINAP', 'MINEK', 'MINÉL', 'MINTA', 'MIÓMA', 'MIÓTA', 'MIRHA',
+            'MIVEL', 'MIXER', 'MILIŐ', 'MÍDER', 'MÍMEL', 'MÍVES', 'MOBIL', 'MODEM', 'MODOR', 'MODUL', 'MOGUL', 'MOHÁS', 'MOHOS', 'MOHÓN',
+            'MOKKA', 'MONÁD', 'MONDA', 'MOPED', 'MORAJ', 'MORÁL', 'MOROG', 'MORVA', 'MORZE', 'MOSAT', 'MOSÁS', 'MOSDÓ', 'MOTEL', 'MOTOR',
+            'MOTOZ', 'MOTTÓ', 'MOTYÓ', 'MOZGÓ', 'MOZOG', 'MÓDOS', 'MÓKÁS', 'MÓKUS', 'MÓRES', 'MÖGÜL', 'MUFTI', 'MULAT', 'MULTI', 'MULYA',
+            'MUMUS', 'MUNGÓ', 'MUNKA', 'MURCI', 'MURIS', 'MURVA', 'MUTAT', 'MUTÁL', 'MUTYI', 'MÚLÁS', 'MÚLIK', 'MÚLVA', 'MÚMIA', 'MÚZSA',
+            'MÜZLI', 'MŰBŐR', 'MŰDAL', 'MŰFAJ', 'MŰFOG', 'MŰJÉG', 'MŰLÁB', 'MŰNEM', 'MŰSOR', 'MŰTÉT', 'MŰTŐS', 'MŰSZÓ', 'MŰTÉT', 'MŰTŐS',
+            'MŰVEK', 'MŰVEL'
         ],
         '6': [
             'MACESZ', 'MACKÓS', 'MACSKA', 'MADZAG', 'MAFFIA', 'MAGÁNY', 'MAGHÁZ', 'MAGMÁS', 'MAGTÁR', 'MAGVAS', 'MAGVAZ', 'MAGZAT',
