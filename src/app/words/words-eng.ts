@@ -159,23 +159,107 @@ export const wordsEng: Words = {
     },
     'C': {
         '3': [
-            'CAB', 'CAN', 'CAR', 'CAT', 'CRY', 'CUT'
+            'CAB', 'CAD', 'CAM', 'CAN', 'CAP', 'CAR', 'CAT', 'CAW', 'CEP', 'COB', 'COD', 'COG', 'CON', 'COO', 'COP', 'COT', 'COW', 'COX',
+            'COY', 'CRY', 'CUB', 'CUD', 'CUE', 'CUP', 'CUR', 'CUT'
         ],
         '4': [
-            'CALM', 'CAMP', 'CARD', 'CARE', 'CARP', 'CART', 'CASE', 'CAST', 'CLAN', 'CHEW', 'CHIN', 'CHOP', 'CODE', 'COKE', 'COOK', 'CORE',
-            'COST', 'CRAM', 'CREW', 'CUTE'
+            'CAFE', 'CAGE', 'CAKE', 'CALF', 'CALL', 'CALM', 'CAMP', 'CANE', 'CANT', 'CAPE', 'CARD', 'CARE', 'CARP', 'CART', 'CASE', 'CASH',
+            'CASK', 'CAST', 'CAVE', 'CEDE', 'CELL', 'CENT', 'CERT', 'CLAN', 'CHAP', 'CHAR', 'CHAT', 'CHEF', 'CHEW', 'CHIC', 'CHIN', 'CHIP',
+            'CHIT', 'CHOC', 'CHOP', 'CHOW', 'CHUG', 'CHUM', 'CIAO', 'CITE', 'CITY', 'CLAD', 'CLAM', 'CLAN', 'CLAP', 'CLAW', 'CLAY', 'CLEF',
+            'CLIP', 'CLOD', 'CLOG', 'CLOP', 'CLOT', 'CLOY', 'CLUB', 'CLUE', 'COAL', 'COAT', 'COAX', 'COCA', 'COCK', 'CODA', 'CODE', 'COIF',
+            'COIL', 'COIN', 'COKE', 'COLD', 'COLE', 'COLT', 'COMA', 'COMB', 'COME', 'CONE', 'CONK', 'CONY', 'COOK', 'COOL', 'COON', 'COOP',
+            'COOT', 'COPE', 'COPY', 'CORD', 'CORE', 'CORK', 'CORM', 'CORN', 'COSH', 'COST', 'COSY', 'COUP', 'COVE', 'COWL', 'COZY', 'CRAB',
+            'CRAG', 'CRAM', 'CRAP', 'CRAW', 'CRED', 'CREW', 'CRIB', 'CROP', 'CROW', 'CRUD', 'CRUX', 'CUBE', 'CUFF', 'CULL', 'CULT', 'CURB',
+            'CURD', 'CURE', 'CURL', 'CUSP', 'CUSS', 'CUTE', 'CYAN', 'CYST', 'CZAR'
         ],
         '5': [
-            'CANDY', 'CARGO', 'CARRY', 'CATCH', 'CHAIN', 'CHART', 'CHECK', 'CHICK', 'CHIEF', 'CHILD', 'CLASS', 'CLAIM', 'CLEAN', 'CLEAR',
-            'CLOAK', 'CLOCK', 'CLOSE', 'CLOUD', 'COLOR', 'COAST', 'COUGH', 'COVER', 'CRACK', 'CRAFT', 'CRAMP', 'CREAM', 'CROSS', 'CURSE'
+            'CABBY', 'CABIN', 'CABLE', 'CACAO', 'CACHE', 'CADDY', 'CADET', 'CADGE', 'CADRE', 'CAGEY', 'CALVE', 'CALYX', 'CAMEL', 'CAMEO',
+            'CANAL', 'CANDY', 'CANNY', 'CANOE', 'CANON', 'CANTO', 'CAPER', 'CAPON', 'CARAT', 'CARDS', 'CARER', 'CARET', 'CARGO', 'CAROB',
+            'CAROL', 'CAROM', 'CARRY', 'CARVE', 'CASTE', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CAVER', 'CAVIL', 'CEASE', 'CECUM',
+            'CEDAR', 'CELLO', 'CENSE', 'CHAFE', 'CHAFF', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 'CHARM', 'CHART',
+            'CHARY', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEEP', 'CHEER', 'CHESS', 'CHEST', 'CHEWY', 'CHICK', 'CHIDE',
+            'CHIEF', 'CHILD', 'CHILI', 'CHILL', 'CHIME', 'CHIMP', 'CHINA', 'CHINE', 'CHINK', 'CHIPS', 'CHIRP', 'CHIVE', 'CHIVY', 'CHOCK',
+            'CHOIR', 'CHOKE', 'CHOKY', 'CHOPS', 'CHORD', 'CHORE', 'CHUCK', 'CHUMP', 'CHUNK', 'CHURL', 'CHURN', 'CHUTE', 'CIDER', 'CIGAR',
+            'CINCH', 'CIRCA', 'CISSY', 'CIVET', 'CIVIC', 'CIVIL', 'CLACK', 'CLAIM', 'CLAMP', 'CLANG', 'CLANK', 'CLASH', 'CLASP', 'CLASS',
+            'CLEAN', 'CLEAR', 'CLEAT', 'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 'CLIME', 'CLINE', 'CLING', 'CLINK', 'CLOAK', 'CLOCK',
+            'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOUT', 'CLOVE', 'CLOWN', 'CLUBS', 'CLUCK', 'CLUMP', 'COACH', 'COAST', 'COBRA', 'COCKY',
+            'COCOA', 'CODED', 'CODEX', 'COLIC', 'COLON', 'COLOR', 'COMBO', 'COMER', 'COMET', 'COMFY', 'COMIC', 'COMMA', 'CONCH', 'CONDO',
+            'CONEY', 'CONGA', 'CONIC', 'COPSE', 'CORAL', 'CORDS', 'CORER', 'CORGI', 'CORNY', 'CORPS', 'COSTS', 'COUCH', 'COUGH', 'COULD',
+            'COUNT', 'COUPE', 'COURT', 'COVER', 'COVET', 'COWER', 'COYPU', 'CRACK', 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRAPE', 'CRASH',
+            'CRASS', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREED', 'CREEK', 'CREEL', 'CREEP', 'CREME',
+            'CREPE', 'CRESS', 'CREST', 'CRICK', 'CRIER', 'CRIME', 'CRISP', 'CROAK', 'CROCK', 'CROFT', 'CRONE', 'CRONY', 'CROOK', 'CROON',
+            'CROSS', 'CROUP', 'CROWD', 'CROWN', 'CRUDE', 'CRUEL', 'CRUET', 'CRUMB', 'CRUSE', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUFFS',
+            'CUMIN', 'CURIO', 'CURLY', 'CURRY', 'CURSE', 'CURVE', 'CURVY', 'CUSHY', 'CUTIE', 'CUTUP', 'CYBER', 'CYCLE', 'CYDER', 'CYNIC'
         ],
         '6': [
-            'CARROT', 'CATCHY', 'CHANGE', 'CHARGE', 'CLEVER', 'CLIENT', 'CLOUDY', 'CLOSED', 'COLOUR', 'COLUMN', 'COMMON', 'COOKIE',
-            'COSTLY', 'COUGAR', 'COUPLE', 'COURSE', 'CRAMPS', 'CREATE', 'CRINGE', 'CRINGY', 'CURSED'
+            'CABMAN', 'CACKLE', 'CACTUS', 'CADDIE', 'CADGER', 'CAFTAN', 'CAJOLE', 'CALICO', 'CALIPH', 'CALLER', 'CALLOW', 'CAMERA',
+            'CAMPER', 'CAMPUS', 'CANAPE', 'CANARD', 'CANARY', 'CANCAN', 'CANCEL', 'CANCER', 'CANDID', 'CANDLE', 'CANINE', 'CANKER',
+            'CANNED', 'CANNON', 'CANNOT', 'CANOLA', 'CANOPY', 'CANTER', 'CANTON', 'CANTOR', 'CANVAS', 'CANYON', 'CAPTOR', 'CARAFE',
+            'CARBON', 'CARDER', 'CAREEN', 'CAREER', 'CARESS', 'CARIES', 'CARNAL', 'CARNEY', 'CARPET', 'CARREL', 'CARROT', 'CARTEL',
+            'CARTER', 'CARTON', 'CARVER', 'CASHEW', 'CASING', 'CASINO', 'CASKET', 'CASTER', 'CASTLE', 'CASTOR', 'CASUAL', 'CATCHY',
+            'CATKIN', 'CATNAP', 'CATTLE', 'CAUCUS', 'CAUDAL', 'CAUSAL', 'CAVEAT', 'CAVERN', 'CAVIAR', 'CAVITY', 'CAVORT', 'CELERY',
+            'CELLAR', 'CEMENT', 'CENSER', 'CENSOR', 'CENSUS', 'CENTER', 'CENTRE', 'CEREAL', 'CERISE', 'CERVIX', 'CHAISE', 'CHALET',
+            'CHALKY', 'CHANCE', 'CHANCY', 'CHANGE', 'CHANTY', 'CHAPEL', 'CHARGE', 'CHARTS', 'CHASER', 'CHASSE', 'CHASTE', 'CHATTY',
+            'CHEAPO', 'CHEEKY', 'CHEERS', 'CHEERY', 'CHEESE', 'CHEESY', 'CHEQUE', 'CHERRY', 'CHERUB', 'CHICHI', 'CHILLI', 'CHILLY',
+            'CHINCH', 'CHIPPY', 'CHIRPY', 'CHISEL', 'CHIVVY', 'CHOICE', 'CHOKED', 'CHOKER', 'CHOLER', 'CHOOSE', 'CHOOSY', 'CHORAL',
+            'CHORUS', 'CHOSEN', 'CHROME', 'CHUBBY', 'CHUMMY', 'CHUNKY', 'CHURCH', 'CICADA', 'CINDER', 'CINEMA', 'CIPHER', 'CIRCLE',
+            'CIRCUS', 'CITRON', 'CITRUS', 'CIVICS', 'CLAMMY', 'CLARET', 'CLASSY', 'CLAUSE', 'CLAYEY', 'CLEAVE', 'CLENCH', 'CLERGY',
+            'CLERIC', 'CLEVER', 'CLICHE', 'CLIENT', 'CLIMAX', 'CLINCH', 'CLINIC', 'CLIQUE', 'CLOSED', 'CLOUDY', 'CLOSED', 'CLOSET',
+            'CLOTHE', 'CLOUDY', 'CLOVER', 'CLUMSY', 'CLUTCH', 'COARSE', 'COATED', 'COBALT', 'COBBLE', 'COBWEB', 'COCKLE', 'COCOON',
+            'CODDLE', 'CODIFY', 'CODING', 'COERCE', 'COEVAL', 'COFFEE', 'COFFER', 'COFFIN', 'COGENT', 'COGNAC', 'COHERE', 'COHORT',
+            'COLOUR', 'COLUMN', 'COINER', 'COITUS', 'COLLAR', 'COLLIE', 'COLONY', 'COMBAT', 'COMBER', 'COMEDY', 'COMELY', 'COMICS',
+            'COMING', 'COMITY', 'COMMIT', 'COMMON', 'COMPLY', 'CONCHA', 'CONCUR', 'CONDOM', 'CONDOR', 'CONFER', 'CONKER', 'CONSUL',
+            'CONVEX', 'CONVEY', 'CONVOY', 'COOKED', 'COOKER', 'COOKIE', 'COOLER', 'COOLIE', 'COOPER', 'COPIER', 'COPPER', 'COPULA',
+            'COQUET', 'CORBEL', 'CORDON', 'CORKED', 'CORKER', 'CORNEA', 'CORNED', 'CORNEL', 'CORNER', 'CORNET', 'CORONA', 'CORPSE',
+            'CORPUS', 'CORRAL', 'CORSET', 'CORTEX', 'COSILY', 'COSINE', 'COSMIC', 'COSMOS', 'COSSET', 'COSTLY', 'COTTON', 'COUGAR',
+            'COSTLY', 'COUGAR', 'COUNTY', 'COUPLE', 'COUPON', 'COURSE', 'COUSIN', 'COVERT', 'COWARD', 'COWBOY', 'COWMAN', 'COWPAT',
+            'COWPOX', 'COWRIE', 'COYOTE', 'CRABBY', 'CRADLE', 'CRAFTY', 'CRAGGY', 'CRAMPS', 'CRANKY', 'CRANNY', 'CRAPPY', 'CRATER',
+            'CRAVAT', 'CRAVEN', 'CRAYON', 'CRAZED', 'CREAKY', 'CREAMY', 'CREASE', 'CREATE', 'CRECHE', 'CREDIT', 'CREEPS', 'CREEPY',
+            'CREOLE', 'CRETIN', 'CRIKEY', 'CRINGE', 'CRIPES', 'CRISIS', 'CRISPY', 'CRITIC', 'CROCUS', 'CROTCH', 'CROUCH', 'CRUDDY',
+            'CRUISE', 'CRUMMY', 'CRUNCH', 'CRUSTY', 'CRUTCH', 'CRYING', 'CUBISM', 'CUBIST', 'CUCKOO', 'CUDDLE', 'CUDDLY', 'CUDGEL',
+            'CUMBER', 'CUPFUL', 'CUPOLA', 'CURATE', 'CURDLE', 'CURFEW', 'CURLER', 'CURSED', 'CURSOR', 'CURTSY', 'CURVED', 'CUSSED',
+            'CUSTOM', 'CUTLER', 'CUTLET', 'CUTOFF', 'CUTOUT', 'CUTTER', 'CUTTLE', 'CYBORG', 'CYCLIC', 'CYGNET', 'CYMBAL', 'CYPHER'
         ],
         '7': [
-            'CAPABLE', 'CAPTURE', 'CHECKED', 'CHICKEN', 'CLASSIC', 'CLOTHES', 'COMMENT', 'COMPASS', 'CONSENT', 'CONTROL', 'CRICKET', 'CRINGEY',
-            'CRUMBLE', 'CUTLERY'
+            'CABARET', 'CABINET', 'CABOOSE', 'CADAVER', 'CADENCE', 'CADENZA', 'CAESURA', 'CAGOULE', 'CAHOOTS', 'CAISSON', 'CALCIFY',
+            'CALCIUM', 'CALDRON', 'CALIBRE', 'CALLBOX', 'CALLING', 'CALLOUS', 'CALORIE', 'CALUMNY', 'CALVARY', 'CAMBRIC', 'CAMPHOR',
+            'CAMPING', 'CANASTA', 'CANDIED', 'CANDOUR', 'CANNING', 'CANTATA', 'CANTEEN', 'CANNULA', 'CAPABLE', 'CAPITAL', 'CAPRICE',
+            'CAPSIZE', 'CAPSTAN', 'CAPSULE', 'CAPTAIN', 'CAPTION', 'CAPTIVE', 'CAPTURE', 'CARAMEL', 'CARAVAN', 'CARAWAY', 'CARBINE',
+            'CARCASS', 'CARDIAC', 'CAREFUL', 'CARFARE', 'CARJACK', 'CARMINE', 'CARNAGE', 'CAROUSE', 'CARPORT', 'CARRIER', 'CARRION',
+            'CARROTY', 'CARSICK', 'CARTOON', 'CARVERY', 'CASCADE', 'CASHIER', 'CASSAVA', 'CASSOCK', 'CASTING', 'CASTOFF', 'CATARRH',
+            'CATCALL', 'CATCHER', 'CATCHUP', 'CATERER', 'CATSUIT', 'CATTAIL', 'CATWALK', 'CAUTION', 'CAVALRY', 'CAVEMAN', 'CAYENNE',
+            'CEILIDH', 'CEILING', 'CELESTA', 'CELLIST', 'CAMBALO', 'CENSURE', 'CENTRAL', 'CENTURY', 'CERAMIC', 'CERTAIN', 'CERTIFY',
+            'CERUMEN', 'CESSION', 'CESSPIT', 'CHAGRIN', 'CHALICE', 'CHAMBER', 'CHAMOIS', 'CHANCEL', 'CHANNEL', 'CHAOTIC', 'CHAPLET',
+            'CHAPMAN', 'CHAPTER', 'CHARADE', 'CHARGED', 'CHARGER', 'CHARIOT', 'CHARITY', 'CHARMER', 'CHARRED', 'CHARTER', 'CHASSIS',
+            'CHASTEN', 'CHATEAU', 'CHATTEL', 'CHATTER', 'CHEAPEN', 'CHEAPLY', 'CHECKED', 'CHECKUP', 'CHEDDAR', 'CHEERIO', 'CHEETAH',
+            'CHEMISE', 'CHEMIST', 'CHERISH', 'CHEVRON', 'CHICKEN', 'CHICORY', 'CHIEFLY', 'CHIFFON', 'CHIGNON', 'CHILLER', 'CHIMERA',
+            'CHIMNEY', 'CHINWAG', 'CHIPPER', 'CHIPSET', 'CHOKING', 'CHOLERA', 'CHOPPER', 'CHORALE', 'CHORTLE', 'CHOWDER', 'CHRONIC',
+            'CHUCKLE', 'CHUFFED', 'CHUTNEY', 'CIRCUIT', 'CISTERN', 'CITADEL', 'CITIZEN', 'CIVVIES', 'CLAMBER', 'CLAMOUR', 'CLANGER',
+            'CLAPPER', 'CLARIFY', 'CLARION', 'CLARITY', 'CLASPER', 'CLASSIC', 'CLATTER', 'CLEANER', 'CLEANLY', 'CLEANSE', 'CLEANUP',
+            'CLEARLY', 'CLEAVER', 'CLEMENT', 'CLIMATE', 'CLIMBER', 'CLINKER', 'CLIPPED', 'CLIQUEY', 'CLOBBER', 'CLONING', 'CLOSELY',
+            'CLOSING', 'CLOTHES', 'CLOTURE', 'CLOUDED', 'CLUNKER', 'CLUSTER', 'CLUTTER', 'COARSEN', 'COASTAL', 'COASTER', 'COATING',
+            'COBBLED', 'COBBLER', 'COCAINE', 'COCHLEA', 'COCKADE', 'COCKPIT', 'COCONUT', 'CODFISH', 'COEXIST', 'COGENCY', 'COGNATE',
+            'COHABIT', 'COINAGE', 'COLICKY', 'COLLAGE', 'COLLATE', 'COLLECT', 'COLLEGE', 'COLLIDE', 'COLLIER', 'COLLUDE', 'COLOGNE',
+            'COLONEL', 'COLOURS', 'COLTISH', 'COMBINE', 'COMFORT', 'COMICAL', 'COMMAND', 'COMMEND', 'COMMENT', 'COMMODE', 'COMMONS',
+            'COMMUNE', 'COMMUTE', 'COMPACT', 'COMPANY', 'COMPARE', 'COMPASS', 'COMPERE', 'COMPETE', 'COMPILE', 'COMPLEX', 'COMPOSE',
+            'COMPOST', 'COMPOTE', 'COMPUTE', 'COMRADE', 'CONCAVE', 'CONCEAL', 'CONCEDE', 'CONCEIT', 'CONCEPT', 'CONCERN', 'CONCERT',
+            'CONCISE', 'CONCOCT', 'CONCORD', 'CONCUSS', 'CONDEMN', 'CONDOLE', 'CONDONE', 'CONDUCE', 'CONDUCT', 'CONDUIT', 'CONFESS',
+            'CONFIDE', 'CONFINE', 'CONFIRM', 'CONFORM', 'CONFUSE', 'CONFUTE', 'CONGEAL', 'CONICAL', 'CONIFER', 'CONJOIN', 'CONJURE',
+            'CONKERS', 'CONNECT', 'CONNIVE', 'CONNOTE', 'CONQUER', 'CONSENT', 'CONSIGN', 'CONSIST', 'CONSOLE', 'CONSORT', 'CONSULT',
+            'CONSUME', 'CONTACT', 'CONTAIN', 'CONTEND', 'CONTENT', 'CONTEST', 'CONTEXT', 'CONTORT', 'CONTOUR', 'CONTROL', 'CONTUSE',
+            'CONVENE', 'CONVENT', 'CONVERT', 'CONVICT', 'COOKERY', 'COOKING', 'COOLANT', 'COOTIES', 'COPILOT', 'COPIOUS', 'COPPICE',
+            'COPYCAT', 'CORDAGE', 'CORDIAL', 'CORKAGE', 'CORNICE', 'CORNROW', 'COROLLA', 'CORONER', 'CORONET', 'CORRECT', 'CORRIDA',
+            'CORRODE', 'CORRUPT', 'CORSAGE', 'CORSAIR', 'CORTEGE', 'COSTING', 'COSTUME', 'COTTAGE', 'COUNCIL', 'COUNSEL', 'COUNTER',
+            'COUNTRY', 'COUPLET', 'COURAGE', 'COURIER', 'COURTLY', 'COUTURE', 'COVERED', 'COVETED', 'COWBELL', 'COWGIRL', 'COWHAND',
+            'COWHERD', 'COWHIDE', 'COWSHED', 'COWSLIP', 'COXCOMB', 'COYNESS', 'CRABBED', 'CRACKED', 'CRACKER', 'CRACKLE', 'CRACKUP',
+            'CRAMMER', 'CRAMPED', 'CRAVING', 'CRAWDAD', 'CRAWLER', 'CREAMER', 'CREASED', 'CREATOR', 'CREDITS', 'CREEPER', 'CREMATE',
+            'CREVICE', 'CRICKET', 'CRIMSON', 'CRINKLE', 'CRINKLY', 'CRIPPLE', 'CRISPER', 'CRITTER', 'CROCHET', 'CROCKET', 'CROFTER',
+            'CROOKED', 'CROPPER', 'CROQUET', 'CROSIER', 'CROUTON', 'CROWBAR', 'CROWDED', 'CROZIER', 'CRUCIAL', 'CRUCIFY', 'CRUDITY',
+            'CRUELTY', 'CRUISER', 'CRULLER', 'CRUMBLE', 'CRUMBLY', 'CRUMPET', 'CRUMPLE', 'CRUNCHY', 'CRUSADE', 'CRYBABY', 'CRYPTIC',
+            'CRYSTAL', 'CUBICAL', 'CUBICLE', 'CUCKOLD', 'CUISINE', 'CULPRIT', 'CULTURE', 'CULVERT', 'CUMQUAT', 'CUMULUS', 'CUNNING',
+            'CURABLE', 'CURATOR', 'CURIOUS', 'CURLING', 'CURRANT', 'CURRENT', 'CURSING', 'CURSIVE', 'CURSORY', 'CURTAIL', 'CURTAIN',
+            'CUSHION', 'CUSTARD', 'CUSTODY', 'CUSTOMS', 'CUTAWAY', 'CUTBACK', 'CUTLERY', 'CUTOFFS', 'CUTTING', 'CYCLING', 'CYCLIST',
+            'CYCLONE', 'CYCLOPS', 'CYNICAL', 'CYPRESS', 'CZARIST'
         ]
     },
     'D': {
@@ -183,16 +267,16 @@ export const wordsEng: Words = {
             'DAD', 'DAM', 'DAY', 'DIE', 'DIM', 'DOG', 'DOT', 'DRY'
         ],
         '4': [
-            'DALE', 'DAMN', 'DAMP', 'DARN', 'DATA', 'DATE', 'DAWN', 'DEAD', 'DEAL', 'DEAR', 'DEER', 'DIME', 'DINE', 'DISC', 'DIVE', 'DOOR',
-            'DOWN', 'DRUG', 'DRUM', 'DUCK', 'DUST'
+            'DALE', 'DAMN', 'DAMP', 'DARN', 'DATA', 'DATE', 'DAWN', 'DEAD', 'DEAL', 'DEAR', 'DEED', 'DEER', 'DIME', 'DINE', 'DISC', 'DIRT',
+            'DIVE', 'DOCK', 'DOOR', 'DOWN', 'DRAG', 'DROP', 'DRUG', 'DRUM', 'DUCK', 'DULL', 'DUMP', 'DUST'
         ],
         '5': [
-            'DADDY', 'DAILY', 'DAIRY', 'DAISY', 'DANCE', 'DEATH', 'DEMON', 'DEVIL', 'DINER', 'DREAM', 'DRINK', 'DRIVE', 'DROWN', 'DUSTY',
-            'DWELL'
+            'DADDY', 'DAILY', 'DAIRY', 'DAISY', 'DANCE', 'DEATH', 'DEMON', 'DEPLOY', 'DEVIL', 'DINER', 'DIRTY', 'DRAMA', 'DREAM', 'DRINK',
+            'DRIVE', 'DRONE', 'DROOL', 'DROWN', 'DUSTY', 'DWELL'
         ],
         '6': [
             'DAMNED', 'DANCER', 'DEADLY', 'DELETE', 'DEMAND', 'DESIGN', 'DETAIL', 'DIGEST', 'DISARM', 'DOCTOR', 'DOTTED', 'DOUBLE',
-            'DRAMA', 'DREAMY', 'DRIVER'
+            'DREAMY', 'DRIVER'
         ],
         '7': [
             'DAYTIME', 'DEATHLY', 'DENTIST', 'DEPRESS', 'DIAMOND', 'DIVORCE', 'DRUMMER', 'DUSTBIN'
@@ -206,14 +290,14 @@ export const wordsEng: Words = {
             'EARL', 'EARN', 'EAST', 'EDIT', 'EVEN', 'EVER', 'EXAM', 'EXIT'
         ],
         '5': [
-            'EARLY', 'EARTH', 'EIGHT', 'ELECT', 'ELOPE', 'ENTER', 'EQUAL', 'ERASE', 'ERECT', 'EVENT', 'EVERY', 'EXACT'
+            'EARLY', 'EARTH', 'EIGHT', 'ELECT', 'ELOPE', 'ENTER', 'EQUAL', 'ERASE', 'ERECT', 'ERROR', 'EVENT', 'EVERY', 'EXACT', 'EXIST'
         ],
         '6': [
-            'EARTHY', 'EGOIST', 'ELAPSE', 'ELEVEN', 'EMPLOY', 'ENDING', 'ENDURE', 'ENERGY', 'ERASER', 'ESCAPE', 'EVOLVE', 'EXCEPT',
-            'EXCITE', 'EXPECT', 'EXPERT'
+            'EARTHY', 'EARWAX', 'EGOIST', 'ELAPSE', 'ELEVEN', 'EMERGE', 'EMPLOY', 'ENDING', 'ENDURE', 'ENERGY', 'ENGAGE', 'ERASER', 'ESCAPE',
+            'EVOLVE', 'EXCEPT', 'EXCITE', 'EXPECT', 'EXPERT'
         ],
         '7': [
-            'EARNEST', 'EARSHOT', 'EARTHLY', 'EASTERN', 'ELASTIC', 'ELEGANT', 'ELEMENT', 'ELEVATE', 'ENDLESS', 'EVENING', 'EXACTLY',
+            'EARNEST', 'EARSHOT', 'EARTHLY', 'EASTERN', 'ELASTIC', 'ELEGANT', 'ELEMENT', 'ELEVATE', 'ENDLESS', 'EVENING', 'EVIDENT', 'EXACTLY',
             'EXAMPLE', 'EXHAUST', 'EXPLAIN'
         ]
     },
@@ -222,20 +306,21 @@ export const wordsEng: Words = {
             'FAN', 'FAR', 'FAT', 'FIG', 'FIR', 'FIT', 'FIX', 'FLY', 'FOX', 'FRY', 'FUN'
         ],
         '4': [
-            'FACE', 'FAIL', 'FAIR', 'FALL', 'FAME', 'FAST', 'FEED', 'FEEL', 'FEND', 'FILE', 'FILM', 'FIND', 'FINE', 'FIRE', 'FIRM', 'FISH',
-            'FIVE', 'FLAT', 'FLIP', 'FLOW', 'FOLD', 'FOLK', 'FOND', 'FOOD', 'FORD', 'FORK', 'FOUL', 'FOUR', 'FRET', 'FROG', 'FULL', 'FUND'
+            'FACE', 'FAIL', 'FAIR', 'FALL', 'FAME', 'FAST', 'FATE', 'FEED', 'FEEL', 'FEND', 'FILE', 'FILM', 'FIND', 'FINE', 'FIRE', 'FIRM',
+            'FISH', 'FIVE', 'FLAT', 'FLIP', 'FLOW', 'FOLD', 'FOLK', 'FOND', 'FOOD', 'FORD', 'FORK', 'FORM', 'FOUL', 'FOUR', 'FRET', 'FROG',
+            'FULL', 'FUND', 'FURY'
         ],
         '5': [
             'FAIRY', 'FAITH', 'FALSE', 'FATTY', 'FAVOR', 'FELON', 'FENCE', 'FETCH', 'FEVER', 'FIELD', 'FIEND', 'FIERY', 'FIFTY', 'FIRST',
             'FLAME', 'FLANK', 'FLECK', 'FLICK', 'FLUTE', 'FORCE', 'FORTY', 'FOYER', 'FRONT', 'FOUND', 'FUNNY'
         ],
         '6': [
-            'FAMILY', 'FAMINE', 'FAMOUS', 'FAVOUR', 'FATHER', 'FEMALE', 'FELONY', 'FIGURE', 'FILTER', 'FINGER', 'FLINCH', 'FLOWER',
-            'FOLLOW', 'FRIDAY'
+            'FAMILY', 'FAMINE', 'FAMOUS', 'FAVOUR', 'FATHER', 'FEMALE', 'FELLOW', 'FELONY', 'FIGURE', 'FILTER', 'FINGER', 'FLINCH',
+            'FLOWER', 'FOLLOW', 'FORMAL', 'FRIDAY'
         ],
         '7': [
-            'FAILURE', 'FALSIFY', 'FEELING', 'FENCING', 'FIREFLY', 'FLOWERY', 'FORESEE', 'FOREVER', 'FORGIVE', 'FORWARD', 'FOUNDER',
-            'FRECKLE', 'FULFILL'
+            'FAILURE', 'FALSIFY', 'FATIGUE', 'FEELING', 'FENCING', 'FIREFLY', 'FLOWERY', 'FORESEE', 'FOREVER', 'FORGIVE', 'FORWARD', 'FOUNDER',
+            'FRECKLE', 'FULFILL', 'FURIOUS'
         ]
     },
     'G': {
@@ -243,15 +328,15 @@ export const wordsEng: Words = {
             'GAP', 'GEL', 'GET', 'GIN', 'GIT', 'GOD', 'GUN'
         ],
         '4': [
-            'GAIN', 'GALE', 'GAME', 'GAZE', 'GEAR', 'GIST', 'GIVE', 'GLAD', 'GLEE', 'GLOW', 'GOAL', 'GOAT', 'GOOD', 'GOTH', 'GRAN', 'GRAY',
-            'GREY', 'GROW'
+            'GAIN', 'GALE', 'GAME', 'GANG', 'GAZE', 'GEAR', 'GIST', 'GIVE', 'GLAD', 'GLEE', 'GLOW', 'GLUE', 'GOAL', 'GOAT', 'GOLF', 'GOOD',
+            'GOTH', 'GRAN', 'GRAY', 'GREY', 'GROW'
         ],
         '5': [
-            'GABLE', 'GAMER', 'GHOST', 'GIANT', 'GLARE', 'GLASS', 'GLEAM', 'GLINT', 'GLOOM', 'GLORY', 'GOODS', 'GOOSE', 'GRACE', 'GRADE',
-            'GRAND', 'GRAVE', 'GRAVY', 'GREAT', 'GREEN', 'GREET', 'GRIND', 'GROOM', 'GROUP', 'GROWL'
+            'GABLE', 'GAMER', 'GAUGE', 'GHOST', 'GIANT', 'GLARE', 'GLASS', 'GLEAM', 'GLINT', 'GLOOM', 'GLORY', 'GOODS', 'GOOSE', 'GRACE',
+            'GRADE', 'GRAND', 'GRAVE', 'GRAVY', 'GREAT', 'GREEN', 'GREET', 'GRIND', 'GROOM', 'GROUP', 'GROWL', 'GUIDE'
         ],
         '6': [
-            'GAMBLE', 'GARAGE', 'GARLIC', 'GENIUS', 'GENTLE', 'GINGER', 'GLANCE', 'GLASSY', 'GLOBAL', 'GLOOMY', 'GLOVES', 'GOTHIC', 'GRANNY',
+            'GAMBLE', 'GARAGE', 'GARDEN', 'GARLIC', 'GENIUS', 'GENTLE', 'GINGER', 'GLANCE', 'GLASSY', 'GLOBAL', 'GLOOMY', 'GLOVES', 'GOTHIC', 'GRANNY',
             'GREASE', 'GREASY', 'GROWTH'
         ],
         '7': [
@@ -260,17 +345,18 @@ export const wordsEng: Words = {
     },
     'H': {
         '3': [
-            'HAD', 'HAG', 'HAM', 'HAS', 'HAT', 'HAY', 'HEN', 'HER', 'HIS', 'HIT', 'HOE', 'HOG', 'HOT', 'HUB', 'HUG'
+            'HAD', 'HAG', 'HAM', 'HAS', 'HAT', 'HAY', 'HEN', 'HER', 'HEY', 'HIS', 'HIT', 'HOE', 'HOG', 'HOT', 'HUB', 'HUG'
         ],
         '4': [
-            'HAIL', 'HAIR', 'HALF', 'HALL', 'HANG', 'HARD', 'HARE', 'HATE', 'HAVE', 'HEAD', 'HEAL', 'HEAR', 'HELL', 'HELP', 'HERE', 'HERS',
-            'HIGH', 'HIND', 'HINT', 'HIRE', 'HOLD', 'HOLE', 'HOLY', 'HOME', 'HOPE', 'HORN', 'HOUR', 'HUGE'
+            'HAIL', 'HAIR', 'HALF', 'HALL', 'HAND', 'HANG', 'HARD', 'HARE', 'HATE', 'HAVE', 'HEAD', 'HEAL', 'HEAR', 'HELL', 'HELP', 'HERE',
+            'HERS', 'HIGH', 'HIND', 'HINT', 'HIRE', 'HOLD', 'HOLE', 'HOLY', 'HOME', 'HOPE', 'HORN', 'HOUR', 'HUGE'
         ],
         '5': [
-            'HAIRY', 'HAPPY', 'HAVEN', 'HEART', 'HEAVE', 'HEAVY', 'HEDGE', 'HELLO', 'HINGE', 'HOLLY', 'HONEY', 'HORSE', 'HOUSE', 'HUSKY'
+            'HAIRY', 'HANDY', 'HAPPY', 'HAVEN', 'HEART', 'HEAVE', 'HEAVY', 'HEDGE', 'HELLO', 'HINGE', 'HOLLY', 'HONEY', 'HORDE', 'HORSE',
+            'HOUSE', 'HUSKY'
         ],
         '6': [
-            'HARDLY', 'HEADER', 'HEALTH', 'HEAVEN', 'HEIGHT'
+            'HANDLE', 'HARDLY', 'HEADER', 'HEALTH', 'HEAVEN', 'HEIGHT'
         ],
         '7': [
             'HAIRCUT', 'HAIRPIN', 'HARMONY', 'HEALTHY', 'HELPFUL', 'HOPEFUL', 'HUNDRED'
@@ -281,16 +367,16 @@ export const wordsEng: Words = {
             'ICE', 'ICY', 'INK', 'IRE'
         ],
         '4': [
-            'INKY', 'IRON', 'ITEM'
+            'IDEA', 'INKY', 'IRON', 'ITCH', 'ITEM'
         ],
         '5': [
-            'IMAGE', 'INNER', 'IRATE', 'IRONY'
+            'IMAGE', 'INNER', 'IRATE', 'IRONY', 'ITCHY'
         ],
         '6': [
-            'IGNORE', 'INDEED', 'INDUCE', 'INGEST', 'INJURE', 'INJURY', 'INSERT', 'INVEST', 'INSANE', 'IREFUL'
+            'IGNORE', 'INDEED', 'INDUCE', 'INGEST', 'INJURE', 'INJURY', 'INSERT', 'INTEND', 'INTENT', 'INTERN', 'INVEST', 'INSANE', 'IREFUL'
         ],
         '7': [
-            'ILLEGAL', 'IMAGINE', 'INCLUDE', 'INGRESS', 'INSPIRE', 'INSTANT', 'INTEREST'
+            'ILLEGAL', 'IMAGINE', 'INCLUDE', 'INGRESS', 'INITIAL', 'INSPIRE', 'INSTANT', 'INTEREST'
         ]
     },
     'J': {
@@ -313,7 +399,7 @@ export const wordsEng: Words = {
             'KEY'
         ],
         '4': [
-            'KEEP', 'KILL', 'KIND', 'KING', 'KNEE', 'KNOW'
+            'KEEP', 'KILL', 'KIND', 'KING', 'KISS', 'KNEE', 'KNOT', 'KNOW'
         ],
         '5': [
             'KNEEL', 'KNIFE'
@@ -355,11 +441,12 @@ export const wordsEng: Words = {
             'MINE', 'MINT', 'MISS', 'MOCK', 'MODE', 'MOON', 'MORE', 'MOTH', 'MOVE', 'MUCK', 'MUST'
         ],
         '5': [
-            'MAGIC', 'MARRY', 'MATCH', 'MEDIA', 'METAL', 'MICRO', 'MIDST', 'MIGHT', 'MINCE', 'MINER', 'MODEL', 'MONEY', 'MOUND', 'MOUNT',
-            'MOUSE', 'MOVIE', 'MUCKY', 'MUDDY', 'MUMMY', 'MUSIC'
+            'MAGIC', 'MARRY', 'MATCH', 'MEDIA', 'MERGE', 'METAL', 'MICRO', 'MIDST', 'MIGHT', 'MINCE', 'MINER', 'MODEL', 'MONEY', 'MOUND',
+            'MOUNT', 'MOUSE', 'MOUTH', 'MOVIE', 'MUCKY', 'MUDDY', 'MUMMY', 'MUSIC'
         ],
         '6': [
-            'MAIDEN', 'MARROW', 'MARVEL', 'MASTER', 'MATTER', 'MEMBER', 'MENTAL', 'MIGHTY', 'MINCER', 'MOMENT', 'MONDAY', 'MOTHER', 'MURDER'
+            'MAIDEN', 'MARBLE', 'MARROW', 'MARVEL', 'MASTER', 'MATTER', 'MEMBER', 'MENTAL', 'MIGHTY', 'MINCER', 'MINUTE', 'MOMENT',
+            'MONDAY', 'MOTHER', 'MURDER'
         ],
         '7': [
             'MACHINE', 'MAGICAL', 'MARRIED', 'MEANING', 'MESSAGE', 'MINDFUL', 'MINERAL', 'MOCKERY', 'MOONLIT', 'MORNING', 'MUSICAL'
@@ -387,7 +474,7 @@ export const wordsEng: Words = {
             'OAK', 'OFF', 'ONE', 'OUR', 'OUT', 'OWL'
         ],
         '4': [
-            'OBEY', 'ONCE', 'ONLY', 'OPEN', 'OURS', 'OVER'
+            'OBEY', 'OMIT', 'ONCE', 'ONLY', 'OPEN', 'OURS', 'OVER'
         ],
         '5': [
             'OAKEN', 'OFFER', 'OPTION', 'ORDER', 'OTHER', 'OUGHT', 'OUNCE'
@@ -404,18 +491,19 @@ export const wordsEng: Words = {
             'PAY', 'PEN', 'PIN', 'PIT', 'POP', 'PUB', 'PUN', 'PUT'
         ],
         '4': [
-            'PACK', 'PAGE', 'PAIR', 'PART', 'PATH', 'PEND', 'PICK', 'PINK', 'PLAY', 'POEM', 'POET', 'POND', 'POOR', 'PULL', 'PUMP', 'PUNK'
+            'PACK', 'PAGE', 'PAIR', 'PART', 'PATH', 'PEND', 'PICK', 'PINK', 'PLAY', 'POEM', 'POET', 'POND', 'POOR', 'POST', 'PUKE', 'PULL',
+            'PUMP', 'PUNK', 'PUSH'
         ],
         '5': [
             'PAINT', 'PAPER', 'PARTY', 'PAUSE', 'PENNY', 'PHONE', 'PIANO', 'PLACE', 'PLAIN', 'PLANT', 'PLUCK', 'POINT', 'POUND', 'POWER',
-            'PRIDE', 'PRINT', 'PROUD', 'PRUNE', 'PULSE', 'PUNCH', 'PUPPY'
+            'PRIDE', 'PRINT', 'PROUD', 'PRUNE', 'PULSE', 'PUNCH', 'PUPPY', 'PUSHY'
         ],
         '6': [
             'PALACE', 'PARENT', 'PLAYER', 'PENCIL', 'PEOPLE', 'PERIOD', 'PERSON', 'PIRATE', 'PLEASE', 'POCKET', 'POINTY', 'POLICY',
             'POTION', 'PUBLIC', 'PUNISH'
         ],
         '7': [
-            'PAINTER', 'PATTERN', 'PENDANT', 'PERFECT', 'PICTURE', 'PLEASED', 'PORTION', 'PREMIUM', 'PREPARE', 'PRIMARY', 'PRINTER',
+            'PACKAGE', 'PAINTER', 'PATTERN', 'PENDANT', 'PERFECT', 'PERFORM', 'PICTURE', 'PLEASED', 'PORTION', 'PREMIUM', 'PREPARE', 'PRIMARY', 'PRINTER',
             'PRIVACY', 'PROCESS', 'PRODUCT', 'PROFILE', 'PROJECT', 'PROMOTE', 'PUBLISH', 'PUNGENT'
         ]
     },
@@ -439,43 +527,44 @@ export const wordsEng: Words = {
             'RAM', 'RAP', 'RAT', 'RAW', 'RAY', 'RED', 'RID', 'ROB', 'ROW', 'RUG', 'RUM', 'RUN'
         ],
         '4': [
-            'RACE', 'RACK', 'RAIL', 'RAIN', 'RANK', 'RAPE', 'RARE', 'RASH', 'RATE', 'RAVE', 'RENT', 'REST', 'RICH', 'RIDE', 'RING', 'RISE',
-            'ROAM', 'ROCK', 'ROLL', 'ROOM', 'ROSE', 'RUDE', 'RULE', 'RUNE', 'RUSH'
+            'RACE', 'RACK', 'RAIL', 'RAIN', 'RANK', 'RAPE', 'RARE', 'RASH', 'RATE', 'RAVE', 'RELY', 'RENT', 'REST', 'RICH', 'RIDE', 'RING',
+            'RISE', 'ROAD', 'ROAM', 'ROCK', 'ROLL', 'ROOM', 'ROSE', 'RUDE', 'RULE', 'RUNE', 'RUSH'
         ],
         '5': [
-            'RADAR', 'RADIO', 'RAINY', 'RAISE', 'RAZOR', 'READY', 'REBEL', 'RENEW', 'REPLY', 'RIVER', 'ROBIN', 'ROGUE', 'ROUND', 'ROUTE',
-            'ROYAL', 'RULER'
+            'RADAR', 'RADIO', 'RAINY', 'RAISE', 'RAZOR', 'READY', 'REBEL', 'RENEW', 'REPLY', 'RETRY', 'RINSE', 'RIVER', 'ROBIN', 'ROGUE',
+            'ROUND', 'ROUTE', 'ROYAL', 'RULER'
         ],
         '6': [
             'RABBIT', 'RARELY', 'RATHER', 'REBOOT', 'RECIPE', 'REMIND', 'RELATE', 'REMOVE', 'RENAME', 'RENDER', 'RESIST', 'REVEAL',
-            'ROBBER', 'RUNNER', 'RHYTHM'
+            'ROUTER', 'ROBBER', 'RUNNER', 'RHYTHM'
         ],
         '7': [
-            'RAILWAY', 'RAINBOW', 'RECEIPT', 'REGULAR', 'REVERSE', 'ROBBERY'
+            'RAILWAY', 'RAINBOW', 'RECEIPT', 'REGULAR', 'RESTART', 'REVERSE', 'ROBBERY'
         ]
     },
     'S': {
         '3': [
-            'SAP', 'SAY', 'SEA', 'SEE', 'SET', 'SEX', 'SIN', 'SIR', 'SIX', 'SIT', 'SKY', 'SUM', 'SUN'
+            'SAP', 'SAY', 'SEA', 'SEE', 'SET', 'SEX', 'SHY', 'SIN', 'SIR', 'SIX', 'SIT', 'SKY', 'SUM', 'SUN'
         ],
         '4': [
             'SACK', 'SAFE', 'SAIL', 'SALT', 'SAFE', 'SALE', 'SAME', 'SAND', 'SANE', 'SAVE', 'SEAL', 'SEAT', 'SEEK', 'SELF', 'SELL', 'SEND',
-            'SHOW', 'SHUT', 'SICK', 'SIGN', 'SING', 'SINK', 'SIRE', 'SKIN', 'SLAM', 'SNOW', 'SOAP', 'SOFT', 'SOME', 'SONG', 'SOUP', 'SOUR',
-            'SPIT', 'STAG', 'STAR', 'STEW', 'STOP', 'SUIT'
+            'SHOW', 'SHUT', 'SICK', 'SIDE', 'SIGN', 'SING', 'SINK', 'SIRE', 'SITE', 'SKIN', 'SLAM', 'SNOW', 'SOAP', 'SOFT', 'SOME', 'SONG',
+            'SOUP', 'SOUR', 'SPIT', 'STAG', 'STAR', 'STEW', 'STOP', 'SUIT'
         ],
         '5': [
-            'SABER', 'SAINT', 'SALTY', 'SAPPY', 'SAVOR', 'SAVVY', 'SCARE', 'SCARF', 'SCARY', 'SCREW', 'SERVE', 'SEVEN', 'SHAKE', 'SHAME',
-            'SHARK', 'SHARP', 'SHELL', 'SHINE', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRT', 'SHOCK', 'SHOES', 'SHOOT', 'SHORT', 'SILLY', 'SIXTY',
-            'SLACK', 'SLAVE', 'SLEEP', 'SLIDE', 'SLIME', 'SLIMY', 'SMART', 'SMELL', 'SMILE', 'SNAKE', 'SNEAK', 'SNOWY', 'SOCKS', 'SOLID',
-            'SOUND', 'SPELL', 'SPICE', 'SPICY', 'SPOON', 'SPRAY', 'STAGE', 'STAIN', 'STALE', 'START', 'STATE', 'STEAL', 'STEAM', 'STEEL',
-            'STING', 'STICK', 'STING', 'STINK', 'STOCK', 'STORE', 'STORM', 'STUDY', 'STYLE', 'SUNNY', 'SWEAR', 'SWEAT', 'SWEET', 'SWIFT',
-            'SWING'
+            'SABER', 'SAINT', 'SALTY', 'SAPPY', 'SAVOR', 'SAVVY', 'SCARE', 'SCARF', 'SCARY', 'SCREW', 'SENSE', 'SERVE', 'SEVEN', 'SHAKE',
+            'SHAME', 'SHARK', 'SHARP', 'SHELL', 'SHINE', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRT', 'SHOCK', 'SHOES', 'SHOOT', 'SHORT', 'SHOUT',
+            'SIGHT', 'SILLY', 'SIXTY', 'SKIRT', 'SKULL', 'SLACK', 'SLAVE', 'SLEEP', 'SLIDE', 'SLIME', 'SLIMY', 'SMART', 'SMELL', 'SMILE',
+            'SNAKE', 'SNEAK', 'SNOWY', 'SOCKS', 'SOLID', 'SOUND', 'SPELL', 'SPICE', 'SPICY', 'SPOON', 'SPRAY', 'STAGE', 'STAIN', 'STALE',
+            'START', 'STATE', 'STEAL', 'STEAM', 'STEEL', 'STING', 'STICK', 'STING', 'STINK', 'STOCK', 'STORE', 'STORM', 'STUDY', 'STYLE',
+            'SUNNY', 'SWAMP', 'SWEAR', 'SWEAT', 'SWEET', 'SWIFT', 'SWING'
         ],
         '6': [
-            'SAILOR', 'SAMPLE', 'SAVAGE', 'SAVIOR', 'SAVOUR', 'SAYING', 'SCARED', 'SCHOOL', 'SCREAM', 'SCREEN', 'SEARCH', 'SEASON',
-            'SECOND', 'SELECT', 'SELFIE', 'SENDER', 'SHIVER', 'SHORTS', 'SHOULD', 'SHOWER', 'SHRIMP', 'SHRINK', 'SHRINE', 'SICKEN',
-            'SILVER', 'SINGER', 'SINGLE', 'SISTER', 'SKINNY', 'SLEEPY', 'SLOPPY', 'SMOOTH', 'SNEEZE', 'SOURCE', 'SPIRIT', 'SPRING',
-            'STARRY', 'STATUS', 'STINKY', 'STORMY', 'STREAM', 'STREET', 'STRONG', 'STUPID', 'SUMMER', 'SUNDAY', 'SWITCH', 'SYSTEM'
+            'SAILOR', 'SAMPLE', 'SANITY', 'SAVAGE', 'SAVIOR', 'SAVOUR', 'SAYING', 'SCARED', 'SCHOOL', 'SCREAM', 'SCREEN', 'SEARCH',
+            'SEASON', 'SECOND', 'SELECT', 'SELFIE', 'SENDER', 'SENSOR', 'SHIVER', 'SHORTS', 'SHOULD', 'SHOWER', 'SHRIMP', 'SHRINK',
+            'SHRINE', 'SICKEN', 'SILVER', 'SINGER', 'SINGLE', 'SISTER', 'SKINNY', 'SLEEPY', 'SLOPPY', 'SMOOTH', 'SNEEZE', 'SOURCE',
+            'SPIRIT', 'SPRING', 'STARRY', 'STATUS', 'STINKY', 'STORMY', 'STREAM', 'STREET', 'STRIKE', 'STRONG', 'STUPID', 'SUMMER',
+            'SUNDAY', 'SWITCH', 'SYSTEM'
         ],
         '7': [
             'SAVIOUR', 'SERVICE', 'SETTING', 'SEVENTY', 'SHELTER', 'SHOOTER', 'STATION', 'STOMACH', 'STRANGE', 'STUPEFY', 'SUCCESS',
@@ -492,14 +581,15 @@ export const wordsEng: Words = {
         ],
         '5': [
             'TABLE', 'TALON', 'TASTE', 'TEACH', 'THANK', 'THEFT', 'THEIR', 'THERE', 'THICK', 'THIEF', 'THING', 'THINK', 'THORN', 'THREE',
-            'THROW', 'TIGER', 'TIMER', 'TIRED', 'TODAY', 'TOOTH', 'TOUCH', 'TRACE', 'TRAIL', 'TRAIN', 'TRAMP', 'TREND', 'TROOP', 'TRUCK',
-            'TRUTH', 'TWICE'
+            'THROW', 'TIGER', 'TIMER', 'TIRED', 'TODAY', 'TOOTH', 'TOUCH', 'TRACE', 'TRAIL', 'TRAIN', 'TRAMP', 'TREND', 'TRIAL', 'TRIBE',
+            'TROOP', 'TRUCK', 'TRUTH', 'TWICE'
         ],
         '6': [
-            'THANKS', 'THEIRS', 'THINGY', 'THIRTY', 'THRIVE', 'TOILET', 'TOMATO', 'TOUCHY', 'TRENDY', 'TWELVE', 'TWENTY'
+            'TACKLE', 'THANKS', 'THEIRS', 'THINGY', 'THIRTY', 'THRIVE', 'TOILET', 'TOMATO', 'TOUCHY', 'TRENDY', 'TRIBAL', 'TWELVE',
+            'TWENTY'
         ],
         '7': [
-            'TEACHER', 'TEARFUL', 'TERRIER', 'THOUGHT', 'TODDLER', 'TONIGHT', 'TRAINER', 'TROOPER', 'TUESDAY'
+            'TEACHER', 'TEARFUL', 'TERRIER', 'THOUGHT', 'TODDLER', 'TONIGHT', 'TRAINER', 'TRINITY', 'TROOPER', 'TRUMPET', 'TUESDAY'
         ]
     },
     'U': {
@@ -516,7 +606,7 @@ export const wordsEng: Words = {
             'UNABLE', 'UNCLEAN', 'UNCLEAR', 'UNFAIR', 'UNFURL', 'UPDATE'
         ],
         '7': [
-            'UNAWARE', 'UNCANNY', 'UNCOVER', 'UNDERGO'
+            'UNAWARE', 'UNCANNY', 'UNCOVER', 'UNDERGO', 'UTILITY'
         ]
     },
     'V': {
@@ -524,13 +614,13 @@ export const wordsEng: Words = {
             'VAN', 'VET', 'VOW'
         ],
         '4': [
-            'VALE', 'VAMP', 'VANE', 'VARY', 'VASE', 'VAST', 'VERB', 'VERY'
+            'VALE', 'VAMP', 'VANE', 'VARY', 'VASE', 'VAST', 'VERB', 'VERY', 'VOID'
         ],
         '5': [
             'VAGUE', 'VALID', 'VALOR', 'VALUE', 'VALVE', 'VIDEO', 'VIRAL', 'VIRUS', 'VISIT', 'VOWEL'
         ],
         '6': [
-            'VACUUM', 'VALLEY', 'VALOUR', 'VANISH', 'VANITY', 'VERIFY', 'VERSUS', 'VIOLET', 'VIOLIN'
+            'VACUUM', 'VALLEY', 'VALOUR', 'VANISH', 'VANITY', 'VERIFY', 'VERSUS', 'VESSEL', 'VIOLET', 'VIOLIN', 'VOLUME'
         ],
         '7': [
             'VAGRANT', 'VALIANT', 'VAMPIRE', 'VARIANT', 'VARIOUS', 'VISIBLE'
@@ -538,21 +628,22 @@ export const wordsEng: Words = {
     },
     'W': {
         '3': [
-            'WAN', 'WAR', 'WAS', 'WAY', 'WET', 'WHY', 'WIG', 'WIN'
+            'WAN', 'WAR', 'WAS', 'WAY', 'WEB', 'WET', 'WHY', 'WIG', 'WIN'
         ],
         '4': [
-            'WAIL', 'WAIT', 'WANE', 'WANT', 'WARD', 'WARM', 'WARN', 'WASH', 'WAVE', 'WAVY', 'WEAK', 'WEAN', 'WEAR', 'WELL', 'WERE', 'WHAT',
-            'WHEN', 'WHOM', 'WILL', 'WIND', 'WING', 'WIRE', 'WISH', 'WITH', 'WORD', 'WORK'
+            'WAIL', 'WAIT', 'WAND', 'WANE', 'WANT', 'WARD', 'WARM', 'WARN', 'WASH', 'WAVE', 'WAVY', 'WEAK', 'WEAN', 'WEAR', 'WELL', 'WERE',
+            'WHAT', 'WHEN', 'WHOM', 'WILL', 'WIND', 'WING', 'WIRE', 'WISH', 'WITH', 'WORD', 'WORK'
         ],
         '5': [
             'WATER', 'WAIST', 'WEARY', 'WEAVE', 'WHALE', 'WHERE', 'WHICH', 'WHILE', 'WHINE', 'WHITE', 'WHOLE', 'WHOSE', 'WIDOW', 'WIELD',
             'WINCE', 'WINDY', 'WITCH', 'WOMAN', 'WORLD', 'WORSE', 'WORST', 'WOULD', 'WOUND', 'WRING', 'WRITE', 'WRONG'
         ],
         '6': [
-            'WAITER', 'WEALTH', 'WEAPON', 'WEASEL', 'WEIGHT', 'WINDOW', 'WINNER', 'WINTER', 'WITHER', 'WRAITH', 'WRITER', 'WRITHE'
+            'WAITER', 'WEALTH', 'WEAPON', 'WEASEL', 'WEIGHT', 'WICKED', 'WINDOW', 'WINNER', 'WINTER', 'WITHER', 'WRAITH', 'WRITER',
+            'WRITHE'
         ],
         '7': [
-            'WARLOCK', 'WARLORD', 'WARNING', 'WEALTHY', 'WEATHER', 'WISHFUL', 'WHISPER', 'WOUNDED'
+            'WARLOCK', 'WARLORD', 'WARNING', 'WEBPAGE', 'WEALTHY', 'WEATHER', 'WISHFUL', 'WHISPER', 'WOUNDED'
         ]
     },
     'Y': {
