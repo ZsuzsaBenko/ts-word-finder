@@ -565,35 +565,65 @@ export const wordsEng: Words = {
     },
     'I': {
         '3': [
-            'ICE', 'ICY', 'INK', 'IRE'
+            'ICE', 'ICY', 'IFF', 'ILL', 'IMP', 'INK', 'INN', 'ION', 'IRE', 'IRK', 'ISM', 'ITS', 'IVY'
         ],
         '4': [
-            'IDEA', 'INKY', 'IRON', 'ITCH', 'ITEM'
+            'IAMB', 'IBID', 'IBIS', 'ICED', 'ICKY', 'ICON', 'IDEA', 'IDEM', 'IDLE', 'IDOL', 'IFFY', 'IMAM', 'INCH', 'INFO', 'INKY',
+            'INST', 'INTO', 'IOTA', 'IRIS', 'IRON', 'ISLE', 'ITCH', 'ITEM'
         ],
         '5': [
-            'IMAGE', 'INNER', 'IRATE', 'IRONY', 'ITCHY'
+            'ICING', 'IDEAL', 'IDIOM', 'IDIOT', 'IDLER', 'IDYLL', 'IGLOO', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INANE', 'INAPT', 'INCUR',
+            'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INFIX', 'INGOT', 'INLAY', 'INLET', 'INNER', 'INPUT', 'INSET', 'INTER', 'INTRO',
+            'INURE', 'IRATE', 'IRONS', 'IRONY', 'ISLET', 'ISSUE', 'ITCHY', 'IVIED', 'IVORY'
         ],
         '6': [
-            'IGNORE', 'INDEED', 'INDUCE', 'INGEST', 'INJURE', 'INJURY', 'INSERT', 'INTEND', 'INTENT', 'INTERN', 'INVEST', 'INSANE', 'IREFUL'
+            'IAMBIC', 'IAMBUS', 'IBIDEM', 'ICEBOX', 'ICEMAN', 'ICICLE', 'IDIOCY', 'IGNITE', 'IGNORE', 'IGUANA', 'IMMUNE', 'IMPACT',
+            'IMPAIR', 'IMPALA', 'IMPALE', 'IMPART', 'IMPEDE', 'IMPISH', 'IMPORT', 'IMPOSE', 'IMPUGN', 'IMPURE', 'IMPUTE', 'INBORN',
+            'INBRED', 'INCEST', 'INCISE', 'INCITE', 'INCOME', 'INDEED', 'INDENT', 'INDICT', 'INDIGO', 'INDOOR', 'INDUCE', 'INDUCT',
+            'INFAMY', 'INFANT', 'INFECT', 'INFEST', 'INFIRM', 'INFLOW', 'INFLUX', 'INFORM', 'INFUSE', 'INGEST', 'INHALE', 'INHERE',
+            'INJECT', 'INJURE', 'INJURY', 'INLAID', 'INLAND', 'INMATE', 'INMOST', 'INNATE', 'INSANE', 'INSECT', 'INSERT', 'INSIDE',
+            'INSIST', 'INSOLE', 'INSTEP', 'INSULT', 'INSURE', 'INTACT', 'INTAKE', 'INTEND', 'INTENT', 'INTERN', 'INTONE', 'INTUIT',
+            'INVADE', 'INVENT', 'INVERT', 'INVEST', 'INVITE', 'INVOKE', 'INWARD', 'IODINE', 'IONIZE', 'IREFUL', 'IRONIC', 'ISLAND',
+            'ISOBAR', 'ISSUER', 'ITALIC', 'ITSELF'
         ],
         '7': [
-            'ILLEGAL', 'IMAGINE', 'INCLUDE', 'INGRESS', 'INITIAL', 'INSPIRE', 'INSTANT', 'INTEREST'
+            'ICEBERG', 'ICEBOAT', 'ICINESS', 'IDEALLY', 'IDIOTIC', 'IDOLIZE', 'IDYLLIC', 'IGNEOUS', 'IGNOBLE', 'ILLEGAL', 'ILLICIT',
+            'ILLNESS', 'IMAGERY', 'IMAGINE', 'IMITATE', 'IMMENSE', 'IMMERSE', 'IMMORAL', 'IMPASSE', 'IMPEACH', 'IMPERIL', 'IMPETUS',
+            'IMPIETY', 'IMPINGE', 'IMPIOUS', 'IMPLANT', 'IMPLODE', 'IMPLORE', 'IMPLIED', 'IMPOUND', 'IMPRESS', 'IMPRINT', 'IMPROVE',
+            'IMPULSE', 'INANITY', 'INBOARD', 'INBOUND', 'INCENSE', 'INCISOR', 'INCLINE', 'INCLUDE', 'INCUBUS', 'INDEXED', 'INDOORS',
+            'INDULGE', 'INERTIA', 'INEXACT', 'INFANCY', 'INFERNO', 'INFIDEL', 'INFLAME', 'INFLATE', 'INFLECT', 'INFLICT', 'INFUSER',
+            'INGENUE', 'INGOING', 'INGRATE', 'INGRESS', 'INHABIT', 'INHALER', 'INHERIT', 'INHIBIT', 'INHUMAN', 'INITIAL', 'INJURED',
+            'INKBLOT', 'INKLING', 'INKWELL', 'INNARDS', 'INQUEST', 'INQUIRE', 'INQUIRY', 'INROADS', 'INSHORE', 'INSIDER', 'INSIGHT',
+            'INSIPID', 'INSOFAR', 'INSPIRE', 'INSTALL', 'INSTANT', 'INSTEAD', 'INSTILL', 'INSULAR', 'INSULIN', 'INSURED', 'INSURER',
+            'INTEGER', 'INTENSE', 'INTERIM', 'INTRUDE', 'INVADER', 'INVALID', 'INVEIGH', 'INVERSE', 'INVOICE', 'INVOLVE', 'IONIZER',
+            'IRIDIUM', 'IRKSOME', 'IRONING', 'ISOLATE', 'ISTHMUS', 'ITALICS', 'ITEMIZE', 'ITERATE'
         ]
     },
     'J': {
         '3': [
-            'JAM'
+            'JAB', 'JAG', 'JAM', 'JAR', 'JAW', 'JAY', 'JET', 'JIB', 'JIG', 'JOB', 'JOG', 'JOT', 'JOY', 'JUG', 'JUT'
         ],
         '4': [
-            'JOIN'
+            'JACK', 'JADE', 'JAIL', 'JAMB', 'JANE', 'JAWS', 'JAZZ', 'JEEP', 'JEER', 'JELL', 'JERK', 'JESS', 'JEST', 'JIBE', 'JILT', 'JINX',
+            'JIVE', 'JOHN', 'JOIN', 'JOKE', 'JOLT', 'JOSH', 'JOWL', 'JUDO', 'JUJU', 'JUMP', 'JUNK', 'JURY', 'JUST', 'JUTE'
         ],
         '5': [
-            'JEANS', 'JOINT'
+            'JADED', 'JAMMY', 'JAPAN', 'JAUNT', 'JAZZY', 'JEANS', 'JEHAD', 'JELLY', 'JEMMY', 'JENNY', 'JERKY', 'JETTY', 'JEWEL', 'JIFFY',
+            'JIHAD', 'JIMMY', 'JINGO', 'JOINT', 'JOIST', 'JOKER', 'JOLLY', 'JONAH', 'JONES', 'JOULE', 'JOUST', 'JUDGE', 'JUICE', 'JUICY',
+            'JULEP', 'JUMBO', 'JUMPY', 'JUROR'
         ],
         '6': [
-            'JUNGLE'
+            'JABBER', 'JACKAL', 'JACKET', 'JAGGED', 'JAGUAR', 'JAILER', 'JALOPY', 'JANGLE', 'JARFUL', 'JARGON', 'JASPER', 'JAUNTY',
+            'JEJUNE', 'JERKIN', 'JERSEY', 'JESTER', 'JIGGER', 'JIGGLE', 'JIGSAW', 'JINGLE', 'JINXED', 'JOBBER', 'JOCKEY', 'JOCOSE',
+            'JOCUND', 'JOGGER', 'JOGGLE', 'JOHNNY', 'JOINER', 'JOJOBA', 'JOKING', 'JOSTLE', 'JOTTER', 'JOVIAL', 'JOYFUL', 'JOYOUS',
+            'JUDDER', 'JUGGLE', 'JUJUBE', 'JUMBLE', 'JUMPER', 'JUNGLE', 'JUNIOR', 'JUNKET', 'JUNKIE', 'JURIST'
         ],
-        '7': ['JUNIPER']
+        '7': [
+            'JACKASS', 'JACKDAW', 'JACKPOT', 'JANITOR', 'JASMINE', 'JAVELIN', 'JAWBONE', 'JAYWALK', 'JEALOUS', 'JELLIED', 'JELLIES',
+            'JEWELER', 'JEWELRY', 'JITTERS', 'JITTERY', 'JOBBING', 'JOBLESS', 'JOCULAR', 'JOGGING', 'JOINERY', 'JOINTLY', 'JOLLILY',
+            'JOLLITY', 'JOTTING', 'JOURNAL', 'JOURNEY', 'JOYLESS', 'JOYRIDE', 'JUBILEE', 'JUGGLER', 'JUGULAR', 'JUJITSU', 'JUKEBOX',
+            'JUNIPER', 'JURYMAN', 'JUSTICE', 'JUSTIFY'
+        ]
     },
     'K': {
         '3': [
