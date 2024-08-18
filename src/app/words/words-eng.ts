@@ -805,19 +805,40 @@ export const wordsEng: Words = {
     },
     'O': {
         '3': [
-            'OAK', 'OFF', 'ONE', 'OUR', 'OUT', 'OWL'
+            'OAF', 'OAK', 'OAR', 'ODD', 'ODE', 'OFF', 'OFT', 'OHM', 'OIL', 'OLD', 'ONE', 'OOF', 'OPT', 'ORB', 'OUR', 'OUT', 'OWE', 'OWL',
+            'OWN'
         ],
         '4': [
-            'OBEY', 'OMIT', 'ONCE', 'ONLY', 'OPEN', 'OURS', 'OVER'
+            'OATH', 'OATS', 'OBEY', 'OBOE', 'ODDS', 'OGLE', 'OGRE', 'OILS', 'OILY', 'OINK', 'OKAY', 'OMEN', 'OMIT', 'ONCE', 'ONLY', 'ONTO',
+            'ONUS', 'ONYX', 'OOPS', 'OOZE', 'OPAL', 'OPEN', 'OPUS', 'ORAL', 'ORGY', 'OUCH', 'OURS', 'OVER', 'OUST', 'OVAL', 'OVEN', 'OVER',
+            'OVUM'
         ],
         '5': [
-            'OAKEN', 'OFFER', 'OPTION', 'ORDER', 'OTHER', 'OUGHT', 'OUNCE'
+            'OAKEN', 'OASIS', 'OBESE', 'OCCUR', 'OCEAN', 'OCHRE', 'OCHER', 'OCTAL', 'OCTET', 'ODDLY', 'ODIUM', 'ODOUR', 'OFFAL', 'OFFER',
+            'OFTEN', 'OILER', 'OKAPI', 'OLDEN', 'OLDIE', 'OLIVE', 'OMEGA', 'ONION', 'ONSET', 'OOMPH', 'OPERA', 'OPIUM', 'OPTIC', 'ORBIT',
+            'ORDER', 'ORGAN', 'OSIER', 'OTHER', 'OUGHT', 'OUNCE', 'OTTER', 'OUGHT', 'OUNCE', 'OUTDO', 'OUTER', 'OUTRE', 'OVARY', 'OVERT',
+            'OVOID', 'OWING', 'OWNER', 'OXIDE', 'OZONE'
         ],
         '6': [
-            'OCCUPY', 'OFFEND', 'OFFICE', 'ONLINE', 'ONWARD'
+            'OAFISH', 'OBJECT', 'OBLIGE', 'OBLONG', 'OBOIST', 'OBSESS', 'OBTAIN', 'OBTUSE', 'OCCULT', 'OCCUPY', 'OCELOT', 'OCTANE',
+            'OCTAVE', 'OCULAR', 'ODDITY', 'ODIOUS', 'OEDEMA', 'OEUVRE', 'OFFEND', 'OFFICE', 'OFFING', 'OFFSET', 'OGRESS', 'OLDISH',
+            'ONLINE', 'ONRUSH', 'ONSIDE', 'ONWARD', 'OODLES', 'OPAQUE', 'OPENER', 'OPENLY', 'OPIATE', 'OPPOSE', 'OPTICS', 'OPTION',
+            'ORACLE', 'ORALLY', 'ORANGE', 'ORATOR', 'ORCHID', 'ORDAIN', 'ORDURE', 'ORGASM', 'ORIENT', 'ORIGIN', 'ORIOLE', 'ORISON',
+            'ORNATE', 'ORNERY', 'ORPHAN', 'OSSIFY', 'OTHERS', 'OTIOSE', 'OUTAGE', 'OUTBID', 'OUTCRY', 'OUTFIT', 'OUTFOX', 'OUTING',
+            'OUTLAW', 'OUTLAY', 'OUTLET', 'OUTPUT', 'OUTRUN', 'OUTSET', 'OUTWIT', 'OVERDO', 'OVERLY', 'OXCART', 'OXTAIL', 'OXYGEN',
+            'OYSTER'
         ],
         '7': [
-            'OFFICER', 'OFFLINE', 'ONGOING'
+            'OARLOCK', 'OARSMAN', 'OATMEAL', 'OBELISK', 'OBESITY', 'OBLIQUE', 'OBLOQUY', 'OBSCENE', 'OBSCURE', 'OBSERVE', 'OBTRUDE',
+            'OBVERSE', 'OBVIATE', 'OBVIOUS', 'OCARINA', 'OCEANIC', 'OCTAGON', 'OCTOPUS', 'OCULIST', 'ODDBALL', 'ODOROUS', 'OEDIPAL',
+            'OESTRUS', 'OFFBEAT', 'OFFENCE', 'OFFICER', 'OFFLINE', 'OFFSIDE', 'OMINOUS', 'OMNIBUS', 'ONENESS', 'ONEROUS', 'ONESELF',
+            'ONGOING', 'ONSHORE', 'ONWARDS', 'OPACITY', 'OPENING', 'OPERATE', 'OPINION', 'OPOSSUM', 'OPPOSED', 'OPPRESS', 'OPTICAL',
+            'OPTIMAL', 'OPTIMUM', 'OPULENT', 'ORATION', 'ORATORY', 'ORBITAL', 'ORCHARD', 'ORDERED', 'ORDERLY', 'ORDINAL', 'OREGANO',
+            'ORGANIC', 'ORIFICE', 'ORIGAMI', 'OROTUND', 'OSMOSIS', 'OSTRICH', 'OTTOMAN', 'OUTBACK', 'OUTCAST', 'OUTCOME', 'OUTDOOR',
+            'OUTDRAW', 'OUTFACE', 'OUTFALL', 'OUTFLOW', 'OUTGROW', 'OUTLAST', 'OUTLINE', 'OUTLIVE', 'OUTLOOK', 'OUTPACE', 'OUTPLAY',
+            'OUTPOST', 'OUTRAGE', 'OUTSELL', 'OUTSIDE', 'OUTSIZE', 'OUTSTAY', 'OUTTAKE', 'OUTVOTE', 'OUTWARD', 'OUTWORK', 'OVATION',
+            'OVERACT', 'OVERAGE', 'OVERALL', 'OVERAWE', 'OVERBID', 'OVERDUE', 'OVEREAT', 'OVERLAP', 'OVERLAY', 'OVERLIE', 'OVERPAY',
+            'OVERRUN', 'OVERSEE', 'OVERTAX', 'OVERTOP', 'OVIDUCT', 'OXIDIZE'
         ]
     },
     'P': {
