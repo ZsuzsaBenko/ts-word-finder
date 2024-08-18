@@ -772,19 +772,35 @@ export const wordsEng: Words = {
     },
     'N': {
         '3': [
-            'NAP', 'NAY', 'NET', 'NEW', 'NOD', 'NOT', 'NUN', 'NUT'
+            'NAB', 'NAG', 'NAN', 'NAP', 'NAY', 'NEE', 'NET', 'NEW', 'NIB', 'NIL', 'NIP', 'NIT', 'NIX', 'NOD', 'NOR', 'NOT', 'NOW', 'NUB',
+            'NUN', 'NUT'
         ],
         '4': [
-            'NAIL', 'NAME', 'NAVY', 'NECK', 'NEWS', 'NINE', 'NOTE', 'NOUN'
+            'NAFF', 'NAIL', 'NAME', 'NAPE', 'NARC', 'NARK', 'NARY', 'NAVE', 'NAVY', 'NEAR', 'NEAT', 'NECK', 'NEED', 'NEON', 'NERD', 'NESS',
+            'NEST', 'NETT', 'NEWS', 'NEWT', 'NEXT', 'NICE', 'NICK', 'NIFF', 'NIGH', 'NINE', 'NODE', 'NONE', 'NOOK', 'NOON', 'NOPE', 'NORM',
+            'NOSE', 'NOSH', 'NOSY', 'NOTE', 'NOUN', 'NOUS', 'NUDE', 'NUKE', 'NULL', 'NUMB', 'NUTS'
         ],
         '5': [
-            'NAPPY', 'NEVER', 'NIGHT', 'NOVEL'
+            'NABOB', 'NACRE', 'NADIR', 'NAIAD', 'NAIVE', 'NAKED', 'NANNY', 'NAPPY', 'NARKY', 'NASAL', 'NASTY', 'NATAL', 'NATCH', 'NATTY',
+            'NAVAL', 'NAVEL', 'NAVVY', 'NEDDY', 'NEEDS', 'NEEDY', 'NEIGH', 'NELLY', 'NERVE', 'NERVY', 'NETTY', 'NEVER', 'NEWLY', 'NEWSY',
+            'NEXUS', 'NICHE', 'NIECE', 'NIFFY', 'NIGHT', 'NINJA', 'NINNY', 'NINTH', 'NIPPY', 'NITRE', 'NOBLE', 'NOBLY', 'NODAL', 'NOISE',
+            'NOISY', 'NOMAD', 'NONCE', 'NOOSE', 'NORTH', 'NOSEY', 'NOTCH', 'NOTED', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY', 'NYLON', 'NYMPH'
         ],
         '6': [
-            'NARROW', 'NINETY', 'NOBODY', 'NUMBER'
+            'NACHOS', 'NAMELY', 'NAPALM', 'NAPKIN', 'NARROW', 'NATION', 'NATIVE', 'NATTER', 'NATURE', 'NAUGHT', 'NAUSEA', 'NEARBY',
+            'NEARLY', 'NEBULA', 'NECTAR', 'NEEDLE', 'NEGATE', 'NEPHEW', 'NEREID', 'NERVES', 'NESTLE', 'NETHER', 'NETTLE', 'NEURAL',
+            'NEURON', 'NEUTER', 'NEWBIE', 'NIBBLE', 'NICELY', 'NICETY', 'NICKEL', 'NICKER', 'NIGGLE', 'NIMBLE', 'NIMBUS', 'NINETY',
+            'NIPPER', 'NIPPLE', 'NITWIT', 'NOBBLE', 'NOBODY', 'NODULE', 'NOGGIN', 'NONCOM', 'NOODLE', 'NORMAL', 'NOTARY', 'NOTICE',
+            'NOTIFY', 'NOTION', 'NOUGAT', 'NOUGHT', 'NOVICE', 'NOZZLE', 'NUANCE', 'NUBILE', 'NUDISM', 'NUDIST', 'NUDITY', 'NUGGET',
+            'NUMBER', 'NUNCIO', 'NUTMEG', 'NUTRIA', 'NUTTER', 'NUZZLE', 'NYLONS'
         ],
         '7': [
-            'NIGHTLY', 'NOTHING', 'NOWHERE', 'NUCLEAR'
+            'NAGGING', 'NAGWARE', 'NAIVETY', 'NARRATE', 'NASCENT', 'NATURAL', 'NAUGHTY', 'NEBULAR', 'NECKTIE', 'NEEDFUL', 'NEGLECT',
+            'NEGROID', 'NEITHER', 'NEMESIS', 'NERVOUS', 'NETBALL', 'NETIZEN', 'NETTING', 'NETWORK', 'NEUTRAL', 'NEUTRON', 'NEWBORN',
+            'NEWNESS', 'NEWSMAN', 'NIGGARD', 'NIGHTIE', 'NIGHTLY', 'NINEPIN', 'NIPPERS', 'NITRATE', 'NOISILY', 'NOISOME', 'NOMADIC',
+            'NOMINAL', 'NONPLUS', 'NOONDAY', 'NOSEBAG', 'NOSEGAY', 'NOSTRIL', 'NOSTRUM', 'NOTABLE', 'NOTABLY', 'NOTELET', 'NOTEPAD',
+            'NOTHING', 'NOTIONS', 'NOURISH', 'NOVELLA', 'NOVELTY', 'NOWHERE', 'NOXIOUS', 'NUCLEAR', 'NUCLEUS', 'NULLIFY', 'NULLITY',
+            'NUMBERS', 'NUMERAL', 'NUNNERY', 'NUPTIAL', 'NURSERY', 'NURSING', 'NURTURE', 'NUTCASE'
         ]
     },
     'O': {
