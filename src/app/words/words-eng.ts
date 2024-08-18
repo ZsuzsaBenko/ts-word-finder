@@ -652,23 +652,54 @@ export const wordsEng: Words = {
     },
     'L': {
         '3': [
-            'LAB', 'LAD', 'LAX', 'LAY', 'LET', 'LIE', 'LIP', 'LOG'
+            'LAB', 'LAD', 'LAG', 'LAM', 'LAP', 'LAV', 'LAW', 'LAX', 'LAY', 'LEA', 'LEG', 'LET', 'LIB', 'LID', 'LIE', 'LIP', 'LOB', 'LOG',
+            'LOO', 'LOP', 'LOT', 'LOW', 'LUG', 'LUR', 'LUX'
         ],
         '4': [
-            'LACK', 'LACE', 'LACY', 'LADY', 'LAKE', 'LAMB', 'LAME', 'LAMP', 'LAND', 'LANE', 'LARD', 'LARK', 'LASH', 'LATE', 'LEAN', 'LEND',
-            'LIAR', 'LICK', 'LIFE', 'LIKE', 'LINE', 'LIMP', 'LINK', 'LINT', 'LION', 'LIST', 'LIVE', 'LOCK', 'LOOK', 'LONG', 'LORD', 'LOSE',
-            'LOUD', 'LOVE', 'LUCK', 'LYNX'
+            'LACK', 'LACE', 'LACK', 'LACY', 'LADS', 'LADY', 'LAIR', 'LAKE', 'LAMA', 'LAMB', 'LAME', 'LAMP', 'LAND', 'LANE', 'LANK', 'LARD',
+            'LARK', 'LASH', 'LASS', 'LAST', 'LATE', 'LATH', 'LAUD', 'LAVA', 'LAWN', 'LAZE', 'LAZY', 'LEAD', 'LEAF', 'LEAK', 'LEAN', 'LEAP',
+            'LEEK', 'LEER', 'LEES', 'LEFT', 'LEND', 'LENS', 'LESS', 'LEVY', 'LEWD', 'LIAR', 'LICK', 'LIDO', 'LIEN', 'LIEU', 'LIFE', 'LIFT',
+            'LIKE', 'LILT', 'LILY', 'LIMB', 'LIME', 'LIMO', 'LIMP', 'LIMY', 'LINE', 'LINK', 'LINO', 'LINT', 'LION', 'LISP', 'LIST', 'LITE',
+            'LIVE', 'LOAD', 'LOAF', 'LOAM', 'LOAN', 'LOBE', 'LOCH', 'LOCK', 'LOCO', 'LODE', 'LOFT', 'LOGO', 'LOGY', 'LOIN', 'LOLL', 'LONE',
+            'LONG', 'LOOK', 'LOOM', 'LOON', 'LOOP', 'LOOT', 'LOPE', 'LORD', 'LORE', 'LOSE', 'LOSS', 'LOST', 'LOUD', 'LOUT', 'LOVE', 'LUAU',
+            'LUBE', 'LUCK', 'LUDO', 'LUFF', 'LUGE', 'LULL', 'LULU', 'LUMP', 'LURE', 'LURK', 'LUSH', 'LUST', 'LUTE', 'LYNX', 'LYRE'
         ],
         '5': [
-            'LABEL', 'LABOR', 'LANCE', 'LARGE', 'LARVA', 'LASER', 'LASSO', 'LATCH', 'LATER', 'LAYER', 'LEARN', 'LEAVE', 'LEGAL', 'LIMIT',
-            'LIVER', 'LOBBY', 'LODGE', 'LOOSE', 'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LUCKY'
+            'LABEL', 'LABOR', 'LACED', 'LADEN', 'LADLE', 'LAGER', 'LAITY', 'LANCE', 'LANKY', 'LAPEL', 'LAPSE', 'LARCH', 'LARGE', 'LARVA',
+            'LASER', 'LASSO', 'LATCH', 'LATER', 'LATEX', 'LATHE', 'LATTE', 'LAUGH', 'LAYER', 'LEACH', 'LEAFY', 'LEAKY', 'LEARN', 'LEASE',
+            'LEASH', 'LEAST', 'LEAVE', 'LEDGE', 'LEECH', 'LEFTY', 'LEGAL', 'LEGER', 'LEGGY', 'LEGIT', 'LEMMA', 'LEMON', 'LEMUR', 'LEPER',
+            'LETUP', 'LEVEE', 'LEVEL', 'LEVER', 'LEXIS', 'LIANA', 'LIBEL', 'LIBRA', 'LICIT', 'LIEGE', 'LIFER', 'LIGHT', 'LIKEN', 'LILAC',
+            'LIMBO', 'LIMEY', 'LIMIT', 'LINED', 'LINEN', 'LINER', 'LINES', 'LINKS', 'LIPID', 'LISTS', 'LITER', 'LITHE', 'LITRE', 'LIVEN',
+            'LIVER', 'LIVID', 'LLAMA', 'LOATH', 'LOBBY', 'LOCAL', 'LOCUM', 'LOCUS', 'LODGE', 'LOESS', 'LOFTY', 'LOGIC', 'LOINS', 'LOLLY',
+            'LONER', 'LOOKS', 'LOONY', 'LOOSE', 'LORRY', 'LOSER', 'LOTUS', 'LOUSE', 'LOUSY', 'LOVER', 'LOVEY', 'LOWER', 'LOWLY', 'LOYAL',
+            'LUCID', 'LUCKY', 'LUCRE', 'LUMPY', 'LUNAR', 'LUNCH', 'LUNGE', 'LUNGS', 'LUPIN', 'LURCH', 'LUSTY', 'LYMPH', 'LYNCH', 'LYRIC'
         ],
         '6': [
-            'LABOUR', 'LANCET', 'LAPTOP', 'LARYNX', 'LATENT', 'LATEST', 'LATTER', 'LENGTH', 'LETHAL', 'LINDEN', 'LINGER', 'LINTEL',
-            'LISTEN', 'LOCKER', 'LONELY', 'LOUNGE'
+            'LABIAL', 'LABILE', 'LABIUM', 'LABOUR', 'LACING', 'LACKEY', 'LACUNA', 'LADDER', 'LADDIE', 'LAGOON', 'LAMENT', 'LANCER',
+            'LANCET', 'LANDAU', 'LANDED', 'LAPDOG', 'LAPSED', 'LAPTOP', 'LARIAT', 'LARYNX', 'LASSIE', 'LASTLY', 'LATELY', 'LATENT',
+            'LATEST', 'LATHER', 'LATISH', 'LATTER', 'LAUNCH', 'LAUREL', 'LAVISH', 'LAWFUL', 'LAWMAN', 'LAWYER', 'LAYMAN', 'LAYOFF',
+            'LAYOUT', 'LEADED', 'LEADEN', 'LEADER', 'LEAGUE', 'LEAVEN', 'LEAVES', 'LECHER', 'LEDGER', 'LEEWAY', 'LEGACY', 'LEGATE',
+            'LEGATO', 'LEGEND', 'LEGION', 'LEGUME', 'LENDER', 'LENGTH', 'LENTIL', 'LESION', 'LESSEE', 'LESSEN', 'LESSER', 'LESSON',
+            'LESSOR', 'LETHAL', 'LETTER', 'LEVITY', 'LIABLE', 'LIAISE', 'LIBIDO', 'LICHEN', 'LIGHTS', 'LIKELY', 'LIKING', 'LIMBER',
+            'LIMPET', 'LIMPID', 'LINAGE', 'LINDEN', 'LINEAR', 'LINEUP', 'LINGER', 'LINING', 'LINKUP', 'LINTEL', 'LIQUID', 'LIQUOR',
+            'LISTEN', 'LITANY', 'LITCHI', 'LITMUS', 'LITTER', 'LITTLE', 'LIVELY', 'LIVERY', 'LIVING', 'LIZARD', 'LOADED', 'LOAFER',
+            'LOATHE', 'LOCALE', 'LOCATE', 'LOCKER', 'LOCKET', 'LOCUST', 'LODGER', 'LOGGER', 'LOGGIA', 'LOITER', 'LOLLOP', 'LONELY',
+            'LONGER', 'LOOFAH', 'LOOKER', 'LOONEY', 'LOOSEN', 'LOOTER', 'LOSING', 'LOTION', 'LOUDLY', 'LOUNGE', 'LOUVER', 'LOUVRE',
+            'LOVELY', 'LOVING', 'LUBBER', 'LUMBER', 'LUNACY', 'LUPINE', 'LUSTRE', 'LUXURY', 'LYRICS'
         ],
         '7': [
-            'LANTERN', 'LATERAL', 'LATTICE', 'LETTUCE', 'LIBRARY', 'LOBSTER'
+            'LABORED', 'LABORER', 'LACKING', 'LACONIC', 'LACQUER', 'LACTOSE', 'LADYBUG', 'LAGGARD', 'LAGGING', 'LAMAISM', 'LAMBADA',
+            'LAMBKIN', 'LANDING', 'LANGUOR', 'LANYARD', 'LANOLIN', 'LANTERN', 'LAPWING', 'LARCENY', 'LARGELY', 'LASAGNA', 'LASHING',
+            'LASTING', 'LATENCY', 'LATERAL', 'LATRINE', 'LATTICE', 'LAUNDER', 'LAUNDRY', 'LAWLESS', 'LAWSUIT', 'LAYAWAY', 'LAYERED',
+            'LAYETTE', 'LAYOVER', 'LEADING', 'LEAFLET', 'LEANING', 'LEARNED', 'LEARNER', 'LEATHER', 'LEAVING', 'LECHERY', 'LECTERN',
+            'LECTURE', 'LEEWARD', 'LEFTISM', 'LEFTIST', 'LEGALLY', 'LEGATEE', 'LEGIBLE', 'LEGIBLY', 'LEGLESS', 'LEGWORK', 'LEISURE',
+            'LEMMING', 'LENDING', 'LENGTHY', 'LENIENT', 'LEONINE', 'LEOPARD', 'LEOTARD', 'LEPROSY', 'LEPROUS', 'LESBIAN', 'LETDOWN',
+            'LETTERS', 'LETTING', 'LETTUCE', 'LEXICAL', 'LEXICON', 'LIAISON', 'LIBERAL', 'LIBERTY', 'LIBRARY', 'LICENCE', 'LICENSE',
+            'LIFTING', 'LIGHTEN', 'LIGHTER', 'LIGHTLY', 'LIGNITE', 'LIKABLE', 'LIMEADE', 'LIMITED', 'LINCTUS', 'LINEAGE', 'LINEMAN',
+            'LINGUAL', 'LINKAGE', 'LINKMAN', 'LINSEED', 'LIONESS', 'LIONIZE', 'LIPREAD', 'LIQUEFY', 'LIQUEUR', 'LITERAL', 'LITHIUM',
+            'LITURGY', 'LIVABLE', 'LOADING', 'LOBSTER', 'LOCALLY', 'LODGING', 'LOGGING', 'LONGBOW', 'LONGING', 'LONGISH', 'LOOSELY',
+            'LOTTERY', 'LOUNGER', 'LOURING', 'LOUTISH', 'LOVABLE', 'LOWLAND', 'LOYALTY', 'LOZENGE', 'LUCKILY', 'LUDDITE', 'LUFFING',
+            'LUGGAGE', 'LUGSAIL', 'LULLABY', 'LUMBAGO', 'LUMPISH', 'LUNATIC', 'LUSTFUL', 'LUSTILY', 'LYRICAL'
         ]
     },
     'M': {
