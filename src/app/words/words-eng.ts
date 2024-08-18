@@ -627,19 +627,27 @@ export const wordsEng: Words = {
     },
     'K': {
         '3': [
-            'KEY'
+            'KEG', 'KEN', 'KEY', 'KID', 'KIN', 'KIP', 'KIT'
         ],
         '4': [
-            'KEEP', 'KILL', 'KIND', 'KING', 'KISS', 'KNEE', 'KNOT', 'KNOW'
+            'KADI', 'KALE', 'KART', 'KEEL', 'KEEN', 'KEEP', 'KELP', 'KENO', 'KERB', 'KHAN', 'KICK', 'KILL', 'KILN', 'KILO', 'KILT', 'KIND',
+            'KINE', 'KING', 'KINK', 'KIRK', 'KISS', 'KITE', 'KIWI', 'KNEE', 'KNIT', 'KNOB', 'KNOT', 'KNOW', 'KOHL', 'KOLO', 'KOOK'
         ],
         '5': [
-            'KNEEL', 'KNIFE'
+            'KABOB', 'KANJI', 'KAPUT', 'KARAT', 'KARMA', 'KAYAK', 'KEEPS', 'KENDO', 'KETCH', 'KHAKI', 'KIDDY', 'KINKY', 'KIOSK', 'KNEEL',
+            'KNIFE', 'KITTY', 'KNACK', 'KNAVE', 'KNEAD', 'KNEEL', 'KNELL', 'KNIFE', 'KNOCK', 'KNOLL', 'KNOWN', 'KOALA', 'KOOKY', 'KRAFT',
+            'KUDOS', 'KULAK'
         ],
         '6': [
-            'KILLER', 'KITTEN', 'KNIGHT'
+            'KAFTAN', 'KARATE', 'KEEPER', 'KELVIN', 'KELPIE', 'KENNEL', 'KERNEL', 'KETTLE', 'KEYPAD', 'KHAKIS', 'KIBOSH', 'KIDDIE',
+            'KIDNAP', 'KIDNEY', 'KILLER', 'KILTED', 'KILTER', 'KIMONO', 'KINDLE', 'KINDLY', 'KINGLY', 'KIPPER', 'KISSER', 'KITSCH',
+            'KITTEN', 'KLAXON', 'KNIGHT', 'KNOTTY', 'KOSHER'
         ],
         '7': [
-            'KINDRED', 'KITCHEN'
+            'KARAOKE', 'KARTING', 'KEEPING', 'KENNELS', 'KESTREL', 'KETCHUP', 'KEYHOLE', 'KEYLESS', 'KEYNOTE', 'KIBBUTZ', 'KICKING',
+            'KICKOFF', 'KILLING', 'KILLJOY', 'KILOBIT', 'KINDRED', 'KINETIC', 'KINFOLK', 'KINGDOM', 'KINGPIN', 'KINSHIP', 'KINSMAN',
+            'KINDRED', 'KITCHEN', 'KLEENEX', 'KNACKER', 'KNEECAP', 'KNITTER', 'KNOCKER', 'KNOTTED', 'KNOWING', 'KNUCKLE', 'KRYPTON',
+            'KUMQUAT'
         ]
     },
     'L': {
