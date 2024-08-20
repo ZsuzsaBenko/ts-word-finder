@@ -940,18 +940,23 @@ export const wordsEng: Words = {
         ]
     },
     'Q': {
-        '3': [],
+        '3': [
+            'QUA'
+        ],
         '4': [
-            'QUAD', 'QUAY', 'QUIT', 'QUIZ'
+            'QUAD', 'QUAY', 'QUID', 'QUIP', 'QUIT', 'QUIZ', 'QUOD'
         ],
         '5': [
-            'QUEEN', 'QUEER', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE'
+            'QUACK', 'QUAFF', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 'QUART', 'QUASH', 'QUASI', 'QUEEN', 'QUEER', 'QUELL', 'QUERY', 'QUEST',
+            'QUEUE', 'QUICK', 'QUIET', 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUITS', 'QUOTA', 'QUOTE', 'QUOTH'
         ],
         '6': [
-            'QUAINT', 'QUARRY'
+            'QUAINT', 'QUARRY', 'QUARTO', 'QUARTZ', 'QUASAR', 'QUAVER', 'QUEASY', 'QUENCH', 'QUINCE', 'QUINSY', 'QUIRKY', 'QUIVER',
+            'QUORUM', 'QWERTY'
         ],
         '7': [
-            'QUALITY', 'QUARREL', 'QUARTER'
+            'QUALIFY', 'QUALITY', 'QUANTUM', 'QUARREL', 'QUARTER', 'QUARTET', 'QUAVERY', 'QUEENLY', 'QUIBBLE', 'QUICKLY', 'QUIETEN',
+            'QUIETLY', 'QUIETUS', 'QUINTET', 'QUITTER', 'QUORATE'
         ]
     },
     'R': {
