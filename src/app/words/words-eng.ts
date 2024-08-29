@@ -1290,19 +1290,37 @@ export const wordsEng: Words = {
     },
     'V': {
         '3': [
-            'VAN', 'VET', 'VOW'
+            'VAC', 'VAN', 'VAT', 'VEG', 'VET', 'VEX', 'VIA', 'VID', 'VIE', 'VIM', 'VOW'
         ],
         '4': [
-            'VALE', 'VAMP', 'VANE', 'VARY', 'VASE', 'VAST', 'VERB', 'VERY', 'VOID'
+            'VAIN', 'VALE', 'VAMP', 'VANE', 'VARY', 'VASE', 'VAST', 'VEAL', 'VEEP', 'VEER', 'VEIL', 'VEIN', 'VELD', 'VEND', 'VENT', 'VERB',
+            'VERT', 'VERY', 'VEST', 'VETO', 'VIAL', 'VICE', 'VIEW', 'VILE', 'VINE', 'VIOL', 'VISA', 'VISE', 'VITA', 'VIVA', 'VOID', 'VOLE',
+            'VOLT', 'VOTE'
         ],
         '5': [
-            'VAGUE', 'VALID', 'VALOR', 'VALUE', 'VALVE', 'VIDEO', 'VIRAL', 'VIRUS', 'VISIT', 'VOWEL'
+            'VAGUE', 'VALET', 'VALID', 'VALOR', 'VALUE', 'VALVE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VEGAN', 'VELAR', 'VENAL', 'VENOM',
+            'VENUE', 'VERGE', 'VERSE', 'VERSO', 'VERVE', 'VETCH', 'VIBES', 'VICAR', 'VIDEO', 'VIGIL', 'VIGOR', 'VINYL', 'VIOLA', 'VIPER',
+            'VIRAL', 'VIRUS', 'VISIT', 'VISOR', 'VISTA', 'VITAL', 'VIVID', 'VIXEN', 'VOCAL', 'VODKA', 'VOGUE', 'VOICE', 'VOILE', 'VOMIT',
+            'VOTER', 'VOUCH', 'VOWEL', 'VULVA'
         ],
         '6': [
-            'VACUUM', 'VALLEY', 'VALOUR', 'VANISH', 'VANITY', 'VERIFY', 'VERSUS', 'VESSEL', 'VIOLET', 'VIOLIN', 'VOLUME'
+            'VACANT', 'VACATE', 'VACUUM', 'VAGARY', 'VAGINA', 'VAINLY', 'VALISE', 'VALLEY', 'VALOUR', 'VALUED', 'VALUER', 'VANDAL',
+            'VANISH', 'VANITY', 'VAPOUR', 'VARIED', 'VARLET', 'VASSAL', 'VECTOR', 'VEEJAY', 'VEGGIE', 'VEILED', 'VEINED', 'VELCRO',
+            'VELLUM', 'VELOUR', 'VELVET', 'VENDOR', 'VENEER', 'VENIAL', 'VENOUS', 'VERBAL', 'VERGER', 'VERIFY', 'VERILY', 'VERITY',
+            'VERMIN', 'VERNAL', 'VERSED', 'VERSUS', 'VERTEX', 'VESSEL', 'VESTRY', 'VEXING', 'VIABLE', 'VIANDS', 'VICTIM', 'VICTOR',
+            'VICUNA', 'VIEWER', 'VIGOUR', 'VILIFY', 'VINOUS', 'VIOLET', 'VIOLIN', 'VIRAGO', 'VIRGIN', 'VIRILE', 'VIRTUE', 'VISAGE',
+            'VISION', 'VISUAL', 'VITALS', 'VIVACE', 'VIZIER', 'VOICED', 'VOLLEY', 'VOLUME', 'VOODOO', 'VORTEX', 'VOTARY', 'VOTING',
+            'VOTIVE', 'VOYAGE', 'VOYEUR', 'VULGAR'
         ],
         '7': [
-            'VAGRANT', 'VALIANT', 'VAMPIRE', 'VARIANT', 'VARIOUS', 'VISIBLE'
+            'VACANCY', 'VACCINE', 'VACUITY', 'VACUOUS', 'VAGINAL', 'VAGRANT', 'VAGUELY', 'VALANCE', 'VALENCE', 'VALENCY', 'VALIANT',
+            'VAMPIRE', 'VANILLA', 'VANTAGE', 'VAPOURS', 'VAQUERO', 'VARIANT', 'VARIETY', 'VARIOUS', 'VARNISH', 'VARSITY', 'VARYING',
+            'VAULTED', 'VAULTER', 'VEHICLE', 'VELVETY', 'VENISON', 'VENTRAL', 'VENTURE', 'VERANDA', 'VERBOSE', 'VERDANT', 'VERDICT',
+            'VERDURE', 'VERNIER', 'VERRUCA', 'VERSIFY', 'VERSION', 'VERTIGO', 'VESICLE', 'VESPERS', 'VESTIGE', 'VETERAN', 'VIADUCT',
+            'VIBRANT', 'VIBRATE', 'VICEROY', 'VICIOUS', 'VICTORY', 'VICTUAL', 'VIEWING', 'VILLAGE', 'VILLAIN', 'VILLEIN', 'VINEGAR',
+            'VINTAGE', 'VINTNER', 'VIOLATE', 'VIOLENT', 'VIRTUAL', 'VISCERA', 'VISCOSE', 'VISCOUS', 'VISIBLE', 'VISIBLY', 'VISITOR',
+            'VITALLY', 'VITAMIN', 'VITIATE', 'VITRIFY', 'VITRINE', 'VITRIOL', 'VOCABLE', 'VOCALIC', 'VOLCANO', 'VOLTAGE', 'VOLUBLE',
+            'VOUCHER', 'VOYAGER', 'VULTURE'
         ]
     },
     'W': {
