@@ -1325,22 +1325,51 @@ export const wordsEng: Words = {
     },
     'W': {
         '3': [
-            'WAN', 'WAR', 'WAS', 'WAY', 'WEB', 'WET', 'WHY', 'WIG', 'WIN'
+            'WAC', 'WAD', 'WAG', 'WAN', 'WAR', 'WAS', 'WAX', 'WAY', 'WEB', 'WED', 'WEE', 'WET', 'WHO', 'WHY', 'WIG', 'WIN', 'WIT', 'WOE',
+            'WOG', 'WOK', 'WOO', 'WOW', 'WRY'
         ],
         '4': [
-            'WAIL', 'WAIT', 'WAND', 'WANE', 'WANT', 'WARD', 'WARM', 'WARN', 'WASH', 'WAVE', 'WAVY', 'WEAK', 'WEAN', 'WEAR', 'WELL', 'WERE',
-            'WHAT', 'WHEN', 'WHOM', 'WILL', 'WIND', 'WING', 'WIRE', 'WISH', 'WITH', 'WORD', 'WORK'
+            'WADE', 'WADI', 'WAFT', 'WAGE', 'WAIF', 'WAIL', 'WAIT', 'WAKE', 'WALE', 'WALK', 'WALL', 'WAND', 'WANE', 'WANT', 'WARD', 'WARM',
+            'WARN', 'WARP', 'WART', 'WARY', 'WASH', 'WASP', 'WATT', 'WAVE', 'WAVY', 'WAXY', 'WAYS', 'WEAK', 'WEAL', 'WEAN', 'WEAR', 'WELL',
+            'WERE', 'WEED', 'WEEK', 'WEEP', 'WEIR', 'WELD', 'WELL', 'WELT', 'WEND', 'WERE', 'WEST', 'WHAM', 'WHAT', 'WHEN', 'WHET', 'WHEW',
+            'WHEY', 'WHIM', 'WHIP', 'WHIR', 'WHIZ', 'WHOA', 'WHOM', 'WHOP', 'WICK', 'WIDE', 'WIFE', 'WILD', 'WILL', 'WILT', 'WILY', 'WIMP',
+            'WIND', 'WINE', 'WING', 'WINK', 'WIPE', 'WIRE', 'WIRY', 'WISE', 'WISH', 'WISP', 'WITH', 'WOLD', 'WOLF', 'WOMB', 'WONK', 'WONT',
+            'WOOD', 'WOOF', 'WOOL', 'WORD', 'WORK', 'WORM', 'WORN', 'WRAP', 'WREN', 'WRIT', 'WUSS'
         ],
         '5': [
-            'WATER', 'WAIST', 'WEARY', 'WEAVE', 'WHALE', 'WHERE', 'WHICH', 'WHILE', 'WHINE', 'WHITE', 'WHOLE', 'WHOSE', 'WIDOW', 'WIELD',
-            'WINCE', 'WINDY', 'WITCH', 'WOMAN', 'WORLD', 'WORSE', 'WORST', 'WOULD', 'WOUND', 'WRING', 'WRITE', 'WRONG'
+            'WACKO', 'WACKY', 'WADER', 'WAFER', 'WAGER', 'WAGES', 'WAGON', 'WAIST', 'WAIVE', 'WAKEN', 'WALLY', 'WALTZ', 'WARES', 'WASHY',
+            'WASTE', 'WATCH', 'WATER', 'WAVER', 'WAXED', 'WAXEN', 'WAZOO', 'WEARY', 'WEAVE', 'WEDGE', 'WEEDS', 'WEEDY', 'WEENY', 'WEEPY',
+            'WEIGH', 'WEIRD', 'WELCH', 'WELLY', 'WENCH', 'WHACK', 'WHALE', 'WHARF', 'WHEAT', 'WHEEL', 'WHELK', 'WHELP', 'WHERE', 'WHICH',
+            'WHIFF', 'WHILE', 'WHINE', 'WHIRL', 'WHISK', 'WHITE', 'WHIZZ', 'WHOLE', 'WHOMP', 'WHOOP', 'WHORE', 'WHORL', 'WHOSE', 'WIDEN',
+            'WIDOW', 'WIDTH', 'WIELD', 'WIGHT', 'WILES', 'WILLY', 'WIMPY', 'WINCE', 'WINCH', 'WINDY', 'WIRED', 'WITCH', 'WITTY', 'WODGE',
+            'WOMAN', 'WONKY', 'WOODY', 'WORDY', 'WORKS', 'WORLD', 'WORMY', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WOULD', 'WOUND', 'WRACK',
+            'WRATH', 'WREAK', 'WRECK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG', 'WROTH'
         ],
         '6': [
-            'WAITER', 'WEALTH', 'WEAPON', 'WEASEL', 'WEIGHT', 'WICKED', 'WINDOW', 'WINNER', 'WINTER', 'WITHER', 'WRAITH', 'WRITER',
-            'WRITHE'
+            'WADDLE', 'WADERS', 'WAFFLE', 'WAGGLE', 'WAGGON', 'WAITER', 'WAIVER', 'WAKING', 'WALKER', 'WALLET', 'WALLOP', 'WALLOW',
+            'WALNUT', 'WALRUS', 'WAMPUM', 'WANDER', 'WANGLE', 'WANTED', 'WANTON', 'WAPITI', 'WARBLE', 'WARDEN', 'WARDER', 'WARILY',
+            'WARMLY', 'WARMTH', 'WARPED', 'WARREN', 'WASHER', 'WASTED', 'WASTER', 'WATERS', 'WATERY', 'WATTLE', 'WAYLAY', 'WEAKEN',
+            'WEALTH', 'WEAPON', 'WEASEL', 'WEAVER', 'WEBBED', 'WEDDED', 'WEEKLY', 'WEENIE', 'WEEVIL', 'WEIGHT', 'WEIRDO', 'WELDER',
+            'WELKIN', 'WELTER', 'WHALER', 'WHEEZE', 'WHEEZY', 'WHENCE', 'WHILST', 'WHIMSY', 'WHINER', 'WHINGE', 'WHINNY', 'WHISKY',
+            'WHITEN', 'WHITES', 'WHOLLY', 'WHOOPS', 'WHOOSH', 'WICKED', 'WICKET', 'WIDELY', 'WIDGET', 'WIENER', 'WIENIE', 'WIGGLE',
+            'WIGWAM', 'WILDLY', 'WILFUL', 'WILLIE', 'WILLOW', 'WIMPLE', 'WINDED', 'WINDOW', 'WINERY', 'WINGED', 'WINGER', 'WINKLE',
+            'WINNER', 'WINNOW', 'WINTER', 'WINTRY', 'WIRING', 'WISDOM', 'WISELY', 'WITHER', 'WITHIN', 'WIZARD', 'WOBBLE', 'WOBBLY',
+            'WOEFUL', 'WOMBAT', 'WONDER', 'WONTED', 'WONTON', 'WOODED', 'WOODEN', 'WOOFER', 'WOOLEN', 'WOOLLY', 'WORKER', 'WORSEN',
+            'WORTHY', 'WRAITH', 'WREATH', 'WRENCH', 'WRETCH', 'WRITER', 'WRITHE', 'WYVERN'
         ],
         '7': [
-            'WARLOCK', 'WARLORD', 'WARNING', 'WEBPAGE', 'WEALTHY', 'WEATHER', 'WISHFUL', 'WHISPER', 'WOUNDED'
+            'WADDING', 'WAGGISH', 'WAGTAIL', 'WAITING', 'WAKEFUL', 'WALKIES', 'WALKING', 'WALKMAN', 'WALKOUT', 'WALKWAY', 'WALLABY',
+            'WANNABE', 'WANTING', 'WARBLER', 'WARFARE', 'WARHEAD', 'WARLIKE', 'WARLOCK', 'WARLORD', 'WARMING', 'WARNING', 'WARRANT',
+            'WARRING', 'WARRIOR', 'WARSHIP', 'WARTHOG', 'WARTIME', 'WASHDAY', 'WASHING', 'WASHOUT', 'WASHRAG', 'WASHTUB', 'WASPISH',
+            'WASTAGE', 'WATTAGE', 'WAVERER', 'WAXWORK', 'WAYBILL', 'WAYSIDE', 'WAYWARD', 'WEALTHY', 'WEARILY', 'WEARING', 'WEATHER',
+            'WEBPAGE', 'WEBSITE', 'WEDDING', 'WEDLOCK', 'WEEKDAY', 'WEEKEND', 'WEIGHTY', 'WEIRDIE', 'WELCOME', 'WELFARE', 'WELLIES',
+            'WESTERN', 'WETSUIT', 'WETTING', 'WETWARE', 'WHACKED', 'WHALING', 'WHATNOT', 'WHEEDLE', 'WHEELIE', 'WHEREAS', 'WHEREAT',
+            'WHEREBY', 'WHEREIN', 'WHEREOF', 'WHEREON', 'WHERETO', 'WHETHER', 'WHIMPER', 'WHISKER', 'WHISPER', 'WHISTLE', 'WHITHER',
+            'WHITING', 'WHITTLE', 'WHOEVER', 'WHOPPER', 'WIGGING', 'WILDING', 'WILLIES', 'WILLING', 'WILLOWY', 'WINDBAG', 'WINDING',
+            'WINKERS', 'WINNING', 'WINSOME', 'WIRETAP', 'WISEGUY', 'WISHFUL', 'WISTFUL', 'WITHERS', 'WITHOUT', 'WITLESS', 'WITNESS',
+            'WIZENED', 'WOBBLER', 'WOLFRAM', 'WOODCUT', 'WOODMAN', 'WOOLLEN', 'WORDING', 'WORKBOX', 'WORKDAY', 'WORKING', 'WORKMAN',
+            'WORKOUT', 'WORKSHY', 'WORLDLY', 'WORRIED', 'WORSHIP', 'WORSTED', 'WOUNDED', 'WRANGLE', 'WRAPPER', 'WREATHE', 'WRECKER',
+            'WRESTLE', 'WRIGGLE', 'WRINGER', 'WRINKLE', 'WRINKLY', 'WRITING', 'WRITTEN', 'WRONGLY', 'WROUGHT'
         ]
     },
     'Y': {
