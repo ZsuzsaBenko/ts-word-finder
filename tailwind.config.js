@@ -25,6 +25,15 @@ module.exports = {
                     800: '#2a213b',
                     900: '#1a1426'
                 }
+            },
+            animation: {
+                wiggle: 'wiggle 0.5s ease-in-out infinite'
+            },
+            keyframes: {
+                wiggle: {
+                    '0%, 100%': {transform: 'rotate(-5deg)', color: '#16a34a'},
+                    '50%': {transform: 'rotate(5deg)', color: '#7b6e96'}
+                }
             }
         }
     },

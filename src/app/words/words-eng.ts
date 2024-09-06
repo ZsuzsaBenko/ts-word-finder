@@ -338,7 +338,7 @@ export const wordsEng: Words = {
     'E': {
         '3': [
             'EAR', 'EAT', 'EBB', 'EEL', 'EFF', 'EFT', 'EGG', 'EGO', 'EKE', 'ELF', 'ELK', 'ELL', 'ELM', 'EMU', 'END', 'ERA', 'ERE', 'ERG',
-            'ERN', 'ERR', 'EVE', 'EWE', 'EYE'
+            'ERR', 'EVE', 'EWE', 'EYE'
         ],
         '4': [
             'EACH', 'EARL', 'EARN', 'EASE', 'EAST', 'EASY', 'EATS', 'ECHO', 'ECRU', 'EDDY', 'EDGE', 'EDGY', 'EDIT', 'ELAN', 'ELSE', 'EMIR',

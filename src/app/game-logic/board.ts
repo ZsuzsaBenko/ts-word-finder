@@ -4,6 +4,7 @@ import { wordsHun } from '../words/words-hun';
 
 class Board {
     private readonly MIN_WORD_NUMBER = 12;
+    private readonly MAX_WORD_NUMBER = 30;
     private dictionary!: Words;
     private letters!: Array<string>;
     private board!: Map<number, Cell>;
@@ -13,10 +14,10 @@ class Board {
         this.dictionary = Language.EN === language ? wordsEng : wordsHun;
         this.letters = Language.EN === language ? Object.keys(wordsEng) : Object.keys(wordsHun);
         this.createBoard();
-        while (this.MIN_WORD_NUMBER > this.wordsToFind.length) {
+        while (this.isWordNumberBeyondLimits()) {
             this.populateBoard(language);
             this.getWordsInBoard();
-            if (this.MIN_WORD_NUMBER > this.wordsToFind.length) {
+            if (this.isWordNumberBeyondLimits()) {
                 this.clearBoard();
             }
         }
@@ -63,6 +64,10 @@ class Board {
         for (let i = 0; 9 > i; i++) {
             this.addCell(i);
         }
+    }
+
+    private isWordNumberBeyondLimits(): boolean {
+        return this.MIN_WORD_NUMBER > this.wordsToFind.length || this.MAX_WORD_NUMBER < this.wordsToFind.length;
     }
 
     private addCell(i: number): void {

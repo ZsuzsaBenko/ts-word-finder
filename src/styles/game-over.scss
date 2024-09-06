@@ -7,7 +7,7 @@ main.game-over {
         low-res:flex low-res:justify-center low-res:flex-wrap;
 
         p.win {
-            @apply text-center text-green-700 dark:text-emerald-400 text-2xl my-10 low-res:my-6 w-full font-medium;
+            @apply text-center text-green-700 dark:text-emerald-400 text-3xl lg:text-4xl my-10 low-res:my-6 w-full font-medium;
         }
 
         .lost > div {
@@ -44,13 +44,17 @@ main.game-over {
             }
 
             &.win {
-                @apply lg:mx-auto low-res:mx-auto low-res:mb-4;
+                @apply lg:mx-auto low-res:mx-auto low-res:mb-4 border-2;
+
+                & > div {
+                    @apply animate-wiggle border-2
+                }
             }
         }
     }
 
     button {
         @include button;
-        @apply my-2 lg:my-8;
+        @apply my-10;
     }
 }
