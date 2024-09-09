@@ -39,6 +39,10 @@ module.exports = {
             ]
         })
     ],
+    performance: {
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     devServer: {
         static: path.join(__dirname, 'dist'),
         compress: true,

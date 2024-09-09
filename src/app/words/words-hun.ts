@@ -562,9 +562,9 @@ export const wordsHun: Words = {
             'GŐG', 'GŐZ', 'GYÍ'
         ],
         '4': [
-            'GAEL', 'GALL', 'GANG', 'GÁLA', 'GEBE', 'GEIL', 'GÉGE', 'GÉPI', 'GIDA', 'GIGA', 'GITT', 'GNÓM', 'GOLF', 'GOMB', 'GOND', 'GONG',
-            'GÓRÉ', 'GÖMB', 'GÖNC', 'GŐTE', 'GRÁF', 'GRÁL', 'GRÍZ', 'GRÓF', 'GRÚZ', 'GUBA', 'GUBÓ', 'GUMI', 'GUMÓ', 'GURU', 'GUTA', 'GÚLA',
-            'GÚNY', 'GÚZS', 'GYÁM', 'GYÁR', 'GYEP', 'GYÉR', 'GYÍK', 'GYOM', 'GYÓN', 'GYÖK', 'GYŐZ', 'GYÚR', 'GYŰR'
+            'GAEL', 'GALL', 'GANG', 'GÁLA', 'GEBE', 'GEIL', 'GÉGE', 'GÉPI', 'GÉSA', 'GIDA', 'GIGA', 'GITT', 'GNÓM', 'GOLF', 'GOMB', 'GOND',
+            'GONG', 'GÓRÉ', 'GÖMB', 'GÖNC', 'GŐTE', 'GRÁF', 'GRÁL', 'GRÍZ', 'GRÓF', 'GRÚZ', 'GUBA', 'GUBÓ', 'GUMI', 'GUMÓ', 'GURU', 'GUTA',
+            'GÚLA', 'GÚNY', 'GÚZS', 'GYÁM', 'GYÁR', 'GYEP', 'GYÉR', 'GYÍK', 'GYOM', 'GYÓN', 'GYÖK', 'GYŐZ', 'GYÚR', 'GYŰR'
         ],
         '5': [
             'GAGYI', 'GALÁD', 'GALLY', 'GAMMA', 'GANAJ', 'GANÉJ', 'GARAS', 'GARAT', 'GARBÓ', 'GATYA', 'GAZDA', 'GAZOL', 'GAZOS', 'GÁGOG',
@@ -698,8 +698,8 @@ export const wordsHun: Words = {
         ],
         '4': [
             'IDEA', 'IDEG', 'IDEI', 'IDÉN', 'IDÉZ', 'IDOM', 'IDŐS', 'IDUS', 'IFJÚ', 'IGAZ', 'IGÁS', 'IGÁZ', 'IGEI', 'IGEN', 'IGÉZ', 'IGEN',
-            'IJED', 'IKER', 'IKON', 'IKRA', 'ILLÓ', 'ILLŐ', 'IMÁD', 'IMÁM', 'INAS', 'INDA', 'INFÓ', 'INGA', 'INGÓ', 'INKA', 'INOG', 'INTŐ',
-            'IPAR', 'IPSE', 'IRAM', 'IRAT', 'IRHA', 'IRKA', 'IRTÓ', 'ITAL', 'ITAT', 'IVÁS', 'IZGI', 'IZOM', 'IZZÓ'
+            'IJED', 'IKER', 'IKON', 'IKRA', 'ILLÓ', 'ILLŐ', 'IMÁD', 'IMÁM', 'INAL', 'INAS', 'INDA', 'INFÓ', 'INGA', 'INGÓ', 'INKA', 'INOG',
+            'INTŐ', 'IPAR', 'IPSE', 'IRAM', 'IRAT', 'IRHA', 'IRKA', 'IRTÓ', 'ITAL', 'ITAT', 'IVÁS', 'IZGI', 'IZOM', 'IZZÓ'
         ],
         '5': [
             'IÁZÁS', 'IÁZIK', 'IBRIK', 'IDÁIG', 'IDEAD', 'IDEÁL', 'IDEÁT', 'IDEÉR', 'IDEGI', 'IDEJE', 'IDEÚT', 'IDÉBB', 'IDÉNY', 'IDILL',
