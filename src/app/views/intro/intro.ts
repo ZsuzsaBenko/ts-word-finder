@@ -8,6 +8,7 @@ class Intro {
 
     start(): void {
         attachTemplateToDOM('intro');
+        window.scrollTo(0, 0);
         this.showResultStatistics();
         this.startGame();
         this.handleRulesBtnClick();

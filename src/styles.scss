@@ -15,6 +15,10 @@
     dark:bg-gradient-to-bl dark:from-orchid-900 dark:via-slate-900 dark:to-orchid-900 dark:text-slate-100;
 }
 
+body {
+    @apply overflow-hidden relative;
+}
+
 main {
     @apply bg-transparent py-1 px-2 md:p-4;
 }

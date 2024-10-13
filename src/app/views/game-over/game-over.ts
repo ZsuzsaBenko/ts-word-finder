@@ -6,6 +6,7 @@ import { attachTemplateToDOM } from '../../util/template-util';
 class GameOver {
     private readonly RESULTS = document.querySelector('.results') as HTMLElement;
     private readonly WIN_MESSAGE = document.querySelector('.results .win') as HTMLElement;
+    private readonly PERCENTAGE = document.querySelector('.results .percentage > span') as HTMLElement;
     private readonly LOST_GAME = document.querySelector('.results .lost') as HTMLElement;
     private readonly FOUND_WORDS = document.querySelector('.results .found-words') as HTMLElement;
     private readonly NOT_FOUND_WORDS = document.querySelector('.results .not-found-words') as HTMLElement;
@@ -37,7 +38,10 @@ class GameOver {
             this.removeHiddenClass(this.UNKNOWN_WORDS.parentNode as HTMLElement);
             this.UNKNOWN_WORDS.textContent = unknownWords.join(', ');
         }
+        const percentage = Math.round(foundWords.length / (foundWords.length + notFoundWords.length) * 100);
+        this.PERCENTAGE.textContent = `${percentage}%`;
         this.removeHiddenClass(this.LOST_GAME);
+        this.removeHiddenClass(this.PERCENTAGE.parentNode as HTMLElement);
     }
 
     private readonly showBoard = (gameBoard: Map<number, Cell>, win: boolean): void => {

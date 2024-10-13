@@ -1,10 +1,16 @@
 @import "mixins";
 
 main.game-over {
+    @apply h-screen overflow-scroll;
+
     .results {
         @apply lg:mt-16 low-res:mt-0
         lg:flex lg:justify-center lg:flex-wrap
         low-res:flex low-res:justify-center low-res:flex-wrap;
+
+        .percentage {
+            @apply text-center text-orchid-600 dark:text-emerald-400 text-xl lg:text-2xl font-bold m-4 w-full
+        }
 
         p.win {
             @apply text-center text-green-700 dark:text-emerald-400 text-3xl lg:text-4xl my-10 low-res:my-6 w-full font-medium;
@@ -55,6 +61,6 @@ main.game-over {
 
     button {
         @include button;
-        @apply my-10;
+        @apply mt-8 mb-14;
     }
 }
