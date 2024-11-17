@@ -9,7 +9,7 @@ main.game-over {
         low-res:flex low-res:justify-center low-res:flex-wrap;
 
         .percentage {
-            @apply text-center text-orchid-600 dark:text-emerald-400 text-xl lg:text-2xl font-bold m-4 w-full
+            @apply text-center text-orchid-600 dark:text-emerald-400 text-xl lg:text-2xl font-bold m-4 md:w-full
         }
 
         p.win {

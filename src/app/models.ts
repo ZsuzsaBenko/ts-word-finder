@@ -18,14 +18,20 @@ export interface WordsByLetter {
 }
 
 export interface StoredResults {
-    hu: Array<number>;
-    en: Array<number>;
+    hu: StoredResultsByLang;
+    en: StoredResultsByLang;
+}
+
+export interface StoredResultsByLang {
+    games: Array<number>;
+    bestTime: number;
 }
 
 export interface GameResult {
     foundWords: Array<string>;
     notFoundWords: Array<string>;
     unknownWords: Array<string>;
+    time: number;
 }
 
 // Enums
@@ -50,4 +56,4 @@ export const LANGUAGE_PROPERTIES = {
     }
 };
 
-export const GAME_RESULTS_STORAGE_KEY = 'szokereso-jatek-stat';
+export const GAME_RESULTS_STORAGE_KEY = 'szokereso-jatek-stat-v2';

@@ -15,12 +15,14 @@
 <template id="intro">
     <main class="intro">
         <h1>Szókereső</h1>
-        <p class="instruction">Kösd össze a betűket a játéktáblán, és találj meg minél több szót 3 perc alatt!</p>
+        <p class="instruction">Kösd össze a betűket a játéktáblán, és találj meg minél több szót!</p>
         <button type="button" class="rules-btn">Játékszabály</button>
         <div class="rules hidden">
             <p>Mobileszközön az ujjadat végighúzva a betűkön, laptopon vagy asztali gépen az egér bal gombját
                 lenyomva tartva tudod kijelölni a megtalált szót. Csak szomszédos betűre lehet továbblépni. A
-                játékban 3-7 betűs szavak fordulnak elő ragozatlan alakban. Tulajdonnevek nincsenek a szótárban.
+                játékban 3-7 betűs szavak fordulnak elő ragozatlan alakban. Tulajdonnevek és nagyon ritka szavak
+                nincsenek a szótárban. Ha fogytán az időd, a feladavány nehézségétől függően 1, 2 vagy 3 lehetőséged
+                van, hogy plusz 1 percet kérj a visszaszámláló mellett megjelenő ikon segítségével.
             </p>
         </div>
 
@@ -44,21 +46,31 @@
                 <table>
                     <thead>
                     <tr>
-                        <td></td>
-                        <td>Összes játék</td>
-                        <td>Átlagos százalék</td>
+                        <td class="col1"></td>
+                        <td>Magyar</td>
+                        <td>Angol</td>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Magyar szavakkal:</td>
-                        <td id="sum-hu">0</td>
-                        <td id="average-hu">0%</td>
+                        <td class="col1">Összes játék</td>
+                        <td id="sum-hu" class="col2">0</td>
+                        <td id="sum-en" class="col3">0</td>
                     </tr>
                     <tr>
-                        <td>Angol szavakkal:</td>
-                        <td id="sum-en">0</td>
-                        <td id="average-en">0%</td>
+                        <td class="col1">Győzelem</td>
+                        <td id="win-hu" class="col2">0</td>
+                        <td id="win-en" class="col3">0</td>
+                    </tr>
+                    <tr>
+                        <td class="col1">Átlag</td>
+                        <td id="average-hu" class="col2">-</td>
+                        <td id="average-en" class="col3">-</td>
+                    </tr>
+                    <tr>
+                        <td class="col1">Legjobb idő</td>
+                        <td id="best-time-hu" class="col2">-</td>
+                        <td id="best-time-en" class="col3">-</td>
                     </tr>
                     </tbody>
                 </table>
@@ -70,12 +82,15 @@
     <main class="game">
         <div>
             <div class="stat">
-            <span class="found-words-stat">
-                <span></span>
-                <span>/</span>
-                <span></span>
-            </span>
-                <span class="timer">03:00</span>
+                <span class="found-words-stat">
+                    <span></span>
+                    <span>/</span>
+                    <span></span>
+                </span>
+                <div class="timer-box">
+                    <span class="timer">03:00</span>
+                    <span class="extra-time hidden"></span>
+                </div>
                 <span class="percentage">0%</span>
             </div>
             <div class="words-stat">

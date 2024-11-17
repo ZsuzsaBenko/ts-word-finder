@@ -1,6 +1,7 @@
 import { fromEvent, take } from 'rxjs';
 import { GAME_RESULTS_STORAGE_KEY, StoredResults, Language, GameResult, Cell } from '../../models';
 import { drawBoard } from '../../util/draw-board-util';
+import { removeHiddenClass } from '../../util/hidden-class-util';
 import { attachTemplateToDOM } from '../../util/template-util';
 
 class GameOver {
@@ -14,34 +15,35 @@ class GameOver {
     private readonly NEW_GAME_BTN = document.querySelector('.game-over button') as HTMLElement;
 
     showResult(gameResult: GameResult, gameBoard: Map<number, Cell>, language: Language): void {
-        this.saveResult(gameResult.foundWords.length, gameResult.notFoundWords.length, language);
+        window.scrollTo(0, 0);
+        this.saveResult(gameResult, language);
         const win = !gameResult.notFoundWords.length;
         if (!win) {
             this.showLostGame(gameResult);
         } else {
-            this.removeHiddenClass(this.WIN_MESSAGE);
+            removeHiddenClass(this.WIN_MESSAGE);
         }
         this.showBoard(gameBoard, win);
-        this.removeHiddenClass(this.RESULTS);
+        removeHiddenClass(this.RESULTS);
         this.handleBtnClick();
     }
 
     private showLostGame(gameResult: GameResult): void {
         const {foundWords, notFoundWords, unknownWords} = gameResult;
-        this.removeHiddenClass(this.NOT_FOUND_WORDS.parentNode as HTMLElement);
+        removeHiddenClass(this.NOT_FOUND_WORDS.parentNode as HTMLElement);
         this.NOT_FOUND_WORDS.textContent = notFoundWords.join(', ');
         if (foundWords.length) {
-            this.removeHiddenClass(this.FOUND_WORDS.parentNode as HTMLElement);
+            removeHiddenClass(this.FOUND_WORDS.parentNode as HTMLElement);
             this.FOUND_WORDS.textContent = foundWords.join(', ');
         }
         if (unknownWords.length) {
-            this.removeHiddenClass(this.UNKNOWN_WORDS.parentNode as HTMLElement);
+            removeHiddenClass(this.UNKNOWN_WORDS.parentNode as HTMLElement);
             this.UNKNOWN_WORDS.textContent = unknownWords.join(', ');
         }
         const percentage = Math.round(foundWords.length / (foundWords.length + notFoundWords.length) * 100);
         this.PERCENTAGE.textContent = `${percentage}%`;
-        this.removeHiddenClass(this.LOST_GAME);
-        this.removeHiddenClass(this.PERCENTAGE.parentNode as HTMLElement);
+        removeHiddenClass(this.LOST_GAME);
+        removeHiddenClass(this.PERCENTAGE.parentNode as HTMLElement);
     }
 
     private readonly showBoard = (gameBoard: Map<number, Cell>, win: boolean): void => {
@@ -62,28 +64,42 @@ class GameOver {
             .subscribe();
     }
 
-    private readonly removeHiddenClass = (element: HTMLElement): void => {
-        element.classList.remove('hidden');
-    };
-
-    private readonly saveResult = (foundWordsNum: number, notFoundWordsNum: number, language: Language): void => {
+    private readonly saveResult = (gameResult: GameResult, language: Language): void => {
+        const foundWordsNum = gameResult.foundWords.length;
+        const notFoundWordsNum = gameResult.notFoundWords.length;
         const currentPercentage = foundWordsNum / (foundWordsNum + notFoundWordsNum) * 100;
+
         const formerResults = localStorage.getItem(GAME_RESULTS_STORAGE_KEY);
         const results: StoredResults | undefined = formerResults ? JSON.parse(formerResults) : undefined;
 
         let result: StoredResults;
         if (results) {
             result = {
-                hu: Language.HU === language ? [...results.hu, currentPercentage] : results.hu,
-                en: Language.EN === language ? [...results.en, currentPercentage] : results.en
+                hu: Language.HU === language ? {
+                    games: [...results.hu.games, currentPercentage],
+                    bestTime: this.getBestTime(results.hu.bestTime, gameResult.time)
+                } : results.hu,
+                en: Language.EN === language ? {
+                    games: [...results.en.games, currentPercentage],
+                    bestTime: this.getBestTime(results.en.bestTime, gameResult.time)
+                } : results.en
             };
         } else {
             result = {
-                hu: Language.HU === language ? [currentPercentage] : [],
-                en: Language.EN === language ? [currentPercentage] : []
+                hu: Language.HU === language ? {games: [currentPercentage], bestTime: gameResult.time} : {games: [], bestTime: 0},
+                en: Language.EN === language ? {games: [currentPercentage], bestTime: gameResult.time} : {games: [], bestTime: 0}
             };
         }
         localStorage.setItem(GAME_RESULTS_STORAGE_KEY, JSON.stringify(result));
+    };
+
+    private readonly getBestTime = (time1: number, time2: number): number => {
+        if (0 === time1) {
+            return time2;
+        } else if (0 === time2) {
+            return time1;
+        }
+        return Math.min(time1, time2);
     };
 }
 

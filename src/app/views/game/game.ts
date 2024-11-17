@@ -2,6 +2,7 @@ import { take } from 'rxjs';
 import Board from '../../game-logic/board';
 import { Cell, GameResult, Language } from '../../models';
 import { drawBoard } from '../../util/draw-board-util';
+import { removeHiddenClass } from '../../util/hidden-class-util';
 import { attachTemplateToDOM } from '../../util/template-util';
 import GameOver from '../game-over/game-over';
 import EventListeners from './event-listeners';
@@ -11,6 +12,8 @@ import Timer from './timer';
 class Game {
     private readonly MAIN = document.querySelector('main') as HTMLElement;
     private readonly FOUND_WORDS = document.querySelector('.word-list .found-words') as HTMLElement;
+    private readonly ONE_EXTRA_MINUTE_ALLOWED_MAX_WORD_NUMBER = 18;
+    private readonly TWO_EXTRA_MINUTES_ALLOWED_MAX_WORD_NUMBER = 24;
     private readonly board = new Board();
     private readonly timer = new Timer();
     private readonly gameStats = new GameStats();
@@ -23,9 +26,11 @@ class Game {
     private language!: Language;
 
     play = (language: Language): void => {
+        window.scrollTo(0, 0);
         this.language = language;
         this.createBoard();
         this.hiddenWords = this.board.getWordsInBoard();
+        this.timer.setAllowedExtraMinutes(this.getAllowedExtraMinutes());
         this.gameStats.initStats(this.hiddenWords, this.foundWords);
         this.subscribeToDOMEvents();
         this.subscribeToTimer();
@@ -36,6 +41,16 @@ class Game {
         this.gameBoard = this.board.initBoard(this.language);
         this.boardCells = document.querySelectorAll('.board div span');
         drawBoard(this.gameBoard, this.boardCells);
+    }
+
+    private getAllowedExtraMinutes(): number {
+        if (this.ONE_EXTRA_MINUTE_ALLOWED_MAX_WORD_NUMBER > this.hiddenWords.length) {
+            return 1;
+        }
+        if (this.TWO_EXTRA_MINUTES_ALLOWED_MAX_WORD_NUMBER > this.hiddenWords.length) {
+            return 2;
+        }
+        return 3;
     }
 
     private subscribeToDOMEvents(): void {
@@ -78,13 +93,13 @@ class Game {
         element.textContent = words;
         const parent = element.parentNode as HTMLElement;
         if (parent.classList.contains('hidden')) {
-            parent.classList.remove('hidden');
+            removeHiddenClass(parent);
         }
     };
 
     private checkGameOver(): void {
         if (this.hiddenWords.length === this.foundWords.length) {
-            this.timer.stop(false);
+            this.timer.stop();
             this.eventListeners.unsubscribeEvents();
             this.handleGameOver();
         }
@@ -105,7 +120,8 @@ class Game {
         return {
             foundWords: this.foundWords,
             notFoundWords: this.hiddenWords.filter(word => !this.foundWords.includes(word)),
-            unknownWords: this.unknownWords
+            unknownWords: this.unknownWords,
+            time: this.timer.getTime()
         };
     }
 

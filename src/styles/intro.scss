@@ -1,27 +1,27 @@
 @import "mixins";
 
 main.intro {
-    @apply text-center;
+    @apply text-center h-screen overflow-scroll;
 
     h1 {
-        @apply my-4 low-res:my-8 md:m-12
+        @apply my-8 low-res:my-8 md:m-12
         text-center text-4xl low-res:text-4xl lg:text-5xl font-medium
         text-orchid-600 dark:text-orange-400;
     }
 
     p.instruction {
-        @apply font-medium;
+        @apply font-medium mx-1;
     }
 
     button.rules-btn {
-        @apply font-light underline hover:text-green-700 mt-3;
+        @apply font-light underline hover:text-green-700 mt-4;
     }
 
     div.rules {
         @apply w-full md:w-[600px] lg:w-[800px] mx-auto;
 
         & p {
-            @apply text-sm font-light mt-2 text-justify;
+            @apply text-sm font-light mt-2 mx-1 text-justify;
         }
     }
 
@@ -75,19 +75,23 @@ main.intro {
         }
 
         .stored-results {
-            @apply m-4 w-full md:w-[500px];
+            @apply m-2 mb-6 md:m-4 md:block w-full md:w-[500px] md:h-auto;
             @include rounded-shadowed-box;
 
             h3 {
                 @include box-heading;
-                @apply text-xl mb-0 md:mb-3;
+                @apply text-xl mb-2 md:mb-3;
             }
 
             table {
-                @apply block m-0 p-1 md:p-5;
+                @apply block m-0 md:p-5 w-full table table-fixed;
 
                 td {
-                    @apply py-1 px-2 text-end align-bottom;
+                    @apply px-2 py-1 text-end align-bottom md:w-1/3;
+
+                    &.col1 {
+                        @apply w-[180px];
+                    }
                 }
 
                 tbody td:first-of-type {

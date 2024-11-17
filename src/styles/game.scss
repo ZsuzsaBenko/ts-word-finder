@@ -11,11 +11,25 @@ main.game {
             @apply leading-9 align-bottom text-xl;
         }
 
-        .timer {
-            @apply font-medium text-3xl text-green-700 dark:text-emerald-400;
+        .timer-box {
+            @apply flex;
 
-            &.warn {
-                @apply text-orange-500 dark:text-orange-400;
+            .timer {
+                @apply font-medium text-3xl text-green-700 dark:text-emerald-400;
+
+                &.warn {
+                    @apply text-orange-500 dark:text-orange-400;
+                }
+            }
+
+            .extra-time {
+                @apply block w-8 h-8 ml-4 mt-1
+                bg-[url('/src/styles/svg/clock-plus-light.svg')] dark:bg-[url('/src/styles/svg/clock-plus-dark.svg')]
+                bg-contain;
+
+                &.hidden {
+                    display: none;
+                }
             }
         }
     }
