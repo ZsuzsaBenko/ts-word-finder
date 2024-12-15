@@ -499,8 +499,8 @@ export const wordsEng: Words = {
     },
     'H': {
         '3': [
-            'HAD', 'HAG', 'HAM', 'HAP', 'HAT', 'HAW', 'HAY', 'HEM', 'HEN', 'HER', 'HEW', 'HEX', 'HEY', 'HID', 'HIM', 'HIP', 'HIS', 'HIT',
-            'HOB', 'HOD', 'HOE', 'HOG', 'HON', 'HOP', 'HOT', 'HOW', 'HUB', 'HUE', 'HUG', 'HUH', 'HUM', 'HUT'
+            'HAD', 'HAG', 'HAM', 'HAP', 'HAS', 'HAT', 'HAW', 'HAY', 'HEM', 'HEN', 'HER', 'HEW', 'HEX', 'HEY', 'HID', 'HIM', 'HIP', 'HIS',
+            'HIT', 'HOB', 'HOD', 'HOE', 'HOG', 'HON', 'HOP', 'HOT', 'HOW', 'HUB', 'HUE', 'HUG', 'HUH', 'HUM', 'HUT'
         ],
         '4': [
             'HACK', 'HAFT', 'HAIL', 'HAIR', 'HAKE', 'HALE', 'HALF', 'HALL', 'HALO', 'HALT', 'HAND', 'HANG', 'HANK', 'HARD', 'HARE', 'HARK',
